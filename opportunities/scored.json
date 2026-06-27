@@ -1,0 +1,62 @@
+[
+  {
+    "name": "listing-lab",
+    "total": 35,
+    "pain": 9,
+    "build": 9,
+    "distribution": 8,
+    "moat": 9,
+    "verdict": "BUILD NOW",
+    "rationale": "Etsy/Shopify sellers pay for listing help; MVP ships in 1 day; Reddit/Etsy SEO distribution."
+  },
+  {
+    "name": "etsy-tag-finder",
+    "total": 33,
+    "pain": 9,
+    "build": 8,
+    "distribution": 9,
+    "moat": 7,
+    "verdict": "BUILD NEXT",
+    "rationale": "Same buyer as ListingLab; 13-tag pain is acute; programmatic SEO + r/Etsy distribution; ships in 2 days."
+  },
+  {
+    "name": "freelance-proposal-kit",
+    "total": 32,
+    "pain": 9,
+    "build": 9,
+    "distribution": 8,
+    "moat": 6,
+    "verdict": "BUILD NEXT",
+    "rationale": "Fastest build of freelancer lane; r/Upwork reach; bundles with InvoiceForge; low API cost."
+  },
+  {
+    "name": "invoice-forge",
+    "total": 30,
+    "pain": 8,
+    "build": 8,
+    "distribution": 7,
+    "moat": 7,
+    "verdict": "backlog",
+    "rationale": "Freelancer invoices are crowded but PDF export + agent reminders is a wedge."
+  },
+  {
+    "name": "review-reply-bot",
+    "total": 28,
+    "pain": 8,
+    "build": 7,
+    "distribution": 7,
+    "moat": 6,
+    "verdict": "backlog",
+    "rationale": "Shopify store owners hate review responses; paste workflow ships fast but moat is weak vs ChatGPT."
+  },
+  {
+    "name": "price-watch-digest",
+    "total": 24,
+    "pain": 7,
+    "build": 6,
+    "distribution": 6,
+    "moat": 5,
+    "verdict": "backlog",
+    "rationale": "Real pain but scraping fragility and noisy market; barely clears 24/40 kill threshold."
+  }
+]

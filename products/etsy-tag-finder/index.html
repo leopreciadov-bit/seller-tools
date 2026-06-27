@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Etsy Tag Finder — 13 SEO Tags in Seconds</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Free tool for Etsy sellers</p>
+      <h1>Etsy Tag Finder</h1>
+      <p class="subtitle">Generate exactly 13 Etsy-ready tags with long-tail SEO — max 20 characters each, no duplicates, no rejected characters.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <form id="tag-form">
+        <div class="grid">
+          <label>
+            Product name
+            <input id="product-name" type="text" placeholder="Handmade ceramic mug" required />
+          </label>
+          <label>
+            Niche / category
+            <input id="niche" type="text" placeholder="Home decor, pottery" required />
+          </label>
+        </div>
+
+        <label>
+          Seed keywords (3–5, comma-separated)
+          <input id="keywords" type="text" placeholder="ceramic mug, handmade gift, coffee lover, stoneware, matte glaze" required />
+          <span class="hint">Enter 3 to 5 keywords. We'll combine them into long-tail Etsy tags.</span>
+        </label>
+
+        <div class="actions">
+          <button type="submit" class="btn primary">Generate 13 tags</button>
+          <button type="button" id="regenerate" class="btn secondary" disabled>Regenerate</button>
+        </div>
+        <p class="usage" id="usage"></p>
+        <p class="error-msg hidden" id="form-error"></p>
+      </form>
+    </section>
+
+    <section class="panel results hidden" id="results">
+      <div class="result-header">
+        <h2>Your 13 Etsy tags</h2>
+        <button type="button" id="copy-all" class="btn secondary">Copy all tags</button>
+      </div>
+
+      <div class="tag-grid" id="tag-grid"></div>
+
+      <div class="copy-all-row">
+        <p class="rules-note">Tags are deduplicated, Etsy-safe (letters, numbers, spaces, hyphens only), and prioritized by long-tail length.</p>
+      </div>
+
+      <div class="upsell">
+        <strong>Need unlimited generations + bulk CSV export?</strong>
+        <p>Upgrade on Gumroad — $14 lifetime. Drop your license key below.</p>
+        <input id="license-key" type="text" placeholder="TAGFINDER-XXXX-XXXX" />
+        <button type="button" id="unlock" class="btn secondary">Unlock Pro</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>Also try <a href="../listing-lab/">ListingLab</a> · <a href="../">All tools</a></p>
+    <p>Etsy Tag Finder Pro $14 lifetime · <span id="analytics"></span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

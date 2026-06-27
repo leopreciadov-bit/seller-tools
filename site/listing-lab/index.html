@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ListingLab — Etsy & Shopify Listing Generator</title>
+  <meta name="description" content="Free Etsy and Shopify listing generator. Titles, descriptions, tags, and bullets in seconds." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">Free tool for sellers</p>
+      <h1>ListingLab</h1>
+      <p class="subtitle">Turn product basics into SEO-ready Etsy or Shopify listings in seconds.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="panel">
+      <form id="listing-form">
+        <div class="grid">
+          <label>
+            Platform
+            <select id="platform" required>
+              <option value="etsy">Etsy</option>
+              <option value="shopify">Shopify</option>
+            </select>
+          </label>
+          <label>
+            Product name
+            <input id="product-name" type="text" placeholder="Handmade ceramic mug" required />
+          </label>
+          <label>
+            Niche / category
+            <input id="niche" type="text" placeholder="Home decor, pottery" required />
+          </label>
+          <label>
+            Target buyer
+            <input id="buyer" type="text" placeholder="Gift shoppers, coffee lovers" />
+          </label>
+        </div>
+
+        <label>
+          Keywords (comma-separated)
+          <input id="keywords" type="text" placeholder="ceramic mug, handmade, gift for her" />
+        </label>
+
+        <label>
+          Key features / materials
+          <textarea id="features" rows="3" placeholder="Stoneware, dishwasher safe, 12oz, matte glaze"></textarea>
+        </label>
+
+        <div class="actions">
+          <button type="submit" class="btn primary">Generate listing</button>
+          <button type="button" id="copy-all" class="btn secondary" disabled>Copy all</button>
+        </div>
+        <p class="usage" id="usage"></p>
+      </form>
+    </section>
+
+    <section class="panel results hidden" id="results">
+      <h2>Your listing</h2>
+      <div class="result-block">
+        <div class="result-header">
+          <h3>Title</h3>
+          <button class="copy-btn" data-target="out-title">Copy</button>
+        </div>
+        <p id="out-title" class="output"></p>
+      </div>
+      <div class="result-block">
+        <div class="result-header">
+          <h3>Description</h3>
+          <button class="copy-btn" data-target="out-description">Copy</button>
+        </div>
+        <pre id="out-description" class="output"></pre>
+      </div>
+      <div class="result-block">
+        <div class="result-header">
+          <h3>Tags / SEO</h3>
+          <button class="copy-btn" data-target="out-tags">Copy</button>
+        </div>
+        <p id="out-tags" class="output"></p>
+      </div>
+      <div class="result-block">
+        <div class="result-header">
+          <h3>Bullet points</h3>
+          <button class="copy-btn" data-target="out-bullets">Copy</button>
+        </div>
+        <pre id="out-bullets" class="output"></pre>
+      </div>
+      <div class="upsell">
+        <strong>Need unlimited + bulk export?</strong>
+        <p>Upgrade on Gumroad — $19 lifetime. Drop your license key below.</p>
+        <input id="license-key" type="text" placeholder="LISTING-XXXX-XXXX" />
+        <button type="button" id="unlock" class="btn secondary">Unlock Pro</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>Also try <a href="../etsy-tag-finder/">Etsy Tag Finder</a> · <a href="../">All tools</a></p>
+    <p>ListingLab Pro $19 lifetime · <span id="analytics"></span></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
