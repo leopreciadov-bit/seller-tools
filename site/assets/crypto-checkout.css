@@ -1,0 +1,122 @@
+.crypto-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 1rem;
+}
+
+.crypto-modal {
+  background: #171b24;
+  border: 1px solid #2a3142;
+  border-radius: 12px;
+  max-width: 440px;
+  width: 100%;
+  padding: 1.25rem;
+  color: #e8ecf4;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.crypto-modal h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.1rem;
+}
+
+.crypto-modal .muted {
+  color: #9aa3b8;
+  font-size: 0.9rem;
+  margin: 0 0 1rem;
+}
+
+.crypto-amount {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #6ee7b7;
+  margin: 0.5rem 0;
+}
+
+.crypto-wallet {
+  background: #0f1117;
+  border: 1px solid #2a3142;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin: 0.75rem 0;
+  word-break: break-all;
+  font-family: ui-monospace, monospace;
+  font-size: 0.8rem;
+}
+
+.crypto-row {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.75rem 0;
+}
+
+.crypto-row button,
+.crypto-modal .btn-crypto {
+  background: #6ee7b7;
+  color: #0b1218;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.crypto-row button.secondary {
+  background: transparent;
+  color: #e8ecf4;
+  border: 1px solid #2a3142;
+}
+
+.crypto-ref {
+  font-size: 0.85rem;
+  color: #9aa3b8;
+}
+
+.crypto-key-reveal {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #121820;
+  border: 1px dashed #6ee7b7;
+  border-radius: 8px;
+}
+
+.crypto-key-reveal code {
+  color: #6ee7b7;
+  font-size: 1rem;
+}
+
+.crypto-tabs {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.crypto-tabs button {
+  background: #0f1117;
+  border: 1px solid #2a3142;
+  color: #9aa3b8;
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.crypto-tabs button.active {
+  border-color: #6ee7b7;
+  color: #6ee7b7;
+}
+
+.btn.buy-crypto {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+  margin-right: 0.5rem;
+}

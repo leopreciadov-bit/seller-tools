@@ -133,7 +133,7 @@ document.getElementById("listing-form").addEventListener("submit", (e) => {
   e.preventDefault();
   const usage = getUsage();
   if (!isPro() && usage.count >= FREE_LIMIT) {
-    alert("Free limit reached today. Unlock Pro on Gumroad for unlimited use.");
+    alert("Free limit reached today. Click Pay Crypto to unlock unlimited use.");
     return;
   }
 
@@ -190,7 +190,7 @@ document.getElementById("unlock").addEventListener("click", () => {
     updateUsageLabel();
     alert("Pro unlocked. Thank you!");
   } else {
-    alert("Invalid license key. Purchase at Gumroad to get yours.");
+    alert("Invalid license key. Pay crypto on site or paste a valid LISTING- key.");
   }
 });
 

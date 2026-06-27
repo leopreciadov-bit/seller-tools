@@ -1,0 +1,27 @@
+{
+  "wallets": {
+    "usdt_trc20": "SET_YOUR_TRC20_ADDRESS",
+    "usdc_sol": "SET_YOUR_SOL_ADDRESS",
+    "btc": "SET_YOUR_BTC_ADDRESS",
+    "eth": "SET_YOUR_ETH_ADDRESS"
+  },
+  "preferred": "usdt_trc20",
+  "contact": "support@example.com",
+  "products": {
+    "listinglab-pro": {
+      "title": "ListingLab Pro",
+      "price_usd": 19,
+      "key_prefix": "LISTING"
+    },
+    "etsy-tag-finder-pro": {
+      "title": "Etsy Tag Finder Pro",
+      "price_usd": 14,
+      "key_prefix": "TAGFINDER"
+    },
+    "seller-kit-bundle": {
+      "title": "Seller Kit Bundle",
+      "price_usd": 29,
+      "key_prefix": "SELLERKIT"
+    }
+  }
+}

@@ -20,6 +20,17 @@ Options ranked by effort:
 2. **One command ever** — `bash scripts/google_once.sh` (opens localhost:8089 once, saves token, auto-submits sitemap forever after)
 3. **Ignore Google entirely** — post to Reddit/Etsy, sell on Gumroad (that's the actual money)
 
+## Crypto payments (no Gumroad needed)
+
+```bash
+python3 scripts/crypto_setup.py set-wallet --usdt-trc20 YOUR_TRC20_ADDRESS
+./scripts/deploy_github_pages.sh
+```
+
+Site shows **Pay Crypto** buttons. Buyer sends USDT/BTC/ETH → clicks "I sent payment" → gets license key instantly.
+
+Recommended: **USDT TRC20** (~$1 fees, widely used).
+
 ## Actual passive income next (agents can't log into your Gumroad/Reddit)
 
 Money comes from distribution, not GSC. Agents pre-wrote everything in:
