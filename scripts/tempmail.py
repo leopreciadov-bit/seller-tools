@@ -15,7 +15,9 @@ import urllib.request
 from dataclasses import dataclass
 
 MAILTM = "https://api.mail.tm"
+MAILGW = "https://api.mail.gw"
 GUERRILLA = "https://api.guerrillamail.com/ajax.php"
+ONESEC = "https://www.1secmail.com/api/v1/"
 
 
 @dataclass
@@ -55,6 +57,52 @@ def _mailtm_domain() -> str:
     if not members:
         raise RuntimeError("No mail.tm domains")
     return members[0]["domain"]
+
+
+def _mailgw_domain() -> str:
+    data = _req("GET", f"{MAILGW}/domains")
+    members = _members(data)
+    if not members:
+        raise RuntimeError("No mail.gw domains")
+    return members[0]["domain"]
+
+
+def _create_mailgw(prefix: str) -> Inbox:
+    dom = _mailgw_domain()
+    suffix = "".join(random.choices(string.ascii_lowercase + string.digits, k=6))
+    address = f"{prefix}{suffix}@{dom}"
+    password = "".join(random.choices(string.ascii_letters + string.digits, k=16))
+    _req("POST", f"{MAILGW}/accounts", {"address": address, "password": password})
+    token_data = _req("POST", f"{MAILGW}/token", {"address": address, "password": password})
+    return Inbox(address=address, password=password, token=token_data["token"], provider="mail.gw")
+
+
+def _create_1secmail(prefix: str) -> Inbox:
+    with urllib.request.urlopen(f"{ONESEC}?action=genRandomMailbox&count=1") as resp:
+        boxes = json.loads(resp.read())
+    address = boxes[0]
+    login, domain = address.split("@")
+    return Inbox(address=address, password="", token=f"{login}|{domain}", provider="1secmail")
+
+
+def _list_1secmail(inbox: Inbox) -> list[dict]:
+    login, domain = inbox.token.split("|", 1)
+    url = f"{ONESEC}?action=getMessages&login={login}&domain={domain}"
+    with urllib.request.urlopen(url) as resp:
+        return json.loads(resp.read())
+
+
+def _read_1secmail(inbox: Inbox, msg_id: str) -> dict:
+    login, domain = inbox.token.split("|", 1)
+    url = f"{ONESEC}?action=readMessage&login={urllib.parse.quote(login)}&domain={urllib.parse.quote(domain)}&id={msg_id}"
+    with urllib.request.urlopen(url) as resp:
+        data = json.loads(resp.read())
+    return {
+        "from": {"address": data.get("from", "")},
+        "subject": data.get("subject", ""),
+        "text": data.get("textBody", "") or "",
+        "html": data.get("body", "") or "",
+    }
 
 
 def _create_mailtm(prefix: str) -> Inbox:
@@ -129,34 +177,87 @@ def _read_guerrilla(inbox: Inbox, msg_id: str) -> dict:
 
 def create_inbox(prefix: str = "sellertools", provider: str = "auto") -> Inbox:
     errors: list[str] = []
-    order = ["guerrillamail", "mail.tm"] if provider == "auto" else [provider]
+    order = ["mail.gw", "mail.tm", "1secmail", "guerrillamail"] if provider == "auto" else [provider]
     for prov in order:
-        try:
-            if prov == "guerrillamail":
-                return _create_guerrilla(prefix)
-            if prov == "mail.tm":
-                return _create_mailtm(prefix)
-        except Exception as e:
-            errors.append(f"{prov}: {e}")
-            if provider != "auto":
-                raise
+        for attempt in range(3):
+            try:
+                if prov == "guerrillamail":
+                    return _create_guerrilla(prefix)
+                if prov == "mail.tm":
+                    return _create_mailtm(prefix)
+                if prov == "mail.gw":
+                    return _create_mailgw(prefix)
+                if prov == "1secmail":
+                    return _create_1secmail(prefix)
+            except Exception as e:
+                if "429" in str(e) and attempt < 2:
+                    time.sleep(10 * (attempt + 1))
+                    continue
+                errors.append(f"{prov}: {e}")
+                break
+        if provider != "auto":
+            raise RuntimeError(errors[-1] if errors else prov)
     raise RuntimeError("All temp mail providers failed: " + "; ".join(errors))
 
 
 def list_messages(inbox: Inbox) -> list[dict]:
     if inbox.provider == "guerrillamail":
         return _list_guerrilla(inbox)
+    if inbox.provider == "1secmail":
+        return _list_1secmail(inbox)
+    if inbox.provider == "mail.gw":
+        data = _req("GET", f"{MAILGW}/messages", headers={"Authorization": f"Bearer {inbox.token}"})
+        return _members(data)
     return _list_mailtm(inbox)
 
 
 def read_message(inbox: Inbox, msg_id: str) -> dict:
     if inbox.provider == "guerrillamail":
         return _read_guerrilla(inbox, msg_id)
+    if inbox.provider == "1secmail":
+        return _read_1secmail(inbox, msg_id)
+    if inbox.provider == "mail.gw":
+        return _req("GET", f"{MAILGW}/messages/{msg_id}", headers={"Authorization": f"Bearer {inbox.token}"})
     return _read_mailtm(inbox, msg_id)
 
 
 def _msg_id(msg: dict, provider: str) -> str:
-    return msg.get("id") if provider == "mail.tm" else str(msg.get("mail_id", ""))
+    if provider in ("mail.tm", "mail.gw"):
+        return msg.get("id", "")
+    if provider == "1secmail":
+        return str(msg.get("id", ""))
+    return str(msg.get("mail_id", ""))
+
+
+def wait_for_code(
+    inbox: Inbox,
+    *,
+    digits: int = 6,
+    timeout: int = 180,
+    interval: int = 5,
+) -> str | None:
+    seen: set[str] = set()
+    deadline = time.time() + timeout
+    pattern = re.compile(rf"\b(\d{{{digits}}})\b")
+    while time.time() < deadline:
+        for msg in list_messages(inbox):
+            mid = _msg_id(msg, inbox.provider)
+            if not mid or mid in seen:
+                continue
+            seen.add(mid)
+            full = read_message(inbox, mid)
+            text = full.get("text") or ""
+            html_body = full.get("html") or ""
+            if isinstance(text, list):
+                text = " ".join(str(x) for x in text)
+            if isinstance(html_body, list):
+                html_body = " ".join(str(x) for x in html_body)
+            body = html.unescape(str(text) + str(html_body))
+            m = pattern.search(body)
+            if m:
+                return m.group(1)
+        time.sleep(interval)
+    return None
 
 
 def wait_for_link(
@@ -178,7 +279,13 @@ def wait_for_link(
             from_addr = (full.get("from") or {}).get("address", "") if isinstance(full.get("from"), dict) else str(full.get("from", ""))
             if sender_contains and sender_contains.lower() not in from_addr.lower():
                 continue
-            body = (full.get("text") or "") + (full.get("html") or "")
+            text = full.get("text") or ""
+            html_body = full.get("html") or ""
+            if isinstance(text, list):
+                text = " ".join(str(x) for x in text)
+            if isinstance(html_body, list):
+                html_body = " ".join(str(x) for x in html_body)
+            body = str(text) + str(html_body)
             links = re.findall(r"https?://[^\s\"'<>]+", body)
             for link in links:
                 clean = html.unescape(link.rstrip(").,;]"))

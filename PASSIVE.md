@@ -20,6 +20,16 @@ Options ranked by effort:
 2. **One command ever** — `bash scripts/google_once.sh` (opens localhost:8089 once, saves token, auto-submits sitemap forever after)
 3. **Ignore Google entirely** — post to Reddit/Etsy, sell on Gumroad (that's the actual money)
 
+## Autopilot (temp mail + deploy)
+
+```bash
+bash scripts/passive.sh
+```
+
+Creates Helio merchant via temp mail, pings IndexNow, deploys. Saves creds to `pipeline/accounts.json`.
+
+**One wall left:** Helio needs Phantom wallet connect to set payout address (bots can't sign transactions).
+
 ## Payments → your Solana wallet
 
 Payout: `BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH`
