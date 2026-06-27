@@ -1,14 +1,14 @@
 {
-  "site_url": "https://YOUR_USER.github.io/seller-tools",
+  "site_url": "https://acknowledged-extends-viewer-disabled.trycloudflare.com",
   "verification": {
-    "method": null,
-    "token": null,
+    "method": "html_file",
+    "token": "google5ddb8b4ec852634c.html",
     "verified": false
   },
   "sitemap": {
-    "url": "https://YOUR_USER.github.io/seller-tools/sitemap.xml",
+    "url": "https://acknowledged-extends-viewer-disabled.trycloudflare.com/sitemap.xml",
     "submitted": false
   },
   "created_at": "2026-06-27T19:12:27.363309+00:00",
-  "updated_at": "2026-06-27T19:12:27.363309+00:00"
+  "updated_at": "2026-06-27T19:20:07.064796+00:00"
 }
