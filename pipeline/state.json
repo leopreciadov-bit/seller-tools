@@ -2,20 +2,22 @@
   "version": 1,
   "gsc_verified": true,
   "deploy": {
-    "status": "live_tunnel",
-    "url": "https://character-fairfield-towards-industries.trycloudflare.com",
-    "permanent": "pending gh auth → ./scripts/deploy_github_pages.sh"
+    "status": "live_permanent",
+    "url": "https://leopreciadov-bit.github.io/seller-tools",
+    "repo": "https://github.com/leopreciadov-bit/seller-tools"
   },
   "products": {
     "listing-lab": {
       "status": "launched",
-      "url": "https://character-fairfield-towards-industries.trycloudflare.com/listing-lab/"
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "pricing_usd": 19
     },
     "etsy-tag-finder": {
       "status": "launched",
-      "url": "https://character-fairfield-towards-industries.trycloudflare.com/etsy-tag-finder/"
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "pricing_usd": 14
     }
   },
   "metrics": { "visitors": 0, "sales": 0, "revenue_usd": 0.0 },
-  "last_updated": "2026-06-27T19:32:00+00:00"
+  "last_updated": "2026-06-27T19:40:00+00:00"
 }

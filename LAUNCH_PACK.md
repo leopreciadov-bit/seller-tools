@@ -1,10 +1,10 @@
 # LAUNCH PACK — Copy, Paste, Ship
 
-**LIVE NOW:** https://encouraged-violations-installed-specialty.trycloudflare.com  
-- ListingLab: https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/  
-- Etsy Tag Finder: https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/  
-- GSC verify: https://encouraged-violations-installed-specialty.trycloudflare.com/google5ddb8b4ec852634c.html  
-- Sitemap: https://encouraged-violations-installed-specialty.trycloudflare.com/sitemap.xml  
+**LIVE NOW:** https://leopreciadov-bit.github.io/seller-tools  
+- ListingLab: https://leopreciadov-bit.github.io/seller-tools/listing-lab/  
+- Etsy Tag Finder: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/  
+- GSC verify: https://leopreciadov-bit.github.io/seller-tools/google5ddb8b4ec852634c.html  
+- Sitemap: https://leopreciadov-bit.github.io/seller-tools/sitemap.xml  
 
 > Tunnel restarts change the URL. Permanent: `./scripts/deploy_github_pages.sh` after `gh auth login`
 
@@ -28,7 +28,7 @@ ListingLab turns product name + niche + keywords into:
 ✓ 13 Etsy tags or 10 Shopify SEO tags
 ✓ Bullet points
 
-FREE: 5 generations/day at https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/
+FREE: 5 generations/day at https://leopreciadov-bit.github.io/seller-tools/listing-lab/
 PRO: Unlimited + license key (delivered instantly)
 
 License format: LISTING-XXXX-XXXX
@@ -52,7 +52,7 @@ Etsy's 13-tag limit is brutal. This tool nails it.
 ✓ No duplicates, no rejected characters
 ✓ Char count per tag
 
-FREE: 3/day at https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/
+FREE: 3/day at https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
 PRO: Unlimited — license TAGFINDER-XXXX-XXXX
 ```
 
@@ -76,7 +76,7 @@ You enter product name, niche, and a few seed keywords. It outputs exactly 13 ta
 
 Free tier is 3/day. If it's useful I added a $14 lifetime unlock for unlimited runs.
 
-Link: https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/
+Link: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
 
 What would make this actually useful for your shop? Missing fields? Bad tag suggestions?
 ```
@@ -93,7 +93,7 @@ Built a side project for marketplace sellers — paste product basics, get title
 
 No signup, runs in browser. Trying to validate if people would pay $19 for unlimited + bulk export.
 
-https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/
+https://leopreciadov-bit.github.io/seller-tools/listing-lab/
 
 Roast the output quality — that's what I need most.
 ```
@@ -114,7 +114,7 @@ Roast the output quality — that's what I need most.
 
 4/ Pro is $14–19 lifetime if you want unlimited.
 
-5/ https://encouraged-violations-installed-specialty.trycloudflare.com
+5/ https://leopreciadov-bit.github.io/seller-tools
 
 6/ What tool should I build next for sellers?
 ```
@@ -125,7 +125,7 @@ Roast the output quality — that's what I need most.
 
 **Name:** Seller Tools — ListingLab + Etsy Tag Finder  
 **Tagline:** Generate Etsy listings and 13 SEO tags from product basics in one click.  
-**Link:** https://encouraged-violations-installed-specialty.trycloudflare.com
+**Link:** https://leopreciadov-bit.github.io/seller-tools
 
 ---
 
@@ -156,5 +156,5 @@ Thanks for purchasing! Your license key:
 
 PASTE_KEY_HERE
 
-Unlock at https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/ → Pro section
+Unlock at https://leopreciadov-bit.github.io/seller-tools/listing-lab/ → Pro section
 ```
