@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "listinglab-pro",
+    "price_usd": 19,
+    "title": "ListingLab Pro \u2014 Unlimited Listing Generator",
+    "keys_available": 25,
+    "license_upload": "gumroad/upload/listinglab-pro-keys.txt",
+    "delivery_email": "gumroad/upload/listinglab-pro-delivery-email.txt",
+    "gumroad_url": "https://YOURNAME.gumroad.com/l/listinglab-pro"
+  },
+  {
+    "slug": "etsy-tag-finder-pro",
+    "price_usd": 14,
+    "title": "Etsy Tag Finder Pro \u2014 13 Perfect SEO Tags",
+    "keys_available": 25,
+    "license_upload": "gumroad/upload/etsy-tag-finder-pro-keys.txt",
+    "delivery_email": "gumroad/upload/etsy-tag-finder-pro-delivery-email.txt",
+    "gumroad_url": "https://YOURNAME.gumroad.com/l/etsy-tag-finder-pro"
+  },
+  {
+    "slug": "seller-kit-bundle",
+    "price_usd": 29,
+    "title": "Seller Kit \u2014 ListingLab Pro + Etsy Tag Finder Pro",
+    "keys_available": 10,
+    "license_upload": "gumroad/upload/seller-kit-bundle-keys.txt",
+    "delivery_email": "gumroad/upload/seller-kit-bundle-delivery-email.txt",
+    "gumroad_url": "https://YOURNAME.gumroad.com/l/seller-kit-bundle"
+  }
+]

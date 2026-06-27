@@ -34,8 +34,17 @@
 
 ---
 
-## Monetize tonight
+## Monetize tonight (5 min manual)
 
-- `marketing/ADS_AND_SOCIAL_PACK.md` — post to r/Etsy
-- `LAUNCH_PACK.md` — create Gumroad ($19 / $14 / $29 bundle)
-- `pipeline/licenses-*.txt` — paste into Gumroad delivery
+```bash
+bash scripts/launch_monetize.sh   # prepares gumroad/upload/*.txt
+```
+
+| Step | File | Action |
+|------|------|--------|
+| Gumroad $19 | `gumroad/COPY_PASTE_EVERYTHING.md` | New product → upload `gumroad/upload/listinglab-pro-keys.txt` |
+| Gumroad $14 | same | upload `etsy-tag-finder-pro-keys.txt` |
+| Gumroad $29 | same | upload `seller-kit-bundle-keys.txt` |
+| Reddit | `marketing/REDDIT_POST_READY.txt` | Post to r/Etsy (or set Reddit env vars + re-run script) |
+
+License keys: 25 + 25 + 10 in `pipeline/licenses-*.txt` (fixed & regenerated)

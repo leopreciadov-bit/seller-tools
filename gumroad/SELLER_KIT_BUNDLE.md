@@ -20,11 +20,10 @@ INCLUDES:
 FREE TOOLS (try before you buy):
 https://leopreciadov-bit.github.io/seller-tools/
 
-YOU RECEIVE TWO LICENSE KEYS:
-• LISTING-XXXX-XXXX → ListingLab Pro
-• TAGFINDER-XXXX-XXXX → Etsy Tag Finder Pro
+YOU RECEIVE ONE SELLERKIT LICENSE KEY:
+• SELLERKIT-XXXX-XXXX → unlocks BOTH ListingLab Pro and Etsy Tag Finder Pro
 
-Paste each into the Unlock Pro section on the respective free tool.
+Paste into "Unlock Pro" on either tool — same key works on both.
 
 One-time payment. Lifetime access. No subscription.
 ```
