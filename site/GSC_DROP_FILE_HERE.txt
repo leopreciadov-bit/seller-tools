@@ -1,0 +1,17 @@
+YOLO Google Search Console — 60 second setup
+==========================================
+
+OPTION A — HTML file (easiest)
+1. Search Console → Add property → HTML file download
+2. Save the file (e.g. googleabc123.html) INTO THIS site/ FOLDER
+3. Tell the agent: "verify googleabc123.html" OR run:
+
+   SITE_URL=https://YOUR_LIVE_URL ./scripts/gsc_yolo.sh --scan
+
+OPTION B — Meta tag
+1. Copy the content= value from Google's meta tag
+2. Run:
+
+   ./scripts/gsc_yolo.sh --url https://YOUR_LIVE_URL --token PASTE_TOKEN
+
+Then: deploy site/ → Verify in GSC → submit sitemap.xml

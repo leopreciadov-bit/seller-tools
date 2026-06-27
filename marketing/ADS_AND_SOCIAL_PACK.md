@@ -1,6 +1,6 @@
 # Ads & Social Pack — Copy-Paste Ready
 
-Replace `YOUR_URL` with your live domain.
+Replace `https://encouraged-violations-installed-specialty.trycloudflare.com` with your live domain.
 
 ---
 
@@ -12,7 +12,7 @@ Replace `YOUR_URL` with your live domain.
 **Headline 3:** No Signup Required  
 **Description 1:** Generate exactly 13 Etsy tags. 20-char limit enforced. Long-tail SEO combos.  
 **Description 2:** Free tool for Etsy sellers. 3 gens/day. Pro unlimited $14 lifetime.  
-**Final URL:** YOUR_URL/etsy-tag-finder/  
+**Final URL:** https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/  
 **Keywords:** etsy tag generator, etsy tags tool, etsy seo tags, etsy keyword generator, free etsy tags
 
 ### Campaign: Listing Generator
@@ -21,7 +21,7 @@ Replace `YOUR_URL` with your live domain.
 **Headline 3:** Shopify Mode Included  
 **Description 1:** Stop spending an hour per listing. SEO copy in one click.  
 **Description 2:** 5 free generations daily. Marketplace sellers love ListingLab.  
-**Final URL:** YOUR_URL/listing-lab/  
+**Final URL:** https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/  
 **Keywords:** etsy listing generator, shopify description generator, product listing generator
 
 > Start with $5/day per campaign. Pause keywords with 0 conversions after 200 clicks.
@@ -41,12 +41,12 @@ ListingLab generates your title, description, 13 tags, and bullets in seconds.
 ✓ No account needed
 ✓ Works on phone
 
-Try it: YOUR_URL/listing-lab/
+Try it: https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/
 ```
 
 **Headline:** Free Etsy Listing Generator  
 **CTA:** Learn More  
-**Link:** YOUR_URL/listing-lab/
+**Link:** https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/
 
 ### Ad set: Tag pain point
 **Primary text:**
@@ -55,7 +55,7 @@ Etsy's 13-tag limit is annoying. Counting 20 characters is worse.
 
 Etsy Tag Finder does it for you — long-tail SEO tags, no duplicates.
 
-Free: YOUR_URL/etsy-tag-finder/
+Free: https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/
 ```
 
 **Headline:** 13 Perfect Etsy Tags — Free  
@@ -76,7 +76,7 @@ Etsy sellers: you get 13 tags and 20 characters each.
 
 I built a free generator that enforces both + prioritizes long-tail SEO.
 
-YOUR_URL/etsy-tag-finder/
+https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/
 
 No signup. 3 free/day.
 ```
@@ -86,7 +86,7 @@ No signup. 3 free/day.
 Shopify dropshippers copying supplier descriptions is killing your SEO.
 
 Free listing generator (Shopify + Etsy mode):
-YOUR_URL/listing-lab/
+https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/
 
 Title, description, tags, bullets — copy paste ready.
 ```
@@ -99,7 +99,7 @@ Wrote 3 free SEO guides for marketplace sellers:
 • Listing description template  
 • Shopify product SEO
 
-YOUR_URL/
+https://encouraged-violations-installed-specialty.trycloudflare.com/
 ```
 
 **Post 4 (engagement)**
@@ -119,14 +119,14 @@ Poll: What takes longer when you list a new product?
 ```
 How to choose Etsy tags for SEO (13 tags, 20 character limit explained) + free tag generator tool for Etsy sellers. #etsytags #etsyseo #etsyseller #smallbusiness #sidehustle
 
-Link: YOUR_URL/guides/how-to-choose-etsy-tags.html
+Link: https://encouraged-violations-installed-specialty.trycloudflare.com/guides/how-to-choose-etsy-tags.html
 ```
 
 **Pin 2 — Listing Template**
 ```
 Free Etsy listing description template + generator. Titles, tags, bullets for handmade sellers and print on demand. #etsylisting #etsytips #handmadebusiness
 
-Link: YOUR_URL/guides/etsy-listing-description-template.html
+Link: https://encouraged-violations-installed-specialty.trycloudflare.com/guides/etsy-listing-description-template.html
 ```
 
 ---
@@ -138,7 +138,7 @@ Link: YOUR_URL/guides/etsy-listing-description-template.html
 Title: I mapped out how I pick all 13 Etsy tags (with char counts)
 
 Body: [paste key tips from guide]
-Full breakdown: YOUR_URL/guides/how-to-choose-etsy-tags.html
+Full breakdown: https://encouraged-violations-installed-specialty.trycloudflare.com/guides/how-to-choose-etsy-tags.html
 
 Happy to answer tag questions for your niche in comments.
 ```
@@ -147,7 +147,7 @@ Happy to answer tag questions for your niche in comments.
 ```
 Title: Free Shopify product description structure I use for dropshipping listings
 
-Link: YOUR_URL/guides/shopify-product-listing-seo.html
+Link: https://encouraged-violations-installed-specialty.trycloudflare.com/guides/shopify-product-listing-seo.html
 Also built a free generator if anyone wants to try it — feedback welcome.
 ```
 
@@ -158,7 +158,7 @@ Title: Built 2 free tools for marketplace sellers — looking for brutal feedbac
 - Listing generator (Etsy + Shopify)
 - 13-tag Etsy SEO tool
 
-YOUR_URL — roast the output quality, that's what I need.
+https://encouraged-violations-installed-specialty.trycloudflare.com — roast the output quality, that's what I need.
 ```
 
 ---
@@ -178,7 +178,7 @@ No signup. Guides included for Etsy SEO and Shopify listings.
 
 Pro upgrades from $14 lifetime if you want unlimited.
 ```
-**Link:** YOUR_URL  
+**Link:** https://encouraged-violations-installed-specialty.trycloudflare.com  
 **Topics:** Marketing, E-commerce, SaaS
 
 ---
@@ -197,7 +197,7 @@ I built two free tools for marketplace sellers:
 
 No account. Works in browser.
 
-Try free: YOUR_URL
+Try free: https://encouraged-violations-installed-specialty.trycloudflare.com
 
 — [Your name]
 ```
