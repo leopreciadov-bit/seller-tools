@@ -185,6 +185,11 @@ pre.output {
   border: 1px dashed var(--border);
 }
 
+.upsell .buy-pro {
+  display: inline-block;
+  margin-bottom: 0.75rem;
+}
+
 .upsell input {
   width: 100%;
   margin: 0.5rem 0;

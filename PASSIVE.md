@@ -27,3 +27,9 @@ Money comes from distribution, not GSC. Agents pre-wrote everything in:
 - `LAUNCH_PACK.md`
 
 Gumroad + one Reddit post = first sale. That's the passive play after setup.
+
+**One command after you create Gumroad products:**
+```bash
+bash scripts/gumroad_once.sh
+```
+Paste your Gumroad username → Buy Pro buttons go live on the site automatically.
