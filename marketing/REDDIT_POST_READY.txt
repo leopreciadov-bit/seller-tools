@@ -1,0 +1,13 @@
+TITLE: I built two free tools for Etsy sellers (listing generator + 13-tag SEO helper)
+
+BODY:
+I got tired of spending 45+ minutes per listing on titles, descriptions, and counting Etsy tag characters, so I built two browser tools:
+
+1. ListingLab — full Etsy/Shopify listing from product basics (title, description, tags, bullets)
+2. Etsy Tag Finder — exactly 13 tags, 20 char limit enforced, long-tail SEO
+
+Both free with daily limits. No signup, runs in browser.
+
+https://leopreciadov-bit.github.io/seller-tools/
+
+Would love feedback from active sellers — what would make these actually useful for your shop?

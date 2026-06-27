@@ -176,9 +176,16 @@ document.getElementById("copy-all").addEventListener("click", () => {
   copyText(all);
 });
 
+function validLicense(key) {
+  return (
+    (key.startsWith("LISTING-") && key.length >= 12) ||
+    (key.startsWith("SELLERKIT-") && key.length >= 14)
+  );
+}
+
 document.getElementById("unlock").addEventListener("click", () => {
   const key = document.getElementById("license-key").value.trim().toUpperCase();
-  if (key.startsWith("LISTING-") && key.length >= 12) {
+  if (validLicense(key)) {
     localStorage.setItem(PRO_KEY, "true");
     updateUsageLabel();
     alert("Pro unlocked. Thank you!");

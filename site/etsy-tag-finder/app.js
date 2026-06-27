@@ -352,10 +352,16 @@ document.getElementById("copy-all").addEventListener("click", () => {
   setTimeout(() => { btn.textContent = "Copy all tags"; }, 1200);
 });
 
+function validLicense(key) {
+  return (
+    /^TAGFINDER-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(key) ||
+    /^SELLERKIT-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(key)
+  );
+}
+
 document.getElementById("unlock").addEventListener("click", () => {
   const key = document.getElementById("license-key").value.trim().toUpperCase();
-  const valid = /^TAGFINDER-[A-Z0-9]{4}-[A-Z0-9]{4}$/.test(key);
-  if (valid) {
+  if (validLicense(key)) {
     localStorage.setItem(PRO_KEY, "true");
     updateUsageLabel();
     alert("Pro unlocked. Thank you!");
