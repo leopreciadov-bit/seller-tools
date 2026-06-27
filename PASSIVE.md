@@ -28,8 +28,13 @@ Money comes from distribution, not GSC. Agents pre-wrote everything in:
 
 Gumroad + one Reddit post = first sale. That's the passive play after setup.
 
-**One command after you create Gumroad products:**
+**Temp-mail autopilot (one CAPTCHA solve):**
 ```bash
-bash scripts/gumroad_once.sh
+/tmp/seller-venv/bin/python scripts/gumroad_autopilot.py --signup --manual
+/tmp/seller-venv/bin/python scripts/gumroad_autopilot.py --products --manual
+python3 scripts/gumroad_setup.py set-username YOURNAME
 ```
-Paste your Gumroad username → Buy Pro buttons go live on the site automatically.
+
+Headless signup hits reCAPTCHA — `--manual` opens browser, fills temp mail, you click CAPTCHA once.
+
+**After products exist:** `bash scripts/gumroad_once.sh` wires Buy buttons on site.
