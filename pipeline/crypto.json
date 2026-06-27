@@ -31,7 +31,7 @@
   "methods": {
     "card": {
       "label": "Card",
-      "sublabel": "Visa · MC · Apple Pay",
+      "sublabel": "Visa \u00b7 MC \u00b7 Apple Pay",
       "direct": true,
       "card": true,
       "stablecoin": true
