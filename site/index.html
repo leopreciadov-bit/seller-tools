@@ -3,57 +3,123 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Seller Tools — Free Etsy & Shopify Utilities</title>
-  <meta name="description" content="Free tools for Etsy and Shopify sellers. Generate listings and SEO tags in seconds." />
+  <title>Seller Tools — Free Etsy & Shopify Listing Generator | SEO Tag Tools</title>
+  <meta name="description" content="Free Etsy and Shopify seller tools. Generate product listings, 13 SEO tags, descriptions, and bullet points. No signup. ListingLab + Etsy Tag Finder." />
+  <meta name="keywords" content="etsy listing generator, etsy tag generator, shopify product description generator, etsy seo tools, free etsy tools, seller tools, ecommerce listing generator" />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Seller Tools — Free Etsy & Shopify Listing Generators" />
+  <meta property="og:description" content="Generate Etsy listings and 13 SEO tags in seconds. Free browser tools for marketplace sellers." />
+  <meta property="og:site_name" content="Seller Tools" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free Etsy & Shopify Listing Tools" />
+  <meta name="twitter:description" content="ListingLab + Etsy Tag Finder. No signup required." />
+  <script src="/assets/seo.js" defer></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Seller Tools",
+    "description": "Free Etsy and Shopify listing generators for marketplace sellers",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "/listing-lab/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Seller Tools — Free Marketplace Utilities",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "ListingLab", "url": "/listing-lab/", "description": "Etsy and Shopify listing generator"},
+      {"@type": "ListItem", "position": 2, "name": "Etsy Tag Finder", "url": "/etsy-tag-finder/", "description": "13 Etsy SEO tags generator"}
+    ]
+  }
+  </script>
   <style>
     :root { --bg:#0f1117; --panel:#171b24; --border:#2a3142; --text:#e8ecf4; --muted:#9aa3b8; --accent:#6ee7b7; }
     * { box-sizing: border-box; }
     body { margin:0; font-family: system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.6; }
     .wrap { width:min(880px,92vw); margin:0 auto; padding:3rem 0; }
     h1 { font-size:clamp(2rem,5vw,2.6rem); margin:0 0 .5rem; }
-    .sub { color:var(--muted); max-width:50ch; }
+    .sub { color:var(--muted); max-width:52ch; }
     .grid { display:grid; gap:1rem; margin-top:2rem; }
     @media (min-width:640px) { .grid { grid-template-columns:1fr 1fr; } }
     .card { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:1.25rem; }
     .card h2 { margin:0 0 .5rem; font-size:1.15rem; }
+    .card h2 a { color: var(--text); text-decoration: none; }
+    .card h2 a:hover { color: var(--accent); }
     .card p { margin:0 0 1rem; color:var(--muted); font-size:.95rem; }
-    .btn { display:inline-block; background:var(--accent); color:#0b1218; text-decoration:none; font-weight:600; padding:.6rem 1rem; border-radius:8px; margin-right:.5rem; }
+    .btn { display:inline-block; background:var(--accent); color:#0b1218; text-decoration:none; font-weight:600; padding:.6rem 1rem; border-radius:8px; margin-right:.5rem; margin-bottom:.5rem; }
     .btn.ghost { background:transparent; color:var(--text); border:1px solid var(--border); }
     .badge { color:var(--accent); font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; }
+    .guides { margin-top:2.5rem; }
+    .guides h2 { font-size:1.1rem; color:var(--accent); }
+    .guides ul { padding-left:1.25rem; color:var(--muted); }
+    .guides a { color:var(--accent); }
+    .faq { margin-top:2rem; color:var(--muted); font-size:.95rem; }
+    .faq h2 { color:var(--accent); font-size:1.1rem; }
+    .faq dt { font-weight:600; color:var(--text); margin-top:1rem; }
     footer { margin-top:3rem; color:var(--muted); font-size:.85rem; }
   </style>
 </head>
 <body>
-  <div class="wrap">
-    <p class="badge">Free seller tools</p>
-    <h1>Ship faster. Sell more.</h1>
-    <p class="sub">Micro-tools for Etsy and Shopify sellers. No signup. Works in your browser.</p>
+  <main class="wrap">
+    <p class="badge">Free seller tools · No signup</p>
+    <h1>Free Etsy &amp; Shopify Listing Generators</h1>
+    <p class="sub">SEO-optimized product listings and Etsy tags in seconds. Built for marketplace sellers, dropshippers, and print-on-demand shops.</p>
 
     <div class="grid">
       <article class="card">
-        <h2>ListingLab</h2>
-        <p>Full Etsy or Shopify listings — title, description, tags, bullets — from product basics.</p>
-        <a class="btn" href="/listing-lab/">Open free tool</a>
-        <a class="btn ghost" href="/listing-lab/GO_TO_MARKET.md">Pro $19</a>
+        <h2><a href="/listing-lab/">ListingLab</a></h2>
+        <p>Etsy &amp; Shopify listing generator — titles, descriptions, SEO tags, and bullet points from product basics.</p>
+        <a class="btn" href="/listing-lab/">Free listing generator</a>
+        <a class="btn ghost" href="/guides/etsy-listing-description-template.html">SEO guide</a>
       </article>
       <article class="card">
-        <h2>Etsy Tag Finder</h2>
-        <p>Exactly 13 Etsy tags, max 20 chars each. Long-tail SEO, no duplicates, Etsy-safe characters.</p>
-        <a class="btn" href="/etsy-tag-finder/">Open free tool</a>
-        <a class="btn ghost" href="/etsy-tag-finder/GO_TO_MARKET.md">Pro $14</a>
+        <h2><a href="/etsy-tag-finder/">Etsy Tag Finder</a></h2>
+        <p>Generate exactly 13 Etsy tags (20 char max). Long-tail SEO, no duplicates, Etsy-safe characters.</p>
+        <a class="btn" href="/etsy-tag-finder/">Free tag generator</a>
+        <a class="btn ghost" href="/guides/how-to-choose-etsy-tags.html">Tag SEO guide</a>
       </article>
     </div>
 
+    <section class="guides">
+      <h2>SEO guides for sellers</h2>
+      <ul>
+        <li><a href="/guides/how-to-choose-etsy-tags.html">How to choose Etsy tags (13 tags, 20 characters)</a></li>
+        <li><a href="/guides/etsy-listing-description-template.html">Etsy listing description template + generator</a></li>
+        <li><a href="/guides/shopify-product-listing-seo.html">Shopify product listing SEO guide</a></li>
+      </ul>
+    </section>
+
+    <section class="faq">
+      <h2>Frequently asked questions</h2>
+      <dl>
+        <dt>Is ListingLab free?</dt>
+        <dd>Yes. 5 free listing generations per day. Pro unlimited is $19 lifetime.</dd>
+        <dt>How many tags does Etsy allow?</dt>
+        <dd>13 tags per listing, 20 characters each. <a href="/etsy-tag-finder/">Etsy Tag Finder</a> enforces this automatically.</dd>
+        <dt>Does this work for Shopify dropshipping?</dt>
+        <dd>Yes. Select Shopify mode in ListingLab for titles, descriptions, and bullet points optimized for ecommerce SEO.</dd>
+        <dt>Do I need an account?</dt>
+        <dd>No signup. Everything runs in your browser.</dd>
+      </dl>
+    </section>
+
     <footer>
-      <p><strong>Seller Kit Bundle</strong> — both Pro tools, $29 lifetime (coming on Gumroad)</p>
-      <p>Built by agents · <span id="visits"></span></p>
+      <p><strong>Seller Kit Bundle</strong> — ListingLab Pro + Etsy Tag Finder Pro, $29 lifetime</p>
+      <p><a href="/sitemap.xml">Sitemap</a> · <span id="visits"></span></p>
     </footer>
-  </div>
+  </main>
   <script>
     const k='seller_tools_visits';
     const n=(+localStorage.getItem(k)||0)+1;
     localStorage.setItem(k,n);
-    document.getElementById('visits').textContent=n+' visits tracked locally';
+    document.getElementById('visits').textContent=n+' visits';
   </script>
 </body>
 </html>

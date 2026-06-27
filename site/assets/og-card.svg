@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0f1117"/>
+  <rect x="60" y="60" width="1080" height="510" rx="24" fill="#171b24" stroke="#2a3142" stroke-width="2"/>
+  <text x="100" y="200" fill="#6ee7b7" font-family="system-ui,sans-serif" font-size="28" font-weight="600">SELLER TOOLS</text>
+  <text x="100" y="290" fill="#e8ecf4" font-family="system-ui,sans-serif" font-size="56" font-weight="700">Free Etsy &amp; Shopify</text>
+  <text x="100" y="360" fill="#e8ecf4" font-family="system-ui,sans-serif" font-size="56" font-weight="700">Listing Generators</text>
+  <text x="100" y="450" fill="#9aa3b8" font-family="system-ui,sans-serif" font-size="28">ListingLab · Etsy Tag Finder · No signup</text>
+</svg>

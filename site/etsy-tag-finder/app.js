@@ -365,3 +365,11 @@ document.getElementById("unlock").addEventListener("click", () => {
 });
 
 updateUsageLabel();
+
+(function track() {
+  const k = "tagfinder_pageviews";
+  const n = (+localStorage.getItem(k) || 0) + 1;
+  localStorage.setItem(k, n);
+  const el = document.getElementById("analytics");
+  if (el) el.textContent = `${n} local pageviews`;
+})();

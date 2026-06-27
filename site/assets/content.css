@@ -1,0 +1,10 @@
+.content-page { max-width: 720px; margin: 0 auto; padding: 2rem 1rem 4rem; line-height: 1.7; }
+.content-page h1 { font-size: clamp(1.75rem, 4vw, 2.25rem); margin-bottom: 0.5rem; }
+.content-page .lead { color: var(--muted, #9aa3b8); font-size: 1.1rem; margin-bottom: 2rem; }
+.content-page h2 { margin-top: 2rem; color: #6ee7b7; font-size: 1.25rem; }
+.content-page a { color: #6ee7b7; }
+.content-page ul { padding-left: 1.25rem; }
+.content-page .cta-box { background: #171b24; border: 1px solid #2a3142; border-radius: 12px; padding: 1.25rem; margin: 2rem 0; }
+.content-page .cta-box .btn { display: inline-block; background: #6ee7b7; color: #0b1218; padding: 0.6rem 1rem; border-radius: 8px; text-decoration: none; font-weight: 600; margin-top: 0.5rem; }
+.content-page nav.breadcrumb { font-size: 0.85rem; color: #9aa3b8; margin-bottom: 1.5rem; }
+.content-page nav.breadcrumb a { color: #6ee7b7; }

@@ -5,36 +5,38 @@
   "active_product": "etsy-tag-finder",
   "products": {
     "listing-lab": {
-      "status": "built",
-      "channels": [
-        "gumroad",
-        "cloudflare_pages",
-        "etsy"
-      ],
+      "status": "launched",
+      "channels": ["gumroad", "cloudflare_pages", "etsy", "reddit"],
       "pricing": {
         "free_tier": true,
         "paid_one_time_usd": 19
       },
-      "created_at": "2026-06-27T19:00:41.773632+00:00"
+      "created_at": "2026-06-27T00:00:00+00:00"
     },
     "etsy-tag-finder": {
-      "status": "built",
-      "channels": [
-        "gumroad",
-        "cloudflare_pages",
-        "etsy"
-      ],
+      "status": "launched",
+      "channels": ["gumroad", "cloudflare_pages", "etsy", "reddit"],
       "pricing": {
         "free_tier": true,
-        "paid_one_time_usd": 19
+        "paid_one_time_usd": 14
       },
-      "created_at": "2026-06-27T19:06:36.451614+00:00"
+      "created_at": "2026-06-27T00:00:00+00:00"
     }
+  },
+  "bundle": {
+    "name": "seller-kit",
+    "price_usd": 29,
+    "includes": ["listing-lab", "etsy-tag-finder"]
   },
   "metrics": {
     "visitors": 0,
     "sales": 0,
     "revenue_usd": 0.0
   },
-  "last_updated": "2026-06-27T19:06:36.451632+00:00"
+  "deploy": {
+    "status": "ready",
+    "site_dir": "site",
+    "workflow": ".github/workflows/deploy-pages.yml"
+  },
+  "last_updated": "2026-06-27T19:00:00+00:00"
 }

@@ -197,3 +197,7 @@ pre.output {
 }
 
 .footer a { color: var(--accent); }
+
+.seo-content { margin-top: 0; }
+.seo-content h2 { font-size: 1.1rem; color: var(--accent); margin-top: 0; }
+.seo-content a { color: var(--accent); }

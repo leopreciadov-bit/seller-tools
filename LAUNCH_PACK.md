@@ -1,6 +1,14 @@
 # LAUNCH PACK — Copy, Paste, Ship
 
-Replace `YOUR_URL` with your live deploy URL (GitHub Pages, Cloudflare, Vercel).
+**Live now (Cloudflare tunnel):** https://counting-cruises-trades-warren.trycloudflare.com  
+- ListingLab: https://counting-cruises-trades-warren.trycloudflare.com/listing-lab/  
+- Etsy Tag Finder: https://counting-cruises-trades-warren.trycloudflare.com/etsy-tag-finder/  
+
+Backup tunnel: https://icy-goats-warn.loca.lt  
+
+> Tunnel is temporary. For permanent URL: push to GitHub → Pages auto-deploys (workflow included).
+
+Replace `YOUR_URL` with your permanent deploy URL once live.
 
 ---
 

@@ -1,0 +1,16 @@
+# Seller Tools
+
+> Free Etsy and Shopify listing generators for marketplace sellers.
+
+## Tools
+- ListingLab: Etsy and Shopify listing generator (titles, descriptions, tags, bullets)
+- Etsy Tag Finder: 13 Etsy SEO tags generator (20 character limit)
+
+## Guides
+- How to choose Etsy tags: /guides/how-to-choose-etsy-tags.html
+- Etsy listing description template: /guides/etsy-listing-description-template.html
+- Shopify product listing SEO: /guides/shopify-product-listing-seo.html
+
+## Pricing
+- Free tiers with daily limits
+- Pro: ListingLab $19 lifetime, Etsy Tag Finder $14 lifetime, Bundle $29
