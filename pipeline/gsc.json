@@ -1,0 +1,14 @@
+{
+  "site_url": "https://YOUR_USER.github.io/seller-tools",
+  "verification": {
+    "method": null,
+    "token": null,
+    "verified": false
+  },
+  "sitemap": {
+    "url": "https://YOUR_USER.github.io/seller-tools/sitemap.xml",
+    "submitted": false
+  },
+  "created_at": "2026-06-27T19:12:27.363309+00:00",
+  "updated_at": "2026-06-27T19:12:27.363309+00:00"
+}

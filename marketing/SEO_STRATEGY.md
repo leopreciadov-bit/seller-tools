@@ -54,11 +54,10 @@
 ## Technical post-deploy
 
 ```bash
-# After GitHub Pages live, submit sitemap:
-# Google Search Console → Sitemaps → https://YOUR_DOMAIN/sitemap.xml
-
-# Update sitemap absolute URLs:
-python3 scripts/build_sitemap.py --base https://YOUR_USER.github.io/seller-tools
+# Full GSC setup (see marketing/GSC_SETUP.md):
+python3 scripts/gsc_setup.py init --url https://YOUR_USER.github.io/seller-tools
+python3 scripts/gsc_setup.py set-token YOUR_GOOGLE_TOKEN
+# deploy → verify in GSC → submit sitemap.xml
 ```
 
 ---
