@@ -1,10 +1,6 @@
 window.CRYPTO = {
-  "wallets": {
-    "usdt_trc20": "SET_YOUR_TRC20_ADDRESS",
-    "usdc_sol": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-    "btc": "SET_YOUR_BTC_ADDRESS",
-    "eth": "SET_YOUR_ETH_ADDRESS"
-  },
+  "payout_address": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
+  "payout_network": "solana",
   "preferred": "usdc_sol",
   "contact": "support@example.com",
   "products": {
@@ -22,6 +18,71 @@ window.CRYPTO = {
       "title": "Seller Kit Bundle",
       "price_usd": 29,
       "key_prefix": "SELLERKIT"
+    }
+  },
+  "methods": {
+    "usdc_sol": {
+      "label": "USDC",
+      "sublabel": "Solana",
+      "direct": true,
+      "coingecko": "usd-coin",
+      "stablecoin": true,
+      "spl_mint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    },
+    "usdt_sol": {
+      "label": "USDT",
+      "sublabel": "Solana",
+      "direct": true,
+      "coingecko": "tether",
+      "stablecoin": true,
+      "spl_mint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+    },
+    "sol": {
+      "label": "SOL",
+      "sublabel": "Solana",
+      "direct": true,
+      "coingecko": "solana",
+      "stablecoin": false
+    },
+    "btc": {
+      "label": "BTC",
+      "sublabel": "Bitcoin",
+      "direct": false,
+      "coingecko": "bitcoin",
+      "stablecoin": false,
+      "bridge_url": "https://fixedfloat.com/?from=BTC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
+    },
+    "eth": {
+      "label": "ETH",
+      "sublabel": "Ethereum",
+      "direct": false,
+      "coingecko": "ethereum",
+      "stablecoin": false,
+      "bridge_url": "https://fixedfloat.com/?from=ETH&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
+    },
+    "usdt_trc20": {
+      "label": "USDT",
+      "sublabel": "TRC20",
+      "direct": false,
+      "coingecko": "tether",
+      "stablecoin": true,
+      "bridge_url": "https://fixedfloat.com/?from=USDTTRC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
+    },
+    "usdc_eth": {
+      "label": "USDC",
+      "sublabel": "Ethereum",
+      "direct": false,
+      "coingecko": "usd-coin",
+      "stablecoin": true,
+      "bridge_url": "https://fixedfloat.com/?from=USDC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
+    },
+    "ltc": {
+      "label": "LTC",
+      "sublabel": "Litecoin",
+      "direct": false,
+      "coingecko": "litecoin",
+      "stablecoin": false,
+      "bridge_url": "https://fixedfloat.com/?from=LTC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
     }
   },
   "keyPool": {

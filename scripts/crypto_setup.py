@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Configure crypto wallets and build site/assets/crypto.js."""
+"""Configure crypto payout address and build site/assets/crypto.js."""
 
 from __future__ import annotations
 
 import argparse
 import json
-import sys
+import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -18,6 +18,8 @@ LICENSE_MAP = {
     "seller-kit-bundle": ROOT / "pipeline/licenses-bundle.txt",
 }
 
+SOLANA_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{32,44}$")
+
 
 def load() -> dict:
     return json.loads(CONFIG.read_text())
@@ -28,6 +30,19 @@ def save(data: dict) -> None:
     build(data)
 
 
+def inject_payout(data: dict) -> dict:
+    """All methods settle to payout_address; bridge URLs get updated too."""
+    payout = data.get("payout_address", "")
+    for method in data.get("methods", {}).values():
+        if method.get("bridge_url") and payout:
+            method["bridge_url"] = re.sub(
+                r"toAddress=[^&]+",
+                f"toAddress={payout}",
+                method["bridge_url"],
+            )
+    return data
+
+
 def load_keys(path: Path, n: int = 15) -> list[str]:
     if not path.exists():
         return []
@@ -35,39 +50,36 @@ def load_keys(path: Path, n: int = 15) -> list[str]:
 
 
 def build(data: dict | None = None) -> None:
-    data = data or load()
+    data = inject_payout(data or load())
     pool: dict[str, list[str]] = {}
     for slug, lic in LICENSE_MAP.items():
         pool[slug] = load_keys(lic)
 
     payload = {
-        "wallets": data["wallets"],
-        "preferred": data.get("preferred", "usdt_trc20"),
+        "payout_address": data["payout_address"],
+        "payout_network": data.get("payout_network", "solana"),
+        "preferred": data.get("preferred", "usdc_sol"),
         "contact": data.get("contact", ""),
         "products": data["products"],
+        "methods": data["methods"],
         "keyPool": pool,
     }
     OUT.write_text("window.CRYPTO = " + json.dumps(payload, indent=2) + ";\n")
     print(f"Built {OUT.relative_to(ROOT)}")
+    print(f"Payout: {data['payout_address']} ({len(data.get('methods', {}))} payment methods)")
 
 
-def cmd_set_wallet(args: argparse.Namespace) -> None:
+def cmd_set_payout(args: argparse.Namespace) -> None:
+    addr = args.address.strip()
+    if not SOLANA_RE.match(addr):
+        print("Warning: address may not be valid Solana format")
     data = load()
-    mapping = {
-        "usdt_trc20": args.usdt_trc20,
-        "usdc_sol": args.usdc_sol,
-        "btc": args.btc,
-        "eth": args.eth,
-    }
-    for k, v in mapping.items():
-        if v:
-            data["wallets"][k] = v.strip()
+    data["payout_address"] = addr
     if args.preferred:
         data["preferred"] = args.preferred
     if args.contact:
         data["contact"] = args.contact
     save(data)
-    print("Wallets updated. Deploy site to go live.")
 
 
 def cmd_status() -> None:
@@ -78,16 +90,20 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Crypto payment config")
     sub = parser.add_subparsers(dest="cmd")
 
-    sw = sub.add_parser("set-wallet", help="Set wallet addresses")
-    sw.add_argument("--usdt-trc20")
-    sw.add_argument("--usdc-sol")
-    sw.add_argument("--btc")
-    sw.add_argument("--eth")
-    sw.add_argument("--preferred", choices=["usdt_trc20", "usdc_sol", "btc", "eth"])
-    sw.add_argument("--contact")
-    sw.set_defaults(func=cmd_set_wallet)
+    sp = sub.add_parser("set-payout", help="Set Solana payout address (all methods route here)")
+    sp.add_argument("address", help="Solana wallet address")
+    sp.add_argument("--preferred", help="Default tab, e.g. usdc_sol")
+    sp.add_argument("--contact")
+    sp.set_defaults(func=cmd_set_payout)
 
-    sub.add_parser("build", help="Rebuild crypto.js from config").set_defaults(func=lambda _: build())
+    # legacy alias
+    sw = sub.add_parser("set-wallet", help="Alias for set-payout")
+    sw.add_argument("--usdc-sol", dest="address", required=True)
+    sw.add_argument("--preferred")
+    sw.add_argument("--contact")
+    sw.set_defaults(func=cmd_set_payout)
+
+    sub.add_parser("build").set_defaults(func=lambda _: build())
     sub.add_parser("status").set_defaults(func=lambda _: cmd_status())
 
     args = parser.parse_args()

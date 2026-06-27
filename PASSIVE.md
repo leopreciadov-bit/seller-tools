@@ -23,13 +23,13 @@ Options ranked by effort:
 ## Crypto payments (no Gumroad needed)
 
 ```bash
-python3 scripts/crypto_setup.py set-wallet --usdt-trc20 YOUR_TRC20_ADDRESS
+python3 scripts/crypto_setup.py set-payout YOUR_SOLANA_ADDRESS
 ./scripts/deploy_github_pages.sh
 ```
 
-Site shows **Pay Crypto** buttons. Buyer sends USDT/BTC/ETH → clicks "I sent payment" → gets license key instantly.
-
-Recommended: **USDT TRC20** (~$1 fees, widely used).
+**8 payment methods**, one payout wallet:
+- **Direct (Solana):** USDC, USDT, SOL → `BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH`
+- **Cross-chain:** BTC, ETH, USDT TRC20, USDC ETH, LTC → swap link auto-delivers USDC to same address
 
 ## Actual passive income next (agents can't log into your Gumroad/Reddit)
 
