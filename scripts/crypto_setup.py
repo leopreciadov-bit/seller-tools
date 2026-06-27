@@ -60,6 +60,7 @@ def build(data: dict | None = None) -> None:
         "payout_network": data.get("payout_network", "solana"),
         "preferred": data.get("preferred", "usdc_sol"),
         "contact": data.get("contact", ""),
+        "card": data.get("card", {"enabled": True}),
         "products": data["products"],
         "methods": data["methods"],
         "keyPool": pool,
@@ -82,6 +83,23 @@ def cmd_set_payout(args: argparse.Namespace) -> None:
     save(data)
 
 
+def cmd_set_card(args: argparse.Namespace) -> None:
+    data = load()
+    card = data.setdefault("card", {"enabled": True, "provider": "auto"})
+    if args.helio:
+        card["helio_paylink_id"] = args.helio.strip()
+    if args.transak:
+        card["transak_api_key"] = args.transak.strip()
+    if args.moonpay:
+        card["moonpay_publishable_key"] = args.moonpay.strip()
+    if args.provider:
+        card["provider"] = args.provider
+    card["enabled"] = True
+    data["preferred"] = "card"
+    save(data)
+    print("Card payments configured. Deploy site to go live.")
+
+
 def cmd_status() -> None:
     print(json.dumps(load(), indent=2))
 
@@ -102,6 +120,13 @@ def main() -> None:
     sw.add_argument("--preferred")
     sw.add_argument("--contact")
     sw.set_defaults(func=cmd_set_payout)
+
+    sc = sub.add_parser("set-card", help="Enable card → USDC on Solana (Helio/Transak/MoonPay)")
+    sc.add_argument("--helio", help="MoonPay Commerce paylinkId from moonpay.hel.io")
+    sc.add_argument("--transak", help="Transak API key from dashboard.transak.com")
+    sc.add_argument("--moonpay", help="MoonPay publishable API key")
+    sc.add_argument("--provider", choices=["auto", "helio", "transak", "moonpay"])
+    sc.set_defaults(func=cmd_set_card)
 
     sub.add_parser("build").set_defaults(func=lambda _: build())
     sub.add_parser("status").set_defaults(func=lambda _: cmd_status())

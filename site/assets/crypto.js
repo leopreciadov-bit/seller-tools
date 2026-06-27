@@ -1,8 +1,15 @@
 window.CRYPTO = {
   "payout_address": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
   "payout_network": "solana",
-  "preferred": "usdc_sol",
+  "preferred": "card",
   "contact": "support@example.com",
+  "card": {
+    "enabled": true,
+    "helio_paylink_id": "",
+    "transak_api_key": "",
+    "moonpay_publishable_key": "",
+    "provider": "auto"
+  },
   "products": {
     "listinglab-pro": {
       "title": "ListingLab Pro",
@@ -21,6 +28,13 @@ window.CRYPTO = {
     }
   },
   "methods": {
+    "card": {
+      "label": "Card",
+      "sublabel": "Visa \u00b7 MC \u00b7 Apple Pay",
+      "direct": true,
+      "card": true,
+      "stablecoin": true
+    },
     "usdc_sol": {
       "label": "USDC",
       "sublabel": "Solana",

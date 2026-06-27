@@ -115,10 +115,28 @@
   color: #6ee7b7;
 }
 
-.btn.buy-crypto {
+.btn.buy-crypto,
+.btn.buy-card {
   display: inline-block;
   margin-bottom: 0.75rem;
   margin-right: 0.5rem;
+}
+
+.btn.buy-card {
+  background: #818cf8;
+  color: #0b1218;
+}
+
+.crypto-modal-wide {
+  max-width: 520px;
+}
+
+.crypto-card-iframe {
+  width: 100%;
+  height: 480px;
+  border: none;
+  border-radius: 8px;
+  background: #0f1117;
 }
 
 .crypto-bridge-notice {

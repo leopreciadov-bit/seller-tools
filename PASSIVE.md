@@ -20,16 +20,17 @@ Options ranked by effort:
 2. **One command ever** — `bash scripts/google_once.sh` (opens localhost:8089 once, saves token, auto-submits sitemap forever after)
 3. **Ignore Google entirely** — post to Reddit/Etsy, sell on Gumroad (that's the actual money)
 
-## Crypto payments (no Gumroad needed)
+## Payments → your Solana wallet
 
-```bash
-python3 scripts/crypto_setup.py set-payout YOUR_SOLANA_ADDRESS
-./scripts/deploy_github_pages.sh
-```
+Payout: `BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH`
 
-**8 payment methods**, one payout wallet:
-- **Direct (Solana):** USDC, USDT, SOL → `BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH`
-- **Cross-chain:** BTC, ETH, USDT TRC20, USDC ETH, LTC → swap link auto-delivers USDC to same address
+**Card (Visa/MC/Apple Pay)** — one-time setup:
+1. Sign up at [moonpay.hel.io](https://moonpay.hel.io) → connect Solana wallet above
+2. Create **Dynamic** pay link (USDC on Solana)
+3. `python3 scripts/crypto_setup.py set-card --helio YOUR_PAYLINK_ID`
+4. `./scripts/deploy_github_pages.sh`
+
+**Crypto:** USDC, USDT, SOL direct + BTC/ETH/LTC via swap → same wallet
 
 ## Actual passive income next (agents can't log into your Gumroad/Reddit)
 
