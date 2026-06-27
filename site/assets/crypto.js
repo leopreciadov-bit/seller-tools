@@ -1,11 +1,11 @@
 window.CRYPTO = {
   "wallets": {
     "usdt_trc20": "SET_YOUR_TRC20_ADDRESS",
-    "usdc_sol": "SET_YOUR_SOL_ADDRESS",
+    "usdc_sol": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
     "btc": "SET_YOUR_BTC_ADDRESS",
     "eth": "SET_YOUR_ETH_ADDRESS"
   },
-  "preferred": "usdt_trc20",
+  "preferred": "usdc_sol",
   "contact": "support@example.com",
   "products": {
     "listinglab-pro": {
