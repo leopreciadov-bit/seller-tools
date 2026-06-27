@@ -5,9 +5,13 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 if ! gh auth status &>/dev/null; then
-  echo "First: gh auth login"
-  echo "Then re-run this script."
-  exit 1
+  if [[ -n "${GH_TOKEN:-}" ]]; then
+    echo "$GH_TOKEN" | gh auth login --with-token
+  else
+    echo "Run: gh auth login"
+    echo "Or:  GH_TOKEN=ghp_xxx ./scripts/deploy_github_pages.sh"
+    exit 1
+  fi
 fi
 
 USER=$(gh api user -q .login)

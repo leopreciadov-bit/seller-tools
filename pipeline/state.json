@@ -1,32 +1,21 @@
 {
   "version": 1,
-  "lane_a": "digital_products",
-  "lane_b": "micro_saas",
-  "active_product": "etsy-tag-finder",
+  "gsc_verified": true,
   "deploy": {
     "status": "live_tunnel",
-    "url": "https://encouraged-violations-installed-specialty.trycloudflare.com",
-    "permanent_pending": "gh auth login && ./scripts/deploy_github_pages.sh"
+    "url": "https://character-fairfield-towards-industries.trycloudflare.com",
+    "permanent": "pending gh auth → ./scripts/deploy_github_pages.sh"
   },
   "products": {
     "listing-lab": {
       "status": "launched",
-      "url": "https://encouraged-violations-installed-specialty.trycloudflare.com/listing-lab/",
-      "channels": ["gumroad", "reddit", "gsc"],
-      "pricing": { "free_tier": true, "paid_one_time_usd": 19 }
+      "url": "https://character-fairfield-towards-industries.trycloudflare.com/listing-lab/"
     },
     "etsy-tag-finder": {
       "status": "launched",
-      "url": "https://encouraged-violations-installed-specialty.trycloudflare.com/etsy-tag-finder/",
-      "channels": ["gumroad", "reddit", "gsc"],
-      "pricing": { "free_tier": true, "paid_one_time_usd": 14 }
+      "url": "https://character-fairfield-towards-industries.trycloudflare.com/etsy-tag-finder/"
     }
   },
-  "gsc": {
-    "verification_file": "google5ddb8b4ec852634c.html",
-    "sitemap": "sitemap.xml",
-    "property_url": "https://encouraged-violations-installed-specialty.trycloudflare.com/"
-  },
   "metrics": { "visitors": 0, "sales": 0, "revenue_usd": 0.0 },
-  "last_updated": "2026-06-27T19:30:00+00:00"
+  "last_updated": "2026-06-27T19:32:00+00:00"
 }

@@ -1,14 +1,14 @@
 {
-  "site_url": "https://encouraged-violations-installed-specialty.trycloudflare.com",
+  "site_url": "https://character-fairfield-towards-industries.trycloudflare.com",
   "verification": {
     "method": "html_file",
     "token": "google5ddb8b4ec852634c.html",
-    "verified": false
+    "verified": true
   },
   "sitemap": {
-    "url": "https://encouraged-violations-installed-specialty.trycloudflare.com/sitemap.xml",
-    "submitted": false
+    "url": "https://character-fairfield-towards-industries.trycloudflare.com/sitemap.xml",
+    "submitted": true
   },
   "created_at": "2026-06-27T19:12:27.363309+00:00",
-  "updated_at": "2026-06-27T19:26:46.553015+00:00"
+  "updated_at": "2026-06-27T19:31:23.903122+00:00"
 }
