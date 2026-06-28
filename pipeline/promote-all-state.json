@@ -1,0 +1,52 @@
+{
+  "channels": {
+    "search_pings": {
+      "status": "ok",
+      "indexnow": [200, 200, 202]
+    },
+    "github_issue": {
+      "url": "https://github.com/leopreciadov-bit/seller-tools/issues/1"
+    },
+    "github_discussion": {
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/2"
+    },
+    "github_release": {
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/v1.0.0"
+    },
+    "telegraph": {
+      "urls": [
+        "https://telegra.ph/Free-Etsy-Listing-Tools-2026-06-28",
+        "https://telegra.ph/Etsy-Tag-Generator-Free--13-Tags-SEO-Tool-06-28",
+        "https://telegra.ph/Shopify-Product-Description-Generator-Free-06-28",
+        "https://telegra.ph/Side-Project-Seller-Tools-on-GitHub-Pages-06-28"
+      ]
+    },
+    "gists": [
+      "https://gist.github.com/leopreciadov-bit/fde9cbf67cc262c1e2186185e73d5691",
+      "https://gist.github.com/leopreciadov-bit/c72786997ee43584a6b18f75ca29331d",
+      "https://gist.github.com/leopreciadov-bit/73427cae399b3af94c2756d538be107e"
+    ],
+    "reddit": {
+      "status": "blocked",
+      "reason": "403 bot detection + CAPTCHA on signup/submit"
+    },
+    "hackernews": {
+      "status": "blocked",
+      "reason": "rate limited / requires manual login"
+    },
+    "devto": {
+      "status": "blocked",
+      "reason": "email verification failed"
+    },
+    "indiehackers": {
+      "status": "blocked",
+      "reason": "signup/post UI timeout"
+    },
+    "lemmy": {
+      "status": "blocked",
+      "reason": "temp mail rejected, manual TOS approval"
+    }
+  },
+  "live_site": "https://leopreciadov-bit.github.io/seller-tools/",
+  "updated_at": "2026-06-28T00:45:00Z"
+}
