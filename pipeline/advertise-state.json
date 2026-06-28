@@ -671,6 +671,231 @@
       "at": "2026-06-28T05:30:44Z",
       "status": 200,
       "detail": "form requires login"
+    },
+    {
+      "channel": "google_sitemap",
+      "at": "2026-06-28T05:37:13Z",
+      "status": 404
+    },
+    {
+      "channel": "bing_sitemap",
+      "at": "2026-06-28T05:37:13Z",
+      "status": 410
+    },
+    {
+      "channel": "pingomatic",
+      "at": "2026-06-28T05:37:13Z",
+      "status": 200
+    },
+    {
+      "channel": "indexnow",
+      "at": "2026-06-28T05:37:14Z",
+      "status": 200
+    },
+    {
+      "channel": "bing",
+      "at": "2026-06-28T05:37:14Z",
+      "status": 200
+    },
+    {
+      "channel": "yandex",
+      "at": "2026-06-28T05:37:15Z",
+      "status": 202
+    },
+    {
+      "channel": "seznam",
+      "at": "2026-06-28T05:37:16Z",
+      "status": 200
+    },
+    {
+      "channel": "naver",
+      "at": "2026-06-28T05:37:17Z",
+      "status": 200
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:18Z",
+      "url": "https://telegra.ph/Etsy-13-tag-generator-free-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:18Z",
+      "url": "https://telegra.ph/Shopify-listing-generator-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:19Z",
+      "url": "https://telegra.ph/Etsy-tag-SEO-guide-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:20Z",
+      "url": "https://telegra.ph/Listing-description-template-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:20Z",
+      "url": "https://telegra.ph/Shopify-product-SEO-guide-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:21Z",
+      "url": "https://telegra.ph/Free-Etsy-listing-generator-06-28-4"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-28T05:37:21Z",
+      "url": "https://telegra.ph/Best-free-Etsy-SEO-tools-06-28-4"
+    },
+    {
+      "channel": "rentry_master",
+      "at": "2026-06-28T05:37:22Z",
+      "url": "https://rentry.co/79uuw9dz"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-28T05:37:23Z",
+      "url": "https://rentry.co/igh92865"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-28T05:37:24Z",
+      "url": "https://rentry.co/wadxi97v"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-28T05:37:25Z",
+      "url": "https://rentry.co/4tra7qqo"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-28T05:37:26Z",
+      "url": "https://rentry.co/a8sq2b3p"
+    },
+    {
+      "channel": "dpaste",
+      "at": "2026-06-28T05:37:26Z",
+      "url": "https://dpaste.com/BQ5YL9FUU",
+      "status": 201
+    },
+    {
+      "channel": "controlc",
+      "at": "2026-06-28T05:37:26Z",
+      "status": 400,
+      "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
+    },
+    {
+      "channel": "gist_social",
+      "at": "2026-06-28T05:37:28Z",
+      "url": "https://gist.github.com/leopreciadov-bit/b1bce33d072d590ef6a90b71228e3cc4"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-28T05:37:29Z",
+      "url": "https://gist.github.com/leopreciadov-bit/a56109e143dea7f41c03045c019f7911"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-28T05:37:30Z",
+      "url": "https://gist.github.com/leopreciadov-bit/59b3546078aae766189025948f57f8ab"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-28T05:37:31Z",
+      "url": "https://gist.github.com/leopreciadov-bit/79ed6d52d10dbc524d62c50d4c806ed8"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-28T05:37:32Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/16"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-28T05:37:32Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/17"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-28T05:37:33Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/18"
+    },
+    {
+      "channel": "github_issue_comment",
+      "at": "2026-06-28T05:37:34Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:37:41Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:37:48Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:37:55Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:38:02Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:38:09Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:38:17Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:38:23Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-28T05:38:30Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
+      "status": 200
+    },
+    {
+      "channel": "github_wiki",
+      "at": "2026-06-28T05:38:31Z",
+      "status": "error",
+      "detail": "wiki clone failed"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-06-28T05:38:31Z",
+      "status": 400,
+      "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
+    },
+    {
+      "channel": "hashnode",
+      "at": "2026-06-28T05:38:32Z",
+      "status": 404,
+      "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
+    },
+    {
+      "channel": "slashdot",
+      "at": "2026-06-28T05:38:33Z",
+      "status": 200,
+      "detail": "form requires login"
     }
   ]
 }
