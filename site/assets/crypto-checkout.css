@@ -173,3 +173,32 @@
   font-size: 0.9rem;
   font-weight: 400;
 }
+
+.share-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.5rem;
+}
+
+.share-label {
+  color: #9aa3b8;
+  font-size: 0.85rem;
+  margin-right: 0.25rem;
+}
+
+.share-btn {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #2a3142;
+  color: #e8ecf4;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.share-btn:hover {
+  border-color: #6ee7b7;
+  color: #6ee7b7;
+}

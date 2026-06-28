@@ -1,0 +1,56 @@
+{
+  "attempted": {
+    "hackernews": true,
+    "reddit": true,
+    "devto": true
+  },
+  "results": [
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-28T00:20:56Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-28T00:20:56Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 202
+    },
+    {
+      "channel": "hackernews",
+      "submit_url": "https://news.ycombinator.com/submitlink?u=https%3A//leopreciadov-bit.github.io/seller-tools/&t=Show%20HN%3A%20Free%20Etsy/Shopify%20listing%20generators%20%2813-tag%20SEO%2C%20no%20signup%29"
+    },
+    {
+      "channel": "reddit",
+      "posts": [
+        {
+          "sub": "Etsy",
+          "url": "https://www.reddit.com/r/Etsy/submit/?solution=533e726551365b74533e726551365b74&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ec23ac2e0fa6ec3b78faffd5b75562057f&jsc_orig_r="
+        },
+        {
+          "sub": "shopify",
+          "url": "https://www.reddit.com/r/shopify/submit/?solution=16e1c92ac65f673116e1c92ac65f6731&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ec8189eb07dbf7c015e882d480edb962f4&jsc_orig_r="
+        },
+        {
+          "sub": "SideProject",
+          "url": "https://www.reddit.com/r/SideProject/submit/?solution=677d05bc0a081292677d05bc0a081292&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ec186f0ffeaa4f72ddbb05a2065e5ced19&jsc_orig_r="
+        },
+        {
+          "sub": "InternetIsBeautiful",
+          "url": "https://www.reddit.com/r/InternetIsBeautiful/submit/?solution=b5472f6d55e8f93bb5472f6d55e8f93b&js_challenge=1&token=7afd7253fec22262ff1c52b1703fe9ec69e04438e33702da513d6a51ddd10abf&jsc_orig_r="
+        }
+      ]
+    }
+  ]
+}

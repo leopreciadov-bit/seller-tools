@@ -237,7 +237,7 @@ def health_and_index() -> None:
 
 
 def deploy() -> None:
-    run(["git", "add", "-A"])
+    run(["git", "add", "-A", "--", ".", ":!.venv"])
     run(["git", "diff", "--cached", "--quiet"], check=False)
     subprocess.run(
         ["git", "commit", "-m", "Autopilot: passive income state update"],
@@ -276,6 +276,12 @@ def main() -> None:
             state["reddit_posted"] = False
     else:
         log("Reddit already attempted — skip")
+
+    if not state.get("promote_attempted"):
+        state["promote_attempted"] = True
+        run([sys.executable, str(ROOT / "scripts/promote_autopilot.py")], check=False)
+    else:
+        log("Promote already attempted — skip")
 
     health_and_index()
     deploy()

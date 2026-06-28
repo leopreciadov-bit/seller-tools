@@ -1,0 +1,16 @@
+TITLE: Free Shopify product listing generator (titles, bullets, SEO descriptions)
+
+BODY:
+Built a free browser tool for Shopify/dropshipping sellers who hate writing product copy from scratch.
+
+ListingLab generates:
+- SEO product title
+- Full description
+- Bullet points
+- Tags/keywords
+
+Also has Etsy mode with 13-tag enforcement via a second free tool.
+
+No signup, 5 free gens/day: https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+
+Feedback from store owners welcome — what fields are you still filling manually?

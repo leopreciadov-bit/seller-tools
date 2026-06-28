@@ -1,0 +1,10 @@
+TITLE: [Website] Two free tools that write your Etsy listings and 13 SEO tags for you
+
+BODY:
+https://leopreciadov-bit.github.io/seller-tools/
+
+ListingLab — paste product basics, get title + description + tags + bullets.
+
+Etsy Tag Finder — enforces Etsy's weird 13-tag / 20-character rules automatically.
+
+Runs entirely in the browser. No account. Dark mode. Actually useful if you sell on Etsy or Shopify.

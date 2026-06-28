@@ -1,0 +1,13 @@
+TITLE: Side project: free Etsy/Shopify listing tools (browser-only, no backend)
+
+BODY:
+Shipping a small suite of seller utilities on GitHub Pages:
+
+- ListingLab — marketplace listing generator (Etsy + Shopify modes)
+- Etsy Tag Finder — exactly 13 tags, 20 char limit, long-tail SEO
+
+Stack: static HTML/JS, crypto checkout for optional Pro licenses, SEO guides for organic traffic.
+
+Live: https://leopreciadov-bit.github.io/seller-tools/
+
+Would love thoughts on distribution — what channels worked for your dev side projects?
