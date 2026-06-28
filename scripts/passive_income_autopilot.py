@@ -277,12 +277,10 @@ def main() -> None:
     else:
         log("Reddit already attempted — skip")
 
-    if not state.get("promote_attempted"):
-        state["promote_attempted"] = True
-        run([sys.executable, str(ROOT / "scripts/promote_autopilot.py")], check=False)
-        run([sys.executable, str(ROOT / "scripts/advertise_other.py")], check=False)
-    else:
-        log("Promote already attempted — skip")
+    run([sys.executable, str(ROOT / "scripts/promote_autopilot.py")], check=False)
+    run([sys.executable, str(ROOT / "scripts/advertise_other.py")], check=False)
+    run([sys.executable, str(ROOT / "scripts/reddit_publish.py")], check=False)
+    state["promote_attempted"] = True
 
     health_and_index()
     deploy()
