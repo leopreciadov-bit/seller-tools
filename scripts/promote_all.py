@@ -75,7 +75,33 @@ def dismiss_cookies(page) -> None:
                 pass
 
 
+def reddit_api_post(state: dict) -> None:
+    config = ROOT / "pipeline" / "reddit.json"
+    if not config.exists():
+        log("No pipeline/reddit.json — create app at reddit.com/prefs/apps then:")
+        log("  python3 scripts/reddit_setup.py set --client-id ID --client-secret SECRET")
+        state["channels"]["reddit"] = {"status": "needs_api_creds"}
+        return
+    r = subprocess.run(
+        [sys.executable, str(ROOT / "scripts/reddit_post.py"), "--all"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+    )
+    print(r.stdout)
+    if r.stderr:
+        print(r.stderr, file=sys.stderr)
+    state["channels"]["reddit"] = {
+        "status": "ok" if r.returncode == 0 else "failed",
+        "output": r.stdout[-2000:],
+    }
+
+
 def reddit_login_post(state: dict) -> None:
+    reddit_api_post(state)
+    if state["channels"].get("reddit", {}).get("status") == "ok":
+        return
+
     from playwright.sync_api import sync_playwright
 
     accounts = json.loads(ACCOUNTS.read_text())
