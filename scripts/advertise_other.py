@@ -78,11 +78,6 @@ def pingomatic(state: dict) -> None:
 def indexnow_all(state: dict) -> None:
     cfg = json.loads((ROOT / "pipeline/indexnow.json").read_text())
     urls = list(cfg.get("submitted", []))
-    if STATE.exists():
-        prev = json.loads(STATE.read_text())
-        for ch in prev.get("channels", []):
-            if ch.get("channel") == "telegraph" and ch.get("url"):
-                urls.append(ch["url"])
     payload = json.dumps({
         "host": "leopreciadov-bit.github.io",
         "key": cfg["key"],
@@ -356,6 +351,45 @@ Free Etsy & Shopify listing generators.
         record(state, "github_wiki", status="error", detail="wiki clone failed")
 
 
+def paste_sites(state: dict) -> None:
+    """Anonymous paste hosts — extra indexable backlinks."""
+    text = f"Seller Tools — free Etsy & Shopify listing generators\n{SITE}/\n\n"
+    for title, link, blurb in SOCIAL_POSTS[:5]:
+        text += f"{title}: {link}\n{blurb}\n\n"
+
+    for name, url, data in [
+        ("dpaste", "https://dpaste.com/api/v2/", {"content": text, "expiry_days": 365, "title": "Seller Tools"}),
+        ("controlc", "https://controlc.com/index.php?act=submit", {"paste_title": "Seller Tools", "paste_text": text}),
+    ]:
+        try:
+            import requests
+            r = requests.post(url, data=data, timeout=20, headers={"User-Agent": "seller-tools/1.0"})
+            loc = r.headers.get("Location", r.url)
+            if r.status_code in (200, 201, 302) and "seller" in (loc + r.text).lower() or r.status_code in (200, 201, 302):
+                record(state, name, url=loc or r.url, status=r.status_code)
+            else:
+                record(state, name, status=r.status_code, detail=r.text[:80])
+        except Exception as e:
+            record(state, name, status="error", detail=str(e)[:80])
+
+
+def github_issue_update(state: dict) -> None:
+    body = f"""## Seller Tools links (auto-updated)
+
+- Site: {SITE}/
+- [ListingLab]({SITE}/listing-lab/)
+- [Etsy Tag Finder]({SITE}/etsy-tag-finder/)
+- [Free listing generator guide]({SITE}/guides/etsy-listing-generator-free.html)
+- [Best Etsy SEO tools]({SITE}/guides/best-free-etsy-seo-tools.html)
+
+Crypto checkout live → Phantom wallet."""
+    r = subprocess.run(
+        ["gh", "issue", "comment", "1", "--repo", "leopreciadov-bit/seller-tools", "--body", body],
+        capture_output=True, text=True,
+    )
+    record(state, "github_issue_comment", status="ok" if r.returncode == 0 else "error", detail=r.stderr[:80])
+
+
 def slashdot_submit(state: dict) -> None:
     try:
         import requests
@@ -377,8 +411,10 @@ def main() -> None:
         indexnow_all,
         telegraph_blast,
         rentry_paste,
+        paste_sites,
         gist_blast,
         github_discussions,
+        github_issue_update,
         archive_save,
         github_wiki,
         bluesky_post,

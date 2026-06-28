@@ -25,16 +25,17 @@
       "https://gist.github.com/leopreciadov-bit/73427cae399b3af94c2756d538be107e"
     ],
     "reddit": {
-      "error": "No module named 'playwright'"
+      "status": "needs_api_creds"
     },
     "hackernews": {
-      "error": "No module named 'playwright'"
+      "url": "https://news.ycombinator.com/submit",
+      "user": "sellertools7375"
     },
     "devto": {
-      "error": "No module named 'playwright'"
+      "status": "signup_failed"
     },
     "indiehackers": {
-      "error": "No module named 'playwright'"
+      "error": "Locator.click: Timeout 30000ms exceeded.\nCall log:\n  - waiting for locator(\"button:has-text(\\\"Post\\\"), button:has-text(\\\"Publish\\\")\").first\n"
     },
     "lemmy": {
       "status": "blocked",
