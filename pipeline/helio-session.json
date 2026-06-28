@@ -1,0 +1,154 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.2034672824.1782605541",
+      "domain": ".hel.io",
+      "path": "/",
+      "expires": 1817165564.304161,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_com.auth0.auth.K4sImAFGmzhN3jQOoZx-0SJbN.YmeeGw_compat",
+      "value": "{%22nonce%22:%22pnU_k0LzHSYn_xQsXNIvmVJstyI-HYpH%22%2C%22state%22:%22K4sImAFGmzhN3jQOoZx-0SJbN.YmeeGw%22}",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782607343,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "com.auth0.auth.K4sImAFGmzhN3jQOoZx-0SJbN.YmeeGw",
+      "value": "{%22nonce%22:%22pnU_k0LzHSYn_xQsXNIvmVJstyI-HYpH%22%2C%22state%22:%22K4sImAFGmzhN3jQOoZx-0SJbN.YmeeGw%22}",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782607343,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_com.auth0.auth.pLsQbVD1lz3s.Vdk7RPVyBvzz7RwNinM_compat",
+      "value": "{%22nonce%22:%22OM0b.3HQtJy189xX0Yje51agLO3b_Bhr%22%2C%22state%22:%22pLsQbVD1lz3s.Vdk7RPVyBvzz7RwNinM%22}",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782607346,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "com.auth0.auth.pLsQbVD1lz3s.Vdk7RPVyBvzz7RwNinM",
+      "value": "{%22nonce%22:%22OM0b.3HQtJy189xX0Yje51agLO3b_Bhr%22%2C%22state%22:%22pLsQbVD1lz3s.Vdk7RPVyBvzz7RwNinM%22}",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782607346,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A4f3a4a8f-d9a3-4f24-a294-1cade438330c.cECETyz8moUD3sXQTwNG5sW2rPH9XNVvaqsCXvgPhhY",
+      "domain": "auth0idp.hel.io",
+      "path": "/",
+      "expires": 1814163161.945753,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3At_2fMG455ZDlifoUR9-x9TaiW1tPB9nn.Sn95TYogOl%2FPClCJekFQL4H2mea1wOkkk%2BHgJV9Yweg",
+      "domain": "auth0idp.hel.io",
+      "path": "/",
+      "expires": 1782864762.405149,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A4f3a4a8f-d9a3-4f24-a294-1cade438330c.cECETyz8moUD3sXQTwNG5sW2rPH9XNVvaqsCXvgPhhY",
+      "domain": "auth0idp.hel.io",
+      "path": "/",
+      "expires": 1814163161.945919,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3At_2fMG455ZDlifoUR9-x9TaiW1tPB9nn.Sn95TYogOl%2FPClCJekFQL4H2mea1wOkkk%2BHgJV9Yweg",
+      "domain": "auth0idp.hel.io",
+      "path": "/",
+      "expires": 1782864762.405272,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_co%2Fverifier%2Fhttps%253A%252F%252Fauth0idp.hel.io%2F5tOvmwRIjpig_compat",
+      "value": "%22mEl-nzUZsVtvz7O8nzOVC0XTAw5r2HFO%22",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782606461,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "co%2Fverifier%2Fhttps%253A%252F%252Fauth0idp.hel.io%2F5tOvmwRIjpig",
+      "value": "%22mEl-nzUZsVtvz7O8nzOVC0XTAw5r2HFO%22",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782606461,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_auth0.ssodata_compat",
+      "value": "%22{%5C%22lastUsedConnection%5C%22:%5C%22email%5C%22%2C%5C%22lastUsedSub%5C%22:%5C%22email|6a405a1c6381d3b79c80c41b%5C%22}%22",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782691963,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "auth0.ssodata",
+      "value": "%22{%5C%22lastUsedConnection%5C%22:%5C%22email%5C%22%2C%5C%22lastUsedSub%5C%22:%5C%22email|6a405a1c6381d3b79c80c41b%5C%22}%22",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782691963,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_70W9FSK971",
+      "value": "GS2.1.s1782605541$o1$g1$t1782605566$j35$l0$h0",
+      "domain": ".hel.io",
+      "path": "/",
+      "expires": 1817165566.696125,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_dd_s",
+      "value": "logs=1&id=6ff45c71-c28b-470c-9602-ee12561b312d&created=1782605541095&expire=1782606468790",
+      "domain": "moonpay.hel.io",
+      "path": "/",
+      "expires": 1782606470,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Strict"
+    }
+  ]
+}
