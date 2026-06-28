@@ -31,6 +31,8 @@ URLS = [
     f"{SITE}/guides/how-to-choose-etsy-tags.html",
     f"{SITE}/guides/etsy-listing-description-template.html",
     f"{SITE}/guides/shopify-product-listing-seo.html",
+    f"{SITE}/guides/etsy-listing-generator-free.html",
+    f"{SITE}/guides/best-free-etsy-seo-tools.html",
 ]
 
 SUBREDDITS = [

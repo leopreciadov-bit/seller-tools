@@ -280,6 +280,7 @@ def main() -> None:
     if not state.get("promote_attempted"):
         state["promote_attempted"] = True
         run([sys.executable, str(ROOT / "scripts/promote_autopilot.py")], check=False)
+        run([sys.executable, str(ROOT / "scripts/advertise_other.py")], check=False)
     else:
         log("Promote already attempted — skip")
 

@@ -11,6 +11,8 @@ PAGES = [
     ("/guides/how-to-choose-etsy-tags.html", "monthly", "0.8"),
     ("/guides/etsy-listing-description-template.html", "monthly", "0.8"),
     ("/guides/shopify-product-listing-seo.html", "monthly", "0.8"),
+    ("/guides/etsy-listing-generator-free.html", "monthly", "0.85"),
+    ("/guides/best-free-etsy-seo-tools.html", "monthly", "0.85"),
 ]
 
 ROOT = Path(__file__).resolve().parent.parent
