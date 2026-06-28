@@ -1,1 +1,6 @@
 __pycache__/
+.venv/
+pipeline/*.png
+pipeline/helio-*.html
+pipeline/helio-*.txt
+pipeline/transak-*.png
