@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Seller Tools — Etsy Tag & Listing Generator",
+  "version": "1.0.0",
+  "description": "Generate 13 Etsy SEO tags and full listings from inside your Etsy shop manager.",
+  "permissions": ["storage", "clipboardWrite", "clipboardRead"],
+  "host_permissions": [
+    "https://www.etsy.com/*",
+    "https://leopreciadov-bit.github.io/*"
+  ],
+  "action": {
+    "default_title": "Seller Tools",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.etsy.com/*"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}

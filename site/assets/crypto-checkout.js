@@ -332,11 +332,20 @@
     return true;
   }
 
-  function cardSetupHtml() {
+  function cardSetupHtml(slug) {
+    const gum = window.GUMROAD || {};
+    const gp = gum.products && gum.products[slug];
+    const gumUrl = gp && gp.url && !gp.url.includes("YOURNAME") ? gp.url : null;
+    const deals = "https://leopreciadov-bit.github.io/seller-tools/deals/";
     return `<div class="crypto-bridge-notice">
-      <strong>Card checkout activating…</strong> Card payments convert to USDC and land in the seller Solana wallet automatically.
-      <p style="margin-top:0.5rem">Use any <strong>crypto tab</strong> below to pay now — BTC, ETH, SOL, USDC, and more all settle to the same address.</p>
-      <p class="muted">Payout wallet: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
+      <strong>Pay with card</strong>
+      ${
+        gumUrl
+          ? `<p style="margin-top:0.5rem"><a class="btn-crypto" href="${gumUrl}" target="_blank" rel="noopener">Buy on Gumroad — card/PayPal</a></p>`
+          : `<p style="margin-top:0.5rem"><a class="btn-crypto" href="${deals}" target="_blank" rel="noopener">Deals page — card + crypto</a></p>`
+      }
+      <p>Or switch to <strong>USDC / USDT / SOL</strong> tab — send directly to Solana wallet.</p>
+      <p class="muted">Payout: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
     </div>`;
   }
 
@@ -466,7 +475,7 @@
           mounted = true;
         }
 
-        if (!mounted) widget.innerHTML = cardSetupHtml();
+        if (!mounted) widget.innerHTML = cardSetupHtml(slug);
       } else {
         const amt = cryptoAmount(usd, active);
         const direct = !!m.direct;

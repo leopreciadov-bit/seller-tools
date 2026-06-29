@@ -197,6 +197,16 @@ document.getElementById("unlock").addEventListener("click", () => {
 
 updateUsageLabel();
 
+(function prefillFromUrl() {
+  const q = new URLSearchParams(location.search);
+  const product = q.get("product");
+  const niche = q.get("niche");
+  const keywords = q.get("keywords");
+  if (product) document.getElementById("product-name").value = product;
+  if (niche) document.getElementById("niche").value = niche;
+  if (keywords) document.getElementById("keywords").value = keywords;
+})();
+
 (function track() {
   const k = "listinglab_pageviews";
   const n = (+localStorage.getItem(k) || 0) + 1;

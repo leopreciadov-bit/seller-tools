@@ -1,0 +1,52 @@
+#seller-tools-panel {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 2147483646;
+  background: #171b24;
+  border: 2px solid #6ee7b7;
+  border-radius: 12px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: 280px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+  font-family: system-ui, sans-serif;
+}
+
+#seller-tools-panel .st-header {
+  width: 100%;
+  font-size: 11px;
+  font-weight: 700;
+  color: #6ee7b7;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+#seller-tools-panel button,
+#seller-tools-panel .st-pro {
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#seller-tools-panel button {
+  background: #6ee7b7;
+  color: #0b1218;
+}
+
+#seller-tools-panel button:hover {
+  filter: brightness(1.05);
+}
+
+#seller-tools-panel .st-pro {
+  background: transparent;
+  color: #fbbf24;
+  border: 1px solid #fbbf24;
+}
