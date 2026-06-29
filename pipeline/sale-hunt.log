@@ -23354,3 +23354,66 @@ Revenue (confirmed): $0.00
 [hunt] 2026-06-29 20:20:22 → support_mail.py
 [hunt] 2026-06-29 20:20:22 → support_mail.py
 [support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 20:20:25 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:20:25 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:20:25 → advertise_other.py
+[hunt] 2026-06-29 20:20:25 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/36339pgo
+[ads] rentry: https://rentry.co/6c2op6sf
+[ads] rentry: https://rentry.co/per3nbfx
+[ads] rentry: https://rentry.co/v4dttnrg
+[ads] rentry: https://rentry.co/gv6w8mdy
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/d3ad720a2e904ed7dad067b184a65c7b
+[ads] gist: https://gist.github.com/leopreciadov-bit/033ddabb5a43b8adae3c6c239bdad342
+[ads] gist: https://gist.github.com/leopreciadov-bit/56b10f504d397bc09f56e95f794a13be
+[ads] gist: https://gist.github.com/leopreciadov-bit/b076ad888c744931b769f53257a3f684
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1198
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1199
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1200
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 20:21:22 → sales_innovate.py
+[hunt] 2026-06-29 20:21:22 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-29 20:21:24 → sales_channels.py
+[hunt] 2026-06-29 20:21:24 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
