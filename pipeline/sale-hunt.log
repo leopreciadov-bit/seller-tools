@@ -27043,3 +27043,15 @@ Revenue (confirmed): $0.00
 [channels] paste_ee: 401
 [channels] github_repo: ok
 [channels] github_release: error
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 21:34:45 → seo_content_factory.py
+[hunt] 2026-06-29 21:34:45 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-29 21:34:45 → promote_autopilot.py
+[hunt] 2026-06-29 21:34:45 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
