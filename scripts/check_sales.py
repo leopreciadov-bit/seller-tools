@@ -11,7 +11,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 STATE = ROOT / "pipeline" / "state.json"
+SALES_LOG = ROOT / "pipeline" / "sales.json"
 WALLET = "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
+SELF_TRANSFERS = {78.51}  # owner transfers — not sales
 RPCS = [
     "https://api.mainnet-beta.solana.com",
     "https://solana-rpc.publicnode.com",
@@ -46,14 +48,8 @@ def main() -> None:
     prev_sales = metrics.get("sales", 0)
     metrics["wallet_tx_ok"] = len(ok)
     metrics["wallet_tx_failed"] = failed
-    # Only bump sales when user confirms or we detect new sigs since last run
-    seen = set(metrics.get("seen_signatures", []))
-    new_sigs = [s["signature"] for s in ok if s["signature"] not in seen]
-    if new_sigs:
-        metrics["seen_signatures"] = list(seen | set(s["signature"] for s in ok))[-200:]
-        metrics["sales"] = metrics.get("sales", 0) + len(new_sigs)
-    elif not metrics.get("sales"):
-        metrics["sales"] = 1 if ok else 0
+    # Track wallet activity only — use check_sales --detail for USDC payment parsing
+    metrics["wallet_activity"] = len(ok)
     metrics["last_checked"] = datetime.now(timezone.utc).isoformat()
     metrics["payout_wallet"] = WALLET
     cfg["last_updated"] = metrics["last_checked"]
@@ -62,9 +58,16 @@ def main() -> None:
     print(f"Wallet: {WALLET}")
     print(f"Successful txs (last 100): {len(ok)}")
     print(f"Failed txs: {failed}")
-    print(f"Recorded sales metric: {metrics['sales']}")
-    if len(ok) > prev_sales:
-        print("NEW activity since last check — promotion is working.")
+    log = json.loads(SALES_LOG.read_text()) if SALES_LOG.exists() else {}
+    sales = log.get("sales", cfg.get("metrics", {}).get("sales", []))
+    self_xfer = log.get("self_transfers", [])
+    revenue = sum(s.get("amount", 0) for s in sales)
+    print(f"Confirmed sales: {len(sales)}")
+    print(f"Revenue (confirmed): ${revenue:.2f}")
+    for s in sales:
+        print(f"  - ${s.get('amount')} {s.get('product', '?')} ({s.get('time', '')})")
+    for x in self_xfer:
+        print(f"  (self-transfer ${x.get('amount')} — excluded)")
 
 
 if __name__ == "__main__":

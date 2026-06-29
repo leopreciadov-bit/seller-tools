@@ -464,24 +464,36 @@
 
   fetchRates();
 
+  const cardLive = !!cardProvider();
+
   document.querySelectorAll("[data-crypto]").forEach((el) => {
     const slug = el.getAttribute("data-crypto");
-    const cardBtn = buyButton(slug, "card");
     const cryptoBtn = buyButton(slug, "crypto");
-    if (cardBtn) el.prepend(cardBtn);
     if (cryptoBtn) el.prepend(cryptoBtn);
+    if (cardLive) {
+      const cardBtn = buyButton(slug, "card");
+      if (cardBtn) el.prepend(cardBtn);
+    }
   });
 
   document.querySelectorAll("[data-crypto-bundle]").forEach((el) => {
-    const cardBtn = buyButton("seller-kit-bundle", "card");
     const cryptoBtn = buyButton("seller-kit-bundle", "crypto");
-    if (cardBtn) {
-      cardBtn.textContent = `Card — $${products["seller-kit-bundle"]?.price_usd || 29}`;
-      el.appendChild(cardBtn);
-    }
     if (cryptoBtn) {
       cryptoBtn.textContent = `Crypto — $${products["seller-kit-bundle"]?.price_usd || 29}`;
       el.appendChild(cryptoBtn);
     }
+    if (cardLive) {
+      const cardBtn = buyButton("seller-kit-bundle", "card");
+      if (cardBtn) {
+        cardBtn.textContent = `Card — $${products["seller-kit-bundle"]?.price_usd || 29}`;
+        el.appendChild(cardBtn);
+      }
+    }
+  });
+
+  document.querySelectorAll("[data-crypto-buy]").forEach((el) => {
+    const slug = el.getAttribute("data-crypto-buy");
+    const btn = buyButton(slug, "crypto");
+    if (btn) el.appendChild(btn);
   });
 })();

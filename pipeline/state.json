@@ -16,14 +16,49 @@
       "status": "launched",
       "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
       "pricing_usd": 14
+    },
+    "seller-kit-bundle": {
+      "status": "launched",
+      "pricing_usd": 29
     }
   },
   "metrics": {
-    "visitors": 0,
-    "sales": 1,
-    "revenue_usd": 0.0,
+    "sales_confirmed": 1,
+    "revenue_usd": 19.87,
+    "usdc_balance": 0.0,
+    "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
+    "sales": [
+      {
+        "time": "2026-06-28 01:05",
+        "amount": 19.87,
+        "product": "ListingLab Pro",
+        "asset": "USDC"
+      }
+    ],
+    "self_transfers": [
+      {
+        "time": "2026-06-28 05:02",
+        "amount": 78.51,
+        "note": "owner transfer \u2014 not a sale"
+      }
+    ],
+    "unclassified_incoming": [
+      {
+        "time": "2026-06-28 05:29",
+        "amount": 1.26
+      },
+      {
+        "time": "2026-06-28 00:42",
+        "amount": 6.65
+      }
+    ],
+    "gumroad_sales": 0,
+    "card_sales": 0,
+    "last_checked": "2026-06-29T04:57:58.321844+00:00",
     "wallet_tx_ok": 97,
-    "note": "crypto payments confirmed on Phantom"
+    "wallet_tx_failed": 3,
+    "wallet_activity": 97,
+    "payout_wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
   },
-  "last_updated": "2026-06-28T06:07:07.628626+00:00"
+  "last_updated": "2026-06-29T04:57:58.321844+00:00"
 }
