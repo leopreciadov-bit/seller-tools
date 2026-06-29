@@ -253,13 +253,20 @@ def print_owner_vs_sales() -> None:
 
 
 def main() -> None:
-    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 100}])["result"]
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--quick", action="store_true", help="Skip reaudit and wallet report")
+    args = parser.parse_args()
+
+    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 40 if args.quick else 100}])["result"]
     ok = [s for s in sigs if not s.get("err")]
     failed = len(sigs) - len(ok)
 
-    removed = reaudit_sales()
-    if removed:
-        print(f"Re-audit: excluded {removed} non-direct payment(s)")
+    removed = 0
+    if not args.quick:
+        removed = reaudit_sales()
+        if removed:
+            print(f"Re-audit: excluded {removed} non-direct payment(s)")
     new_sales = detect_new_sales()
 
     cfg = json.loads(STATE.read_text()) if STATE.exists() else {}
@@ -288,8 +295,9 @@ def main() -> None:
         print(f"NEW BUYER SALE(S): {len(new_sales)}")
         for s in new_sales:
             print(f"  + ${s['amount']} {s['product']} key={s['key']}")
-    print("\n--- Your trades vs buyer sales ---")
-    print_owner_vs_sales()
+    if not args.quick:
+        print("\n--- Your trades vs buyer sales ---")
+        print_owner_vs_sales()
 
 
 if __name__ == "__main__":

@@ -81,9 +81,11 @@ def cycle(st: dict) -> None:
     run("promote_autopilot.py")
     run("reddit_publish.py")
     run("gumroad_launch.py")
-    run("check_sales.py")
+    run("check_sales.py", "--quick")
     run("support_mail.py")
-    run("wallet_report.py")
+    if st["cycles"] % 5 == 0:
+        run("check_sales.py")
+        run("wallet_report.py")
 
     # Double blast while zero buyer sales
     if buyer_sales_count() == 0:
@@ -126,7 +128,7 @@ def main() -> None:
             cycle(st)
         except Exception as e:
             log(f"error: {e}")
-        wait = 120 if buyer_sales_count() == 0 else args.interval
+        wait = 60 if buyer_sales_count() == 0 else args.interval
         time.sleep(wait)
 
 
