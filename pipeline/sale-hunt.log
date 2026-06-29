@@ -33983,3 +33983,70 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] naver: 200
 [ads] rentry_master: https://rentry.co/gyhxohgk
 [ads] rentry: https://rentry.co/w2i9hept
+[ads] rentry: https://rentry.co/kncfkay6
+[ads] rentry: https://rentry.co/bz76zye4
+[ads] rentry: https://rentry.co/8w5ovtmn
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/aaf170cac93044b2604c1b9c44ed7c2a
+[ads] gist: https://gist.github.com/leopreciadov-bit/b8dcb33a5d813cfaecf9cbf5f26f91d2
+[ads] gist: https://gist.github.com/leopreciadov-bit/99e3777eb1878170fae83f9905fa0c76
+[ads] gist: https://gist.github.com/leopreciadov-bit/e68911e0f874b01729b64b2698a5b3b9
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1657
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1658
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1659
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 23:53:24 → promote_autopilot.py
+[hunt] 2026-06-29 23:53:24 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 23:53:27 → reddit_publish.py
+[hunt] 2026-06-29 23:53:27 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/f14181e006539ba32d0f791bb93f99ec
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/dac03b5a244911896161796fc0a626f2
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/f1fb9cc77902e86a0d5ade4991e97e4a
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/d2f3f14239d4fbd1338be8d9fbcfbbed
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 23:53:37 → gumroad_launch.py
+[hunt] 2026-06-29 23:53:37 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 23:53:37 → check_sales.py
+[hunt] 2026-06-29 23:53:37 → check_sales.py
