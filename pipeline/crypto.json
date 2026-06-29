@@ -3,6 +3,7 @@
   "payout_wallet": "phantom",
   "payout_network": "solana",
   "preferred": "usdc_sol",
+  "settlement_note": "Card or crypto — all payments settle as USDC/crypto on Phantom payout_address",
   "contact": "seller0ohqeu@web-library.net",
   "card": {
     "enabled": true,

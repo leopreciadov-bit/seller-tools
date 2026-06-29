@@ -15,6 +15,19 @@
         "telegraph": "https://telegra.ph/ListingLab-Pro-buyer--claim-your-key-06-29",
         "rentry": "https://rentry.co/yyqtxwtn"
       }
+    },
+    {
+      "time": "2026-06-27T12:35:06+00:00",
+      "amount": 14.08,
+      "product": "Etsy Tag Finder Pro",
+      "slug": "etsy-tag-finder-pro",
+      "asset": "USDC",
+      "status": "recovery_ready",
+      "note": "Card or crypto \u2014 settled to Phantom",
+      "key": "TAGFINDER-KNP7-V81R",
+      "tx": "fPFREMiqXBq3jJmBTgQEuc8J1MLtK5AgApAP31bZJ5XGLPAPUPCFUTig7ZmCpGKyFjzU8HJ8jTDNPZK6TwUH5Ga",
+      "recover_url": "https://leopreciadov-bit.github.io/seller-tools/recover/",
+      "payment_type": "card_or_crypto"
     }
   ],
   "self_transfers": [

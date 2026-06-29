@@ -27,9 +27,13 @@ def main() -> None:
     }
     prefix = prefixes[args.product]
     out = ROOT / "pipeline" / f"licenses-{args.product}.txt"
-    keys = [key(prefix) for _ in range(args.count)]
-    out.write_text("\n".join(keys) + "\n")
-    print(f"Wrote {args.count} keys to {out}")
+    existing = []
+    if out.exists():
+        existing = [ln.strip() for ln in out.read_text().splitlines() if ln.strip()]
+    new_keys = [key(prefix) for _ in range(args.count)]
+    merged = existing + [k for k in new_keys if k not in existing]
+    out.write_text("\n".join(merged) + "\n")
+    print(f"Wrote {len(merged)} keys to {out} (+{len(new_keys)} new)")
 
 
 if __name__ == "__main__":

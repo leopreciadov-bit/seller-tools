@@ -10,6 +10,8 @@
   let rates = {};
   let helioScriptLoaded = false;
   const USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const USDT_MINT = "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB";
+  const LAMPORTS = 1_000_000_000;
   const RPC_URLS = [
     "https://solana-rpc.publicnode.com",
     "https://rpc.ankr.com/solana",
@@ -30,9 +32,45 @@
     return null;
   }
 
+  function inAmountRange(deltaUsd, usd) {
+    return deltaUsd >= usd * 0.85 && deltaUsd <= usd * 1.15;
+  }
+
+  function txInboundUsd(tx) {
+    if (!tx?.meta || !tx?.transaction?.message?.accountKeys) return 0;
+    const keys = tx.transaction.message.accountKeys;
+    let idx = -1;
+    for (let i = 0; i < keys.length; i++) {
+      const k = keys[i];
+      const pk = typeof k === "string" ? k : k.pubkey;
+      if (pk === payout) {
+        idx = i;
+        break;
+      }
+    }
+    if (idx < 0) return 0;
+
+    const pre = {};
+    for (const t of tx.meta.preTokenBalances || []) {
+      if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
+    }
+    let best = 0;
+    for (const t of tx.meta.postTokenBalances || []) {
+      if (t.owner !== payout) continue;
+      const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[t.mint] || 0);
+      if (delta <= 0) continue;
+      if (t.mint === USDC_MINT || t.mint === USDT_MINT) best = Math.max(best, delta);
+    }
+
+    const solRate = rates.sol || 0;
+    if (solRate > 0 && tx.meta.preBalances && tx.meta.postBalances) {
+      const lamportDelta = (tx.meta.postBalances[idx] || 0) - (tx.meta.preBalances[idx] || 0);
+      if (lamportDelta > 0) best = Math.max(best, (lamportDelta / LAMPORTS) * solRate);
+    }
+    return best;
+  }
+
   async function verifyPayment(usd) {
-    const min = usd * 0.85;
-    const max = usd * 1.15;
     const since = Math.floor(Date.now() / 1000) - 7200;
     const sigs = await solanaRpc("getSignaturesForAddress", [payout, { limit: 40 }]);
     if (!sigs) return false;
@@ -42,16 +80,7 @@
         s.signature,
         { encoding: "jsonParsed", maxSupportedTransactionVersion: 0 },
       ]);
-      if (!tx?.meta) continue;
-      const pre = {};
-      for (const t of tx.meta.preTokenBalances || []) {
-        if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
-      }
-      for (const t of tx.meta.postTokenBalances || []) {
-        if (t.owner !== payout || t.mint !== USDC_MINT) continue;
-        const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[USDC_MINT] || 0);
-        if (delta >= min && delta <= max) return true;
-      }
+      if (inAmountRange(txInboundUsd(tx), usd)) return true;
     }
     return false;
   }
@@ -123,6 +152,24 @@
     const rate = rates[key] || (m?.stablecoin ? 1 : 0);
     if (m?.stablecoin || rate <= 0) return usd.toFixed(2);
     return (usd / rate).toFixed(8).replace(/\.?0+$/, "");
+  }
+
+  function bridgeUrl(methodKey, usd) {
+    const m = methods[methodKey];
+    if (!m?.bridge_url) return null;
+    try {
+      const u = new URL(m.bridge_url);
+      const amt = cryptoAmount(usd, methodKey);
+      u.searchParams.set("amount", amt);
+      return u.toString();
+    } catch (_) {
+      return m.bridge_url;
+    }
+  }
+
+  function defaultMethod() {
+    if (cardCfg.enabled !== false && cardProvider()) return "card";
+    return methods[preferred] ? preferred : "usdc_sol";
   }
 
   function solanaPayUrl(key, amount, ref) {
@@ -239,18 +286,13 @@
 
   function cardSetupHtml() {
     return `<div class="crypto-bridge-notice">
-      <strong>One-time setup</strong> (5 min) to accept cards → USDC on your Solana wallet:
-      <ol style="margin:0.5rem 0 0 1rem;padding:0">
-        <li>Create free account at <a href="https://moonpay.hel.io" target="_blank" rel="noopener">moonpay.hel.io</a></li>
-        <li>Connect payout wallet: <code>${payout.slice(0, 12)}…</code></li>
-        <li>Create <strong>Dynamic</strong> pay link (USDC on Solana)</li>
-        <li>Run: <code>python3 scripts/crypto_setup.py set-card --helio YOUR_PAYLINK_ID</code></li>
-      </ol>
-      <p style="margin-top:0.5rem">Or use Transak: <code>set-card --transak YOUR_API_KEY</code></p>
+      <strong>Card checkout activating…</strong> Card payments convert to USDC and land in the seller Solana wallet automatically.
+      <p style="margin-top:0.5rem">Use any <strong>crypto tab</strong> below to pay now — BTC, ETH, SOL, USDC, and more all settle to the same address.</p>
+      <p class="muted">Payout wallet: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
     </div>`;
   }
 
-  function openModal(slug) {
+  function openModal(slug, startMethod) {
     const prod = products[slug];
     if (!prod || !payout) return;
 
@@ -259,7 +301,7 @@
     const modal = document.createElement("div");
     modal.className = "crypto-modal";
 
-    let active = methods[preferred] ? preferred : Object.keys(methods)[0];
+    let active = startMethod && methods[startMethod] ? startMethod : defaultMethod();
     const ref = orderRef(slug);
     const usd = prod.price_usd;
 
@@ -297,7 +339,7 @@
         btn.disabled = true;
         btn.textContent = "Checking payment on Solana…";
       }
-      if (reveal) reveal.innerHTML = `<p class="muted">Looking for your USDC payment (last 2 hours)…</p>`;
+      if (reveal) reveal.innerHTML = `<p class="muted">Looking for your payment on Solana (card → USDC, crypto direct, last 2 hours)…</p>`;
 
       let ok = false;
       for (let i = 0; i < 6; i++) {
@@ -313,7 +355,7 @@
             <div class="crypto-bridge-notice">
               <strong>Payment not detected yet.</strong>
               <ol style="margin:0.5rem 0 0 1rem;padding:0">
-                <li>Send exactly <strong>$${usd} USDC</strong> on Solana to the address above</li>
+                <li>Pay <strong>$${usd}</strong> via card or crypto — all methods settle to the Solana address above</li>
                 <li>Wait ~30 seconds for confirmation</li>
                 <li>Click this button again <strong>on this same browser</strong></li>
               </ol>
@@ -348,7 +390,7 @@
         const provider = cardProvider();
         modal.innerHTML = `
           <h3>${prod.title || slug} — $${usd}</h3>
-          <p class="muted">Pay with card · USDC settles to seller Solana wallet</p>
+          <p class="muted">Pay with card — you pay fiat, seller receives USDC on Solana</p>
           <div class="crypto-tabs" id="crypto-tabs"></div>
           <p class="crypto-amount">$${usd} USD <span class="muted">→ USDC on Solana</span></p>
           <p class="crypto-ref">Order ref: <strong>${ref}</strong></p>
@@ -380,10 +422,11 @@
         const amt = cryptoAmount(usd, active);
         const direct = !!m.direct;
         const payUrl = solanaPayUrl(active, amt, ref);
+        const bridge = bridgeUrl(active, usd);
 
         modal.innerHTML = `
           <h3>${prod.title || slug} — $${usd}</h3>
-          <p class="muted">All payments settle to one Solana wallet.</p>
+          <p class="muted">Pay with crypto — seller receives it on one Solana wallet (same as card).</p>
           <div class="crypto-tabs" id="crypto-tabs"></div>
           <p class="crypto-amount">${amt} ${m.label || active}${m.sublabel ? ` <span class="muted">on ${m.sublabel}</span>` : ""}</p>
           <p class="crypto-ref">Order ref: <strong>${ref}</strong></p>
@@ -392,7 +435,7 @@
               ? `<p class="crypto-settle">Send directly to Solana address:</p>`
               : `<div class="crypto-bridge-notice">
                    <strong>Cross-chain:</strong> Don't send ${m.label} to this Solana address.
-                   <a href="${m.bridge_url || "#"}" target="_blank" rel="noopener">Swap → USDC on Solana</a>
+                   <a href="${bridge || m.bridge_url || "#"}" target="_blank" rel="noopener">Swap → USDC on Solana</a>
                  </div>`
           }
           <div class="crypto-wallet" id="wallet-addr">${payout}</div>
@@ -400,7 +443,7 @@
             <button type="button" id="copy-addr">Copy Solana address</button>
             <button type="button" id="copy-amt">Copy amount</button>
             ${payUrl ? `<a class="btn-crypto" id="open-wallet" href="${payUrl}">Open wallet</a>` : ""}
-            ${m.bridge_url && !direct ? `<a class="secondary" href="${m.bridge_url}" target="_blank" rel="noopener" style="display:inline-block;padding:0.55rem 0.9rem;border-radius:8px;border:1px solid #2a3142;text-decoration:none;color:#e8ecf4">Swap & pay</a>` : ""}
+            ${bridge && !direct ? `<a class="secondary" href="${bridge}" target="_blank" rel="noopener" style="display:inline-block;padding:0.55rem 0.9rem;border-radius:8px;border:1px solid #2a3142;text-decoration:none;color:#e8ecf4">Swap & pay</a>` : ""}
           </div>
           <p class="crypto-settle-foot">Payout: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
           <div class="crypto-bridge-notice" style="margin-top:0.75rem">
@@ -457,8 +500,17 @@
     const btn = document.createElement("button");
     btn.type = "button";
     btn.className = label === "card" ? "btn buy-card" : "btn buy-crypto";
-    btn.textContent = label === "card" ? `Pay Card — $${prod.price_usd}` : `Pay Crypto — $${prod.price_usd}`;
-    btn.addEventListener("click", () => openModal(slug));
+    if (label === "card") {
+      btn.textContent = `Card — $${prod.price_usd}`;
+      btn.addEventListener("click", () => openModal(slug, "card"));
+    } else if (label === "both") {
+      btn.className = "btn buy-crypto";
+      btn.textContent = `Upgrade — $${prod.price_usd}`;
+      btn.addEventListener("click", () => openModal(slug));
+    } else {
+      btn.textContent = `Crypto — $${prod.price_usd}`;
+      btn.addEventListener("click", () => openModal(slug, preferred));
+    }
     return btn;
   }
 
@@ -466,36 +518,36 @@
 
   window.SellerToolsPay = { buy: openModal };
 
-  const cardLive = !!cardProvider();
+  function mountPayButtons(el, slug) {
+    const cardBtn = buyButton(slug, "card");
+    const cryptoBtn = buyButton(slug, "crypto");
+    if (cardBtn) el.prepend(cardBtn);
+    if (cryptoBtn) el.prepend(cryptoBtn);
+  }
 
   document.querySelectorAll("[data-crypto]").forEach((el) => {
-    const slug = el.getAttribute("data-crypto");
-    const cryptoBtn = buyButton(slug, "crypto");
-    if (cryptoBtn) el.prepend(cryptoBtn);
-    if (cardLive) {
-      const cardBtn = buyButton(slug, "card");
-      if (cardBtn) el.prepend(cardBtn);
-    }
+    mountPayButtons(el, el.getAttribute("data-crypto"));
   });
 
   document.querySelectorAll("[data-crypto-bundle]").forEach((el) => {
-    const cryptoBtn = buyButton("seller-kit-bundle", "crypto");
-    if (cryptoBtn) {
-      cryptoBtn.textContent = `Crypto — $${products["seller-kit-bundle"]?.price_usd || 29}`;
-      el.appendChild(cryptoBtn);
+    const slug = "seller-kit-bundle";
+    const cardBtn = buyButton(slug, "card");
+    const cryptoBtn = buyButton(slug, "crypto");
+    if (cardBtn) {
+      cardBtn.textContent = `Card — $${products[slug]?.price_usd || 29}`;
+      el.appendChild(cardBtn);
     }
-    if (cardLive) {
-      const cardBtn = buyButton("seller-kit-bundle", "card");
-      if (cardBtn) {
-        cardBtn.textContent = `Card — $${products["seller-kit-bundle"]?.price_usd || 29}`;
-        el.appendChild(cardBtn);
-      }
+    if (cryptoBtn) {
+      cryptoBtn.textContent = `Crypto — $${products[slug]?.price_usd || 29}`;
+      el.appendChild(cryptoBtn);
     }
   });
 
   document.querySelectorAll("[data-crypto-buy]").forEach((el) => {
     const slug = el.getAttribute("data-crypto-buy");
-    const btn = buyButton(slug, "crypto");
-    if (btn) el.appendChild(btn);
+    const cardBtn = buyButton(slug, "card");
+    const cryptoBtn = buyButton(slug, "crypto");
+    if (cardBtn) el.appendChild(cardBtn);
+    if (cryptoBtn) el.appendChild(cryptoBtn);
   });
 })();

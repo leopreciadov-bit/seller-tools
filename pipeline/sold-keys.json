@@ -6,5 +6,13 @@
     "amount": 19.87,
     "time": "2026-06-28T01:05:16+00:00",
     "status": "ready_to_claim"
+  },
+  "fPFREMiqXBq3jJmBTgQEuc8J1MLtK5AgApAP31bZJ5XGLPAPUPCFUTig7ZmCpGKyFjzU8HJ8jTDNPZK6TwUH5Ga": {
+    "key": "TAGFINDER-KNP7-V81R",
+    "product": "etsy-tag-finder-pro",
+    "title": "Etsy Tag Finder Pro",
+    "amount": 14.08,
+    "time": "2026-06-27T12:35:06+00:00",
+    "status": "ready_to_claim"
   }
 }

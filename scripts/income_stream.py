@@ -62,20 +62,7 @@ def cycle(state: dict) -> bool:
     before = sale_count()
     rev_before = revenue()
 
-    run_script("google_ads_launch.py")
-    run_script("gumroad_launch.py")
-    run_script("advertise_other.py")
-    run_script("reddit_publish.py")
-    run_script("promote_autopilot.py")
-    run_script("check_sales.py")
-    run_script("support_mail.py")
-
-    subprocess.run([PY, str(ROOT / "scripts" / "crypto_setup.py"), "build"], cwd=ROOT, check=False)
-    subprocess.run(["git", "add", "-A", "--", ".", ":!.venv"], cwd=ROOT, check=False)
-    subprocess.run(["git", "commit", "-m", "Income stream: promotion cycle"], cwd=ROOT, capture_output=True)
-    subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=False)
-
-    run_script("check_sales.py")
+    subprocess.run([PY, str(ROOT / "scripts" / "zero_human.py")], cwd=ROOT, check=False)
     after = sale_count()
     rev_after = revenue()
 
