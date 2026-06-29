@@ -1,0 +1,73 @@
+#upgrade-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  background: linear-gradient(90deg, #0f3d2e, #171b24);
+  border-top: 2px solid #6ee7b7;
+  padding: 0.65rem 1rem;
+  box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.25s ease;
+}
+
+#upgrade-bar.hidden {
+  transform: translateY(110%);
+  pointer-events: none;
+}
+
+#upgrade-bar.urgent {
+  border-top-color: #fbbf24;
+  animation: upgrade-pulse 2s ease infinite;
+}
+
+@keyframes upgrade-pulse {
+  0%, 100% { box-shadow: 0 -4px 24px rgba(251, 191, 36, 0.2); }
+  50% { box-shadow: 0 -4px 32px rgba(251, 191, 36, 0.45); }
+}
+
+.upgrade-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  color: #e8ecf4;
+}
+
+.upgrade-bar-text {
+  flex: 1 1 200px;
+}
+
+.upgrade-bar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.upgrade-bar-deal {
+  color: #6ee7b7;
+  text-decoration: none;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.upgrade-bar-deal:hover {
+  text-decoration: underline;
+}
+
+.upgrade-bar-close {
+  background: transparent;
+  border: none;
+  color: #9aa3b8;
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0 0.25rem;
+}
+
+.upgrade-bar-close:hover {
+  color: #e8ecf4;
+}

@@ -1,0 +1,132 @@
+{
+  "runs": [
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/marmalead-alternative-free.html",
+      "slug": "marmalead-alternative-free"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/erank-alternative-free.html",
+      "slug": "erank-alternative-free"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/alura-etsy-alternative.html",
+      "slug": "alura-etsy-alternative"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-hunt-alternative.html",
+      "slug": "etsy-hunt-alternative"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/vela-etsy-alternative.html",
+      "slug": "vela-etsy-alternative"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/free-etsy-seo-tool-vs-paid.html",
+      "slug": "free-etsy-seo-tool-vs-paid"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-etsy-tag-generator-2026.html",
+      "slug": "best-etsy-tag-generator-2026"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-comparison.html",
+      "slug": "etsy-listing-generator-comparison"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-listing-tool-free.html",
+      "slug": "shopify-listing-tool-free"
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T09:44:42Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/print-on-demand-seo-tool.html",
+      "slug": "print-on-demand-seo-tool"
+    },
+    {
+      "channel": "pingomatic_rss",
+      "at": "2026-06-29T09:44:42Z",
+      "status": 200
+    },
+    {
+      "channel": "feedburner_ping",
+      "at": "2026-06-29T09:44:43Z",
+      "status": 404
+    },
+    {
+      "channel": "rentry_deals",
+      "at": "2026-06-29T09:44:43Z",
+      "url": "https://rentry.co/8usr27d2",
+      "status": "200"
+    },
+    {
+      "channel": "paste_rs",
+      "at": "2026-06-29T09:44:44Z",
+      "status": 0,
+      "url": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
+    },
+    {
+      "channel": "bpaste",
+      "at": "2026-06-29T09:44:45Z",
+      "status": 200,
+      "url": "<!doctype html>\n<html>\n<head>\n<title>Create new paste</title>\n<link rel=\"stylesh"
+    },
+    {
+      "channel": "0x0_st",
+      "at": "2026-06-29T09:44:46Z",
+      "status": 0,
+      "url": ""
+    },
+    {
+      "channel": "paste_ee",
+      "at": "2026-06-29T09:44:46Z",
+      "status": 401,
+      "url": ""
+    },
+    {
+      "channel": "github_repo",
+      "at": "2026-06-29T09:44:47Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "github_release",
+      "at": "2026-06-29T09:44:48Z",
+      "status": "ok",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260629-0244"
+    },
+    {
+      "channel": "indiehackers",
+      "at": "2026-06-29T09:44:49Z",
+      "status": 200,
+      "note": "needs manual product page"
+    },
+    {
+      "channel": "curlie_search",
+      "at": "2026-06-29T09:44:50Z",
+      "status": 200
+    },
+    {
+      "channel": "startpage",
+      "at": "2026-06-29T09:44:50Z",
+      "status": 200
+    }
+  ]
+}

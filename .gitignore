@@ -6,3 +6,5 @@ pipeline/helio-*.txt
 pipeline/transak-*.png
 pipeline/telegraph-token.json
 pipeline/reddit.json
+pipeline/.sale-hunt.lock
+pipeline/sale-hunt.log

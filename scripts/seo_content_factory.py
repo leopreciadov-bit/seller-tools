@@ -55,6 +55,19 @@ def render_page(kw: dict) -> str:
 """
 
 
+COMPARISON_TOPICS = [
+    ("marmalead-alternative-free", "Marmalead Alternative Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("erank-alternative-free", "eRank Alternative Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("alura-etsy-alternative", "Alura Etsy Alternative", "listing-lab", "listinglab-pro"),
+    ("etsy-hunt-alternative", "Etsy Hunt Alternative", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("vela-etsy-alternative", "Vela Etsy Alternative", "listing-lab", "listinglab-pro"),
+    ("free-etsy-seo-tool-vs-paid", "Free Etsy SEO vs Paid", "etsy-tag-finder", "seller-kit-bundle"),
+    ("best-etsy-tag-generator-2026", "Best Etsy Tag Generator 2026", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("etsy-listing-generator-comparison", "Etsy Listing Generator Comparison", "listing-lab", "listinglab-pro"),
+    ("shopify-listing-tool-free", "Shopify Listing Tool Free", "listing-lab", "listinglab-pro"),
+    ("print-on-demand-seo-tool", "Print on Demand SEO Tool", "listing-lab", "seller-kit-bundle"),
+]
+
 EXTRA_TOPICS = [
     ("etsy-alt-text-generator", "Etsy Alt Text Generator", "listing-lab", "listinglab-pro"),
     ("print-on-demand-listing-tool", "Print on Demand Listing Tool", "listing-lab", "listinglab-pro"),
@@ -72,7 +85,7 @@ EXTRA_TOPICS = [
 def expand_keywords(data: dict) -> None:
     published = set(data.get("published", []))
     existing = {k["slug"] for k in data.get("keywords", [])}
-    for slug, title, tool, product in EXTRA_TOPICS:
+    for slug, title, tool, product in COMPARISON_TOPICS + EXTRA_TOPICS:
         if slug in existing:
             continue
         data.setdefault("keywords", []).append({

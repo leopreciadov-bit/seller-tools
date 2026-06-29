@@ -74,6 +74,7 @@ def cycle(st: dict) -> None:
     run("platform_retry.py")
 
     run("seo_content_factory.py", "--batch", "5")
+    run("sales_channels.py")
     run("build_sitemap.py", "--base", "https://leopreciadov-bit.github.io/seller-tools")
     run("advertise_other.py")
     run("promote_autopilot.py")
@@ -87,6 +88,7 @@ def cycle(st: dict) -> None:
     if buyer_sales_count() == 0:
         log("zero buyer sales — double promotion")
         run("advertise_other.py")
+        run("sales_channels.py")
         run("seo_content_factory.py", "--batch", "5")
         run("promote_autopilot.py")
         run("resubmit_indexnow.py")
@@ -114,6 +116,15 @@ def main() -> None:
 
     if not args.daemon:
         cycle(st)
+        return
+
+    lock_path = ROOT / "pipeline" / ".sale-hunt.lock"
+    try:
+        import fcntl
+        lock_f = lock_path.open("w")
+        fcntl.flock(lock_f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except (ImportError, OSError):
+        log("another sale_hunt instance running — exit")
         return
 
     while True:

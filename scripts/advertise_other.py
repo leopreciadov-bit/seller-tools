@@ -20,6 +20,7 @@ STATE = ROOT / "pipeline" / "advertise-state.json"
 TELEGRAPH = ROOT / "pipeline" / "telegraph-token.json"
 
 SOCIAL_POSTS = [
+    ("Pro lifetime deals $14-29", f"{SITE}/deals/", "Pay once — unlimited Etsy & Shopify tools. Card or USDC/USDT/SOL on Solana."),
     ("Etsy 13-tag generator (free)", f"{SITE}/etsy-tag-finder/", "Etsy sellers: 13 tags, 20 chars each. Free generator enforces both."),
     ("Shopify listing generator", f"{SITE}/listing-lab/", "Titles, descriptions, bullets from product basics. Etsy + Shopify mode."),
     ("Etsy tag SEO guide", f"{SITE}/guides/how-to-choose-etsy-tags.html", "How to pick all 13 Etsy tags with long-tail SEO."),
