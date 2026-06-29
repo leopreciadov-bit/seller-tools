@@ -31018,3 +31018,17 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    7d503b7..55dcdfd  main -> main
 [hunt] 2026-06-29 22:52:27 cycle 130 done — buyer_sales=0
 [hunt] 2026-06-29 22:52:27 cycle 130 done — buyer_sales=0
+[hunt] 2026-06-29 22:53:29 → account_factory.py
+[hunt] 2026-06-29 22:53:29 → account_factory.py
+[hunt] 2026-06-29 22:53:29 → platform_retry.py
+[hunt] 2026-06-29 22:53:29 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-29 22:53:29 → sales_innovate.py
+[hunt] 2026-06-29 22:53:29 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
