@@ -28673,75 +28673,75 @@
     },
     {
       "channel": "comparison_page",
-      "at": "2026-06-29T20:56:13Z",
+      "at": "2026-06-29T20:56:15Z",
       "status": "all_published"
     },
     {
       "channel": "pingomatic_rss",
-      "at": "2026-06-29T20:56:14Z",
+      "at": "2026-06-29T20:56:16Z",
       "status": 200
     },
     {
       "channel": "feedburner_ping",
-      "at": "2026-06-29T20:56:14Z",
+      "at": "2026-06-29T20:56:16Z",
       "status": 404
     },
     {
       "channel": "rentry_deals",
-      "at": "2026-06-29T20:56:15Z",
-      "url": "https://rentry.co/wqwy2qev",
+      "at": "2026-06-29T20:56:17Z",
+      "url": "https://rentry.co/dsbxtwio",
       "status": "200"
     },
     {
       "channel": "paste_rs",
-      "at": "2026-06-29T20:56:15Z",
+      "at": "2026-06-29T20:56:17Z",
       "status": 0,
       "url": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
     },
     {
       "channel": "bpaste",
-      "at": "2026-06-29T20:56:16Z",
+      "at": "2026-06-29T20:56:18Z",
       "status": 200,
       "url": "<!doctype html>\n<html>\n<head>\n<title>Create new paste</title>\n<link rel=\"stylesh"
     },
     {
       "channel": "0x0_st",
-      "at": "2026-06-29T20:56:17Z",
+      "at": "2026-06-29T20:56:19Z",
       "status": 0,
       "url": ""
     },
     {
       "channel": "paste_ee",
-      "at": "2026-06-29T20:56:17Z",
+      "at": "2026-06-29T20:56:19Z",
       "status": 401,
       "url": ""
     },
     {
       "channel": "github_repo",
-      "at": "2026-06-29T20:56:18Z",
+      "at": "2026-06-29T20:56:19Z",
       "status": "ok",
       "detail": ""
     },
     {
       "channel": "github_release",
-      "at": "2026-06-29T20:56:19Z",
-      "status": "ok",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260629-1356"
+      "at": "2026-06-29T20:56:20Z",
+      "status": "error",
+      "url": "HTTP 422: Validation Failed (https://api.github.com/repos/leopreciadov-bit/seller-tools/releases)\nRe"
     },
     {
       "channel": "indiehackers",
-      "at": "2026-06-29T20:56:19Z",
+      "at": "2026-06-29T20:56:20Z",
       "status": 200,
       "note": "needs manual product page"
     },
     {
       "channel": "curlie_search",
-      "at": "2026-06-29T20:56:21Z",
-      "status": 503
+      "at": "2026-06-29T20:56:29Z",
+      "status": 200
     },
     {
       "channel": "startpage",
-      "at": "2026-06-29T20:56:21Z",
+      "at": "2026-06-29T20:56:29Z",
       "status": 200
     }
   ]

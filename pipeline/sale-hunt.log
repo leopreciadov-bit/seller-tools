@@ -25076,3 +25076,89 @@ No new SEO pages (all published)
 [channels] github_repo: ok
 [channels] github_release: error
 [channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 20:56:29 → build_sitemap.py
+[hunt] 2026-06-29 20:56:29 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-29 20:56:29 → advertise_other.py
+[hunt] 2026-06-29 20:56:29 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/yvmii7w9
+[ads] rentry: https://rentry.co/46ok4spa
+[ads] rentry: https://rentry.co/hozoqu2s
+[ads] rentry: https://rentry.co/grcgfag2
+[ads] rentry: https://rentry.co/b6ibpbtr
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/084827bbe5e0c0ad9564dbc67cdbf452
+[ads] gist: https://gist.github.com/leopreciadov-bit/0ba575bf2a936418474cbc18726ba6ff
+[ads] gist: https://gist.github.com/leopreciadov-bit/1ea79d7a7d782c53db06584c5eabc3c8
+[ads] gist: https://gist.github.com/leopreciadov-bit/d4103f573c03380431421b03616d2520
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1273
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1274
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1275
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 20:57:26 → promote_autopilot.py
+[hunt] 2026-06-29 20:57:26 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 20:57:28 → reddit_publish.py
+[hunt] 2026-06-29 20:57:28 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/3d5f3391555ca8825be285d3c7a27116
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/b38aad1b54a9e93bd99ea8d64cfb413d
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/d765c0db4d79a62fac87023b56e65fa9
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/cd06c70e1b0b532c6c95239365b995f4
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 20:57:37 → gumroad_launch.py
+[hunt] 2026-06-29 20:57:37 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 20:57:37 → check_sales.py
+[hunt] 2026-06-29 20:57:37 → check_sales.py
