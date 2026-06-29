@@ -24862,3 +24862,8 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [hunt] 2026-06-29 20:51:30 → advertise_other.py
 [hunt] 2026-06-29 20:51:30 → advertise_other.py
 [ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
