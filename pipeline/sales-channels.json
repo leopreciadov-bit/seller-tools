@@ -7573,6 +7573,225 @@
       "channel": "startpage",
       "at": "2026-06-29T13:09:33Z",
       "status": 200
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T13:10:40Z",
+      "status": "all_published"
+    },
+    {
+      "channel": "pingomatic_rss",
+      "at": "2026-06-29T13:10:40Z",
+      "status": 200
+    },
+    {
+      "channel": "feedburner_ping",
+      "at": "2026-06-29T13:10:41Z",
+      "status": 404
+    },
+    {
+      "channel": "rentry_deals",
+      "at": "2026-06-29T13:10:41Z",
+      "url": "https://rentry.co/gnkedtxe",
+      "status": "200"
+    },
+    {
+      "channel": "paste_rs",
+      "at": "2026-06-29T13:10:41Z",
+      "status": 0,
+      "url": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
+    },
+    {
+      "channel": "bpaste",
+      "at": "2026-06-29T13:10:43Z",
+      "status": 200,
+      "url": "<!doctype html>\n<html>\n<head>\n<title>Create new paste</title>\n<link rel=\"stylesh"
+    },
+    {
+      "channel": "0x0_st",
+      "at": "2026-06-29T13:10:43Z",
+      "status": 0,
+      "url": ""
+    },
+    {
+      "channel": "paste_ee",
+      "at": "2026-06-29T13:10:44Z",
+      "status": 401,
+      "url": ""
+    },
+    {
+      "channel": "github_repo",
+      "at": "2026-06-29T13:10:44Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "github_release",
+      "at": "2026-06-29T13:10:45Z",
+      "status": "ok",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260629-0610"
+    },
+    {
+      "channel": "indiehackers",
+      "at": "2026-06-29T13:10:46Z",
+      "status": 200,
+      "note": "needs manual product page"
+    },
+    {
+      "channel": "curlie_search",
+      "at": "2026-06-29T13:10:46Z",
+      "status": 200
+    },
+    {
+      "channel": "startpage",
+      "at": "2026-06-29T13:10:47Z",
+      "status": 200
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T13:11:02Z",
+      "status": "all_published"
+    },
+    {
+      "channel": "pingomatic_rss",
+      "at": "2026-06-29T13:11:03Z",
+      "status": 200
+    },
+    {
+      "channel": "feedburner_ping",
+      "at": "2026-06-29T13:11:03Z",
+      "status": 404
+    },
+    {
+      "channel": "rentry_deals",
+      "at": "2026-06-29T13:11:04Z",
+      "url": "https://rentry.co/exkv8oyi",
+      "status": "200"
+    },
+    {
+      "channel": "paste_rs",
+      "at": "2026-06-29T13:11:04Z",
+      "status": 0,
+      "url": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
+    },
+    {
+      "channel": "bpaste",
+      "at": "2026-06-29T13:11:05Z",
+      "status": 200,
+      "url": "<!doctype html>\n<html>\n<head>\n<title>Create new paste</title>\n<link rel=\"stylesh"
+    },
+    {
+      "channel": "0x0_st",
+      "at": "2026-06-29T13:11:06Z",
+      "status": 0,
+      "url": ""
+    },
+    {
+      "channel": "paste_ee",
+      "at": "2026-06-29T13:11:06Z",
+      "status": 401,
+      "url": ""
+    },
+    {
+      "channel": "github_repo",
+      "at": "2026-06-29T13:11:07Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "github_release",
+      "at": "2026-06-29T13:11:08Z",
+      "status": "ok",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260629-0611"
+    },
+    {
+      "channel": "indiehackers",
+      "at": "2026-06-29T13:11:08Z",
+      "status": 200,
+      "note": "needs manual product page"
+    },
+    {
+      "channel": "curlie_search",
+      "at": "2026-06-29T13:11:08Z",
+      "status": 200
+    },
+    {
+      "channel": "startpage",
+      "at": "2026-06-29T13:11:09Z",
+      "status": 200
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-29T13:14:32Z",
+      "status": "all_published"
+    },
+    {
+      "channel": "pingomatic_rss",
+      "at": "2026-06-29T13:14:33Z",
+      "status": 200
+    },
+    {
+      "channel": "feedburner_ping",
+      "at": "2026-06-29T13:14:33Z",
+      "status": 404
+    },
+    {
+      "channel": "rentry_deals",
+      "at": "2026-06-29T13:14:34Z",
+      "url": "https://rentry.co/dhmxrzy9",
+      "status": "200"
+    },
+    {
+      "channel": "paste_rs",
+      "at": "2026-06-29T13:14:34Z",
+      "status": 0,
+      "url": "<urlopen error [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)>"
+    },
+    {
+      "channel": "bpaste",
+      "at": "2026-06-29T13:14:35Z",
+      "status": 200,
+      "url": "<!doctype html>\n<html>\n<head>\n<title>Create new paste</title>\n<link rel=\"stylesh"
+    },
+    {
+      "channel": "0x0_st",
+      "at": "2026-06-29T13:14:36Z",
+      "status": 0,
+      "url": ""
+    },
+    {
+      "channel": "paste_ee",
+      "at": "2026-06-29T13:14:36Z",
+      "status": 401,
+      "url": ""
+    },
+    {
+      "channel": "github_repo",
+      "at": "2026-06-29T13:14:37Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "github_release",
+      "at": "2026-06-29T13:14:38Z",
+      "status": "ok",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260629-0614"
+    },
+    {
+      "channel": "indiehackers",
+      "at": "2026-06-29T13:14:38Z",
+      "status": 200,
+      "note": "needs manual product page"
+    },
+    {
+      "channel": "curlie_search",
+      "at": "2026-06-29T13:14:38Z",
+      "status": 200
+    },
+    {
+      "channel": "startpage",
+      "at": "2026-06-29T13:14:39Z",
+      "status": 200
     }
   ]
 }
