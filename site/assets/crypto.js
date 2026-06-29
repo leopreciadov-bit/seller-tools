@@ -9,18 +9,8 @@ window.CRYPTO = {
     "helio_paylink_id": "",
     "transak_api_key": "",
     "moonpay_publishable_key": "",
-    "provider": "itch",
-    "fallbacks": {
-      "etsy-tag-finder-pro": {
-        "itch": "https://itch.io/login"
-      },
-      "listinglab-pro": {
-        "itch": "https://itch.io/login"
-      },
-      "seller-kit-bundle": {
-        "itch": "https://itch.io/login"
-      }
-    }
+    "provider": "fallback",
+    "fallbacks": {}
   },
   "products": {
     "listinglab-pro": {

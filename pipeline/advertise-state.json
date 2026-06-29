@@ -4841,6 +4841,221 @@
       "at": "2026-06-29T10:38:50Z",
       "status": 200,
       "detail": "form requires login"
+    },
+    {
+      "channel": "google_sitemap",
+      "at": "2026-06-29T10:40:13Z",
+      "status": 404
+    },
+    {
+      "channel": "bing_sitemap",
+      "at": "2026-06-29T10:40:14Z",
+      "status": 410
+    },
+    {
+      "channel": "pingomatic",
+      "at": "2026-06-29T10:40:14Z",
+      "status": 200
+    },
+    {
+      "channel": "indexnow",
+      "at": "2026-06-29T10:40:14Z",
+      "status": 200
+    },
+    {
+      "channel": "bing",
+      "at": "2026-06-29T10:40:15Z",
+      "status": 200
+    },
+    {
+      "channel": "yandex",
+      "at": "2026-06-29T10:40:15Z",
+      "status": 200
+    },
+    {
+      "channel": "seznam",
+      "at": "2026-06-29T10:40:16Z",
+      "status": 200
+    },
+    {
+      "channel": "naver",
+      "at": "2026-06-29T10:40:17Z",
+      "status": 200
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-29T10:40:17Z",
+      "url": "https://telegra.ph/Etsy-Chrome-Extension-free-06-29-8"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-29T10:40:18Z",
+      "url": "https://telegra.ph/Pro-lifetime-deals-14-29-06-29-11"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-29T10:40:18Z",
+      "url": "https://telegra.ph/Etsy-13-tag-generator-free-06-29-22"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-29T10:40:19Z",
+      "url": "https://telegra.ph/Shopify-listing-generator-06-29-22"
+    },
+    {
+      "channel": "telegraph",
+      "at": "2026-06-29T10:40:19Z",
+      "url": "https://telegra.ph/Etsy-tag-SEO-guide-06-29-22"
+    },
+    {
+      "channel": "rentry_master",
+      "at": "2026-06-29T10:40:22Z",
+      "url": "https://rentry.co/i365uwma"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T10:40:23Z",
+      "url": "https://rentry.co/qvmoy6er"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T10:40:23Z",
+      "url": "https://rentry.co/nmzc74hr"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T10:40:24Z",
+      "url": "https://rentry.co/5789keaq"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T10:40:25Z",
+      "url": "https://rentry.co/55e9teb5"
+    },
+    {
+      "channel": "dpaste",
+      "at": "2026-06-29T10:40:25Z",
+      "url": "https://dpaste.com/HUNEF5N84",
+      "status": 201
+    },
+    {
+      "channel": "controlc",
+      "at": "2026-06-29T10:40:25Z",
+      "status": 400,
+      "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
+    },
+    {
+      "channel": "gist_social",
+      "at": "2026-06-29T10:40:26Z",
+      "url": "https://gist.github.com/leopreciadov-bit/5dd8df5eec3fa7ba71a59fcd25126b84"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T10:40:28Z",
+      "url": "https://gist.github.com/leopreciadov-bit/260f439f705352c426692898a7050c95"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T10:40:29Z",
+      "url": "https://gist.github.com/leopreciadov-bit/4e82b2a0a4e5e885303aa8284a4f023a"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T10:40:30Z",
+      "url": "https://gist.github.com/leopreciadov-bit/b2f9463979159cefbc52395ea2656dc3"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T10:40:30Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/116"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T10:40:31Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/117"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T10:40:32Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/118"
+    },
+    {
+      "channel": "github_issue_comment",
+      "at": "2026-06-29T10:40:33Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:40:50Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:08Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:17Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:23Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:30Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:37Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:43Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
+      "status": 200
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T10:41:49Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
+      "status": 200
+    },
+    {
+      "channel": "github_wiki",
+      "at": "2026-06-29T10:41:50Z",
+      "status": "error",
+      "detail": "wiki clone failed"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-06-29T10:41:50Z",
+      "status": 400,
+      "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
+    },
+    {
+      "channel": "hashnode",
+      "at": "2026-06-29T10:41:50Z",
+      "status": 404,
+      "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
+    },
+    {
+      "channel": "slashdot",
+      "at": "2026-06-29T10:41:51Z",
+      "status": 200,
+      "detail": "form requires login"
     }
   ]
 }
