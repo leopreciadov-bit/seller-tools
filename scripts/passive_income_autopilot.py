@@ -282,6 +282,7 @@ def main() -> None:
     run([sys.executable, str(ROOT / "scripts/reddit_publish.py")], check=False)
     state["promote_attempted"] = True
 
+    run([sys.executable, str(ROOT / "scripts/support_mail.py")], check=False)
     health_and_index()
     deploy()
     save_state(state)
