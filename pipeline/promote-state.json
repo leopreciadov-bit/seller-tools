@@ -6739,6 +6739,72 @@
     {
       "channel": "Yandex IndexNow",
       "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-29T18:49:56Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-29T18:49:56Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-29T18:50:05Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-29T18:50:05Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-29T18:51:50Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-29T18:51:50Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
     }
   ]
 }
