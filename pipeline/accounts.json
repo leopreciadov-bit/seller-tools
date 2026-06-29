@@ -101,5 +101,12 @@
     "password": "LPM2tRHxbJZyHFBI",
     "inbox_password": "HaZFBB2EZbHXbxIA",
     "created_at": "2026-06-29T10:33:42Z"
+  },
+  {
+    "service": "itch",
+    "email": "itch59i8ca@web-library.net",
+    "password": "j2L6efkB9QrahxiX",
+    "inbox_password": "59MDLMDb0TcNoKWs",
+    "created_at": "2026-06-29T10:39:57Z"
   }
 ]
