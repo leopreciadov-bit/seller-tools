@@ -1,6 +1,15 @@
 {
-  "products": {},
-  "primary": "fallback",
-  "updated_at": "2026-06-29T10:42:33Z",
-  "status": "blocked"
+  "products": {
+    "etsy-tag-finder-pro": {
+      "payhip": "https://payhip.com/b/1oqbL"
+    },
+    "listinglab-pro": {
+      "payhip": "https://payhip.com/b/BQIej"
+    },
+    "seller-kit-bundle": {
+      "payhip": "https://payhip.com/b/TH7ju"
+    }
+  },
+  "primary": "payhip",
+  "updated_at": "2026-06-29T10:55:48Z"
 }

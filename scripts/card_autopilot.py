@@ -165,56 +165,59 @@ def wire_checkout(providers: dict) -> None:
 def setup_payhip(page, results: dict) -> dict | None:
     log("Payhip...")
     acct = get_account("payhip")
-    if not acct:
+    session_path = ROOT / "pipeline" / "payhip-session.json"
+    logged_in = False
+
+    if session_path.exists() and acct:
+        try:
+            page.context.add_cookies(json.loads(session_path.read_text()).get("cookies", []))
+            page.goto("https://payhip.com/products", timeout=60000)
+            page.wait_for_timeout(3000)
+            logged_in = "login" not in page.url
+        except Exception:
+            logged_in = False
+
+    if not logged_in:
         inbox = create_inbox("payhip")
         password = "".join(random.choices(string.ascii_letters + string.digits, k=16))
         page.goto("https://payhip.com/auth/register", timeout=60000)
         page.wait_for_timeout(2000)
         dismiss_overlays(page)
-        fill_visible(page, ['input[placeholder="First name"]', 'input[name="first_name"]'], "Seller")
-        fill_visible(page, ['input[placeholder="Last name"]', 'input[name="last_name"]'], "Tools")
-        fill_visible(page, ['input[placeholder="Enter your email"]', 'input[type="email"]'], inbox.address)
-        fill_visible(page, ['input[placeholder="Choose password"]', 'input[type="password"]'], password)
-        click_visible(page, ['button:has-text("Create account")', 'button[type="submit"]'])
+        page.fill('input[placeholder="First name"]', "Seller")
+        page.fill('input[placeholder="Last name"]', "Tools")
+        page.fill('input[placeholder="Enter your email"]', inbox.address)
+        page.fill('input[placeholder="Choose password"]', password)
+        page.click('button:has-text("Create account")')
         page.wait_for_timeout(5000)
-        link = wait_for_link(inbox, timeout=120)
-        if link:
-            page.goto(link, timeout=60000)
-            page.wait_for_timeout(3000)
         acct = {"service": "payhip", "email": inbox.address, "password": password,
-                "inbox_password": inbox.password, "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+                "inbox_password": inbox.password, "session": str(session_path),
+                "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
         save_accounts(load_accounts() + [acct])
-    else:
-        page.goto("https://payhip.com/auth/login", timeout=60000)
-        page.wait_for_timeout(2000)
-        fill_visible(page, ['input[placeholder="Enter your email"]', 'input[type="email"]', '#email'], acct["email"])
-        fill_visible(page, ['input[type="password"]', 'input[placeholder*="password" i]'], acct["password"])
-        click_visible(page, ['button:has-text("Log in")', 'a:has-text("Log in")', 'button[type="submit"]'])
-        page.wait_for_timeout(5000)
+        page.context.storage_state(path=str(session_path))
 
     page.screenshot(path=str(ROOT / "pipeline/payhip-dashboard.png"))
     if "/login" in page.url or "/register" in page.url:
-        log("  Payhip login failed")
+        log("  Payhip session failed")
         return acct
 
     for prod in PRODUCTS:
         try:
-            page.goto("https://payhip.com/products/new", timeout=60000)
-            page.wait_for_timeout(3000)
-            fill_visible(page, ['input[name="title"]', '#title', 'input[placeholder*="title" i]'], prod["name"])
-            fill_visible(page, ['input[name="price"]', '#price', 'input[placeholder*="price" i]'], prod["price"])
-            fill_visible(page, ['textarea'], f"License key on purchase. Unlock at {SITE}/")
-            keys = ROOT / "gumroad" / "upload" / prod["keys"]
-            if keys.exists():
-                try:
-                    page.set_input_files('input[type="file"]', str(keys))
-                except Exception:
-                    pass
-            click_visible(page, ['button:has-text("Save")', 'button:has-text("Publish")', 'button:has-text("Create")'])
-            page.wait_for_timeout(5000)
-            for m in re.finditer(r'(https://payhip\.com/b/[A-Za-z0-9]+)', page.content()):
-                results.setdefault("products", {}).setdefault(prod["slug"], {})["payhip"] = m.group(1)
-                log(f"  Payhip {prod['slug']}: {m.group(1)}")
+            page.goto("https://payhip.com/product/add/digital", timeout=60000)
+            page.wait_for_timeout(4000)
+            if "/login" in page.url:
+                log("  Payhip session lost")
+                break
+            page.fill("#p_name", prod["name"])
+            page.fill("#p_price", prod["price"])
+            page.evaluate('document.querySelector("form")?.submit()')
+            page.wait_for_timeout(8000)
+            url = page.locator("body").get_attribute("data-src")
+            if not url or "/b/" not in url:
+                m = re.search(r'(https://payhip\.com/b/[A-Za-z0-9]+)', page.content())
+                url = m.group(1) if m else None
+            if url and valid_product_url(url):
+                results.setdefault("products", {}).setdefault(prod["slug"], {})["payhip"] = url
+                log(f"  Payhip {prod['slug']}: {url}")
         except Exception as e:
             log(f"  Payhip {prod['slug']}: {e}")
     return acct
