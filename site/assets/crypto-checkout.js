@@ -464,6 +464,8 @@
 
   fetchRates();
 
+  window.SellerToolsPay = { buy: openModal };
+
   const cardLive = !!cardProvider();
 
   document.querySelectorAll("[data-crypto]").forEach((el) => {

@@ -316,7 +316,8 @@ function runGeneration() {
 
   const usage = getUsage();
   if (!isPro() && usage.count >= FREE_LIMIT) {
-    alert("Free limit reached today. Click Pay Card or Pay Crypto to unlock.");
+    if (window.SellerToolsPay) window.SellerToolsPay.buy("etsy-tag-finder-pro");
+    else alert("Free limit reached. Pay Crypto $14 to unlock Pro.");
     return;
   }
 

@@ -129,8 +129,23 @@ def try_api_create() -> None:
         print(f"\nGumroad API error ({e.code}). Check token at gumroad.com/settings/advanced")
 
 
+def write_gumroad_js(cfg: dict) -> None:
+    out = ROOT / "site" / "assets" / "gumroad.js"
+    user = cfg.get("username") or "YOURNAME"
+    products = {}
+    for slug, p in cfg.get("products", {}).items():
+        url = p.get("url") or f"https://{user}.gumroad.com/l/{p.get('slug', slug)}"
+        products[slug] = {"title": p.get("title", slug), "price": p.get("price_usd", 0), "url": url}
+    payload = {"username": user if user != "YOURNAME" else None, "products": products}
+    out.write_text("window.GUMROAD = " + json.dumps(payload, indent=2) + ";\n")
+    print(f"Wrote {out.relative_to(ROOT)}")
+
+
 def main() -> None:
     prepare_uploads()
+    cfg_path = PIPELINE / "gumroad.json"
+    cfg = json.loads(cfg_path.read_text()) if cfg_path.exists() else {}
+    write_gumroad_js(cfg)
     try_api_create()
     print("\nNext: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/")
 

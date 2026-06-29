@@ -133,7 +133,8 @@ document.getElementById("listing-form").addEventListener("submit", (e) => {
   e.preventDefault();
   const usage = getUsage();
   if (!isPro() && usage.count >= FREE_LIMIT) {
-    alert("Free limit reached today. Click Pay Card or Pay Crypto to unlock.");
+    if (window.SellerToolsPay) window.SellerToolsPay.buy("listinglab-pro");
+    else alert("Free limit reached. Pay Crypto $19 to unlock Pro.");
     return;
   }
 
