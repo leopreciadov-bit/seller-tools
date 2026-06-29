@@ -3194,3 +3194,241 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    c20f332..9955aba  main -> main
 [hunt] 2026-06-29 11:30:06 cycle 12 done — buyer_sales=0
 [hunt] 2026-06-29 11:30:06 cycle 12 done — buyer_sales=0
+[hunt] 2026-06-29 11:31:06 → account_factory.py
+[hunt] 2026-06-29 11:31:06 → account_factory.py
+[hunt] 2026-06-29 11:31:06 → platform_retry.py
+[hunt] 2026-06-29 11:31:06 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-29 11:31:07 → sales_innovate.py
+[hunt] 2026-06-29 11:31:07 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/I-built-free-Etsy-listing-tools-no-signup-06-29-4
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-29 11:31:09 → seo_content_factory.py
+[hunt] 2026-06-29 11:31:09 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-29 11:31:09 → sales_channels.py
+[hunt] 2026-06-29 11:31:09 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 11:31:16 → build_sitemap.py
+[hunt] 2026-06-29 11:31:16 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (66 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-29 11:31:16 → advertise_other.py
+[hunt] 2026-06-29 11:31:16 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-29-11
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-29-14
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-29-25
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-29-25
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-29-25
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-29-23
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-29-23
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-29-23
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-29-23
+[ads] rentry_master: https://rentry.co/p6yvh5k3
+[ads] rentry: https://rentry.co/thhpcyk6
+[ads] rentry: https://rentry.co/5pku6p6u
+[ads] rentry: https://rentry.co/8rv6wt2b
+[ads] rentry: https://rentry.co/4sa9pi3v
+[ads] dpaste: 201
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/56c30f2a1571128f8addf406b407ca21
+[ads] gist: https://gist.github.com/leopreciadov-bit/8c64e99d071a26ece15fcb0eef3c4b8e
+[ads] gist: https://gist.github.com/leopreciadov-bit/6cb0a478c75bec4aa0daa97e2b12cd9f
+[ads] gist: https://gist.github.com/leopreciadov-bit/6a2964bbc359771dfec4ee30ef80e83a
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/197
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/198
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/199
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: error
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: error
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 11:33:19 → promote_autopilot.py
+[hunt] 2026-06-29 11:33:19 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 11:33:21 → reddit_publish.py
+[hunt] 2026-06-29 11:33:21 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Telegraph r/Etsy: https://telegra.ph/I-built-two-free-tools-for-Etsy-sellers-listing-generator--13-tag-SEO-helper-rEtsy-06-29-14
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/2b416a8a80e7020f7926e1e50ee3bd3a
+Telegraph r/shopify: https://telegra.ph/Free-Shopify-product-listing-generator-titles-bullets-SEO-descriptions-rshopify-06-29-14
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/ed437936b834372b63a60d9b67a0fc35
+Telegraph r/SideProject: https://telegra.ph/Side-project-free-EtsyShopify-listing-tools-browser-only-no-backend-rSideProject-06-29-14
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/efd05256ae081fb800792b9a9a92d974
+Telegraph r/InternetIsBeautiful: https://telegra.ph/Website-Two-free-tools-that-write-your-Etsy-listings-and-13-SEO-tags-for-you-rInternetIsBeautiful-06-29-14
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/a50e2a51fcab4348d794a799dd6ea739
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 11:33:29 → gumroad_launch.py
+[hunt] 2026-06-29 11:33:29 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 11:33:29 → check_sales.py
+[hunt] 2026-06-29 11:33:29 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 39
+Failed txs: 1
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 11:34:51 → support_mail.py
+[hunt] 2026-06-29 11:34:51 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 11:34:53 zero buyer sales — double promotion
+[hunt] 2026-06-29 11:34:53 zero buyer sales — double promotion
+[hunt] 2026-06-29 11:34:53 → advertise_other.py
+[hunt] 2026-06-29 11:34:53 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-29-13
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-29-16
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-29-27
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-29-27
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-29-27
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-29-25
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-29-25
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-29-25
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-29-25
+[ads] rentry_master: https://rentry.co/ift2p2wy
+[ads] rentry: https://rentry.co/f87qt6uu
+[ads] rentry: https://rentry.co/5ixkr3kh
+[ads] rentry: https://rentry.co/qo9stdnt
+[ads] rentry: https://rentry.co/efk7ac4p
+[ads] dpaste: 201
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/fbead21493b3f7f06788e443b277099c
+[ads] gist: https://gist.github.com/leopreciadov-bit/2195216c27a0df35b9fdfa82c60341e6
+[ads] gist: https://gist.github.com/leopreciadov-bit/0d4fd7a5b8c61ede6f4f08f48c208d52
+[ads] gist: https://gist.github.com/leopreciadov-bit/efbcc52f7b6e3dd828040bdeaaa62f38
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/203
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/204
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/205
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: error
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: error
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 11:36:52 → sales_innovate.py
+[hunt] 2026-06-29 11:36:52 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/I-built-free-Etsy-listing-tools-no-signup-06-29-5
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-29 11:36:54 → sales_channels.py
+[hunt] 2026-06-29 11:36:54 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 11:37:01 → seo_content_factory.py
+[hunt] 2026-06-29 11:37:01 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-29 11:37:01 → promote_autopilot.py
+[hunt] 2026-06-29 11:37:01 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 11:37:03 → resubmit_indexnow.py
+[hunt] 2026-06-29 11:37:03 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (66 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
