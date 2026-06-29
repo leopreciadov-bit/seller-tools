@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recover License Key — Seller Tools</title>
+  <meta name="description" content="Already paid with crypto? Recover your ListingLab Pro or Etsy Tag Finder license key using your Solana transaction signature." />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="/assets/crypto-checkout.css" />
+  <style>
+    body { font-family: system-ui, sans-serif; background: #0f1219; color: #e8ecf4; margin: 0; padding: 2rem 1rem; }
+    .wrap { max-width: 520px; margin: 0 auto; }
+    h1 { font-size: 1.5rem; }
+    .muted { color: #9aa3b8; line-height: 1.5; }
+    input { width: 100%; box-sizing: border-box; padding: 0.75rem; border-radius: 8px; border: 1px solid #2a3142; background: #171b24; color: #e8ecf4; margin: 0.5rem 0 1rem; font-size: 0.85rem; }
+    .steps { background: #171b24; border: 1px solid #2a3142; border-radius: 12px; padding: 1rem 1.25rem; margin: 1.25rem 0; }
+    .steps ol { margin: 0.5rem 0 0; padding-left: 1.25rem; }
+    .steps li { margin: 0.35rem 0; }
+    a { color: #6ee7b7; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <p class="muted"><a href="/">← Seller Tools</a></p>
+    <h1>Recover your license key</h1>
+    <p class="muted">Paid with USDC on Solana but didn’t get your Pro key? Use your Phantom transaction signature to claim it.</p>
+
+    <div class="steps">
+      <strong>How to find your transaction signature</strong>
+      <ol>
+        <li>Open <strong>Phantom</strong> → <strong>Activity</strong></li>
+        <li>Tap your <strong>USDC payment</strong> to Seller Tools</li>
+        <li>Copy the <strong>transaction signature</strong> (long string)</li>
+        <li>Paste below → <strong>Get my key</strong></li>
+      </ol>
+    </div>
+
+    <form id="recover-form">
+      <label for="tx-sig"><strong>Transaction signature</strong></label>
+      <input id="tx-sig" type="text" placeholder="e.g. 5KXeyazUa4PJxxRrDQGDnv73pHYEWwgSHpfaau43bQR7kUd7BmG5dDZDfzu1oXhrFCrwr7vsTp72jcXnZAyemZKB" autocomplete="off" />
+      <button type="submit" class="btn-crypto" style="border:none;cursor:pointer;width:100%">Get my license key</button>
+    </form>
+    <p id="recover-status" class="muted" style="margin-top:1rem"></p>
+    <div id="recover-result"></div>
+
+    <p class="muted" style="margin-top:2rem">Still stuck? Email <a href="mailto:seller0ohqeu@web-library.net">seller0ohqeu@web-library.net</a> with your tx screenshot.</p>
+  </div>
+  <script src="/assets/crypto.js"></script>
+  <script src="/assets/payment-recover.js" defer></script>
+</body>
+</html>

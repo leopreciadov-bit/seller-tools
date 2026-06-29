@@ -101,7 +101,6 @@ window.CRYPTO = {
   },
   "keyPool": {
     "listinglab-pro": [
-      "LISTING-HH1Y-NWFT",
       "LISTING-DBQM-LNSE",
       "LISTING-3A2I-YJ2I",
       "LISTING-EDF8-UY54",
@@ -146,5 +145,15 @@ window.CRYPTO = {
       "SELLERKIT-JB96-1TTC",
       "SELLERKIT-PLT7-WHZS"
     ]
+  },
+  "recoveries": {
+    "5KXeyazUa4PJxxRrDQGDnv73pHYEWwgSHpfaau43bQR7kUd7BmG5dDZDfzu1oXhrFCrwr7vsTp72jcXnZAyemZKB": {
+      "key": "LISTING-HH1Y-NWFT",
+      "product": "listinglab-pro",
+      "title": "ListingLab Pro",
+      "amount": 19.87,
+      "time": "2026-06-28T01:05:16+00:00",
+      "status": "ready_to_claim"
+    }
   }
 };

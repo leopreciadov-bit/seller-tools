@@ -17,6 +17,7 @@ LICENSE_MAP = {
     "etsy-tag-finder-pro": ROOT / "pipeline/licenses-etsy-tag-finder.txt",
     "seller-kit-bundle": ROOT / "pipeline/licenses-bundle.txt",
 }
+SOLD_KEYS = ROOT / "pipeline" / "sold-keys.json"
 
 SOLANA_RE = re.compile(r"^[1-9A-HJ-NP-Za-km-z]{32,44}$")
 
@@ -49,11 +50,19 @@ def load_keys(path: Path, n: int = 15) -> list[str]:
     return [ln.strip() for ln in path.read_text().splitlines() if ln.strip()][:n]
 
 
+def load_recoveries() -> dict:
+    if not SOLD_KEYS.exists():
+        return {}
+    return json.loads(SOLD_KEYS.read_text())
+
+
 def build(data: dict | None = None) -> None:
     data = inject_payout(data or load())
+    recoveries = load_recoveries()
+    reserved = {e["key"] for e in recoveries.values() if e.get("key")}
     pool: dict[str, list[str]] = {}
     for slug, lic in LICENSE_MAP.items():
-        pool[slug] = load_keys(lic)
+        pool[slug] = [k for k in load_keys(lic) if k not in reserved]
 
     payload = {
         "payout_address": data["payout_address"],
@@ -64,6 +73,7 @@ def build(data: dict | None = None) -> None:
         "products": data["products"],
         "methods": data["methods"],
         "keyPool": pool,
+        "recoveries": recoveries,
     }
     OUT.write_text("window.CRYPTO = " + json.dumps(payload, indent=2) + ";\n")
     print(f"Built {OUT.relative_to(ROOT)}")
