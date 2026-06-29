@@ -404,10 +404,15 @@ def slashdot_submit(state: dict) -> None:
 
 
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--fast", action="store_true", help="Skip slow channels (wayback, wiki, bluesky)")
+    args = parser.parse_args()
+
     state = load_state()
     log("=== Advertise other channels ===")
 
-    for fn in [
+    channels = [
         sitemap_ping,
         pingomatic,
         indexnow_all,
@@ -417,12 +422,11 @@ def main() -> None:
         gist_blast,
         github_discussions,
         github_issue_update,
-        archive_save,
-        github_wiki,
-        bluesky_post,
-        hashnode_publish,
-        slashdot_submit,
-    ]:
+    ]
+    if not args.fast:
+        channels.extend([archive_save, github_wiki, bluesky_post, hashnode_publish, slashdot_submit])
+
+    for fn in channels:
         try:
             fn(state)
         except Exception as e:

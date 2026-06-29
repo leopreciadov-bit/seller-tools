@@ -57,7 +57,7 @@ def deploy() -> None:
 def cycle(n: int) -> None:
     log(f"cycle {n} buyer_sales={buyer_count()}")
     for s in FAST:
-        run(s, timeout=300)
+        run(s, timeout=420)
     if n % SLOW_EVERY == 0:
         run("seo_content_factory.py", "--batch", "4", timeout=180)
         deploy()

@@ -126,7 +126,7 @@ def main() -> None:
     # Traffic: SEO pages every cycle, full advertise blast every 3rd cycle
     run("seo_content_factory.py", "--batch", "5", timeout=60)
     if n % 3 == 0:
-        run("advertise_other.py", timeout=300)
+        run("advertise_other.py", "--fast", timeout=120)
     else:
         run("sales_channels.py", timeout=90)
 
