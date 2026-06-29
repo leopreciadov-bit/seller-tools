@@ -199,8 +199,16 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-29T20:46:55Z",
-  "cycle": 24
+  "updated_at": "2026-06-29T20:48:01Z",
+  "cycle": 25
 }
