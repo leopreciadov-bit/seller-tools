@@ -4,12 +4,16 @@
 from __future__ import annotations
 
 import json
+import sys
 import time
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+
+from direct_payment import inbound_amount, is_direct_payment  # noqa: E402
 STATE = ROOT / "pipeline" / "state.json"
 SALES_LOG = ROOT / "pipeline" / "sales.json"
 SOLD_KEYS = ROOT / "pipeline" / "sold-keys.json"
@@ -82,51 +86,6 @@ def match_product(amount: float, products: list[tuple[float, str, str]]) -> tupl
     return None
 
 
-def tx_inbound_usd(tx: dict, wallet: str, sol_price: float) -> tuple[float, str]:
-    meta = tx.get("meta") or {}
-    msg = (tx.get("transaction") or {}).get("message") or {}
-    keys = msg.get("accountKeys") or []
-    idx = -1
-    for i, k in enumerate(keys):
-        pk = k if isinstance(k, str) else k.get("pubkey", "")
-        if pk == wallet:
-            idx = i
-            break
-    if idx < 0:
-        return 0.0, ""
-
-    pre: dict[str, float] = {}
-    for t in meta.get("preTokenBalances") or []:
-        if t.get("owner") == wallet:
-            pre[t["mint"]] = float((t.get("uiTokenAmount") or {}).get("uiAmount") or 0)
-
-    best = 0.0
-    asset = ""
-    for t in meta.get("postTokenBalances") or []:
-        if t.get("owner") != wallet:
-            continue
-        mint = t.get("mint", "")
-        delta = float((t.get("uiTokenAmount") or {}).get("uiAmount") or 0) - pre.get(mint, 0)
-        if delta <= 0:
-            continue
-        if mint == USDC_MINT:
-            best = max(best, delta)
-            asset = "USDC"
-        elif mint == USDT_MINT:
-            best = max(best, delta)
-            asset = "USDT"
-
-    if sol_price > 0 and meta.get("preBalances") and meta.get("postBalances"):
-        lam = meta["postBalances"][idx] - meta["preBalances"][idx]
-        if lam > 0:
-            sol_usd = (lam / LAMPORTS) * sol_price
-            if sol_usd > best:
-                best = sol_usd
-                asset = "SOL"
-
-    return best, asset
-
-
 def load_reserved_keys() -> set[str]:
     reserved: set[str] = set()
     if SOLD_KEYS.exists():
@@ -173,9 +132,9 @@ def detect_new_sales() -> list[dict]:
             tx = rpc("getTransaction", [sig, {"encoding": "jsonParsed", "maxSupportedTransactionVersion": 0}])["result"]
         except Exception:
             continue
-        if not tx:
+        if not tx or not is_direct_payment(tx, WALLET):
             continue
-        amount, asset = tx_inbound_usd(tx, WALLET, sol_price)
+        amount, asset = inbound_amount(tx, WALLET, sol_price)
         if amount <= 0 or round(amount, 2) in SELF_TRANSFERS:
             continue
         matched = match_product(amount, products)
@@ -199,7 +158,7 @@ def detect_new_sales() -> list[dict]:
             "slug": slug,
             "asset": asset or "USDC",
             "status": "recovery_ready",
-            "note": "Card or crypto — settled to Phantom",
+            "note": "Direct send to merchant wallet only",
             "key": key,
             "tx": sig,
             "recover_url": RECOVER_URL,
@@ -229,6 +188,43 @@ def detect_new_sales() -> list[dict]:
     return new_sales
 
 
+def reaudit_sales() -> int:
+    """Drop sales that are not simple direct sends to the merchant wallet."""
+    if not SALES_LOG.exists():
+        return 0
+    log = json.loads(SALES_LOG.read_text())
+    kept: list[dict] = []
+    excluded: list[dict] = []
+    sold = json.loads(SOLD_KEYS.read_text()) if SOLD_KEYS.exists() else {}
+    sol_price = fetch_sol_price()
+
+    for sale in log.get("sales", []):
+        sig = sale.get("tx")
+        if not sig:
+            excluded.append({**sale, "exclude_reason": "no_tx"})
+            continue
+        try:
+            tx = rpc("getTransaction", [sig, {"encoding": "jsonParsed", "maxSupportedTransactionVersion": 0}])["result"]
+        except Exception:
+            kept.append(sale)
+            continue
+        if tx and is_direct_payment(tx, WALLET):
+            amt, _ = inbound_amount(tx, WALLET, sol_price)
+            if amt > 0:
+                kept.append(sale)
+                continue
+        excluded.append({**sale, "exclude_reason": "not_direct_payment"})
+        sold.pop(sig, None)
+
+    if len(kept) != len(log.get("sales", [])):
+        log["sales"] = kept
+        log["excluded_sales"] = excluded
+        SALES_LOG.write_text(json.dumps(log, indent=2) + "\n")
+        SOLD_KEYS.write_text(json.dumps(sold, indent=2) + "\n")
+        subprocess_rebuild()
+    return len(excluded)
+
+
 def subprocess_rebuild() -> None:
     import subprocess
     import sys
@@ -243,6 +239,9 @@ def main() -> None:
     ok = [s for s in sigs if not s.get("err")]
     failed = len(sigs) - len(ok)
 
+    removed = reaudit_sales()
+    if removed:
+        print(f"Re-audit: excluded {removed} non-direct payment(s)")
     new_sales = detect_new_sales()
 
     cfg = json.loads(STATE.read_text()) if STATE.exists() else {}

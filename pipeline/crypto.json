@@ -3,7 +3,8 @@
   "payout_wallet": "phantom",
   "payout_network": "solana",
   "preferred": "usdc_sol",
-  "settlement_note": "Card or crypto — all payments settle as USDC/crypto on Phantom payout_address",
+  "direct_only": true,
+  "settlement_note": "Send USDC/USDT/SOL directly to payout_address only — no swaps or DeFi",
   "contact": "seller0ohqeu@web-library.net",
   "card": {
     "enabled": true,
@@ -32,7 +33,7 @@
   "methods": {
     "card": {
       "label": "Card",
-      "sublabel": "Visa \u00b7 MC \u00b7 Apple Pay",
+      "sublabel": "Visa · MC · Apple Pay",
       "direct": true,
       "card": true,
       "stablecoin": true
@@ -59,46 +60,6 @@
       "direct": true,
       "coingecko": "solana",
       "stablecoin": false
-    },
-    "btc": {
-      "label": "BTC",
-      "sublabel": "Bitcoin",
-      "direct": false,
-      "coingecko": "bitcoin",
-      "stablecoin": false,
-      "bridge_url": "https://fixedfloat.com/?from=BTC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
-    },
-    "eth": {
-      "label": "ETH",
-      "sublabel": "Ethereum",
-      "direct": false,
-      "coingecko": "ethereum",
-      "stablecoin": false,
-      "bridge_url": "https://fixedfloat.com/?from=ETH&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
-    },
-    "usdt_trc20": {
-      "label": "USDT",
-      "sublabel": "TRC20",
-      "direct": false,
-      "coingecko": "tether",
-      "stablecoin": true,
-      "bridge_url": "https://fixedfloat.com/?from=USDTTRC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
-    },
-    "usdc_eth": {
-      "label": "USDC",
-      "sublabel": "Ethereum",
-      "direct": false,
-      "coingecko": "usd-coin",
-      "stablecoin": true,
-      "bridge_url": "https://fixedfloat.com/?from=USDC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
-    },
-    "ltc": {
-      "label": "LTC",
-      "sublabel": "Litecoin",
-      "direct": false,
-      "coingecko": "litecoin",
-      "stablecoin": false,
-      "bridge_url": "https://fixedfloat.com/?from=LTC&to=USDCSOL&toAddress=BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
     }
   }
 }

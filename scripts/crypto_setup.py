@@ -56,8 +56,20 @@ def load_recoveries() -> dict:
     return json.loads(SOLD_KEYS.read_text())
 
 
+def filter_methods(data: dict) -> dict:
+    """When direct_only, drop bridges — buyers must send straight to payout wallet."""
+    if not data.get("direct_only"):
+        return data
+    methods = {
+        k: v for k, v in data.get("methods", {}).items()
+        if v.get("direct") and not v.get("bridge_url")
+    }
+    data = {**data, "methods": methods}
+    return data
+
+
 def build(data: dict | None = None) -> None:
-    data = inject_payout(data or load())
+    data = filter_methods(inject_payout(data or load()))
     recoveries = load_recoveries()
     reserved = {e["key"] for e in recoveries.values() if e.get("key")}
     pool: dict[str, list[str]] = {}
@@ -68,6 +80,7 @@ def build(data: dict | None = None) -> None:
         "payout_address": data["payout_address"],
         "payout_network": data.get("payout_network", "solana"),
         "preferred": data.get("preferred", "usdc_sol"),
+        "direct_only": data.get("direct_only", False),
         "contact": data.get("contact", ""),
         "card": data.get("card", {"enabled": True}),
         "products": data["products"],

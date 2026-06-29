@@ -12,6 +12,29 @@
   const USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
   const USDT_MINT = "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB";
   const LAMPORTS = 1_000_000_000;
+  const DIRECT_ONLY = cfg.direct_only !== false;
+  const BLOCKED_PROGRAMS = new Set([
+    "PERPHjGBqRHArX4DySjwM6UJHiR3sWAatqfdBS2qQJu",
+    "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "JUP4Fb2cqiRUcaTHdrPC8h2gNsA2ETXiPDD33WcGuJB",
+    "DoVEsk76QybCEHQGzkvYPWLQu9gzNoZZZt3TPiL597e",
+  ]);
+  const BLOCKED_LOGS = [
+    "InstantDecreasePosition",
+    "InstantIncreasePosition",
+    "SwapWithTokenLedger",
+    "shared_accounts_route",
+    "Instruction: Route",
+  ];
+
+  function payMethods() {
+    if (!DIRECT_ONLY) return methods;
+    const out = {};
+    for (const [k, m] of Object.entries(methods)) {
+      if (m.direct && !m.bridge_url) out[k] = m;
+    }
+    return out;
+  }
   const RPC_URLS = [
     "https://solana-rpc.publicnode.com",
     "https://rpc.ankr.com/solana",
@@ -36,20 +59,45 @@
     return deltaUsd >= usd * 0.85 && deltaUsd <= usd * 1.15;
   }
 
-  function txInboundUsd(tx) {
-    if (!tx?.meta || !tx?.transaction?.message?.accountKeys) return 0;
-    const keys = tx.transaction.message.accountKeys;
-    let idx = -1;
-    for (let i = 0; i < keys.length; i++) {
-      const k = keys[i];
-      const pk = typeof k === "string" ? k : k.pubkey;
-      if (pk === payout) {
-        idx = i;
-        break;
-      }
-    }
-    if (idx < 0) return 0;
+  function txAccountKeys(tx) {
+    return (tx?.transaction?.message?.accountKeys || []).map((k) =>
+      typeof k === "string" ? k : k.pubkey
+    );
+  }
 
+  function isDirectPayment(tx) {
+    if (!tx?.meta) return false;
+    const keys = txAccountKeys(tx);
+    if (!keys.length || keys[0] === payout) return false;
+    if (keys.some((k) => BLOCKED_PROGRAMS.has(k))) return false;
+    for (const log of tx.meta.logMessages || []) {
+      if (BLOCKED_LOGS.some((m) => log.includes(m))) return false;
+    }
+    const pre = {};
+    for (const t of tx.meta.preTokenBalances || []) {
+      if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
+    }
+    let inbound = false;
+    for (const t of tx.meta.postTokenBalances || []) {
+      if (t.owner !== payout) continue;
+      if (t.mint !== USDC_MINT && t.mint !== USDT_MINT) continue;
+      const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[t.mint] || 0);
+      if (delta < -0.001) return false;
+      if (delta > 0.001) inbound = true;
+    }
+    const idx = keys.indexOf(payout);
+    if (idx >= 0 && tx.meta.preBalances && tx.meta.postBalances) {
+      const lam = tx.meta.postBalances[idx] - tx.meta.preBalances[idx];
+      if (lam < -1_000_000) return false;
+      if (lam > 1_000_000) inbound = true;
+    }
+    return inbound;
+  }
+
+  function txInboundUsd(tx) {
+    if (!isDirectPayment(tx)) return 0;
+    const keys = txAccountKeys(tx);
+    const idx = keys.indexOf(payout);
     const pre = {};
     for (const t of tx.meta.preTokenBalances || []) {
       if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
@@ -61,10 +109,9 @@
       if (delta <= 0) continue;
       if (t.mint === USDC_MINT || t.mint === USDT_MINT) best = Math.max(best, delta);
     }
-
     const solRate = rates.sol || 0;
-    if (solRate > 0 && tx.meta.preBalances && tx.meta.postBalances) {
-      const lamportDelta = (tx.meta.postBalances[idx] || 0) - (tx.meta.preBalances[idx] || 0);
+    if (solRate > 0 && idx >= 0 && tx.meta.preBalances && tx.meta.postBalances) {
+      const lamportDelta = tx.meta.postBalances[idx] - tx.meta.preBalances[idx];
       if (lamportDelta > 0) best = Math.max(best, (lamportDelta / LAMPORTS) * solRate);
     }
     return best;
@@ -168,8 +215,9 @@
   }
 
   function defaultMethod() {
-    if (cardCfg.enabled !== false && cardProvider()) return "card";
-    return methods[preferred] ? preferred : "usdc_sol";
+    const m = payMethods();
+    if (cardCfg.enabled !== false && cardProvider() && m.card) return "card";
+    return m[preferred] ? preferred : "usdc_sol";
   }
 
   function solanaPayUrl(key, amount, ref) {
@@ -301,7 +349,8 @@
     const modal = document.createElement("div");
     modal.className = "crypto-modal";
 
-    let active = startMethod && methods[startMethod] ? startMethod : defaultMethod();
+    const allowed = payMethods();
+    let active = startMethod && allowed[startMethod] ? startMethod : defaultMethod();
     const ref = orderRef(slug);
     const usd = prod.price_usd;
 
@@ -382,7 +431,7 @@
     }
 
     function render() {
-      const m = methods[active] || {};
+      const m = allowed[active] || {};
       const isCard = active === "card";
       modal.classList.toggle("crypto-modal-wide", isCard);
 
@@ -422,32 +471,27 @@
         const amt = cryptoAmount(usd, active);
         const direct = !!m.direct;
         const payUrl = solanaPayUrl(active, amt, ref);
-        const bridge = bridgeUrl(active, usd);
 
         modal.innerHTML = `
           <h3>${prod.title || slug} — $${usd}</h3>
-          <p class="muted">Pay with crypto — seller receives it on one Solana wallet (same as card).</p>
+          <p class="muted">Send directly to this wallet only — no swaps, bridges, or DeFi.</p>
           <div class="crypto-tabs" id="crypto-tabs"></div>
           <p class="crypto-amount">${amt} ${m.label || active}${m.sublabel ? ` <span class="muted">on ${m.sublabel}</span>` : ""}</p>
           <p class="crypto-ref">Order ref: <strong>${ref}</strong></p>
           ${
             direct
-              ? `<p class="crypto-settle">Send directly to Solana address:</p>`
-              : `<div class="crypto-bridge-notice">
-                   <strong>Cross-chain:</strong> Don't send ${m.label} to this Solana address.
-                   <a href="${bridge || m.bridge_url || "#"}" target="_blank" rel="noopener">Swap → USDC on Solana</a>
-                 </div>`
+              ? `<p class="crypto-settle">Send <strong>only</strong> ${m.label} on Solana to this address:</p>`
+              : `<p class="crypto-settle">Send directly to Solana address:</p>`
           }
           <div class="crypto-wallet" id="wallet-addr">${payout}</div>
           <div class="crypto-row">
             <button type="button" id="copy-addr">Copy Solana address</button>
             <button type="button" id="copy-amt">Copy amount</button>
             ${payUrl ? `<a class="btn-crypto" id="open-wallet" href="${payUrl}">Open wallet</a>` : ""}
-            ${bridge && !direct ? `<a class="secondary" href="${bridge}" target="_blank" rel="noopener" style="display:inline-block;padding:0.55rem 0.9rem;border-radius:8px;border:1px solid #2a3142;text-decoration:none;color:#e8ecf4">Swap & pay</a>` : ""}
           </div>
           <p class="crypto-settle-foot">Payout: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
           <div class="crypto-bridge-notice" style="margin-top:0.75rem">
-            <strong>After paying in Phantom:</strong> return to this tab and click the button below. Keys are not auto-sent to your wallet.
+            <strong>Important:</strong> Use Phantom → Send → paste address + amount. Do not use Drift/Jupiter. Then click below.
           </div>
           <div class="crypto-row">
             <button type="button" class="btn-crypto" id="confirm-paid">I sent payment — get license key</button>
@@ -460,10 +504,10 @@
       }
 
       const tabs = modal.querySelector("#crypto-tabs");
-      Object.keys(methods).forEach((key) => {
+      Object.keys(allowed).forEach((key) => {
         const b = document.createElement("button");
         b.type = "button";
-        const meta = methods[key];
+        const meta = allowed[key];
         b.textContent = meta.sublabel ? `${meta.label} · ${meta.sublabel}` : meta.label;
         if (key === active) b.classList.add("active");
         b.addEventListener("click", () => {

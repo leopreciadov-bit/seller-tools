@@ -4,7 +4,13 @@
   const products = cfg.products || {};
   const payout = cfg.payout_address || "";
   const USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const USDT_MINT = "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB";
   const RPC_URLS = ["https://solana-rpc.publicnode.com", "https://rpc.ankr.com/solana"];
+  const BLOCKED_PROGRAMS = new Set([
+    "PERPHjGBqRHArX4DySjwM6UJHiR3sWAatqfdBS2qQJu",
+    "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4",
+    "DoVEsk76QybCEHQGzkvYPWLQu9gzNoZZZt3TPiL597e",
+  ]);
 
   async function solanaRpc(method, params) {
     for (const url of RPC_URLS) {
@@ -29,20 +35,48 @@
     return null;
   }
 
+  function isDirectPayment(tx) {
+    if (!tx?.meta) return false;
+    const keys = (tx.transaction?.message?.accountKeys || []).map((k) =>
+      typeof k === "string" ? k : k.pubkey
+    );
+    if (!keys.length || keys[0] === payout) return false;
+    if (keys.some((k) => BLOCKED_PROGRAMS.has(k))) return false;
+    const blocked = ["InstantDecreasePosition", "InstantIncreasePosition", "SwapWithTokenLedger"];
+    for (const log of tx.meta.logMessages || []) {
+      if (blocked.some((m) => log.includes(m))) return false;
+    }
+    const pre = {};
+    for (const t of tx.meta.preTokenBalances || []) {
+      if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
+    }
+    let inbound = false;
+    for (const t of tx.meta.postTokenBalances || []) {
+      if (t.owner !== payout) continue;
+      if (t.mint !== USDC_MINT && t.mint !== USDT_MINT) continue;
+      const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[t.mint] || 0);
+      if (delta < -0.001) return false;
+      if (delta > 0.001) inbound = true;
+    }
+    return inbound;
+  }
+
   async function verifyTx(sig) {
     const tx = await solanaRpc("getTransaction", [
       sig,
       { encoding: "jsonParsed", maxSupportedTransactionVersion: 0 },
     ]);
-    if (!tx?.meta) return null;
+    if (!tx?.meta || !isDirectPayment(tx)) return null;
     const pre = {};
     for (const t of tx.meta.preTokenBalances || []) {
       if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
     }
-    for (const t of tx.meta.postTokenBalances || []) {
-      if (t.owner !== payout || t.mint !== USDC_MINT) continue;
-      const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[USDC_MINT] || 0);
-      if (delta > 0) return { amount: delta, product: productForAmount(delta) };
+    for (const mint of [USDC_MINT, USDT_MINT]) {
+      for (const t of tx.meta.postTokenBalances || []) {
+        if (t.owner !== payout || t.mint !== mint) continue;
+        const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[mint] || 0);
+        if (delta > 0) return { amount: delta, product: productForAmount(delta) };
+      }
     }
     return null;
   }
@@ -81,39 +115,36 @@
       return;
     }
 
-    status.textContent = "Checking payment on Solana…";
+    status.textContent = "Checking direct payment to seller wallet…";
     const btn = document.querySelector("#recover-form button");
-    btn.disabled = true;
+    if (btn) btn.disabled = true;
 
     if (recoveries[sig]?.key) {
       const r = recoveries[sig];
       const prod = products[r.product] || { title: r.title || r.product };
       showKey(r.key, prod.title || r.title, toolUrls[r.product] || "/listing-lab/", r.product);
       status.textContent = "Payment matched. Your key is below.";
-      btn.disabled = false;
+      if (btn) btn.disabled = false;
       return;
     }
 
     const verified = await verifyTx(sig);
     if (!verified?.product) {
       status.textContent =
-        "Payment not found for this signature. Check the address and that you sent USDC on Solana. Email " +
-        (cfg.contact || "support") +
-        " with a screenshot.";
-      btn.disabled = false;
+        "Not a direct payment to our wallet. Use Phantom → Send USDC/USDT on Solana. No Drift, Jupiter, or swaps.";
+      if (btn) btn.disabled = false;
       return;
     }
 
     const slug = verified.product;
     const pool = cfg.keyPool?.[slug] || [];
     if (!pool.length) {
-      status.textContent = `Payment confirmed ($${verified.amount.toFixed(2)}). Email ${cfg.contact} with tx sig for your key.`;
-      btn.disabled = false;
+      status.textContent = `Payment confirmed ($${verified.amount.toFixed(2)}). Email ${cfg.contact || "support"} with tx sig for your key.`;
+      if (btn) btn.disabled = false;
       return;
     }
-    const key = pool[0];
-    showKey(key, products[slug]?.title || slug, toolUrls[slug] || "/", slug);
+    showKey(pool[0], products[slug]?.title || slug, toolUrls[slug] || "/", slug);
     status.textContent = "Payment confirmed. Your key is below.";
-    btn.disabled = false;
+    if (btn) btn.disabled = false;
   });
 })();
