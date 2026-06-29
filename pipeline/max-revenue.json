@@ -1343,8 +1343,16 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-29T23:37:05Z",
-  "cycle": 167
+  "updated_at": "2026-06-29T23:38:20Z",
+  "cycle": 168
 }
