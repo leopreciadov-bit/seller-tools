@@ -18,6 +18,7 @@ SALES = ROOT / "pipeline" / "sales.json"
 
 FAST = [
     "sales_innovate.py",
+    "community_outreach.py",
     "advertise_other.py",
     "resubmit_indexnow.py",
     "sales_channels.py",
