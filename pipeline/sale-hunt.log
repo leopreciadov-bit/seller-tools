@@ -29222,3 +29222,8 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [promote] Done — see pipeline/promote-state.json
 [hunt] 2026-06-29 22:17:34 → reddit_publish.py
 [hunt] 2026-06-29 22:17:34 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
