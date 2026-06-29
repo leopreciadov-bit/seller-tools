@@ -45075,199 +45075,595 @@
     },
     {
       "channel": "google_sitemap",
-      "at": "2026-06-29T19:51:29Z",
+      "at": "2026-06-29T19:50:45Z",
       "status": 404
     },
     {
       "channel": "bing_sitemap",
-      "at": "2026-06-29T19:51:29Z",
+      "at": "2026-06-29T19:50:45Z",
       "status": 410
     },
     {
       "channel": "pingomatic",
-      "at": "2026-06-29T19:51:29Z",
+      "at": "2026-06-29T19:50:46Z",
       "status": 200
     },
     {
       "channel": "indexnow",
-      "at": "2026-06-29T19:51:30Z",
+      "at": "2026-06-29T19:50:46Z",
       "status": 200
     },
     {
       "channel": "bing",
-      "at": "2026-06-29T19:51:30Z",
+      "at": "2026-06-29T19:50:46Z",
       "status": 200
     },
     {
       "channel": "yandex",
-      "at": "2026-06-29T19:51:31Z",
+      "at": "2026-06-29T19:50:47Z",
       "status": 200
     },
     {
       "channel": "seznam",
-      "at": "2026-06-29T19:51:32Z",
+      "at": "2026-06-29T19:50:48Z",
       "status": 200
     },
     {
       "channel": "naver",
-      "at": "2026-06-29T19:51:32Z",
+      "at": "2026-06-29T19:50:48Z",
       "status": 200
     },
     {
       "channel": "rentry_master",
-      "at": "2026-06-29T19:51:38Z",
-      "url": "https://rentry.co/c4xhapwh"
+      "at": "2026-06-29T19:50:54Z",
+      "url": "https://rentry.co/7rnvaw7t"
     },
     {
       "channel": "rentry",
-      "at": "2026-06-29T19:51:38Z",
-      "url": "https://rentry.co/v8z8afuh"
+      "at": "2026-06-29T19:50:55Z",
+      "url": "https://rentry.co/3asy5vwt"
     },
     {
       "channel": "rentry",
-      "at": "2026-06-29T19:51:39Z",
-      "url": "https://rentry.co/c244hhro"
+      "at": "2026-06-29T19:50:55Z",
+      "url": "https://rentry.co/iwcvfu2x"
     },
     {
       "channel": "rentry",
-      "at": "2026-06-29T19:51:40Z",
-      "url": "https://rentry.co/kctuqqc7"
+      "at": "2026-06-29T19:50:56Z",
+      "url": "https://rentry.co/q2e97bg4"
     },
     {
       "channel": "rentry",
-      "at": "2026-06-29T19:51:40Z",
-      "url": "https://rentry.co/3v8r9vh4"
+      "at": "2026-06-29T19:50:57Z",
+      "url": "https://rentry.co/aob72vb9"
     },
     {
       "channel": "dpaste",
-      "at": "2026-06-29T19:51:41Z",
+      "at": "2026-06-29T19:50:57Z",
       "status": 400,
       "detail": "Your IP address 73.170.219.236 has been blocked for violating the dpaste.com Ter"
     },
     {
       "channel": "controlc",
-      "at": "2026-06-29T19:51:41Z",
+      "at": "2026-06-29T19:50:57Z",
       "status": 400,
       "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
     },
     {
       "channel": "gist_social",
-      "at": "2026-06-29T19:51:42Z",
-      "url": "https://gist.github.com/leopreciadov-bit/c64347c43658f4bf9dd061d51d2a099d"
+      "at": "2026-06-29T19:50:58Z",
+      "url": "https://gist.github.com/leopreciadov-bit/6574b99782e9de3b35a999e1fed10005"
     },
     {
       "channel": "gist",
-      "at": "2026-06-29T19:51:43Z",
-      "url": "https://gist.github.com/leopreciadov-bit/b31049463bc7b324794ab824f1d1a3ec"
+      "at": "2026-06-29T19:51:00Z",
+      "url": "https://gist.github.com/leopreciadov-bit/0017a45b182a0aa41c441d6f77aa503b"
     },
     {
       "channel": "gist",
-      "at": "2026-06-29T19:51:44Z",
-      "url": "https://gist.github.com/leopreciadov-bit/7d58b9331186734aebe35bde3509c937"
+      "at": "2026-06-29T19:51:01Z",
+      "url": "https://gist.github.com/leopreciadov-bit/921805c2c4c201579cac8b96576c477d"
     },
     {
       "channel": "gist",
-      "at": "2026-06-29T19:51:46Z",
-      "url": "https://gist.github.com/leopreciadov-bit/a3756377cc61d54f77c854ddc146c21e"
+      "at": "2026-06-29T19:51:02Z",
+      "url": "https://gist.github.com/leopreciadov-bit/42793fea2e300520d71460f4e85a790c"
     },
     {
       "channel": "github_discussion",
-      "at": "2026-06-29T19:51:47Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1144"
+      "at": "2026-06-29T19:51:02Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1141"
     },
     {
       "channel": "github_discussion",
-      "at": "2026-06-29T19:51:48Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1145"
+      "at": "2026-06-29T19:51:03Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1142"
     },
     {
       "channel": "github_discussion",
-      "at": "2026-06-29T19:51:49Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1146"
+      "at": "2026-06-29T19:51:04Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1143"
     },
     {
       "channel": "github_issue_comment",
-      "at": "2026-06-29T19:51:49Z",
+      "at": "2026-06-29T19:51:05Z",
       "status": "ok",
       "detail": ""
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:52:20Z",
+      "at": "2026-06-29T19:51:05Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/",
       "status": "error",
-      "detail": "<urlopen error timed out>"
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:52:40Z",
+      "at": "2026-06-29T19:51:05Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
       "status": "error",
       "detail": "HTTP Error 429: TOO MANY REQUESTS"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:53:11Z",
+      "at": "2026-06-29T19:51:06Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
       "status": "error",
-      "detail": "<urlopen error timed out>"
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:53:11Z",
+      "at": "2026-06-29T19:51:06Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
       "status": "error",
       "detail": "HTTP Error 429: TOO MANY REQUESTS"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:53:11Z",
+      "at": "2026-06-29T19:51:06Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
       "status": "error",
       "detail": "HTTP Error 429: TOO MANY REQUESTS"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:53:42Z",
+      "at": "2026-06-29T19:51:37Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
       "status": "error",
       "detail": "<urlopen error timed out>"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:53:43Z",
+      "at": "2026-06-29T19:52:08Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
       "status": "error",
-      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+      "detail": "<urlopen error timed out>"
     },
     {
       "channel": "wayback",
-      "at": "2026-06-29T19:54:13Z",
+      "at": "2026-06-29T19:52:38Z",
       "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
       "status": "error",
       "detail": "<urlopen error timed out>"
     },
     {
       "channel": "github_wiki",
-      "at": "2026-06-29T19:54:14Z",
+      "at": "2026-06-29T19:52:39Z",
       "status": "error",
       "detail": "wiki clone failed"
     },
     {
       "channel": "bluesky",
-      "at": "2026-06-29T19:54:14Z",
+      "at": "2026-06-29T19:52:39Z",
       "status": 400,
       "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
     },
     {
       "channel": "hashnode",
-      "at": "2026-06-29T19:54:14Z",
+      "at": "2026-06-29T19:52:39Z",
       "status": 404,
       "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
     },
     {
       "channel": "slashdot",
-      "at": "2026-06-29T19:54:15Z",
+      "at": "2026-06-29T19:52:40Z",
+      "status": 200,
+      "detail": "form requires login"
+    },
+    {
+      "channel": "google_sitemap",
+      "at": "2026-06-29T19:54:07Z",
+      "status": 404
+    },
+    {
+      "channel": "bing_sitemap",
+      "at": "2026-06-29T19:54:08Z",
+      "status": 410
+    },
+    {
+      "channel": "pingomatic",
+      "at": "2026-06-29T19:54:08Z",
+      "status": 200
+    },
+    {
+      "channel": "indexnow",
+      "at": "2026-06-29T19:54:08Z",
+      "status": 200
+    },
+    {
+      "channel": "bing",
+      "at": "2026-06-29T19:54:09Z",
+      "status": 200
+    },
+    {
+      "channel": "yandex",
+      "at": "2026-06-29T19:54:09Z",
+      "status": 200
+    },
+    {
+      "channel": "seznam",
+      "at": "2026-06-29T19:54:10Z",
+      "status": 200
+    },
+    {
+      "channel": "naver",
+      "at": "2026-06-29T19:54:11Z",
+      "status": 200
+    },
+    {
+      "channel": "rentry_master",
+      "at": "2026-06-29T19:54:16Z",
+      "url": "https://rentry.co/geu43bq2"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:54:17Z",
+      "url": "https://rentry.co/59d7edz3"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:54:17Z",
+      "url": "https://rentry.co/zsyib4i5"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:54:18Z",
+      "url": "https://rentry.co/hc9ikrqy"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:54:19Z",
+      "url": "https://rentry.co/u8bqnzf9"
+    },
+    {
+      "channel": "dpaste",
+      "at": "2026-06-29T19:54:19Z",
+      "status": 400,
+      "detail": "Your IP address 73.170.219.236 has been blocked for violating the dpaste.com Ter"
+    },
+    {
+      "channel": "controlc",
+      "at": "2026-06-29T19:54:19Z",
+      "status": 400,
+      "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
+    },
+    {
+      "channel": "gist_social",
+      "at": "2026-06-29T19:54:20Z",
+      "url": "https://gist.github.com/leopreciadov-bit/f2b556551c9a22e62407776dd5b6b767"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:54:22Z",
+      "url": "https://gist.github.com/leopreciadov-bit/04860e72dd09020d81db5ac1a3bd1773"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:54:23Z",
+      "url": "https://gist.github.com/leopreciadov-bit/7b1e0ac3a2fc3bbb05c2faa670e3b6b4"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:54:24Z",
+      "url": "https://gist.github.com/leopreciadov-bit/f688ccaad70535e251b264a696b4feae"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:54:24Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1147"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:54:25Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1148"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:54:26Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1149"
+    },
+    {
+      "channel": "github_issue_comment",
+      "at": "2026-06-29T19:54:27Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:27Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:48Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:48Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:48Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:49Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:49Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:49Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:54:50Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "github_wiki",
+      "at": "2026-06-29T19:54:50Z",
+      "status": "error",
+      "detail": "wiki clone failed"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-06-29T19:54:50Z",
+      "status": 400,
+      "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
+    },
+    {
+      "channel": "hashnode",
+      "at": "2026-06-29T19:54:51Z",
+      "status": 404,
+      "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
+    },
+    {
+      "channel": "slashdot",
+      "at": "2026-06-29T19:54:51Z",
+      "status": 200,
+      "detail": "form requires login"
+    },
+    {
+      "channel": "google_sitemap",
+      "at": "2026-06-29T19:56:16Z",
+      "status": 404
+    },
+    {
+      "channel": "bing_sitemap",
+      "at": "2026-06-29T19:56:17Z",
+      "status": 410
+    },
+    {
+      "channel": "pingomatic",
+      "at": "2026-06-29T19:56:17Z",
+      "status": 200
+    },
+    {
+      "channel": "indexnow",
+      "at": "2026-06-29T19:56:17Z",
+      "status": 200
+    },
+    {
+      "channel": "bing",
+      "at": "2026-06-29T19:56:18Z",
+      "status": 200
+    },
+    {
+      "channel": "yandex",
+      "at": "2026-06-29T19:56:19Z",
+      "status": 200
+    },
+    {
+      "channel": "seznam",
+      "at": "2026-06-29T19:56:19Z",
+      "status": 200
+    },
+    {
+      "channel": "naver",
+      "at": "2026-06-29T19:56:20Z",
+      "status": 200
+    },
+    {
+      "channel": "rentry_master",
+      "at": "2026-06-29T19:56:25Z",
+      "url": "https://rentry.co/95b5f9kh"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:56:26Z",
+      "url": "https://rentry.co/uewps4rf"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:56:27Z",
+      "url": "https://rentry.co/uett87ah"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:56:27Z",
+      "url": "https://rentry.co/iai4rm2q"
+    },
+    {
+      "channel": "rentry",
+      "at": "2026-06-29T19:56:28Z",
+      "url": "https://rentry.co/imfcimzv"
+    },
+    {
+      "channel": "dpaste",
+      "at": "2026-06-29T19:56:28Z",
+      "status": 400,
+      "detail": "Your IP address 73.170.219.236 has been blocked for violating the dpaste.com Ter"
+    },
+    {
+      "channel": "controlc",
+      "at": "2026-06-29T19:56:29Z",
+      "status": 400,
+      "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
+    },
+    {
+      "channel": "gist_social",
+      "at": "2026-06-29T19:56:30Z",
+      "url": "https://gist.github.com/leopreciadov-bit/d7639543f777d8e4fb3d28d56086d830"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:56:31Z",
+      "url": "https://gist.github.com/leopreciadov-bit/de4671fc16b990e7dfa2e9451a44161b"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:56:32Z",
+      "url": "https://gist.github.com/leopreciadov-bit/259867770fe45c7c367c93dbaf73a163"
+    },
+    {
+      "channel": "gist",
+      "at": "2026-06-29T19:56:33Z",
+      "url": "https://gist.github.com/leopreciadov-bit/d3a8bdaca4716d4abcfb7599a9cff69f"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:56:34Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1153"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:56:35Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1154"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-29T19:56:36Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1155"
+    },
+    {
+      "channel": "github_issue_comment",
+      "at": "2026-06-29T19:56:37Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:56:37Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:56:41Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:56:44Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:57:14Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
+      "status": "error",
+      "detail": "<urlopen error timed out>"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:57:14Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:57:14Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:57:14Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "wayback",
+      "at": "2026-06-29T19:57:15Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
+      "status": "error",
+      "detail": "HTTP Error 429: TOO MANY REQUESTS"
+    },
+    {
+      "channel": "github_wiki",
+      "at": "2026-06-29T19:57:16Z",
+      "status": "error",
+      "detail": "wiki clone failed"
+    },
+    {
+      "channel": "bluesky",
+      "at": "2026-06-29T19:57:16Z",
+      "status": 400,
+      "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
+    },
+    {
+      "channel": "hashnode",
+      "at": "2026-06-29T19:57:17Z",
+      "status": 404,
+      "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
+    },
+    {
+      "channel": "slashdot",
+      "at": "2026-06-29T19:57:17Z",
       "status": 200,
       "detail": "form requires login"
     }
