@@ -54,11 +54,11 @@
     ],
     "gumroad_sales": 0,
     "card_sales": 0,
-    "last_checked": "2026-06-29T23:09:00.997154+00:00",
-    "wallet_tx_ok": 8,
-    "wallet_tx_failed": 0,
-    "wallet_activity": 8,
+    "last_checked": "2026-06-29T23:13:24.226808+00:00",
+    "wallet_tx_ok": 97,
+    "wallet_tx_failed": 3,
+    "wallet_activity": 97,
     "payout_wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH"
   },
-  "last_updated": "2026-06-29T23:09:00.997154+00:00"
+  "last_updated": "2026-06-29T23:13:24.226808+00:00"
 }
