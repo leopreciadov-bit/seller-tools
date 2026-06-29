@@ -66,7 +66,8 @@ def cycle(n: int) -> None:
         run("seo_content_factory.py", "--batch", "8", timeout=180)
         run("reddit_publish.py", timeout=120)
         deploy()
-    run("check_sales.py", "--quick", timeout=60)
+    run("payhip_sales.py", timeout=45)
+    run("check_sales.py", "--quick", timeout=90)
 
 
 def main() -> None:

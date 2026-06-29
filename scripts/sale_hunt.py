@@ -81,6 +81,7 @@ def cycle(st: dict) -> None:
     run("promote_autopilot.py")
     run("reddit_publish.py")
     run("gumroad_launch.py")
+    run("payhip_sales.py")
     run("check_sales.py", "--quick")
     run("support_mail.py")
     if st["cycles"] % 5 == 0:

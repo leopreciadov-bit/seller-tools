@@ -254,9 +254,15 @@ def print_owner_vs_sales() -> None:
 
 def main() -> None:
     import argparse
+    import subprocess
+
     parser = argparse.ArgumentParser()
     parser.add_argument("--quick", action="store_true", help="Skip reaudit and wallet report")
     args = parser.parse_args()
+
+    payhip = ROOT / "scripts" / "payhip_sales.py"
+    if payhip.exists():
+        subprocess.run([sys.executable, str(payhip)], cwd=ROOT, check=False, timeout=45)
 
     sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 40 if args.quick else 100}])["result"]
     ok = [s for s in sigs if not s.get("err")]

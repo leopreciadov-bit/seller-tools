@@ -234,6 +234,14 @@
     return `solana:${payout}?${params.toString()}`;
   }
 
+  function payhipUrl(slug) {
+    const gum = window.GUMROAD && window.GUMROAD.products && window.GUMROAD.products[slug];
+    if (gum && gum.url && gum.url.includes("payhip.com/b/")) return gum.url;
+    const fb = cardCfg.fallbacks && cardCfg.fallbacks[slug];
+    if (fb && fb.payhip) return fb.payhip;
+    return null;
+  }
+
   function cardProvider() {
     const p = cardCfg.provider || "auto";
     if (p !== "auto") return p;
@@ -559,8 +567,16 @@
     btn.type = "button";
     btn.className = label === "card" ? "btn buy-card" : "btn buy-crypto";
     if (label === "card") {
-      btn.textContent = `Card — $${prod.price_usd}`;
-      btn.addEventListener("click", () => openModal(slug, "card"));
+      const ph = payhipUrl(slug);
+      btn.textContent = ph ? `Buy with Card — $${prod.price_usd}` : `Card — $${prod.price_usd}`;
+      btn.addEventListener("click", () => {
+        const url = payhipUrl(slug);
+        if (url) {
+          window.open(url, "_blank", "noopener");
+          return;
+        }
+        openModal(slug, "card");
+      });
     } else if (label === "both") {
       btn.className = "btn buy-crypto";
       btn.textContent = `Upgrade — $${prod.price_usd}`;

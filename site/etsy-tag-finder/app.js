@@ -1,4 +1,4 @@
-const FREE_LIMIT = 3;
+const FREE_LIMIT = 1;
 const TAG_COUNT = 13;
 const MAX_TAG_LEN = 20;
 const STORAGE_KEY = "etsy_tagfinder_usage";

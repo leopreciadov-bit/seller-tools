@@ -47,6 +47,20 @@
   gap: 0.4rem;
 }
 
+.upgrade-bar-card {
+  background: #6ee7b7;
+  color: #0f1117;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.4rem 0.85rem;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.upgrade-bar-card:hover {
+  filter: brightness(1.08);
+}
+
 .upgrade-bar-deal {
   color: #6ee7b7;
   text-decoration: none;

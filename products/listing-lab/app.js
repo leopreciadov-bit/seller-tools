@@ -1,4 +1,4 @@
-const FREE_LIMIT = 5;
+const FREE_LIMIT = 1;
 const STORAGE_KEY = "listinglab_usage";
 const PRO_KEY = "listinglab_pro";
 
