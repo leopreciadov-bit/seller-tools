@@ -91,11 +91,22 @@ def click_visible(page, selectors: list[str]) -> bool:
     return False
 
 
+def valid_product_url(url: str) -> bool:
+    if not url or "/login" in url or "/register" in url or "/signup" in url:
+        return False
+    return any(h in url for h in ("gumroad.com/l/", "payhip.com/b/", "ko-fi.com/s/", "polar.sh", "itch.io/"))
+
+
 def wire_checkout(providers: dict) -> None:
     gum = {"username": None, "products": {}}
     prices = {"etsy-tag-finder-pro": 14, "listinglab-pro": 19, "seller-kit-bundle": 29}
     for slug, urls in providers.get("products", {}).items():
-        url = urls.get("gumroad") or urls.get("payhip") or urls.get("kofi") or urls.get("polar") or urls.get("itch")
+        url = None
+        for k in ("gumroad", "payhip", "kofi", "polar", "itch"):
+            u = urls.get(k, "")
+            if valid_product_url(u):
+                url = u
+                break
         if url:
             gum["products"][slug] = {"title": slug, "price": prices.get(slug, 0), "url": url}
             m = re.search(r"https://([^.]+)\.gumroad\.com", url)
@@ -262,9 +273,8 @@ def setup_itch(page, results: dict) -> dict | None:
             fill_visible(page, ['input[name="price"]', '#price'], prod["price"])
             click_visible(page, ['button:has-text("Save")', 'input[value="Save"]'])
             page.wait_for_timeout(4000)
-            m = re.search(r'itch\.io/[^"\']+', page.url)
-            if m:
-                url = "https://" + m.group(0) if not page.url.startswith("http") else page.url
+            url = page.url
+            if "itch.io" in url and "/login" not in url and "/register" not in url:
                 results.setdefault("products", {}).setdefault(prod["slug"], {})["itch"] = url
                 log(f"  itch {prod['slug']}: {url}")
         except Exception as e:
