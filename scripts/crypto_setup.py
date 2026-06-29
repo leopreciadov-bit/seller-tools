@@ -83,6 +83,7 @@ def build(data: dict | None = None) -> None:
         "direct_only": data.get("direct_only", False),
         "contact": data.get("contact", ""),
         "card": data.get("card", {"enabled": True}),
+        # fallbacks: { slug: { gumroad, payhip, kofi } }
         "products": data["products"],
         "methods": data["methods"],
         "keyPool": pool,

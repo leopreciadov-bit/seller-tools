@@ -69,6 +69,7 @@ def main() -> None:
     retries = [
         ("helio", "helio_onboard.py"),
         ("kofi", "kofi_autopilot.py"),
+        ("card", "card_autopilot.py"),
         ("reddit", "reddit_publish.py"),
         ("gumroad", "gumroad_launch.py"),
     ]
