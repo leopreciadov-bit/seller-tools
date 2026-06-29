@@ -24027,3 +24027,57 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-29 20:34:39 → check_sales.py
 [hunt] 2026-06-29 20:34:39 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($99.64 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-29 20:35:34 → wallet_report.py
+[hunt] 2026-06-29 20:35:34 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-29 20:35:54 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:35:54 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:35:54 → advertise_other.py
+[hunt] 2026-06-29 20:35:54 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/ha5ctdyy
+[ads] rentry: https://rentry.co/c7druhvq
+[ads] rentry: https://rentry.co/umx6g7ah
+[ads] rentry: https://rentry.co/s8zh9f2b
+[ads] rentry: https://rentry.co/kxynx6ry
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/0690d3610223d285808ff114f9a80a6d
+[ads] gist: https://gist.github.com/leopreciadov-bit/03eb929dd1204a06500ca10959b9faa8
+[ads] gist: https://gist.github.com/leopreciadov-bit/4ce7927193686ae3371b8695b5088680
