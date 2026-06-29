@@ -17,14 +17,10 @@ LOG = ROOT / "pipeline" / "blast-loop.log"
 SALES = ROOT / "pipeline" / "sales.json"
 
 FAST = [
-    "sales_innovate.py",
-    "community_outreach.py",
-    "advertise_other.py",
-    "resubmit_indexnow.py",
-    "sales_channels.py",
+    "max_revenue.py",
 ]
 
-SLOW_EVERY = 5  # every N fast cycles run full seo + deploy
+SLOW_EVERY = 3  # every N cycles: extra SEO batch
 
 
 def log(msg: str) -> None:
@@ -61,13 +57,10 @@ def deploy() -> None:
 def cycle(n: int) -> None:
     log(f"cycle {n} buyer_sales={buyer_count()}")
     for s in FAST:
-        run(s, timeout=180)
+        run(s, timeout=300)
     if n % SLOW_EVERY == 0:
-        run("seo_content_factory.py", "--batch", "8", timeout=180)
-        run("reddit_publish.py", timeout=120)
+        run("seo_content_factory.py", "--batch", "4", timeout=180)
         deploy()
-    run("payhip_sales.py", timeout=45)
-    run("check_sales.py", "--quick", timeout=90)
 
 
 def main() -> None:

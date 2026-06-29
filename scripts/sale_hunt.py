@@ -70,33 +70,11 @@ def cycle(st: dict) -> None:
     st["cycles"] = st.get("cycles", 0) + 1
     before = buyer_sales_count()
 
-    run("account_factory.py")
-    run("platform_retry.py")
-
-    run("sales_innovate.py")
-    run("seo_content_factory.py", "--batch", "8")
-    run("sales_channels.py")
-    run("build_sitemap.py", "--base", "https://leopreciadov-bit.github.io/seller-tools")
-    run("advertise_other.py")
-    run("promote_autopilot.py")
-    run("reddit_publish.py")
-    run("gumroad_launch.py")
-    run("payhip_sales.py")
-    run("check_sales.py", "--quick")
+    run("max_revenue.py")
     run("support_mail.py")
     if st["cycles"] % 5 == 0:
-        run("check_sales.py")
+        run("payhip_fulfill.py")
         run("wallet_report.py")
-
-    # Double blast while zero buyer sales
-    if buyer_sales_count() == 0:
-        log("zero buyer sales — double promotion")
-        run("advertise_other.py")
-        run("sales_innovate.py")
-        run("sales_channels.py")
-        run("seo_content_factory.py", "--batch", "8")
-        run("promote_autopilot.py")
-        run("resubmit_indexnow.py")
 
     deploy()
 
