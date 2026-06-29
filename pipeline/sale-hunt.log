@@ -23217,3 +23217,140 @@ IndexNow 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
 Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+The following paths are ignored by one of your .gitignore files:
+.venv
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+To https://github.com/leopreciadov-bit/seller-tools.git
+   e6be94f..203feda  main -> main
+[hunt] 2026-06-29 20:17:20 cycle 96 done — buyer_sales=0
+[hunt] 2026-06-29 20:17:20 cycle 96 done — buyer_sales=0
+[hunt] 2026-06-29 20:18:22 → account_factory.py
+[hunt] 2026-06-29 20:18:22 → account_factory.py
+[hunt] 2026-06-29 20:18:22 → platform_retry.py
+[hunt] 2026-06-29 20:18:22 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-29 20:18:22 → sales_innovate.py
+[hunt] 2026-06-29 20:18:22 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-29 20:18:24 → seo_content_factory.py
+[hunt] 2026-06-29 20:18:24 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-29 20:18:24 → sales_channels.py
+[hunt] 2026-06-29 20:18:24 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 20:18:44 → build_sitemap.py
+[hunt] 2026-06-29 20:18:44 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-29 20:18:45 → advertise_other.py
+[hunt] 2026-06-29 20:18:45 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/2mtxmb99
+[ads] rentry: https://rentry.co/2spk8fsa
+[ads] rentry: https://rentry.co/raoft93y
+[ads] rentry: https://rentry.co/ko6wnpu9
+[ads] rentry: https://rentry.co/g25gwoz9
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/1a3f4ead52dac6916ca85d6da62c2369
+[ads] gist: https://gist.github.com/leopreciadov-bit/435e064e735aaba580e49aed6bf3cfba
+[ads] gist: https://gist.github.com/leopreciadov-bit/0963ba31b6ba967f8a0e5da7d1b25622
+[ads] gist: https://gist.github.com/leopreciadov-bit/a8ccf7bdc3eb68706ed2c26f380fade0
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1192
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1193
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1194
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 20:19:41 → promote_autopilot.py
+[hunt] 2026-06-29 20:19:41 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 20:19:43 → reddit_publish.py
+[hunt] 2026-06-29 20:19:43 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/a572bdda221cafda9023b3b091feadd0
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/ef7066582c8be5893723dfac80ff9b69
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/e86300c590d06b661c2cd0107f1bf642
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/501e76c138339894f78789a47551be66
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 20:19:52 → gumroad_launch.py
+[hunt] 2026-06-29 20:19:52 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 20:19:52 → check_sales.py
+[hunt] 2026-06-29 20:19:52 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 20:20:22 → support_mail.py
+[hunt] 2026-06-29 20:20:22 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
