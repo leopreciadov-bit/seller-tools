@@ -1,20 +1,20 @@
 window.GUMROAD = {
   "username": null,
   "products": {
-    "listinglab-pro": {
-      "title": "ListingLab Pro",
-      "price": 19,
-      "url": "https://YOURNAME.gumroad.com/l/listinglab-pro"
-    },
     "etsy-tag-finder-pro": {
-      "title": "Etsy Tag Finder Pro",
+      "title": "etsy-tag-finder-pro",
       "price": 14,
-      "url": "https://YOURNAME.gumroad.com/l/etsy-tag-finder-pro"
+      "url": "https://itch.io/login"
+    },
+    "listinglab-pro": {
+      "title": "listinglab-pro",
+      "price": 19,
+      "url": "https://itch.io/login"
     },
     "seller-kit-bundle": {
-      "title": "Seller Kit Bundle",
+      "title": "seller-kit-bundle",
       "price": 29,
-      "url": "https://YOURNAME.gumroad.com/l/seller-kit-bundle"
+      "url": "https://itch.io/login"
     }
   }
 };

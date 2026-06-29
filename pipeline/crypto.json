@@ -4,14 +4,25 @@
   "payout_network": "solana",
   "preferred": "usdc_sol",
   "direct_only": true,
-  "settlement_note": "Send USDC/USDT/SOL directly to payout_address only — no swaps or DeFi",
+  "settlement_note": "Send USDC/USDT/SOL directly to payout_address only \u2014 no swaps or DeFi",
   "contact": "seller0ohqeu@web-library.net",
   "card": {
     "enabled": true,
     "helio_paylink_id": "",
     "transak_api_key": "",
     "moonpay_publishable_key": "",
-    "provider": "auto"
+    "provider": "itch",
+    "fallbacks": {
+      "etsy-tag-finder-pro": {
+        "itch": "https://itch.io/login"
+      },
+      "listinglab-pro": {
+        "itch": "https://itch.io/login"
+      },
+      "seller-kit-bundle": {
+        "itch": "https://itch.io/login"
+      }
+    }
   },
   "products": {
     "listinglab-pro": {
@@ -33,7 +44,7 @@
   "methods": {
     "card": {
       "label": "Card",
-      "sublabel": "Visa · MC · Apple Pay",
+      "sublabel": "Visa \u00b7 MC \u00b7 Apple Pay",
       "direct": true,
       "card": true,
       "stablecoin": true

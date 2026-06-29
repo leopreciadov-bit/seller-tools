@@ -2,23 +2,20 @@
   "username": null,
   "access_token": null,
   "products": {
-    "listinglab-pro": {
-      "title": "ListingLab Pro",
-      "price_usd": 19,
-      "slug": "listinglab-pro",
-      "license_upload": "gumroad/upload/listinglab-pro-keys.txt"
-    },
     "etsy-tag-finder-pro": {
-      "title": "Etsy Tag Finder Pro",
-      "price_usd": 14,
-      "slug": "etsy-tag-finder-pro",
-      "license_upload": "gumroad/upload/etsy-tag-finder-pro-keys.txt"
+      "title": "etsy-tag-finder-pro",
+      "price": 14,
+      "url": "https://itch.io/login"
+    },
+    "listinglab-pro": {
+      "title": "listinglab-pro",
+      "price": 19,
+      "url": "https://itch.io/login"
     },
     "seller-kit-bundle": {
-      "title": "Seller Kit Bundle",
-      "price_usd": 29,
-      "slug": "seller-kit-bundle",
-      "license_upload": "gumroad/upload/seller-kit-bundle-keys.txt"
+      "title": "seller-kit-bundle",
+      "price": 29,
+      "url": "https://itch.io/login"
     }
   }
 }

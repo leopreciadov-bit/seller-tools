@@ -1,6 +1,15 @@
 {
-  "products": {},
+  "products": {
+    "etsy-tag-finder-pro": {
+      "itch": "https://itch.io/login"
+    },
+    "listinglab-pro": {
+      "itch": "https://itch.io/login"
+    },
+    "seller-kit-bundle": {
+      "itch": "https://itch.io/login"
+    }
+  },
   "primary": "fallback",
-  "updated_at": "2026-06-29T10:23:35Z",
-  "status": "blocked"
+  "updated_at": "2026-06-29T10:28:13Z"
 }

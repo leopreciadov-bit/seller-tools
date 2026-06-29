@@ -87,5 +87,19 @@
     "password": "qvhKpSEYiftFYVLT",
     "inbox_password": "LO4iQO0U3NPprVWI",
     "created_at": "2026-06-29T10:25:55Z"
+  },
+  {
+    "service": "polar",
+    "email": "polarf9w8k0@web-library.net",
+    "password": "pm9CUC5Z2YfXAWrr",
+    "inbox_password": "O2WELoJDA3LoOl4X",
+    "created_at": "2026-06-29T10:30:45Z"
+  },
+  {
+    "service": "itch",
+    "email": "itch1nig4e@web-library.net",
+    "password": "LPM2tRHxbJZyHFBI",
+    "inbox_password": "HaZFBB2EZbHXbxIA",
+    "created_at": "2026-06-29T10:33:42Z"
   }
 ]

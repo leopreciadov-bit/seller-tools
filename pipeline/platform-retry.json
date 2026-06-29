@@ -19,7 +19,12 @@
       "last_attempt": "2026-06-29T10:23:19.062393+00:00",
       "ok": false,
       "detail": "kofi_autopilot.py"
+    },
+    "card": {
+      "last_attempt": "2026-06-29T10:31:31.820004+00:00",
+      "ok": false,
+      "detail": "card_autopilot.py"
     }
   },
-  "updated_at": "2026-06-29T10:23:19.062527+00:00"
+  "updated_at": "2026-06-29T10:31:31.820138+00:00"
 }
