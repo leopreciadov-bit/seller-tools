@@ -25175,3 +25175,96 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-29 20:58:12 → check_sales.py
 [hunt] 2026-06-29 20:58:12 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     2  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+
+YOUR SWEEPS:     5  ($131.24 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $10.00 USDC  2026-06-28 01:01 UTC  5AisKQx7EdiRnpSxwciG…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-29 20:59:09 → wallet_report.py
+[hunt] 2026-06-29 20:59:09 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-29 20:59:32 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:59:32 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:59:32 → advertise_other.py
+[hunt] 2026-06-29 20:59:32 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/rfv8k4uu
+[ads] rentry: https://rentry.co/p3buwobv
+[ads] rentry: https://rentry.co/xr6t5kf4
+[ads] rentry: https://rentry.co/5shnziwr
+[ads] rentry: https://rentry.co/pdpyw9uf
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/4915203cd9cb8675e50d770b907fe806
+[ads] gist: https://gist.github.com/leopreciadov-bit/a7256d974f9dc5b70f057e1b8c7e47ae
+[ads] gist: https://gist.github.com/leopreciadov-bit/0489477e4187bd2da676634702cf07e9
+[ads] gist: https://gist.github.com/leopreciadov-bit/b38dd17170a9e3d2768c7b69ecc66aea
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1279
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1280
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1281
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 20:59:56 → sales_innovate.py
+[hunt] 2026-06-29 20:59:56 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-29 20:59:59 → sales_channels.py
+[hunt] 2026-06-29 20:59:59 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
