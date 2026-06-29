@@ -13,7 +13,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from direct_payment import inbound_amount, is_direct_payment  # noqa: E402
+from direct_payment import classify_tx, inbound_amount, is_direct_payment, token_delta  # noqa: E402
+
+OWNER_ACTIVITY = ROOT / "pipeline" / "owner-trades.json"
 STATE = ROOT / "pipeline" / "state.json"
 SALES_LOG = ROOT / "pipeline" / "sales.json"
 SOLD_KEYS = ROOT / "pipeline" / "sold-keys.json"
@@ -234,6 +236,14 @@ def subprocess_rebuild() -> None:
         subprocess.run([sys.executable, str(script), "build"], cwd=ROOT, check=False)
 
 
+def print_owner_vs_sales() -> None:
+    import subprocess
+
+    script = ROOT / "scripts" / "wallet_report.py"
+    if script.exists():
+        subprocess.run([sys.executable, str(script)], cwd=ROOT, check=False)
+
+
 def main() -> None:
     sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 100}])["result"]
     ok = [s for s in sigs if not s.get("err")]
@@ -267,9 +277,11 @@ def main() -> None:
     for x in log.get("self_transfers", []):
         print(f"  (self-transfer ${x.get('amount')} — excluded)")
     if new_sales:
-        print(f"NEW: {len(new_sales)} sale(s) detected and keys reserved")
+        print(f"NEW BUYER SALE(S): {len(new_sales)}")
         for s in new_sales:
             print(f"  + ${s['amount']} {s['product']} key={s['key']}")
+    print("\n--- Your trades vs buyer sales ---")
+    print_owner_vs_sales()
 
 
 if __name__ == "__main__":
