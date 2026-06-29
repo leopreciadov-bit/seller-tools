@@ -19,8 +19,11 @@ PRIORITY = {
     "/": ("weekly", "1.0"),
     "/listing-lab/": ("weekly", "0.95"),
     "/etsy-tag-finder/": ("weekly", "0.95"),
-    "/deals/": ("daily", "0.9"),
+    "/deals/": ("daily", "0.95"),
     "/embed/": ("monthly", "0.7"),
+    "/buy/etsy-tag-finder-pro/": ("daily", "0.95"),
+    "/buy/listinglab-pro/": ("daily", "0.95"),
+    "/buy/seller-kit-bundle/": ("daily", "0.95"),
     "/recover/": ("monthly", "0.5"),
 }
 

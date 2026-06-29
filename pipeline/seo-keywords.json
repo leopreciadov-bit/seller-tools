@@ -179,6 +179,126 @@
       "title": "Print on Demand SEO Tool",
       "tool": "listing-lab",
       "product": "seller-kit-bundle"
+    },
+    {
+      "slug": "how-to-rank-on-etsy-search",
+      "title": "How to Rank on Etsy Search (Free Tools)",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-seo-checklist-2026",
+      "title": "Etsy SEO Checklist 2026 for Sellers",
+      "tool": "etsy-tag-finder",
+      "product": "seller-kit-bundle"
+    },
+    {
+      "slug": "shopify-conversion-copy-tool",
+      "title": "Shopify Conversion Copy Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-title-too-short-fix",
+      "title": "Etsy Title Too Short? Generator Fix",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "bulk-etsy-listing-generator",
+      "title": "Bulk Etsy Listing Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-tag-stuffing-avoid",
+      "title": "Etsy Tag Stuffing \u2014 What to Do Instead",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "long-tail-keywords-etsy-free",
+      "title": "Long Tail Keywords Etsy \u2014 Free Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "handmade-jewelry-etsy-tags",
+      "title": "Handmade Jewelry Etsy Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "crochet-etsy-listing-generator",
+      "title": "Crochet Etsy Listing Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "vintage-clothing-etsy-seo",
+      "title": "Vintage Clothing Etsy SEO Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "everbee-alternative-free",
+      "title": "Everbee Alternative Free for Etsy",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "sale-samurai-alternative",
+      "title": "Sale Samurai Alternative \u2014 Free Etsy SEO",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "koalanda-alternative",
+      "title": "Koalanda Alternative for Etsy Tags",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "merch-titans-alternative",
+      "title": "Merch Titans Alternative Listing Tool",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-rank-alternative",
+      "title": "Etsy Rank Alternative Free Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "cresta-alternative-etsy",
+      "title": "Cresta Etsy Alternative \u2014 Listing Writer",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "shopify-dropshipping-seo-tool",
+      "title": "Shopify Dropshipping SEO Tool Free",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-christmas-tags-generator",
+      "title": "Etsy Christmas Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-wedding-tags-generator",
+      "title": "Etsy Wedding Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-listing-not-selling",
+      "title": "Etsy Listing Not Selling? Fix SEO Tags & Copy",
+      "tool": "listing-lab",
+      "product": "seller-kit-bundle"
     }
   ],
   "published": [
@@ -213,5 +333,6 @@
     "shopify-listing-tool-free",
     "print-on-demand-seo-tool"
   ],
-  "last_run": "2026-06-29T10:06:23.995067+00:00"
+  "last_run": "2026-06-29T10:06:23.995067+00:00",
+  "last_expand": "2026-06-29T10:10:17.217154+00:00"
 }

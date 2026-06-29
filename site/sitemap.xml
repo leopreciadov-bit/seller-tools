@@ -7,10 +7,28 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/buy/etsy-tag-finder-pro/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/buy/listinglab-pro/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/buy/seller-kit-bundle/</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/deals/</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <priority>0.95</priority>
   </url>
   <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/embed/</loc>
@@ -43,6 +61,24 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/bulk-etsy-listing-generator.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/cresta-alternative-etsy.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/crochet-etsy-listing-generator.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/dropshipping-listing-generator.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -56,6 +92,12 @@
   </url>
   <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-alt-text-generator.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-christmas-tags-generator.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -97,6 +139,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-not-selling.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-optimizer.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -110,6 +158,18 @@
   </url>
   <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-long-tail-tags.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-rank-alternative.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-seo-checklist-2026.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -139,7 +199,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-tag-stuffing-avoid.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-title-ideas-generator.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-title-too-short-fix.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/etsy-wedding-tags-generator.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/everbee-alternative-free.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -163,6 +247,12 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/handmade-jewelry-etsy-tags.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/handmade-seller-listing-tool.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
@@ -175,7 +265,31 @@
     <priority>0.75</priority>
   </url>
   <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/how-to-rank-on-etsy-search.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/koalanda-alternative.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/long-tail-keywords-etsy-free.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/marmalead-alternative-free.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/merch-titans-alternative.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -194,6 +308,24 @@
   </url>
   <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/product-title-generator-ecommerce.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/sale-samurai-alternative.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/shopify-conversion-copy-tool.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/shopify-dropshipping-seo-tool.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
@@ -230,6 +362,12 @@
   </url>
   <url>
     <loc>https://leopreciadov-bit.github.io/seller-tools/guides/vela-etsy-alternative.html</loc>
+    <lastmod>2026-06-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://leopreciadov-bit.github.io/seller-tools/guides/vintage-clothing-etsy-seo.html</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>

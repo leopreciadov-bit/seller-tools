@@ -1,0 +1,1 @@
+- [Seller Tools](https://leopreciadov-bit.github.io/seller-tools/) — Free Etsy/Shopify listing generators, Pro crypto checkout

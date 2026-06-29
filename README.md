@@ -1,5 +1,8 @@
 # Seller Tools
 
+> **Pro deals:** [https://leopreciadov-bit.github.io/seller-tools/deals/](https://leopreciadov-bit.github.io/seller-tools/deals/) · Direct buy: [Tag Finder $14](https://leopreciadov-bit.github.io/seller-tools/buy/etsy-tag-finder-pro/) · [ListingLab $19](https://leopreciadov-bit.github.io/seller-tools/buy/listinglab-pro/)
+
+
 **Live site:** https://leopreciadov-bit.github.io/seller-tools/
 
 Free Etsy & Shopify listing generators for marketplace sellers. No signup — runs in your browser.

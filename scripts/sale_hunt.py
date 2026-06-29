@@ -73,7 +73,8 @@ def cycle(st: dict) -> None:
     run("account_factory.py")
     run("platform_retry.py")
 
-    run("seo_content_factory.py", "--batch", "5")
+    run("sales_innovate.py")
+    run("seo_content_factory.py", "--batch", "8")
     run("sales_channels.py")
     run("build_sitemap.py", "--base", "https://leopreciadov-bit.github.io/seller-tools")
     run("advertise_other.py")
@@ -88,8 +89,9 @@ def cycle(st: dict) -> None:
     if buyer_sales_count() == 0:
         log("zero buyer sales — double promotion")
         run("advertise_other.py")
+        run("sales_innovate.py")
         run("sales_channels.py")
-        run("seo_content_factory.py", "--batch", "5")
+        run("seo_content_factory.py", "--batch", "8")
         run("promote_autopilot.py")
         run("resubmit_indexnow.py")
 
@@ -124,7 +126,8 @@ def main() -> None:
             cycle(st)
         except Exception as e:
             log(f"error: {e}")
-        time.sleep(args.interval)
+        wait = 120 if buyer_sales_count() == 0 else args.interval
+        time.sleep(wait)
 
 
 if __name__ == "__main__":
