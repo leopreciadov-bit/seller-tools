@@ -19,16 +19,6 @@ PY = "/tmp/seller-venv/bin/python" if Path("/tmp/seller-venv/bin/python").exists
 SITE = "https://leopreciadov-bit.github.io/seller-tools"
 STATE = ROOT / "pipeline" / "max-revenue.json"
 
-# High-intent Etsy seller search queries → land on tools/deals
-BING_PING_URLS = [
-    f"{SITE}/etsy-tag-finder/",
-    f"{SITE}/listing-lab/",
-    f"{SITE}/deals/",
-    f"{SITE}/guides/marmalead-alternative-free.html",
-    f"{SITE}/guides/erank-alternative-free.html",
-    f"{SITE}/guides/best-etsy-tag-generator-2026.html",
-]
-
 TOOL_DIRS = [
     ("tool_directories", "https://www.saashub.com/submit", SITE, "Seller Tools — Free Etsy listing & tag generators"),
     ("tool_directories", "https://www.alternativeto.net/browse/new/", SITE, "Seller Tools"),
@@ -50,12 +40,23 @@ def run(script: str, *args: str, timeout: int = 180) -> None:
 
 
 def load_state() -> dict:
-    return json.loads(STATE.read_text()) if STATE.exists() else {"runs": []}
+    return json.loads(STATE.read_text()) if STATE.exists() else {"runs": [], "cycle": 0}
 
 
 def save_state(st: dict) -> None:
     st["updated_at"] = time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
     STATE.write_text(json.dumps(st, indent=2) + "\n")
+
+
+def sitemap_urls(limit: int = 40) -> list[str]:
+    sm = ROOT / "site" / "sitemap.xml"
+    if not sm.exists():
+        return [f"{SITE}/", f"{SITE}/deals/", f"{SITE}/etsy-tag-finder/", f"{SITE}/listing-lab/"]
+    import re
+    urls = re.findall(r"<loc>([^<]+)</loc>", sm.read_text())
+    priority = [u for u in urls if "/guides/" in u or "/deals" in u or "tag-finder" in u or "listing-lab" in u]
+    rest = [u for u in urls if u not in priority]
+    return (priority + rest)[:limit]
 
 
 def bing_indexnow(st: dict) -> None:
@@ -67,7 +68,7 @@ def bing_indexnow(st: dict) -> None:
         "host": "leopreciadov-bit.github.io",
         "key": cfg["key"],
         "keyLocation": f"{SITE}/{cfg['key_file']}",
-        "urlList": BING_PING_URLS,
+        "urlList": sitemap_urls(),
     }).encode()
     for ep in ["https://www.bing.com/indexnow", "https://api.indexnow.org/indexnow"]:
         try:
@@ -98,7 +99,6 @@ def submit_directories_playwright(st: dict) -> None:
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True, args=["--no-sandbox"])
         page = browser.new_page()
-        # Uneed — free tool listing
         try:
             page.goto("https://www.uneed.best/submit-a-tool", timeout=45000)
             page.wait_for_timeout(3000)
@@ -116,19 +116,29 @@ def submit_directories_playwright(st: dict) -> None:
 
 def main() -> None:
     st = load_state()
-    log("=== MAX REVENUE CYCLE ===")
+    st["cycle"] = st.get("cycle", 0) + 1
+    n = st["cycle"]
+    log(f"=== MAX REVENUE CYCLE #{n} ===")
 
-    run("payhip_sales.py", timeout=60)
-    run("check_sales.py", "--quick", timeout=45)
-    run("sales_channels.py", timeout=180)  # comparison SEO pages
+    run("payhip_sales.py", timeout=45)
+    run("check_sales.py", "--quick", "--no-payhip", "--skip-detect", timeout=5)
+
+    # Traffic: SEO pages every cycle, full advertise blast every 3rd cycle
+    run("seo_content_factory.py", "--batch", "5", timeout=60)
+    if n % 3 == 0:
+        run("advertise_other.py", timeout=300)
+    else:
+        run("sales_channels.py", timeout=90)
+
+    run("build_sitemap.py", "--base", SITE, timeout=30)
     bing_indexnow(st)
     ping_google_sitemap(st)
-    if len(st.get("runs", [])) % 10 == 0:
+    if n % 10 == 0:
         submit_directories_playwright(st)
 
     subprocess.run([PY, str(ROOT / "scripts/crypto_setup.py"), "build"], cwd=ROOT, check=False)
     subprocess.run(["git", "add", "-A", "--", "pipeline/", "site/"], cwd=ROOT, check=False)
-    subprocess.run(["git", "commit", "-m", "Max revenue cycle"], cwd=ROOT, capture_output=True)
+    subprocess.run(["git", "commit", "-m", f"Max revenue cycle #{n}"], cwd=ROOT, capture_output=True)
     subprocess.run(["git", "push", "origin", "main"], cwd=ROOT, check=False)
 
     save_state(st)

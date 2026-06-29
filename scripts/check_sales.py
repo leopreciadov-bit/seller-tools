@@ -121,7 +121,7 @@ def detect_new_sales() -> list[dict]:
     reserved = load_reserved_keys()
     new_sales: list[dict] = []
 
-    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 30}])["result"]
+    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 8}])["result"]
     cutoff = time.time() - 86400 * 7
     for s in sigs:
         if s.get("err"):
@@ -258,17 +258,31 @@ def main() -> None:
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--quick", action="store_true", help="Skip reaudit and wallet report")
+    parser.add_argument("--no-payhip", action="store_true", help="Skip Payhip inbox check")
+    parser.add_argument("--skip-detect", action="store_true", help="Skip on-chain sale scan")
     args = parser.parse_args()
 
-    payhip = ROOT / "scripts" / "payhip_sales.py"
-    if payhip.exists():
-        subprocess.run([sys.executable, str(payhip)], cwd=ROOT, check=False, timeout=45)
+    if not args.no_payhip:
+        payhip = ROOT / "scripts" / "payhip_sales.py"
+        if payhip.exists():
+            subprocess.run([sys.executable, str(payhip)], cwd=ROOT, check=False, timeout=30)
 
-    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 40 if args.quick else 100}])["result"]
+    ok: list = []
+    failed = 0
+    removed = 0
+    new_sales: list[dict] = []
+
+    if args.skip_detect:
+        log_data = json.loads(SALES_LOG.read_text()) if SALES_LOG.exists() else {"sales": []}
+        print(f"Wallet: {WALLET}")
+        print(f"Confirmed sales: {len(log_data.get('sales', []))}")
+        print(f"Revenue (confirmed): ${sum(s.get('amount', 0) for s in log_data.get('sales', [])):.2f}")
+        return
+
+    sigs = rpc("getSignaturesForAddress", [WALLET, {"limit": 8 if args.quick else 100}])["result"]
     ok = [s for s in sigs if not s.get("err")]
     failed = len(sigs) - len(ok)
 
-    removed = 0
     if not args.quick:
         removed = reaudit_sales()
         if removed:
