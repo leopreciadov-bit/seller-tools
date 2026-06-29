@@ -30349,3 +30349,16 @@ No new SEO pages (all published)
 [channels] github_repo: ok
 [channels] github_release: error
 [channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-29 22:39:08 → build_sitemap.py
+[hunt] 2026-06-29 22:39:08 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-29 22:39:08 → advertise_other.py
+[hunt] 2026-06-29 22:39:08 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
