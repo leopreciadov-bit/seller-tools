@@ -24867,3 +24867,91 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] pingomatic: 200
 [ads] indexnow: 200
 [ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/opy7ss7v
+[ads] rentry: https://rentry.co/wqqpy922
+[ads] rentry: https://rentry.co/5wvpesdb
+[ads] rentry: https://rentry.co/bkt7dqd4
+[ads] rentry: https://rentry.co/f4fyn59f
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/7414af3744ea50eaa8298581114ade7f
+[ads] gist: https://gist.github.com/leopreciadov-bit/6ae7edbedbebe0b3cf33ea0525f804fa
+[ads] gist: https://gist.github.com/leopreciadov-bit/42da8698d5793346c0c7103284c244a6
+[ads] gist: https://gist.github.com/leopreciadov-bit/867b8a61b9a4c7a88bdbdfb14cfdfe09
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1264
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1265
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1266
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 20:51:55 → promote_autopilot.py
+[hunt] 2026-06-29 20:51:55 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-29 20:51:57 → reddit_publish.py
+[hunt] 2026-06-29 20:51:57 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/44ed72f62d57708a754b6ac35ca895ce
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/4c9f7be8417c3011c325531b99e7b109
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/dabe48c9ce58d594bce75501118b5e89
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/07d07cce232f1798940521675f28770e
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 20:52:06 → gumroad_launch.py
+[hunt] 2026-06-29 20:52:06 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 20:52:06 → check_sales.py
+[hunt] 2026-06-29 20:52:06 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 20:52:36 → support_mail.py
+[hunt] 2026-06-29 20:52:36 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 20:52:38 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:52:38 zero buyer sales — double promotion
+[hunt] 2026-06-29 20:52:38 → advertise_other.py
+[hunt] 2026-06-29 20:52:38 → advertise_other.py
+[ads] === Advertise other channels ===
