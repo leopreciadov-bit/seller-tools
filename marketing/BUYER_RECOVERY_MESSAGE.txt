@@ -1,0 +1,16 @@
+Hi — thanks for your purchase!
+
+Your ListingLab Pro payment ($19.87 USDC) went through. The license key is ready — here's how to unlock:
+
+1. Open: https://leopreciadov-bit.github.io/seller-tools/recover/
+2. In Phantom → Activity → tap your USDC payment → copy the transaction signature
+3. Paste it on that page → click "Get my license key"
+4. Copy your key, then open: https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+5. Paste the key in the Pro box → click Unlock Pro
+
+Your transaction (if you need it):
+5KXeyazUa4PJxxRrDQGDnv73pHYEWwgSHpfaau43bQR7kUd7BmG5dDZDfzu1oXhrFCrwr7vsTp72jcXnZAyemZKB
+
+If anything fails, reply with a screenshot of your Phantom payment and we'll sort it out.
+
+— Seller Tools
