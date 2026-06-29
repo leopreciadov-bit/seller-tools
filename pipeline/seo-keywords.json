@@ -119,6 +119,66 @@
       "title": "Etsy SEO Helper Tool",
       "tool": "etsy-tag-finder",
       "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "marmalead-alternative-free",
+      "title": "Marmalead Alternative Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "erank-alternative-free",
+      "title": "eRank Alternative Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "alura-etsy-alternative",
+      "title": "Alura Etsy Alternative",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-hunt-alternative",
+      "title": "Etsy Hunt Alternative",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "vela-etsy-alternative",
+      "title": "Vela Etsy Alternative",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "free-etsy-seo-tool-vs-paid",
+      "title": "Free Etsy SEO vs Paid",
+      "tool": "etsy-tag-finder",
+      "product": "seller-kit-bundle"
+    },
+    {
+      "slug": "best-etsy-tag-generator-2026",
+      "title": "Best Etsy Tag Generator 2026",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-listing-generator-comparison",
+      "title": "Etsy Listing Generator Comparison",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "shopify-listing-tool-free",
+      "title": "Shopify Listing Tool Free",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "print-on-demand-seo-tool",
+      "title": "Print on Demand SEO Tool",
+      "tool": "listing-lab",
+      "product": "seller-kit-bundle"
     }
   ],
   "published": [
@@ -141,7 +201,17 @@
     "etsy-listing-optimizer",
     "handmade-etsy-tags",
     "dropshipping-listing-generator",
-    "etsy-seo-helper"
+    "etsy-seo-helper",
+    "marmalead-alternative-free",
+    "erank-alternative-free",
+    "alura-etsy-alternative",
+    "etsy-hunt-alternative",
+    "vela-etsy-alternative",
+    "free-etsy-seo-tool-vs-paid",
+    "best-etsy-tag-generator-2026",
+    "etsy-listing-generator-comparison",
+    "shopify-listing-tool-free",
+    "print-on-demand-seo-tool"
   ],
-  "last_run": "2026-06-29T09:40:01.921599+00:00"
+  "last_run": "2026-06-29T09:52:31.579822+00:00"
 }

@@ -118,15 +118,6 @@ def main() -> None:
         cycle(st)
         return
 
-    lock_path = ROOT / "pipeline" / ".sale-hunt.lock"
-    try:
-        import fcntl
-        lock_f = lock_path.open("w")
-        fcntl.flock(lock_f.fileno(), fcntl.LOCK_EX | fcntl.LOCK_NB)
-    except (ImportError, OSError):
-        log("another sale_hunt instance running — exit")
-        return
-
     while True:
         try:
             st = load_state()
