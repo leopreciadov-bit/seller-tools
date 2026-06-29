@@ -67,6 +67,7 @@ def main() -> None:
     subprocess.run([PY, str(ROOT / "scripts" / "account_factory.py")], cwd=ROOT, check=False)
 
     retries = [
+        ("yolo", "bypass_yolo.py"),
         ("helio", "helio_onboard.py"),
         ("kofi", "kofi_autopilot.py"),
         ("card", "card_autopilot.py"),

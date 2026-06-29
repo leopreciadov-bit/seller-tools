@@ -135,6 +135,20 @@ def bypass_transak() -> str | None:
     return None
 
 
+def fill_first(page, selectors: list[str], value: str) -> bool:
+    for sel in selectors:
+        loc = page.locator(sel)
+        for i in range(loc.count()):
+            el = loc.nth(i)
+            try:
+                if el.is_visible():
+                    el.fill(value)
+                    return True
+            except Exception:
+                continue
+    return False
+
+
 def bypass_kofi(results: dict) -> None:
     log("Ko-fi shop...")
     from playwright.sync_api import sync_playwright
@@ -147,9 +161,13 @@ def bypass_kofi(results: dict) -> None:
         context = browser.new_context(viewport={"width": 1400, "height": 900})
         page = new_stealth_page(context)
         page.goto("https://ko-fi.com/account/register", timeout=60000)
-        page.wait_for_timeout(3000)
-        page.locator('input[name="email"], input[type="email"]').first.fill(inbox.address)
-        page.locator('input[name="password"], input[type="password"]').first.fill(password)
+        page.wait_for_timeout(5000)
+        if not fill_first(page, ['input[name="email"]', '#Email', 'input[type="email"]'], inbox.address):
+            page.screenshot(path=str(ROOT / "pipeline/kofi-yolo-fail.png"))
+            log("Ko-fi register form not found")
+            browser.close()
+            return
+        fill_first(page, ['input[name="password"]', '#Password', 'input[type="password"]'], password)
         page.locator('button[type="submit"]').first.click()
         page.wait_for_timeout(5000)
         link = wait_for_link(inbox, timeout=120)
@@ -158,9 +176,9 @@ def bypass_kofi(results: dict) -> None:
             page.wait_for_timeout(4000)
 
         page.goto("https://ko-fi.com/account/login", timeout=60000)
-        page.wait_for_timeout(2000)
-        page.locator('#Email, input[name="Email"]').first.fill(inbox.address)
-        page.locator('#Password, input[name="Password"]').first.fill(password)
+        page.wait_for_timeout(3000)
+        fill_first(page, ['#Email', 'input[name="Email"]', 'input[type="email"]'], inbox.address)
+        fill_first(page, ['#Password', 'input[name="Password"]', 'input[type="password"]'], password)
         page.locator('button[type="submit"]').first.click()
         page.wait_for_timeout(6000)
 
@@ -171,15 +189,18 @@ def bypass_kofi(results: dict) -> None:
             return
 
         for prod in PRODUCTS:
-            page.goto("https://ko-fi.com/shop/manage/add", timeout=60000)
-            page.wait_for_timeout(3000)
-            page.locator('input[name="Name"], #Name').first.fill(prod["name"])
-            page.locator('input[name="Price"], #Price').first.fill(prod["price"])
-            page.locator('button:has-text("Publish"), button:has-text("Save")').first.click()
-            page.wait_for_timeout(5000)
-            for m in re.finditer(r'(https://ko-fi\.com/s/[a-f0-9]+)', page.content()):
-                results.setdefault("products", {}).setdefault(prod["slug"], {})["kofi"] = m.group(1)
-                log(f"  Ko-fi {prod['slug']}: {m.group(1)}")
+            try:
+                page.goto("https://ko-fi.com/shop/manage/add", timeout=60000)
+                page.wait_for_timeout(3000)
+                fill_first(page, ['input[name="Name"]', '#Name'], prod["name"])
+                fill_first(page, ['input[name="Price"]', '#Price'], prod["price"])
+                page.locator('button:has-text("Publish"), button:has-text("Save")').first.click()
+                page.wait_for_timeout(5000)
+                for m in re.finditer(r'(https://ko-fi\.com/s/[a-f0-9]+)', page.content()):
+                    results.setdefault("products", {}).setdefault(prod["slug"], {})["kofi"] = m.group(1)
+                    log(f"  Ko-fi {prod['slug']}: {m.group(1)}")
+            except Exception as e:
+                log(f"  Ko-fi {prod['slug']}: {e}")
 
         page.screenshot(path=str(ROOT / "pipeline/kofi-yolo.png"))
         browser.close()
@@ -264,9 +285,15 @@ def main() -> None:
     results: dict = {"products": {}}
 
     merge_payhip(results)
-    bypass_transak()
-    bypass_kofi(results)
-    bypass_gumroad_stealth()
+    for name, fn in [
+        ("transak", lambda: bypass_transak()),
+        ("kofi", lambda: bypass_kofi(results)),
+        ("gumroad", bypass_gumroad_stealth),
+    ]:
+        try:
+            fn()
+        except Exception as e:
+            log(f"{name} crashed: {e}")
 
     wire_all(results)
     subprocess.run([PY, str(ROOT / "scripts/crypto_setup.py"), "build"], cwd=ROOT, check=False)
