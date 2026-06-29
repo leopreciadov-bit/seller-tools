@@ -29227,3 +29227,70 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [promote] Bing sitemap: HTTP 410
 [promote] IndexNow: HTTP 200
 [promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/b87705200dcb4862e369c8758b70c026
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/0e14eb82708f5c5e0269680cb926e686
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/ed8dbfca76fe98f9b8411c250e094d26
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/e2fe343cedeee6218f7a18a30671e1fc
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-29 22:17:42 → gumroad_launch.py
+[hunt] 2026-06-29 22:17:42 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-29 22:17:42 → check_sales.py
+[hunt] 2026-06-29 22:17:42 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 22:18:14 → support_mail.py
+[hunt] 2026-06-29 22:18:14 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 22:18:17 zero buyer sales — double promotion
+[hunt] 2026-06-29 22:18:17 zero buyer sales — double promotion
+[hunt] 2026-06-29 22:18:17 → advertise_other.py
+[hunt] 2026-06-29 22:18:17 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/eypapw94
+[ads] rentry: https://rentry.co/g4w9mdvb
+[ads] rentry: https://rentry.co/skuadx96
+[ads] rentry: https://rentry.co/3i63to5p
+[ads] rentry: https://rentry.co/xxbxf9v7
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/cd4f1eb3decdd3d3f550498659da59c3
+[ads] gist: https://gist.github.com/leopreciadov-bit/eb2aefdb247d58354747888c4bcc8760
+[ads] gist: https://gist.github.com/leopreciadov-bit/7e99628e4a2f6b764efb35e4a62e3bd8
+[ads] gist: https://gist.github.com/leopreciadov-bit/0e00ea74b713762050b6c09951fe6622
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1453
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1454
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1455
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
