@@ -141,9 +141,9 @@ def setup_payhip(page, results: dict) -> dict | None:
     else:
         page.goto("https://payhip.com/auth/login", timeout=60000)
         page.wait_for_timeout(2000)
-        fill_visible(page, ['input[type="email"]'], acct["email"])
-        fill_visible(page, ['input[type="password"]'], acct["password"])
-        click_visible(page, ['button:has-text("Log in")', 'button[type="submit"]'])
+        fill_visible(page, ['input[placeholder="Enter your email"]', 'input[type="email"]', '#email'], acct["email"])
+        fill_visible(page, ['input[type="password"]', 'input[placeholder*="password" i]'], acct["password"])
+        click_visible(page, ['button:has-text("Log in")', 'a:has-text("Log in")', 'button[type="submit"]'])
         page.wait_for_timeout(5000)
 
     page.screenshot(path=str(ROOT / "pipeline/payhip-dashboard.png"))
@@ -173,12 +173,11 @@ def setup_payhip(page, results: dict) -> dict | None:
 
 def setup_kofi(page, account: dict, results: dict) -> None:
     log("Ko-fi...")
-    page.goto("https://ko-fi.com/Account/Login", timeout=60000)
+    page.goto("https://ko-fi.com/account/login", timeout=60000)
     page.wait_for_timeout(3000)
     dismiss_overlays(page)
-    click_visible(page, ['a:has-text("Log in")', 'button:has-text("Log in")'])
-    page.wait_for_timeout(1000)
-    fill_visible(page, ['#Email', 'input[name="Email"]', 'input[type="email"]'], account["email"])
+    # avoid Facebook OAuth buttons
+    fill_visible(page, ['#Email', 'input[name="Email"]', 'input[type="email"]:not([name="username"])'], account["email"])
     fill_visible(page, ['#Password', 'input[name="Password"]', 'input[type="password"]'], account["password"])
     click_visible(page, ['button[type="submit"]', 'input[type="submit"]', 'button:has-text("Log in")'])
     page.wait_for_timeout(6000)
