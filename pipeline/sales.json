@@ -1,0 +1,20 @@
+{
+  "sales": [
+    {
+      "time": "2026-06-28 01:05",
+      "amount": 19.87,
+      "product": "ListingLab Pro",
+      "asset": "USDC",
+      "status": "paid_no_key_delivered",
+      "note": "Buyer likely paid but did not complete on-site unlock flow",
+      "key_to_issue": "LISTING-HH1Y-NWFT"
+    }
+  ],
+  "self_transfers": [
+    {
+      "time": "2026-06-28 05:02",
+      "amount": 78.51,
+      "note": "owner transfer — not a sale"
+    }
+  ]
+}

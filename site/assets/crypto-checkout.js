@@ -9,6 +9,52 @@
 
   let rates = {};
   let helioScriptLoaded = false;
+  const USDC_MINT = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const RPC_URLS = [
+    "https://solana-rpc.publicnode.com",
+    "https://rpc.ankr.com/solana",
+  ];
+
+  async function solanaRpc(method, params) {
+    for (const url of RPC_URLS) {
+      try {
+        const r = await fetch(url, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ jsonrpc: "2.0", id: 1, method, params }),
+        });
+        const j = await r.json();
+        if (j.result !== undefined) return j.result;
+      } catch (_) {}
+    }
+    return null;
+  }
+
+  async function verifyPayment(usd) {
+    const min = usd * 0.85;
+    const max = usd * 1.15;
+    const since = Math.floor(Date.now() / 1000) - 7200;
+    const sigs = await solanaRpc("getSignaturesForAddress", [payout, { limit: 40 }]);
+    if (!sigs) return false;
+    for (const s of sigs) {
+      if (s.err || (s.blockTime && s.blockTime < since)) continue;
+      const tx = await solanaRpc("getTransaction", [
+        s.signature,
+        { encoding: "jsonParsed", maxSupportedTransactionVersion: 0 },
+      ]);
+      if (!tx?.meta) continue;
+      const pre = {};
+      for (const t of tx.meta.preTokenBalances || []) {
+        if (t.owner === payout) pre[t.mint] = parseFloat(t.uiTokenAmount?.uiAmount || 0);
+      }
+      for (const t of tx.meta.postTokenBalances || []) {
+        if (t.owner !== payout || t.mint !== USDC_MINT) continue;
+        const delta = parseFloat(t.uiTokenAmount?.uiAmount || 0) - (pre[USDC_MINT] || 0);
+        if (delta >= min && delta <= max) return true;
+      }
+    }
+    return false;
+  }
 
   async function fetchRates() {
     const ids = [...new Set(
@@ -239,12 +285,57 @@
       });
     }
 
-    function onPaid() {
+    async function onPaid() {
+      const reveal = modal.querySelector("#key-reveal");
+      const btn = modal.querySelector("#confirm-paid");
+      const cached = localStorage.getItem(`crypto_license_${slug}`);
+      if (cached) {
+        showKey(cached);
+        return;
+      }
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Checking payment on Solana…";
+      }
+      if (reveal) reveal.innerHTML = `<p class="muted">Looking for your USDC payment (last 2 hours)…</p>`;
+
+      let ok = false;
+      for (let i = 0; i < 6; i++) {
+        ok = await verifyPayment(usd);
+        if (ok) break;
+        if (reveal) reveal.innerHTML = `<p class="muted">Not confirmed yet — retrying (${i + 1}/6)…</p>`;
+        await new Promise((r) => setTimeout(r, 5000));
+      }
+
+      if (!ok) {
+        if (reveal) {
+          reveal.innerHTML = `
+            <div class="crypto-bridge-notice">
+              <strong>Payment not detected yet.</strong>
+              <ol style="margin:0.5rem 0 0 1rem;padding:0">
+                <li>Send exactly <strong>$${usd} USDC</strong> on Solana to the address above</li>
+                <li>Wait ~30 seconds for confirmation</li>
+                <li>Click this button again <strong>on this same browser</strong></li>
+              </ol>
+              <p style="margin-top:0.5rem">Order ref: <strong>${ref}</strong><br>
+              Paid but stuck? Email <a href="mailto:${cfg.contact || "seller"}">${cfg.contact || "seller"}</a> with ref + tx screenshot.</p>
+            </div>`;
+        }
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = "I sent payment — get license key";
+        }
+        return;
+      }
+
       const key = grantKey(slug, ref);
       if (key) showKey(key);
-      else {
-        modal.querySelector("#key-reveal").innerHTML =
-          `<p class="muted">Contact ${cfg.contact || "seller"} with ref ${ref}.</p>`;
+      else if (reveal) {
+        reveal.innerHTML = `<p class="muted">Payment received — contact ${cfg.contact || "seller"} with ref ${ref} for your key.</p>`;
+      }
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = "Payment complete — get license key";
       }
     }
 
@@ -312,6 +403,9 @@
             ${m.bridge_url && !direct ? `<a class="secondary" href="${m.bridge_url}" target="_blank" rel="noopener" style="display:inline-block;padding:0.55rem 0.9rem;border-radius:8px;border:1px solid #2a3142;text-decoration:none;color:#e8ecf4">Swap & pay</a>` : ""}
           </div>
           <p class="crypto-settle-foot">Payout: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
+          <div class="crypto-bridge-notice" style="margin-top:0.75rem">
+            <strong>After paying in Phantom:</strong> return to this tab and click the button below. Keys are not auto-sent to your wallet.
+          </div>
           <div class="crypto-row">
             <button type="button" class="btn-crypto" id="confirm-paid">I sent payment — get license key</button>
             <button type="button" class="secondary" id="crypto-close">Close</button>

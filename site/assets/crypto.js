@@ -1,8 +1,8 @@
 window.CRYPTO = {
   "payout_address": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
   "payout_network": "solana",
-  "preferred": "card",
-  "contact": "support@example.com",
+  "preferred": "usdc_sol",
+  "contact": "seller0ohqeu@web-library.net",
   "card": {
     "enabled": true,
     "helio_paylink_id": "",
