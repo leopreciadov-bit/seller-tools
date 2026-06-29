@@ -97,10 +97,39 @@ def valid_product_url(url: str) -> bool:
     return any(h in url for h in ("gumroad.com/l/", "payhip.com/b/", "ko-fi.com/s/", "polar.sh", "itch.io/"))
 
 
+def sanitize_products(products: dict) -> dict:
+    clean: dict = {}
+    for slug, urls in products.items():
+        filtered = {k: u for k, u in urls.items() if valid_product_url(u)}
+        if filtered:
+            clean[slug] = filtered
+    return clean
+
+
+def clear_broken_checkout() -> None:
+    empty_gum = {"username": None, "access_token": None, "products": {}}
+    GUMROAD_CFG.write_text(json.dumps(empty_gum, indent=2) + "\n")
+    (ROOT / "site" / "assets" / "gumroad.js").write_text(
+        "window.GUMROAD = " + json.dumps(empty_gum, indent=2) + ";\n"
+    )
+    crypto = json.loads(CRYPTO_CFG.read_text())
+    crypto.setdefault("card", {})["fallbacks"] = {}
+    crypto["card"]["provider"] = "fallback"
+    CRYPTO_CFG.write_text(json.dumps(crypto, indent=2) + "\n")
+    subprocess.run([PY, str(ROOT / "scripts/crypto_setup.py"), "build"], cwd=ROOT, check=False)
+
+
 def wire_checkout(providers: dict) -> None:
+    products = sanitize_products(providers.get("products", {}))
+    if not products:
+        clear_broken_checkout()
+        log("No valid checkout URLs — cleared broken links")
+        return
+
     gum = {"username": None, "products": {}}
+    titles = {p["slug"]: p["name"] for p in PRODUCTS}
     prices = {"etsy-tag-finder-pro": 14, "listinglab-pro": 19, "seller-kit-bundle": 29}
-    for slug, urls in providers.get("products", {}).items():
+    for slug, urls in products.items():
         url = None
         for k in ("gumroad", "payhip", "kofi", "polar", "itch"):
             u = urls.get(k, "")
@@ -108,19 +137,25 @@ def wire_checkout(providers: dict) -> None:
                 url = u
                 break
         if url:
-            gum["products"][slug] = {"title": slug, "price": prices.get(slug, 0), "url": url}
+            gum["products"][slug] = {
+                "title": titles.get(slug, slug),
+                "price": prices.get(slug, 0),
+                "url": url,
+            }
             m = re.search(r"https://([^.]+)\.gumroad\.com", url)
             if m:
                 gum["username"] = m.group(1)
-    if gum["products"]:
-        base = json.loads(GUMROAD_CFG.read_text()) if GUMROAD_CFG.exists() else {}
-        base.update(gum)
-        GUMROAD_CFG.write_text(json.dumps(base, indent=2) + "\n")
-        (ROOT / "site" / "assets" / "gumroad.js").write_text("window.GUMROAD = " + json.dumps(gum, indent=2) + ";\n")
+
+    base = json.loads(GUMROAD_CFG.read_text()) if GUMROAD_CFG.exists() else {}
+    base.update(gum)
+    GUMROAD_CFG.write_text(json.dumps(base, indent=2) + "\n")
+    (ROOT / "site" / "assets" / "gumroad.js").write_text(
+        "window.GUMROAD = " + json.dumps(gum, indent=2) + ";\n"
+    )
 
     crypto = json.loads(CRYPTO_CFG.read_text())
     crypto.setdefault("card", {})["enabled"] = True
-    crypto["card"]["fallbacks"] = providers.get("products", {})
+    crypto["card"]["fallbacks"] = products
     crypto["card"]["provider"] = providers.get("primary", "fallback")
     CRYPTO_CFG.write_text(json.dumps(crypto, indent=2) + "\n")
     subprocess.run([PY, str(ROOT / "scripts/crypto_setup.py"), "build"], cwd=ROOT, check=False)
@@ -158,6 +193,9 @@ def setup_payhip(page, results: dict) -> dict | None:
         page.wait_for_timeout(5000)
 
     page.screenshot(path=str(ROOT / "pipeline/payhip-dashboard.png"))
+    if "/login" in page.url or "/register" in page.url:
+        log("  Payhip login failed")
+        return acct
 
     for prod in PRODUCTS:
         try:
@@ -251,19 +289,36 @@ def setup_polar(page, results: dict) -> dict | None:
 
 def setup_itch(page, results: dict) -> dict | None:
     log("itch.io...")
-    inbox = create_inbox("itch")
-    password = "".join(random.choices(string.ascii_letters + string.digits, k=16))
-    page.goto("https://itch.io/register", timeout=60000)
-    page.wait_for_timeout(2000)
-    fill_visible(page, ['input[name="username"]'], "sellertools" + str(random.randint(1000, 9999)))
-    fill_visible(page, ['input[name="email"]', 'input[type="email"]'], inbox.address)
-    fill_visible(page, ['input[name="password"]', 'input[type="password"]'], password)
-    click_visible(page, ['button:has-text("Register")', 'input[type="submit"]'])
-    page.wait_for_timeout(5000)
-    link = wait_for_link(inbox, timeout=120)
-    if link:
-        page.goto(link, timeout=60000)
+    acct = get_account("itch")
+    if acct:
+        page.goto("https://itch.io/login", timeout=60000)
+        page.wait_for_timeout(2000)
+        dismiss_overlays(page)
+        fill_visible(page, ['input[name="username"]', 'input[type="text"]'], acct["email"])
+        fill_visible(page, ['input[name="password"]', 'input[type="password"]'], acct["password"])
+        click_visible(page, ['button:has-text("Log in")', 'input[type="submit"]', 'button[type="submit"]'])
+        page.wait_for_timeout(5000)
+    else:
+        inbox = create_inbox("itch")
+        password = "".join(random.choices(string.ascii_letters + string.digits, k=16))
+        page.goto("https://itch.io/register", timeout=60000)
+        page.wait_for_timeout(2000)
+        fill_visible(page, ['input[name="username"]'], "sellertools" + str(random.randint(1000, 9999)))
+        fill_visible(page, ['input[name="email"]', 'input[type="email"]'], inbox.address)
+        fill_visible(page, ['input[name="password"]', 'input[type="password"]'], password)
+        click_visible(page, ['button:has-text("Register")', 'input[type="submit"]'])
+        page.wait_for_timeout(5000)
+        link = wait_for_link(inbox, timeout=120)
+        if link:
+            page.goto(link, timeout=60000)
+        acct = {"service": "itch", "email": inbox.address, "password": password,
+                "inbox_password": inbox.password, "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
+        save_accounts(load_accounts() + [acct])
     page.screenshot(path=str(ROOT / "pipeline/itch-signup.png"))
+
+    if "/login" in page.url or "/register" in page.url:
+        log("  itch login failed")
+        return acct
 
     for prod in PRODUCTS:
         try:
@@ -280,9 +335,6 @@ def setup_itch(page, results: dict) -> dict | None:
         except Exception as e:
             log(f"  itch {prod['slug']}: {e}")
 
-    acct = {"service": "itch", "email": inbox.address, "password": password,
-            "inbox_password": inbox.password, "created_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
-    save_accounts(load_accounts() + [acct])
     return acct
 
 
@@ -291,6 +343,7 @@ def main() -> None:
 
     results: dict = {"products": {}, "primary": "fallback", "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())}
     log("=== Card autopilot v2 ===")
+    clear_broken_checkout()
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
@@ -328,13 +381,15 @@ def main() -> None:
 
         browser.close()
 
+    results["products"] = sanitize_products(results.get("products", {}))
     CARD_CFG.write_text(json.dumps(results, indent=2) + "\n")
 
-    if results.get("products"):
+    if results["products"]:
         for platform in ("payhip", "polar", "kofi", "itch", "gumroad"):
             if any(platform in v for v in results["products"].values()):
                 results["primary"] = platform
                 break
+        CARD_CFG.write_text(json.dumps(results, indent=2) + "\n")
         wire_checkout(results)
         log(f"LIVE — card checkout via {results['primary']}")
     else:
