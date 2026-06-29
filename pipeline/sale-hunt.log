@@ -27870,3 +27870,46 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-29 21:51:10 → check_sales.py
 [hunt] 2026-06-29 21:51:10 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 21:51:41 → support_mail.py
+[hunt] 2026-06-29 21:51:41 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 21:51:44 zero buyer sales — double promotion
+[hunt] 2026-06-29 21:51:44 zero buyer sales — double promotion
+[hunt] 2026-06-29 21:51:44 → advertise_other.py
+[hunt] 2026-06-29 21:51:44 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/6fbdi4mh
+[ads] rentry: https://rentry.co/sfy2dfac
+[ads] rentry: https://rentry.co/fktqanw9
+[ads] rentry: https://rentry.co/g69eyfhy
+[ads] rentry: https://rentry.co/vya32xtd
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/6b25744bda5d3a9bb76468d03c7524f7
+[ads] gist: https://gist.github.com/leopreciadov-bit/a38fffe3948ff4c6aee4720a72dd91cc
+[ads] gist: https://gist.github.com/leopreciadov-bit/9046f1b721639d99f521bbf9498cb5aa
+[ads] gist: https://gist.github.com/leopreciadov-bit/5dec57d0b9a97053ee7960e3917bca3b
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1396
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1397
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1398
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error

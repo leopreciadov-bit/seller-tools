@@ -623,8 +623,16 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-29T21:49:52Z",
-  "cycle": 77
+  "updated_at": "2026-06-29T21:51:12Z",
+  "cycle": 78
 }
