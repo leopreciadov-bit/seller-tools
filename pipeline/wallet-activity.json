@@ -1,12 +1,12 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-06-29T09:36:54.630298+00:00",
+  "updated_at": "2026-06-29T09:39:05.541413+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
     "your_trades_count": 2,
-    "your_sweeps_count": 4,
-    "your_sweeps_usd": 121.24
+    "your_sweeps_count": 3,
+    "your_sweeps_usd": 111.24
   },
   "buyer_sales": [],
   "your_trades": [
@@ -50,14 +50,6 @@
       "asset": "USDC",
       "in": 0.0,
       "out": 11.6,
-      "note": "You sent out (sweep)"
-    },
-    {
-      "time": "2026-06-28 01:02 UTC",
-      "tx": "2VJH8PgZGUphEdaFk6Rku4o36pJpNEWnByGVcZ7HbQ419f4fonEht2nomLctyU5QS3E242P1TbudkYrXKtX85Ws9",
-      "asset": "USDC",
-      "in": 0.0,
-      "out": 10.0,
       "note": "You sent out (sweep)"
     }
   ],

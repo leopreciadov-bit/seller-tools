@@ -16,6 +16,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from direct_payment import classify_tx, inbound_amount, is_direct_payment, token_delta  # noqa: E402
 
 OWNER_ACTIVITY = ROOT / "pipeline" / "owner-trades.json"
+BUYER_ALERT = ROOT / "pipeline" / "BUYER_SALE_ALERT.json"
 STATE = ROOT / "pipeline" / "state.json"
 SALES_LOG = ROOT / "pipeline" / "sales.json"
 SOLD_KEYS = ROOT / "pipeline" / "sold-keys.json"
@@ -178,6 +179,13 @@ def detect_new_sales() -> list[dict]:
         known_sigs.add(sig)
 
     if new_sales:
+        alert = {
+            "time": datetime.now(timezone.utc).isoformat(),
+            "count": len(new_sales),
+            "sales": new_sales,
+            "message": "BUYER SALE — direct payment to wallet",
+        }
+        BUYER_ALERT.write_text(json.dumps(alert, indent=2) + "\n")
         SOLD_KEYS.write_text(json.dumps(sold, indent=2) + "\n")
         log_data = json.loads(SALES_LOG.read_text()) if SALES_LOG.exists() else {"sales": [], "self_transfers": []}
         existing_txs = {x.get("tx") for x in log_data.get("sales", [])}

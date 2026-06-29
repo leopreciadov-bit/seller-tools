@@ -59,6 +59,66 @@
       "title": "Etsy Title Ideas Generator Free",
       "tool": "listing-lab",
       "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-alt-text-generator",
+      "title": "Etsy Alt Text Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "print-on-demand-listing-tool",
+      "title": "Print on Demand Listing Tool",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-shop-seo-tool",
+      "title": "Etsy Shop SEO Tool Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "product-title-generator-ecommerce",
+      "title": "Ecommerce Product Title Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-keyword-research-free",
+      "title": "Etsy Keyword Research Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "shopify-title-generator",
+      "title": "Shopify Title Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-listing-optimizer",
+      "title": "Etsy Listing Optimizer Free",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "handmade-etsy-tags",
+      "title": "Handmade Etsy Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "dropshipping-listing-generator",
+      "title": "Dropshipping Listing Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-seo-helper",
+      "title": "Etsy SEO Helper Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
     }
   ],
   "published": [
@@ -67,7 +127,20 @@
     "shopify-product-description-generator",
     "etsy-seo-tags-generator",
     "free-etsy-keyword-tool",
-    "etsy-listing-description-ai"
+    "etsy-listing-description-ai",
+    "handmade-seller-listing-tool",
+    "etsy-long-tail-tags",
+    "shopify-seo-listing-generator",
+    "etsy-title-ideas-generator",
+    "etsy-alt-text-generator",
+    "print-on-demand-listing-tool",
+    "etsy-shop-seo-tool",
+    "product-title-generator-ecommerce",
+    "etsy-keyword-research-free",
+    "shopify-title-generator",
+    "etsy-listing-optimizer",
+    "handmade-etsy-tags",
+    "dropshipping-listing-generator"
   ],
-  "last_run": "2026-06-29T09:34:59.141656+00:00"
+  "last_run": "2026-06-29T09:39:16.710984+00:00"
 }

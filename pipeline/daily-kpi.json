@@ -1,6 +1,7 @@
 {
   "target_sales_per_day": 10,
   "sales_today": 0,
-  "date": "",
-  "escalation_level": 0
+  "date": "2026-06-29",
+  "escalation_level": 0,
+  "updated_at": "2026-06-29T09:37:02.215088+00:00"
 }

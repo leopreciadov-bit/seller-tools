@@ -44,7 +44,7 @@ def render_page(kw: dict) -> str:
 <body>
   <main class="container">
     <h1>{title}</h1>
-    <p>Free tool for Etsy and Shopify sellers. Upgrade with <strong>card or crypto</strong> — all payments settle to the seller Solana wallet.</p>
+    <p>Free tool for Etsy and Shopify sellers. Pro: <strong>send USDC/USDT directly</strong> on Solana — $14–$29 lifetime.</p>
     <p><a class="btn" href="{tool_path(tool)}">Try free tool →</a></p>
     <p>Pro unlock: <span data-crypto-buy="{product}"></span></p>
     <p><a href="{SITE}/recover/">Paid? Recover your license key</a></p>
@@ -55,8 +55,40 @@ def render_page(kw: dict) -> str:
 """
 
 
+EXTRA_TOPICS = [
+    ("etsy-alt-text-generator", "Etsy Alt Text Generator", "listing-lab", "listinglab-pro"),
+    ("print-on-demand-listing-tool", "Print on Demand Listing Tool", "listing-lab", "listinglab-pro"),
+    ("etsy-shop-seo-tool", "Etsy Shop SEO Tool Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("product-title-generator-ecommerce", "Ecommerce Product Title Generator", "listing-lab", "listinglab-pro"),
+    ("etsy-keyword-research-free", "Etsy Keyword Research Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("shopify-title-generator", "Shopify Title Generator", "listing-lab", "listinglab-pro"),
+    ("etsy-listing-optimizer", "Etsy Listing Optimizer Free", "listing-lab", "listinglab-pro"),
+    ("handmade-etsy-tags", "Handmade Etsy Tags Generator", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("dropshipping-listing-generator", "Dropshipping Listing Generator", "listing-lab", "listinglab-pro"),
+    ("etsy-seo-helper", "Etsy SEO Helper Tool", "etsy-tag-finder", "etsy-tag-finder-pro"),
+]
+
+
+def expand_keywords(data: dict) -> None:
+    published = set(data.get("published", []))
+    existing = {k["slug"] for k in data.get("keywords", [])}
+    for slug, title, tool, product in EXTRA_TOPICS:
+        if slug in existing:
+            continue
+        data.setdefault("keywords", []).append({
+            "slug": slug, "title": title, "tool": tool, "product": product,
+        })
+        existing.add(slug)
+
+
 def main() -> None:
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--batch", type=int, default=3)
+    args = parser.parse_args()
+
     data = load()
+    expand_keywords(data)
     published = set(data.get("published", []))
     count = 0
     for kw in data.get("keywords", []):
@@ -68,7 +100,7 @@ def main() -> None:
         data.setdefault("published", []).append(kw["slug"])
         print(f"Published {out.relative_to(ROOT)}")
         count += 1
-        if count >= 3:
+        if count >= args.batch:
             break
     data["last_run"] = datetime.now(timezone.utc).isoformat()
     save(data)

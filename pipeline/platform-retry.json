@@ -1,0 +1,20 @@
+{
+  "platforms": {
+    "helio": {
+      "last_attempt": "2026-06-29T09:37:10.202817+00:00",
+      "ok": false,
+      "detail": "helio_onboard.py"
+    },
+    "reddit": {
+      "last_attempt": "2026-06-29T09:37:19.030145+00:00",
+      "ok": true,
+      "detail": "reddit_publish.py"
+    },
+    "gumroad": {
+      "last_attempt": "2026-06-29T09:37:19.066720+00:00",
+      "ok": true,
+      "detail": "gumroad_launch.py"
+    }
+  },
+  "updated_at": "2026-06-29T09:39:16.662115+00:00"
+}

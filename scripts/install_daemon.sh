@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-# Install zero-human income cron (every 15 min)
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-LINE="*/15 * * * * cd $ROOT && python3 scripts/zero_human.py >> pipeline/zero-human.log 2>&1"
-(crontab -l 2>/dev/null | grep -v "zero_human.py"; echo "$LINE") | crontab -
-echo "Installed: $LINE"
+LINE="*/5 * * * * cd $ROOT && python3 scripts/sale_hunt.py --daemon --interval 300 >> pipeline/sale-hunt.log 2>&1"
+(crontab -l 2>/dev/null | grep -v "sale_hunt.py" | grep -v "zero_human.py"; echo "$LINE") | crontab -
+echo "Sale hunt daemon installed (every 5 min): $LINE"
