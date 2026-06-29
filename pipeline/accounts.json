@@ -108,5 +108,26 @@
     "password": "j2L6efkB9QrahxiX",
     "inbox_password": "59MDLMDb0TcNoKWs",
     "created_at": "2026-06-29T10:39:57Z"
+  },
+  {
+    "service": "payhip",
+    "email": "payhip79ew8sn@web-library.net",
+    "password": "qReZfFmjFhkUuW9z",
+    "inbox_password": "GWQfNE9t7AS0U7Vu",
+    "session": "pipeline/payhip-session.json",
+    "created_at": "2026-06-29T10:53:50Z"
+  },
+  {
+    "service": "payhip",
+    "email": "payhip9pqvzii@web-library.net",
+    "password": "sAMn1xgUK4hqgfqr",
+    "inbox_password": "gfPN5cyKyMc3lacx",
+    "session": "pipeline/payhip-session.json",
+    "products": {
+      "etsy-tag-finder-pro": "https://payhip.com/b/1oqbL",
+      "listinglab-pro": "https://payhip.com/b/BQIej",
+      "seller-kit-bundle": "https://payhip.com/b/TH7ju"
+    },
+    "created_at": "2026-06-29T10:55:44Z"
   }
 ]

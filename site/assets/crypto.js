@@ -9,8 +9,18 @@ window.CRYPTO = {
     "helio_paylink_id": "",
     "transak_api_key": "",
     "moonpay_publishable_key": "",
-    "provider": "fallback",
-    "fallbacks": {}
+    "provider": "payhip",
+    "fallbacks": {
+      "etsy-tag-finder-pro": {
+        "payhip": "https://payhip.com/b/1oqbL"
+      },
+      "listinglab-pro": {
+        "payhip": "https://payhip.com/b/BQIej"
+      },
+      "seller-kit-bundle": {
+        "payhip": "https://payhip.com/b/TH7ju"
+      }
+    }
   },
   "products": {
     "listinglab-pro": {
