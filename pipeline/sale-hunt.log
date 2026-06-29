@@ -29027,3 +29027,58 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-29 22:13:43 → check_sales.py
 [hunt] 2026-06-29 22:13:43 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-29 22:14:14 → support_mail.py
+[hunt] 2026-06-29 22:14:14 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-29 22:14:17 zero buyer sales — double promotion
+[hunt] 2026-06-29 22:14:17 zero buyer sales — double promotion
+[hunt] 2026-06-29 22:14:17 → advertise_other.py
+[hunt] 2026-06-29 22:14:17 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/nofp2grr
+[ads] rentry: https://rentry.co/x4vwmezx
+[ads] rentry: https://rentry.co/zzd5q93g
+[ads] rentry: https://rentry.co/8d9zn783
+[ads] rentry: https://rentry.co/pi96mtwp
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/e107c4f9d796b36e9dca322c8e491676
+[ads] gist: https://gist.github.com/leopreciadov-bit/cd2c0c77ec553a4048363a0285ea4a0a
+[ads] gist: https://gist.github.com/leopreciadov-bit/a2a7068cba0a4b49d3b32f1a1b031ffe
+[ads] gist: https://gist.github.com/leopreciadov-bit/35293ba974cb032c502ad06f72f61364
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1444
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1445
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1446
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-29 22:15:07 → sales_innovate.py
+[hunt] 2026-06-29 22:15:07 → sales_innovate.py
+[innovate] === Sales innovate ===
