@@ -41,8 +41,12 @@ def log(msg: str) -> None:
 
 def run(script: str, *args: str, timeout: int = 180) -> None:
     p = ROOT / "scripts" / script
-    if p.exists():
+    if not p.exists():
+        return
+    try:
         subprocess.run([PY, str(p), *args], cwd=ROOT, check=False, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        log(f"{script} timed out ({timeout}s)")
 
 
 def load_state() -> dict:
@@ -115,7 +119,7 @@ def main() -> None:
     log("=== MAX REVENUE CYCLE ===")
 
     run("payhip_sales.py", timeout=60)
-    run("check_sales.py", "--quick", timeout=90)
+    run("check_sales.py", "--quick", timeout=45)
     run("sales_channels.py", timeout=180)  # comparison SEO pages
     bing_indexnow(st)
     ping_google_sitemap(st)
