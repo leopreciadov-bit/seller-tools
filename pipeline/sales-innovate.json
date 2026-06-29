@@ -196,6 +196,18 @@
       "at": "2026-06-29T10:22:08Z",
       "status": 200,
       "url": "https://paste.debian.net/"
+    },
+    {
+      "channel": "paste_ubuntu",
+      "at": "2026-06-29T10:23:27Z",
+      "status": 200,
+      "url": "https://paste.ubuntu.com/"
+    },
+    {
+      "channel": "paste_debian",
+      "at": "2026-06-29T10:23:27Z",
+      "status": 200,
+      "url": "https://paste.debian.net/"
     }
   ],
   "pages_created": [
@@ -224,5 +236,5 @@
     "guide/vintage-clothing-etsy-seo"
   ],
   "recovery_done": [],
-  "updated_at": "2026-06-29T10:22:08.278754+00:00"
+  "updated_at": "2026-06-29T10:23:27.950444+00:00"
 }

@@ -336,14 +336,19 @@
     const gum = window.GUMROAD || {};
     const gp = gum.products && gum.products[slug];
     const gumUrl = gp && gp.url && !gp.url.includes("YOURNAME") ? gp.url : null;
+    const fb = (cardCfg.fallbacks && cardCfg.fallbacks[slug]) || {};
+    const links = [];
+    if (gumUrl) links.push({ label: "Gumroad — card/PayPal", url: gumUrl });
+    if (fb.gumroad && fb.gumroad !== gumUrl) links.push({ label: "Gumroad", url: fb.gumroad });
+    if (fb.payhip) links.push({ label: "Payhip — card", url: fb.payhip });
+    if (fb.kofi) links.push({ label: "Ko-fi — card/PayPal", url: fb.kofi });
     const deals = "https://leopreciadov-bit.github.io/seller-tools/deals/";
+    const btns = links.length
+      ? links.map((l) => `<p style="margin-top:0.35rem"><a class="btn-crypto" href="${l.url}" target="_blank" rel="noopener">${l.label}</a></p>`).join("")
+      : `<p style="margin-top:0.5rem"><a class="btn-crypto" href="${deals}" target="_blank" rel="noopener">Deals page</a></p>`;
     return `<div class="crypto-bridge-notice">
       <strong>Pay with card</strong>
-      ${
-        gumUrl
-          ? `<p style="margin-top:0.5rem"><a class="btn-crypto" href="${gumUrl}" target="_blank" rel="noopener">Buy on Gumroad — card/PayPal</a></p>`
-          : `<p style="margin-top:0.5rem"><a class="btn-crypto" href="${deals}" target="_blank" rel="noopener">Deals page — card + crypto</a></p>`
-      }
+      ${btns}
       <p>Or switch to <strong>USDC / USDT / SOL</strong> tab — send directly to Solana wallet.</p>
       <p class="muted">Payout: <code>${payout.slice(0, 8)}…${payout.slice(-6)}</code></p>
     </div>`;

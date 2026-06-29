@@ -14,7 +14,12 @@
       "last_attempt": "2026-06-29T09:37:19.066720+00:00",
       "ok": true,
       "detail": "gumroad_launch.py"
+    },
+    "kofi": {
+      "last_attempt": "2026-06-29T10:23:19.062393+00:00",
+      "ok": false,
+      "detail": "kofi_autopilot.py"
     }
   },
-  "updated_at": "2026-06-29T10:15:02.059982+00:00"
+  "updated_at": "2026-06-29T10:23:19.062527+00:00"
 }
