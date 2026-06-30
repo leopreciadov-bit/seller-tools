@@ -55348,3 +55348,42 @@ No new SEO pages (all published)
 [channels] comparison_page: all_published
 [channels] pingomatic_rss: 0
 [channels] feedburner_ping: 0
+[channels] rentry_deals: 0
+[channels] paste_rs: 0
+[channels] bpaste: 0
+[channels] 0x0_st: 0
+[channels] paste_ee: error
+[channels] github_repo: error
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 07:52:35 → build_sitemap.py
+[hunt] 2026-06-30 07:52:35 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 07:52:35 → advertise_other.py
+[hunt] 2026-06-30 07:52:35 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/rf932dnw
+[ads] rentry: https://rentry.co/wg9cfwxk
+[ads] rentry: https://rentry.co/mm636rrr
+[ads] rentry: https://rentry.co/zsngw5yq
+[ads] rentry: https://rentry.co/zt9vu2o4
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/023437d8d0949eb350a714c2a4a391cd
+[ads] gist: https://gist.github.com/leopreciadov-bit/10f2f4394564b5cb34ac4406d7342833
+[ads] gist: https://gist.github.com/leopreciadov-bit/576ca932fb65be25c873736f78e952e8
+[ads] gist: https://gist.github.com/leopreciadov-bit/27e11b21bd167f0fb543827d55126155
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
