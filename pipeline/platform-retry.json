@@ -1,17 +1,17 @@
 {
   "platforms": {
     "helio": {
-      "last_attempt": "2026-06-29T09:37:10.202817+00:00",
+      "last_attempt": "2026-06-30T09:39:41.169113+00:00",
       "ok": false,
       "detail": "helio_onboard.py"
     },
     "reddit": {
-      "last_attempt": "2026-06-29T09:37:19.030145+00:00",
+      "last_attempt": "2026-06-30T09:39:49.505196+00:00",
       "ok": true,
       "detail": "reddit_publish.py"
     },
     "gumroad": {
-      "last_attempt": "2026-06-29T09:37:19.066720+00:00",
+      "last_attempt": "2026-06-30T09:39:49.542489+00:00",
       "ok": true,
       "detail": "gumroad_launch.py"
     },
@@ -31,5 +31,5 @@
       "detail": "bypass_yolo.py"
     }
   },
-  "updated_at": "2026-06-30T09:35:10.925340+00:00"
+  "updated_at": "2026-06-30T09:39:49.542506+00:00"
 }

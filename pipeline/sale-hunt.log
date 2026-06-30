@@ -60629,3 +60629,97 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    ccb52ae..9edc6a6  main -> main
 [hunt] 2026-06-30 09:38:37 cycle 259 done — buyer_sales=0
 [hunt] 2026-06-30 09:38:37 cycle 259 done — buyer_sales=0
+[hunt] 2026-06-30 09:39:40 → account_factory.py
+[hunt] 2026-06-30 09:39:40 → account_factory.py
+[hunt] 2026-06-30 09:39:40 → platform_retry.py
+[hunt] 2026-06-30 09:39:40 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] retry helio
+grams/passive-income-agent-program/scripts/helio_onboard.py", line 285, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/helio_onboard.py", line 222, in main
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] retry reddit
+romote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/07ef48ef47885c93bfb70a0f4d8bb387
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/18dad5410e658c0185b27331bf8100bf
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/e9cd6ca95c677b5733b814e96818a8d4
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/e9a65c2e4b81f7cdfcc7560575a32734
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+
+[platform] retry gumroad
+ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+
+[hunt] 2026-06-30 09:39:49 → sales_innovate.py
+[hunt] 2026-06-30 09:39:49 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 09:39:51 → seo_content_factory.py
+[hunt] 2026-06-30 09:39:51 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 09:39:51 → sales_channels.py
+[hunt] 2026-06-30 09:39:51 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 09:39:58 → build_sitemap.py
+[hunt] 2026-06-30 09:39:58 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 09:39:58 → advertise_other.py
+[hunt] 2026-06-30 09:39:58 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/enwtm8f5
+[ads] rentry: https://rentry.co/kuuttdkb
+[ads] rentry: https://rentry.co/u5reson2
+[ads] rentry: https://rentry.co/otr8bba6
+[ads] rentry: https://rentry.co/ag3swtw7
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/928a16a86d8bbc0bd3d83d8fe08c1ad3
+[ads] gist: https://gist.github.com/leopreciadov-bit/bf39a4725ae2b488827342e8253c1b51
+[ads] gist: https://gist.github.com/leopreciadov-bit/31387bbe2740b5d1cfd8058c81d72231
+[ads] gist: https://gist.github.com/leopreciadov-bit/24e99f4fe01c075af6d4eb6af49a0b62
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
