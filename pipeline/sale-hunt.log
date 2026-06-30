@@ -80188,3 +80188,72 @@ Revenue (confirmed): $0.00
 [ads] yandex: 200
 [ads] seznam: 200
 [ads] naver: 200
+[ads] rentry_master: https://rentry.co/ea9y4zz3
+[ads] rentry: https://rentry.co/kqqvbida
+[ads] rentry: https://rentry.co/dksuryb5
+[ads] rentry: https://rentry.co/d578mwwh
+[ads] rentry: https://rentry.co/qirds5a9
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/412f864c44a063ff0de325c3a5c509f5
+[ads] gist: https://gist.github.com/leopreciadov-bit/a62d8880d8ffce30580a7e0b54649b12
+[ads] gist: https://gist.github.com/leopreciadov-bit/dcbea50e67e9395e0c17235fa5885dbd
+[ads] gist: https://gist.github.com/leopreciadov-bit/02215dcb7ecf0edcae879a8aa2d393f4
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 16:18:19 → sales_innovate.py
+[hunt] 2026-06-30 16:18:19 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 16:18:43 → sales_channels.py
+[hunt] 2026-06-30 16:18:43 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 16:18:43 → seo_content_factory.py
+[hunt] 2026-06-30 16:18:43 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 16:18:43 → promote_autopilot.py
+[hunt] 2026-06-30 16:18:43 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 16:18:45 → resubmit_indexnow.py
+[hunt] 2026-06-30 16:18:45 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
