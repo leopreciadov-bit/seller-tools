@@ -16,7 +16,7 @@
       "detail": "gumroad_launch.py"
     },
     "kofi": {
-      "last_attempt": "2026-06-29T10:23:19.062393+00:00",
+      "last_attempt": "2026-06-30T10:25:35.303942+00:00",
       "ok": false,
       "detail": "kofi_autopilot.py"
     },
@@ -31,5 +31,5 @@
       "detail": "bypass_yolo.py"
     }
   },
-  "updated_at": "2026-06-30T10:21:36.947199+00:00"
+  "updated_at": "2026-06-30T10:25:35.304066+00:00"
 }
