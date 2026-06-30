@@ -59560,3 +59560,74 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 09:17:01 → check_sales.py
 [hunt] 2026-06-30 09:17:01 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($99.64 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 09:17:57 → wallet_report.py
+[hunt] 2026-06-30 09:17:57 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     5  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+  · in $0.00 out $0.00  2026-06-27 12:30 UTC  gVEAp4XbVMfXDG1Vzq2r…
+  · in $0.00 out $0.00  2026-06-27 12:20 UTC  48ngvY14Lk1w53PxM93M…
+  · in $0.00 out $0.00  2026-06-27 11:56 UTC  65EQcSyQ1tsxaZcmXWyq…
+
+YOUR SWEEPS:     4  ($76.17 sent out)
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $35.58 USDC  2026-06-27 13:47 UTC  5YENZDfegccVYpzkjb6X…
+  - $20.71 USDC  2026-06-27 12:04 UTC  2GwQX2yJhnnShm9fNg8S…
+  - $9.88 USDC  2026-06-27 11:55 UTC  3XbS3QeyVf7ozxYyKZLp…
+
+[hunt] 2026-06-30 09:18:20 zero buyer sales — double promotion
+[hunt] 2026-06-30 09:18:20 zero buyer sales — double promotion
+[hunt] 2026-06-30 09:18:20 → advertise_other.py
+[hunt] 2026-06-30 09:18:20 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/6rebsor2
+[ads] rentry: https://rentry.co/ype3szf5
+[ads] rentry: https://rentry.co/dc9emhns
+[ads] rentry: https://rentry.co/5ip64tcr
+[ads] rentry: https://rentry.co/w96dsxae
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/b9d5a7dc09b802f95348a5662a365e97
+[ads] gist: https://gist.github.com/leopreciadov-bit/cf2332ccc75b6452ce5675297877ac94
+[ads] gist: https://gist.github.com/leopreciadov-bit/d19a477bddcbe2a7448d815725838e5e
+[ads] gist: https://gist.github.com/leopreciadov-bit/2c36a74ebfc82361b6926657d7fa94fa
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
