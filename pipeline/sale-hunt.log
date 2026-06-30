@@ -45126,3 +45126,41 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-30 04:08:25 → check_sales.py
 [hunt] 2026-06-30 04:08:25 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 04:08:56 → support_mail.py
+[hunt] 2026-06-30 04:08:56 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 04:09:00 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:09:00 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:09:00 → advertise_other.py
+[hunt] 2026-06-30 04:09:00 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/mfhmdnev
+[ads] rentry: https://rentry.co/887x9qvx
+[ads] rentry: https://rentry.co/pv3wiccw
+[ads] rentry: https://rentry.co/m9y8vaoq
+[ads] rentry: https://rentry.co/3yac8w2y
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/b11dba5dc1be49c7d82ab19b9cee7d72
+[ads] gist: https://gist.github.com/leopreciadov-bit/c09f66477a08f38350224e6183efdf18
+[ads] gist: https://gist.github.com/leopreciadov-bit/e581c32abf9ac1f54902850ab748accd
+[ads] gist: https://gist.github.com/leopreciadov-bit/577cac7e992f5e2f85975f33a4dd196f
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: 200
