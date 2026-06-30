@@ -43715,3 +43715,57 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] gist: https://gist.github.com/leopreciadov-bit/b0b27c8ec0ebb2861cafa07a466c75d2
 [ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/2095
 [ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 03:38:03 → promote_autopilot.py
+[hunt] 2026-06-30 03:38:03 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 03:38:05 → reddit_publish.py
+[hunt] 2026-06-30 03:38:05 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/4fba9dde5309e5ced799ba3cc98d21d2
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/0389d14c66b9c961654f3611fff26494
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/793b90f95fb69e84281e0c30b1b4cfb0
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/48476ac244b2c8a04e5201f0f58744bf
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 03:38:13 → gumroad_launch.py
+[hunt] 2026-06-30 03:38:13 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 03:38:13 → check_sales.py
+[hunt] 2026-06-30 03:38:13 → check_sales.py
