@@ -86536,3 +86536,100 @@ Revenue (confirmed): $0.00
 --- Your trades vs buyer sales ---
 [hunt] 2026-06-30 18:37:11 → wallet_report.py
 [hunt] 2026-06-30 18:37:11 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 18:37:29 zero buyer sales — double promotion
+[hunt] 2026-06-30 18:37:29 zero buyer sales — double promotion
+[hunt] 2026-06-30 18:37:29 → advertise_other.py
+[hunt] 2026-06-30 18:37:29 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-84
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-84
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-84
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-83
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-80
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-80
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-76
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-74
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-74
+[ads] rentry_master: https://rentry.co/hw99fk99
+[ads] rentry: https://rentry.co/oi8vyzt2
+[ads] rentry: https://rentry.co/a44f8pvf
+[ads] rentry: https://rentry.co/aou3g4mm
+[ads] rentry: https://rentry.co/oi6vx83v
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/bebd2049d74bf65c836bc25dce23a65f
+[ads] gist: https://gist.github.com/leopreciadov-bit/62628e17ef6e5b03f38fb2ad20e459d7
+[ads] gist: https://gist.github.com/leopreciadov-bit/3f2325c2fe38b55a411c963960903d85
+[ads] gist: https://gist.github.com/leopreciadov-bit/f628fb387d79efd9e6e88a4b5e829a6f
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 18:37:54 → sales_innovate.py
+[hunt] 2026-06-30 18:37:54 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/Direct-buy--Etsy-Tag-Finder-Pro-14-06-30-15
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 18:38:18 → sales_channels.py
+[hunt] 2026-06-30 18:38:18 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 18:38:18 → seo_content_factory.py
+[hunt] 2026-06-30 18:38:18 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 18:38:18 → promote_autopilot.py
+[hunt] 2026-06-30 18:38:18 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 18:38:20 → resubmit_indexnow.py
+[hunt] 2026-06-30 18:38:20 → resubmit_indexnow.py
