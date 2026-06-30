@@ -88676,3 +88676,106 @@ To https://github.com/leopreciadov-bit/seller-tools.git
 [hunt] 2026-06-30 19:25:17 → sales_innovate.py
 [innovate] === Sales innovate ===
 [innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 19:25:41 → seo_content_factory.py
+[hunt] 2026-06-30 19:25:41 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 19:25:41 → sales_channels.py
+[hunt] 2026-06-30 19:25:41 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 19:25:42 → build_sitemap.py
+[hunt] 2026-06-30 19:25:42 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 19:25:42 → advertise_other.py
+[hunt] 2026-06-30 19:25:42 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/hypaddgd
+[ads] rentry: https://rentry.co/8uuk7q78
+[ads] rentry: https://rentry.co/ft4v54na
+[ads] rentry: https://rentry.co/sq8d5k9n
+[ads] rentry: https://rentry.co/b634wiue
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/fc697e45db80ecdba4d4a465725e0681
+[ads] gist: https://gist.github.com/leopreciadov-bit/33c914dbe5df9ea56fd4d16c8a60293c
+[ads] gist: https://gist.github.com/leopreciadov-bit/49f6b81ae22589ae746b4abd3cbbd0d3
+[ads] gist: https://gist.github.com/leopreciadov-bit/8c5206fc13224bd02ddbd468af3a2b16
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 19:26:03 → promote_autopilot.py
+[hunt] 2026-06-30 19:26:03 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 19:26:05 → reddit_publish.py
+[hunt] 2026-06-30 19:26:05 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/c3a6f9de86a423ca39089b1169a564c5
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/5e5b1b5d4ad2de2a602cf906dc996115
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/2a3dcbb3c57a2b4d64bbf955a58b8836
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/6dbe53634051f92ad3d2514ab5ad9310
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 19:26:17 → gumroad_launch.py
+[hunt] 2026-06-30 19:26:17 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 19:26:17 → check_sales.py
+[hunt] 2026-06-30 19:26:17 → check_sales.py
