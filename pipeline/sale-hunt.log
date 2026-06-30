@@ -44658,3 +44658,64 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 03:58:12 → check_sales.py
 [hunt] 2026-06-30 03:58:12 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     5  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  3UzCAzUmPaJMnWLDnYce…
+  · in $0.00 out $0.00  2026-06-28 00:10 UTC  4epjMHHZzpSTKwzMPLMc…
+
+YOUR SWEEPS:     5  ($131.24 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $10.00 USDC  2026-06-28 01:01 UTC  5AisKQx7EdiRnpSxwciG…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 03:59:05 → wallet_report.py
+[hunt] 2026-06-30 03:59:05 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     2  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-27 12:30 UTC  gVEAp4XbVMfXDG1Vzq2r…
+
+YOUR SWEEPS:     1  ($19.87 sent out)
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+[hunt] 2026-06-30 03:59:27 zero buyer sales — double promotion
+[hunt] 2026-06-30 03:59:27 zero buyer sales — double promotion
+[hunt] 2026-06-30 03:59:27 → advertise_other.py
+[hunt] 2026-06-30 03:59:27 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/ip8su4m7
+[ads] rentry: https://rentry.co/76kz5vqb
+[ads] rentry: https://rentry.co/d6kig24y
+[ads] rentry: https://rentry.co/u5ofyznw
+[ads] rentry: https://rentry.co/dm7vfaze
+[ads] dpaste: 400
+[ads] controlc: 400
