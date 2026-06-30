@@ -55575,3 +55575,39 @@ No new SEO pages (all published)
 [channels] paste_ee: 401
 [channels] github_repo: ok
 [channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 07:57:36 → build_sitemap.py
+[hunt] 2026-06-30 07:57:36 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 07:57:36 → advertise_other.py
+[hunt] 2026-06-30 07:57:36 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/w968xy2h
+[ads] rentry: https://rentry.co/fxtcdzfe
+[ads] rentry: https://rentry.co/p7hdyfyf
+[ads] rentry: https://rentry.co/s4n32t4w
+[ads] rentry: https://rentry.co/ouvoczrk
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/6f9256fea1135afa5ea385425b4ea6af
+[ads] gist: https://gist.github.com/leopreciadov-bit/eac22064f1e25d26ade02aeffdbab786
+[ads] gist: https://gist.github.com/leopreciadov-bit/e756251ffee6309475b92a11ebba247d
+[ads] gist: https://gist.github.com/leopreciadov-bit/04dc1cf17f1a55850897d61a8bdbd2e1
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
