@@ -1,12 +1,12 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-06-30T13:36:23.076298+00:00",
+  "updated_at": "2026-06-30T13:36:53.007604+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
-    "your_trades_count": 11,
-    "your_sweeps_count": 9,
-    "your_sweeps_usd": 226.03
+    "your_trades_count": 12,
+    "your_sweeps_count": 10,
+    "your_sweeps_usd": 235.91
   },
   "buyer_sales": [],
   "your_trades": [
@@ -85,6 +85,14 @@
     {
       "time": "2026-06-27 11:56 UTC",
       "tx": "65EQcSyQ1tsxaZcmXWyqDgFzcrf2SdqAXXp6ZC9PmGVxc9Pcg2gcyJoY54eagGisS9YC6rPZnuY9UPPmHF8ERJPu",
+      "asset": "\u2014",
+      "in": 0.0,
+      "out": 0.0,
+      "note": "Your Drift/DeFi \u2014 not a buyer"
+    },
+    {
+      "time": "2026-06-27 11:50 UTC",
+      "tx": "81xWzrFY3p63FUdt2uW7bN5ABwFvX27beEfXtzhheE1BXrF6FwPwBJ7sj7EsMu7weDnmcNmH8V7oSzBfLaiVsCk",
       "asset": "\u2014",
       "in": 0.0,
       "out": 0.0,
@@ -170,6 +178,14 @@
       "asset": "USDC",
       "in": 0.0,
       "out": 20.71,
+      "note": "You sent out (sweep)"
+    },
+    {
+      "time": "2026-06-27 11:55 UTC",
+      "tx": "3XbS3QeyVf7ozxYyKZLpEqb32cmRL6cW1YjjJKvz3tsWMZbQjMeus6Ngw24B7VJ2mn3owzDDqE4YERGGw7cL1wyo",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 9.88,
       "note": "You sent out (sweep)"
     }
   ],
