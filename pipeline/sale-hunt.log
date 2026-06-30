@@ -43549,3 +43549,45 @@ Revenue (confirmed): $0.00
 --- Your trades vs buyer sales ---
 [hunt] 2026-06-30 03:33:28 → wallet_report.py
 [hunt] 2026-06-30 03:33:28 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 03:33:47 zero buyer sales — double promotion
+[hunt] 2026-06-30 03:33:47 zero buyer sales — double promotion
+[hunt] 2026-06-30 03:33:47 → advertise_other.py
+[hunt] 2026-06-30 03:33:47 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/ioy9isvz
+[ads] rentry: https://rentry.co/q2vtpfys
+[ads] rentry: https://rentry.co/qqp9n5wn
+[ads] rentry: https://rentry.co/9kuhn487
+[ads] rentry: https://rentry.co/5hufw9mb
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/4c6ea52f0b9a1c74281cdff82f3353ff
+[ads] gist: https://gist.github.com/leopreciadov-bit/9db43be1f416a64c59f82ae43a932a0c
+[ads] gist: https://gist.github.com/leopreciadov-bit/6632a9acdbf1156f28555f41dd27d75d
+[ads] gist: https://gist.github.com/leopreciadov-bit/f3ca3301e9938431309bf7a72e278aee
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/2092
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/2093
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/2094
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200

@@ -590,7 +590,16 @@
 
   fetchRates();
 
-  window.SellerToolsPay = { buy: openModal };
+  function buy(slug) {
+    const url = payhipUrl(slug);
+    if (url) {
+      window.open(url, "_blank", "noopener");
+      return;
+    }
+    openModal(slug);
+  }
+
+  window.SellerToolsPay = { buy };
 
   function mountPayButtons(el, slug) {
     const cardBtn = buyButton(slug, "card");

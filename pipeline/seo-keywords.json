@@ -449,6 +449,96 @@
       "title": "Shopify Product Title SEO Generator",
       "tool": "listing-lab",
       "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-seo-for-beginners",
+      "title": "Etsy SEO for Beginners \u2014 Free Tools",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "t-shirt-etsy-tags-generator",
+      "title": "T-Shirt Etsy Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "candle-etsy-listing-generator",
+      "title": "Candle Etsy Listing Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "sticker-etsy-tags-tool",
+      "title": "Sticker Etsy Tags Tool Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-seo-audit-free",
+      "title": "Etsy SEO Audit Free Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "shopify-aliexpress-listing-tool",
+      "title": "Shopify AliExpress Listing Tool",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-bestseller-tags-tool",
+      "title": "Etsy Bestseller Tags Research Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "macrame-etsy-listing-generator",
+      "title": "Macrame Etsy Listing Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "soap-etsy-tags-generator",
+      "title": "Soap Etsy Tags Generator",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "resin-art-etsy-seo-tool",
+      "title": "Resin Art Etsy SEO Tool",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-wedding-invitation-listing",
+      "title": "Etsy Wedding Invitation Listing Tool",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-pet-tags-generator",
+      "title": "Etsy Pet Tags Generator Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
+    },
+    {
+      "slug": "etsy-art-print-listing-tool",
+      "title": "Etsy Art Print Listing Tool",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "shopify-store-seo-listings",
+      "title": "Shopify Store SEO Listings Generator",
+      "tool": "listing-lab",
+      "product": "listinglab-pro"
+    },
+    {
+      "slug": "etsy-competitor-keyword-tool",
+      "title": "Etsy Competitor Keyword Tool Free",
+      "tool": "etsy-tag-finder",
+      "product": "etsy-tag-finder-pro"
     }
   ],
   "published": [
@@ -526,8 +616,23 @@
     "etsy-hunt-free-alternative",
     "salehoo-etsy-listing-tool",
     "etsy-seo-checklist-tool",
-    "shopify-product-title-seo"
+    "shopify-product-title-seo",
+    "etsy-seo-for-beginners",
+    "t-shirt-etsy-tags-generator",
+    "candle-etsy-listing-generator",
+    "sticker-etsy-tags-tool",
+    "etsy-seo-audit-free",
+    "shopify-aliexpress-listing-tool",
+    "etsy-bestseller-tags-tool",
+    "macrame-etsy-listing-generator",
+    "soap-etsy-tags-generator",
+    "resin-art-etsy-seo-tool",
+    "etsy-wedding-invitation-listing",
+    "etsy-pet-tags-generator",
+    "etsy-art-print-listing-tool",
+    "shopify-store-seo-listings",
+    "etsy-competitor-keyword-tool"
   ],
-  "last_run": "2026-06-30T03:33:11.713854+00:00",
+  "last_run": "2026-06-30T03:34:33.332664+00:00",
   "last_expand": "2026-06-29T10:10:17.217154+00:00"
 }
