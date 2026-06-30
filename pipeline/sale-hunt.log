@@ -66631,3 +66631,97 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 11:38:02 → check_sales.py
 [hunt] 2026-06-30 11:38:02 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($99.64 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 11:38:53 → wallet_report.py
+[hunt] 2026-06-30 11:38:53 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 11:39:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:39:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:39:10 → advertise_other.py
+[hunt] 2026-06-30 11:39:10 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-26
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-25
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-25
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-26
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-24
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-24
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-23
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-23
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-23
+[ads] rentry_master: https://rentry.co/tx23b3nk
+[ads] rentry: https://rentry.co/4mcuhpd8
+[ads] rentry: https://rentry.co/murz23r8
+[ads] rentry: https://rentry.co/ion9fcsa
+[ads] rentry: https://rentry.co/gbbbui6d
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/3d15c07c595dfe642d24e4373330169d
+[ads] gist: https://gist.github.com/leopreciadov-bit/ab772fb389489c815fdd4606cb309a36
+[ads] gist: https://gist.github.com/leopreciadov-bit/0d475a1fced1bcaa5c616cadfa605783
+[ads] gist: https://gist.github.com/leopreciadov-bit/7236ba44658d4561110ef50ed40ee57d
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 11:39:34 → sales_innovate.py
+[hunt] 2026-06-30 11:39:34 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/I-built-free-Etsy-listing-tools-no-signup-06-30-3
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 11:39:36 → sales_channels.py
+[hunt] 2026-06-30 11:39:36 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
