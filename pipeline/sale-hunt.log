@@ -74304,3 +74304,42 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] yandex: 200
 [ads] seznam: 200
 [ads] naver: 200
+[ads] rentry_master: https://rentry.co/o6do5qfd
+[ads] rentry: https://rentry.co/bdhuazk5
+[ads] rentry: https://rentry.co/yzk3iuqv
+[ads] rentry: https://rentry.co/emtftbio
+[ads] rentry: https://rentry.co/cf26krya
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/2b9bb6d8773e07d8aa36c5b254a1d78c
+[ads] gist: https://gist.github.com/leopreciadov-bit/06898f9b279079b9c78b1493c1a42cfa
+[ads] gist: https://gist.github.com/leopreciadov-bit/701021ef7660d53a2e791c9e3014c758
+[ads] gist: https://gist.github.com/leopreciadov-bit/02c66f9b19635ef59fb5252a7d58ff26
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 14:14:30 → promote_autopilot.py
+[hunt] 2026-06-30 14:14:30 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 14:14:32 → reddit_publish.py
+[hunt] 2026-06-30 14:14:32 → reddit_publish.py
