@@ -83575,3 +83575,96 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    00b08c3..9ec6946  main -> main
 [hunt] 2026-06-30 17:32:13 cycle 357 done — buyer_sales=0
 [hunt] 2026-06-30 17:32:13 cycle 357 done — buyer_sales=0
+[hunt] 2026-06-30 17:33:18 → account_factory.py
+[hunt] 2026-06-30 17:33:18 → account_factory.py
+[hunt] 2026-06-30 17:33:19 → platform_retry.py
+[hunt] 2026-06-30 17:33:19 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 17:33:19 → sales_innovate.py
+[hunt] 2026-06-30 17:33:19 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/Direct-buy--Etsy-Tag-Finder-Pro-14-06-30-13
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 17:33:40 → seo_content_factory.py
+[hunt] 2026-06-30 17:33:40 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 17:33:40 → sales_channels.py
+[hunt] 2026-06-30 17:33:40 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 17:33:40 → build_sitemap.py
+[hunt] 2026-06-30 17:33:40 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 17:33:41 → advertise_other.py
+[hunt] 2026-06-30 17:33:41 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-74
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-74
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-74
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-73
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-70
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-70
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-67
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-65
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-65
+[ads] rentry_master: https://rentry.co/8xdgebyr
+[ads] rentry: https://rentry.co/edfsxucg
+[ads] rentry: https://rentry.co/mpvywnaz
+[ads] rentry: https://rentry.co/af4spf5e
+[ads] rentry: https://rentry.co/r6trqiz3
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/053a218da2c70e1fc3b0e093eba00d36
+[ads] gist: https://gist.github.com/leopreciadov-bit/d7382362f0355f196989cc50d94083f4
+[ads] gist: https://gist.github.com/leopreciadov-bit/ec0e66e81cea583d1b1234d6a3733562
+[ads] gist: https://gist.github.com/leopreciadov-bit/9ff7fdc1d06c9339fff1e5cf157dbf3f
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 17:34:07 → promote_autopilot.py
+[hunt] 2026-06-30 17:34:07 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
