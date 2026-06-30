@@ -80615,3 +80615,66 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 16:27:18 → check_sales.py
 [hunt] 2026-06-30 16:27:18 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     2  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+
+YOUR SWEEPS:     3  ($111.24 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 16:28:16 → wallet_report.py
+[hunt] 2026-06-30 16:28:16 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 16:28:39 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:28:39 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:28:39 → advertise_other.py
+[hunt] 2026-06-30 16:28:39 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-63
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-63
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-63
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-62
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-60
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-60
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-57
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-55
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-55
+[ads] rentry_master: https://rentry.co/yzkfhwg3
+[ads] rentry: https://rentry.co/sqd5bban
+[ads] rentry: https://rentry.co/6otok3wd
+[ads] rentry: https://rentry.co/e9ngehe9
+[ads] rentry: https://rentry.co/86snqb4a
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/e3af5808af413a4eec31b355b571e03f
