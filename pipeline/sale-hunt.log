@@ -81664,3 +81664,71 @@ IndexNow 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
 Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+The following paths are ignored by one of your .gitignore files:
+.venv
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+To https://github.com/leopreciadov-bit/seller-tools.git
+   e8bc88a..997196a  main -> main
+[hunt] 2026-06-30 16:50:03 cycle 349 done — buyer_sales=0
+[hunt] 2026-06-30 16:50:03 cycle 349 done — buyer_sales=0
+[hunt] 2026-06-30 16:51:09 → account_factory.py
+[hunt] 2026-06-30 16:51:09 → account_factory.py
+[hunt] 2026-06-30 16:51:09 → platform_retry.py
+[hunt] 2026-06-30 16:51:09 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 16:51:09 → sales_innovate.py
+[hunt] 2026-06-30 16:51:09 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 16:51:31 → seo_content_factory.py
+[hunt] 2026-06-30 16:51:31 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 16:51:31 → sales_channels.py
+[hunt] 2026-06-30 16:51:31 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 16:51:34 → build_sitemap.py
+[hunt] 2026-06-30 16:51:34 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 16:51:34 → advertise_other.py
+[hunt] 2026-06-30 16:51:34 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 202
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/gyeqt96h
+[ads] rentry: https://rentry.co/tv3fi9b7
+[ads] rentry: https://rentry.co/42bg6koe
+[ads] rentry: https://rentry.co/7b5qphiu
+[ads] rentry: https://rentry.co/5vmt4y4i
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/a4babde434e67e78bb2777c6ae7eaaad
+[ads] gist: https://gist.github.com/leopreciadov-bit/5baa8f1e6e587a6747206f52982f0cda
