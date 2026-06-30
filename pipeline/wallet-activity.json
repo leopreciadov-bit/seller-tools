@@ -1,6 +1,6 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-06-30T07:12:58.665407+00:00",
+  "updated_at": "2026-06-30T07:42:02.199488+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
@@ -11,14 +11,5 @@
   "buyer_sales": [],
   "your_trades": [],
   "your_sweeps": [],
-  "your_inbound": [
-    {
-      "time": "2026-06-27 11:53 UTC",
-      "tx": "5ZukoAYgr9sUHchHtXghjW8hjfE8eRA7Dc76m7nTztzt3whS4fnjBppLdwvCU7aN7NDTqb87UAnSUwfG32btXSr8",
-      "asset": "USDC",
-      "in": 9.88,
-      "out": 0.0,
-      "note": "You moved in \u2014 not a buyer"
-    }
-  ]
+  "your_inbound": []
 }
