@@ -1,18 +1,20 @@
-# Cheaper than Marmalead/eRank — free Etsy SEO tools
+# Free Etsy tag generator — 13 tags, 20 char limit enforced
 
-If you're tired of $20+/mo Etsy SEO subscriptions:
+I built a free browser tool for Etsy sellers — no signup.
 
-Free tools (browser, no account):
-• 13-tag generator: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
-• Full listing writer: https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+Paste your product + keywords → get exactly 13 SEO tags (Etsy's 20-char limit enforced).
 
-Lifetime Pro is $14–$29, pay card or crypto. Comparison: https://leopreciadov-bit.github.io/seller-tools/guides/marmalead-alternative-free.html
+Try it: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
+
+Pro is $14 lifetime if you need unlimited + CSV export. There's also a listing generator for titles/descriptions: https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+
+Happy to hear feedback.
 
 ## Post to these groups:
 
-- Facebook: Etsy SEO
-- Facebook: Side Project
-- Facebook: Indie Hackers
+- Facebook: Etsy Sellers United
+- Facebook: Etsy Entrepreneurs
+- Facebook: Handmade Business
 - Forum: https://community.etsy.com/
 - Forum: https://www.etsy.com/seller-handbook
 
