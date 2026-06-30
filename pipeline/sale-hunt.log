@@ -80545,3 +80545,73 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] gist_social: https://gist.github.com/leopreciadov-bit/ba5157dae372839d738ce6bd94e0fb10
 [ads] gist: https://gist.github.com/leopreciadov-bit/d767216647e14bd6116a5b949b32df8f
 [ads] gist: https://gist.github.com/leopreciadov-bit/0ddca8952b8ec51b3a433f03f926b159
+[ads] gist: https://gist.github.com/leopreciadov-bit/09b14332e13a9b997e2edd77e1f87ec4
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 16:26:27 → promote_autopilot.py
+[hunt] 2026-06-30 16:26:27 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 16:26:30 → reddit_publish.py
+[hunt] 2026-06-30 16:26:30 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/abf015e72561315ae285921a73e2b7b0
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/276b5c025ee30886428418a6444ac313
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/7cde54abae634a9c1cf0810256474e5c
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/3630894d50eda1ffb7fc6ebda4cb1484
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 16:26:40 → gumroad_launch.py
+[hunt] 2026-06-30 16:26:40 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 16:26:40 → check_sales.py
+[hunt] 2026-06-30 16:26:40 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 16:27:12 → support_mail.py
+[hunt] 2026-06-30 16:27:12 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 16:27:18 → check_sales.py
+[hunt] 2026-06-30 16:27:18 → check_sales.py
