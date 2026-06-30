@@ -38920,3 +38920,64 @@ Revenue (confirmed): $0.00
 --- Your trades vs buyer sales ---
 [hunt] 2026-06-30 01:47:02 → wallet_report.py
 [hunt] 2026-06-30 01:47:02 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     10  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  3UzCAzUmPaJMnWLDnYce…
+  · in $0.00 out $0.00  2026-06-28 00:10 UTC  4epjMHHZzpSTKwzMPLMc…
+  · in $0.00 out $0.00  2026-06-27 13:54 UTC  2NJgmXg4ppmCxAEUn6ro…
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+  · in $0.00 out $0.00  2026-06-27 12:30 UTC  gVEAp4XbVMfXDG1Vzq2r…
+  … and 2 more
+
+YOUR SWEEPS:     9  ($226.03 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $10.00 USDC  2026-06-28 01:01 UTC  5AisKQx7EdiRnpSxwciG…
+  - $35.58 USDC  2026-06-27 13:47 UTC  5YENZDfegccVYpzkjb6X…
+  - $13.50 USDC  2026-06-27 13:44 UTC  2zbcjMr7HHSSgLKvaGUG…
+  - $25.00 USDC  2026-06-27 12:35 UTC  3Dk4zcJXQepKyaZ8qyJr…
+  - $20.71 USDC  2026-06-27 12:04 UTC  2GwQX2yJhnnShm9fNg8S…
+
+[hunt] 2026-06-30 01:47:36 zero buyer sales — double promotion
+[hunt] 2026-06-30 01:47:36 zero buyer sales — double promotion
+[hunt] 2026-06-30 01:47:36 → advertise_other.py
+[hunt] 2026-06-30 01:47:36 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/tboaev7x
+[ads] rentry: https://rentry.co/yfga5d8h
+[ads] rentry: https://rentry.co/37wrpswp
+[ads] rentry: https://rentry.co/ppg3vcco
+[ads] rentry: https://rentry.co/nivzczaw
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/1b065ee442b68fbd953352310f5cc2ce
+[ads] gist: https://gist.github.com/leopreciadov-bit/faed0c3641879ad294956e3ee6aba54e
+[ads] gist: https://gist.github.com/leopreciadov-bit/7550819e20673113ac6f242230210c1c
+[ads] gist: https://gist.github.com/leopreciadov-bit/b8a518d920c81941a8692337fdb06075
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1882
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1883
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1884
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
