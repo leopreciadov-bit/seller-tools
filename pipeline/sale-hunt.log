@@ -38110,3 +38110,45 @@ No new SEO pages (all published)
 [channels] paste_rs: 0
 [channels] bpaste: 200
 [channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 01:29:54 → build_sitemap.py
+[hunt] 2026-06-30 01:29:54 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 01:29:54 → advertise_other.py
+[hunt] 2026-06-30 01:29:54 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/mu7hy9ir
+[ads] rentry: https://rentry.co/7cc43x85
+[ads] rentry: https://rentry.co/s6ryqquo
+[ads] rentry: https://rentry.co/q4t8sonv
+[ads] rentry: https://rentry.co/agchoane
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/3852f59f080d6ac86b73bfe7f8c4295b
+[ads] gist: https://gist.github.com/leopreciadov-bit/6d9b882ecada218918b0354e1a13ecde
+[ads] gist: https://gist.github.com/leopreciadov-bit/2952d69e33846dffd1f2fcdce3543140
+[ads] gist: https://gist.github.com/leopreciadov-bit/10a12b9317ed6477479060d9566bb89a
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1846
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1847
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1848
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
