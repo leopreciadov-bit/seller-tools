@@ -65704,3 +65704,39 @@ Revenue (confirmed): $0.00
   (self-transfer $78.51 — excluded)
 [hunt] 2026-06-30 11:18:53 → support_mail.py
 [hunt] 2026-06-30 11:18:53 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 11:18:56 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:18:56 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:18:56 → advertise_other.py
+[hunt] 2026-06-30 11:18:56 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/58xgurb7
+[ads] rentry: https://rentry.co/fpn7pa5p
+[ads] rentry: https://rentry.co/wbinn3d4
+[ads] rentry: https://rentry.co/xa8csye8
+[ads] rentry: https://rentry.co/mnvrvipx
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/f219e101a32d647062bd27fb153f8aee
+[ads] gist: https://gist.github.com/leopreciadov-bit/cbc749d0f5b2af40c9fbadda149a816d
+[ads] gist: https://gist.github.com/leopreciadov-bit/d7a9509cb29334db9a1448f236cf4a59
+[ads] gist: https://gist.github.com/leopreciadov-bit/f4c2a512b14e4d92362a85c9e2e26eca
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
