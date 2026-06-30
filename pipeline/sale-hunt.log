@@ -44269,3 +44269,5 @@ Revenue (confirmed): $0.00
 [channels] comparison_page: all_published
 [channels] pingomatic_rss: 200
 [channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
