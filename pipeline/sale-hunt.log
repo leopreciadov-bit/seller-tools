@@ -82667,3 +82667,99 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] yandex: 200
 [ads] seznam: 200
 [ads] naver: 200
+[ads] rentry_master: https://rentry.co/bwhcmfda
+[ads] rentry: https://rentry.co/vah3rkx2
+[ads] rentry: https://rentry.co/ezkk3u25
+[ads] rentry: https://rentry.co/kn7i7nvu
+[ads] rentry: https://rentry.co/nbwbrd9i
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/41c3da197d3fa54193ac2556d60ff28c
+[ads] gist: https://gist.github.com/leopreciadov-bit/3c63bb1cde0f256b0f55b713bedf97fe
+[ads] gist: https://gist.github.com/leopreciadov-bit/f5ee0f1d09b95d58395299cd2d168f06
+[ads] gist: https://gist.github.com/leopreciadov-bit/2f215163e91cf7d8a962a64e04cd404d
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 17:13:19 → promote_autopilot.py
+[hunt] 2026-06-30 17:13:19 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 17:13:22 → reddit_publish.py
+[hunt] 2026-06-30 17:13:22 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/58956ef958def1a134e51d51d1ea787e
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/5f768f0f47a07685be1ee148aa7e9115
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/ef2f7a20fb8e0711c7a1e25138fe6415
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/898064a2bcbb87d1fd57d0f192f24a38
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 17:13:33 → gumroad_launch.py
+[hunt] 2026-06-30 17:13:33 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 17:13:33 → check_sales.py
+[hunt] 2026-06-30 17:13:33 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 17:14:07 → support_mail.py
+[hunt] 2026-06-30 17:14:07 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 17:14:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 17:14:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 17:14:10 → advertise_other.py
+[hunt] 2026-06-30 17:14:10 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/97kp3ey3
+[ads] rentry: https://rentry.co/8yfkr5h3
+[ads] rentry: https://rentry.co/e5fhrncz
+[ads] rentry: https://rentry.co/7384ogdr
+[ads] rentry: https://rentry.co/th9vy5sp
