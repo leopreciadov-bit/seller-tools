@@ -86889,3 +86889,59 @@ To https://github.com/leopreciadov-bit/seller-tools.git
 [hunt] 2026-06-30 18:43:37 → sales_innovate.py
 [hunt] 2026-06-30 18:43:37 → sales_innovate.py
 [innovate] === Sales innovate ===
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 18:44:01 → seo_content_factory.py
+[hunt] 2026-06-30 18:44:01 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 18:44:01 → sales_channels.py
+[hunt] 2026-06-30 18:44:01 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 18:44:01 → build_sitemap.py
+[hunt] 2026-06-30 18:44:01 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 18:44:01 → advertise_other.py
+[hunt] 2026-06-30 18:44:01 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/6aitg9e5
+[ads] rentry: https://rentry.co/qugdu4wk
+[ads] rentry: https://rentry.co/9ypkbsqw
+[ads] rentry: https://rentry.co/dea6w3zf
+[ads] rentry: https://rentry.co/zyopt8h5
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/8ecf018026b81036ff941283c3ae0370
+[ads] gist: https://gist.github.com/leopreciadov-bit/9bb2b7515934ae480437ee48d167864f
+[ads] gist: https://gist.github.com/leopreciadov-bit/c3b270f4915181d91c417acef121a7a8
+[ads] gist: https://gist.github.com/leopreciadov-bit/762183209815c76e06d3c1fe28d4c856
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
