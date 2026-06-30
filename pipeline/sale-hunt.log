@@ -63807,3 +63807,68 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-30 10:42:20 → check_sales.py
 [hunt] 2026-06-30 10:42:20 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 10:42:53 → support_mail.py
+[hunt] 2026-06-30 10:42:53 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 10:42:54 zero buyer sales — double promotion
+[hunt] 2026-06-30 10:42:54 zero buyer sales — double promotion
+[hunt] 2026-06-30 10:42:54 → advertise_other.py
+[hunt] 2026-06-30 10:42:54 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/w3egs5vu
+[ads] rentry: https://rentry.co/oi94tdez
+[ads] rentry: https://rentry.co/bhmo6nru
+[ads] rentry: https://rentry.co/kw8cd9xe
+[ads] rentry: https://rentry.co/aazkgqm4
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/27fccfc01952c80c619a89575da5cd2e
+[ads] gist: https://gist.github.com/leopreciadov-bit/aa3da174e2f1420ece94ee5ef61feae5
+[ads] gist: https://gist.github.com/leopreciadov-bit/dedfcf607e3ac920c68b09f592ac1027
+[ads] gist: https://gist.github.com/leopreciadov-bit/03ec68f6a6cb24c1ba29ad4739dca44c
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 10:43:47 → sales_innovate.py
+[hunt] 2026-06-30 10:43:47 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 10:43:50 → sales_channels.py
+[hunt] 2026-06-30 10:43:50 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
