@@ -67062,3 +67062,77 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [hunt] 2026-06-30 11:46:07 → promote_autopilot.py
 [promote] Promoting https://leopreciadov-bit.github.io/seller-tools
 [promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 11:46:09 → reddit_publish.py
+[hunt] 2026-06-30 11:46:09 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/108c15f63bada7784b1ff74b0cd1edc8
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/207677e9a1e563ffcea41acfc9733f2e
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/b7ddc9419a4e93e8affc24607a6aef35
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/92c0a16822e8e964cd9477744f0ae2b6
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 11:46:19 → gumroad_launch.py
+[hunt] 2026-06-30 11:46:19 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 11:46:20 → check_sales.py
+[hunt] 2026-06-30 11:46:20 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 11:46:51 → support_mail.py
+[hunt] 2026-06-30 11:46:51 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 11:46:54 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:46:54 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:46:54 → advertise_other.py
+[hunt] 2026-06-30 11:46:54 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/oip2qbuh
+[ads] rentry: https://rentry.co/5x8x58xv
+[ads] rentry: https://rentry.co/phfqozcu
+[ads] rentry: https://rentry.co/5qgcipmf
+[ads] rentry: https://rentry.co/gr7tfp3y
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/cd4bf9434a6d95c5824f530f674bd7ec
+[ads] gist: https://gist.github.com/leopreciadov-bit/6341a036ec85db484746f3c180588e69
+[ads] gist: https://gist.github.com/leopreciadov-bit/abddadcef58753a61a429e49d1911929
+[ads] gist: https://gist.github.com/leopreciadov-bit/a5e89e21fcdac9252b3b0f3cf487569a
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
