@@ -76448,7 +76448,7 @@
     },
     {
       "channel": "seznam",
-      "at": "2026-06-30T02:01:27Z",
+      "at": "2026-06-30T02:01:28Z",
       "status": 200
     },
     {
@@ -76459,27 +76459,27 @@
     {
       "channel": "rentry_master",
       "at": "2026-06-30T02:01:34Z",
-      "url": "https://rentry.co/i4vz3z8w"
+      "url": "https://rentry.co/7exatn69"
     },
     {
       "channel": "rentry",
       "at": "2026-06-30T02:01:35Z",
-      "url": "https://rentry.co/atxi6ccp"
+      "url": "https://rentry.co/c5ueun58"
     },
     {
       "channel": "rentry",
       "at": "2026-06-30T02:01:35Z",
-      "url": "https://rentry.co/pfpyysac"
+      "url": "https://rentry.co/wvemmara"
     },
     {
       "channel": "rentry",
       "at": "2026-06-30T02:01:36Z",
-      "url": "https://rentry.co/q3q3ci2a"
+      "url": "https://rentry.co/p8i5px8i"
     },
     {
       "channel": "rentry",
       "at": "2026-06-30T02:01:37Z",
-      "url": "https://rentry.co/qubxyrbv"
+      "url": "https://rentry.co/xq2gvrig"
     },
     {
       "channel": "dpaste",
@@ -76495,38 +76495,38 @@
     },
     {
       "channel": "gist_social",
-      "at": "2026-06-30T02:01:38Z",
-      "url": "https://gist.github.com/leopreciadov-bit/ca2fb0cb57d1817e32e7914844885c6a"
-    },
-    {
-      "channel": "gist",
       "at": "2026-06-30T02:01:39Z",
-      "url": "https://gist.github.com/leopreciadov-bit/ea6723d5792dda968dde5455b3b53d0a"
+      "url": "https://gist.github.com/leopreciadov-bit/155710caf92065465a7de2861e1c0906"
     },
     {
       "channel": "gist",
-      "at": "2026-06-30T02:01:41Z",
-      "url": "https://gist.github.com/leopreciadov-bit/afafa66e049c8a3684e864f587688e17"
+      "at": "2026-06-30T02:01:40Z",
+      "url": "https://gist.github.com/leopreciadov-bit/55226ccf71caba2b2f27fbfd75f20ca5"
     },
     {
       "channel": "gist",
       "at": "2026-06-30T02:01:43Z",
-      "url": "https://gist.github.com/leopreciadov-bit/4718b39fe60a98e60813dfcdb9c5c0f5"
+      "url": "https://gist.github.com/leopreciadov-bit/b3e02aabf3a747d33cc810a43aa730da"
     },
     {
-      "channel": "github_discussion",
+      "channel": "gist",
       "at": "2026-06-30T02:01:44Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1909"
+      "url": "https://gist.github.com/leopreciadov-bit/f7d77f7f281a8da62ead182930ffb613"
     },
     {
       "channel": "github_discussion",
       "at": "2026-06-30T02:01:45Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1911"
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1910"
+    },
+    {
+      "channel": "github_discussion",
+      "at": "2026-06-30T02:01:45Z",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1912"
     },
     {
       "channel": "github_discussion",
       "at": "2026-06-30T02:01:46Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1913"
+      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1914"
     },
     {
       "channel": "github_issue_comment",
@@ -76535,122 +76535,84 @@
       "detail": ""
     },
     {
-      "channel": "google_sitemap",
-      "at": "2026-06-30T02:04:56Z",
-      "status": 404
+      "channel": "wayback",
+      "at": "2026-06-30T02:02:18Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "bing_sitemap",
-      "at": "2026-06-30T02:04:56Z",
-      "status": 410
+      "channel": "wayback",
+      "at": "2026-06-30T02:02:48Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/listing-lab/",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "pingomatic",
-      "at": "2026-06-30T02:04:57Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:03:20Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "indexnow",
-      "at": "2026-06-30T02:04:57Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:03:51Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/how-to-choose-etsy-tags.html",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "bing",
-      "at": "2026-06-30T02:04:58Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:04:23Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-description-template.html",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "yandex",
-      "at": "2026-06-30T02:04:58Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:04:54Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/shopify-product-listing-seo.html",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "seznam",
-      "at": "2026-06-30T02:04:59Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:05:26Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/etsy-listing-generator-free.html",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "naver",
-      "at": "2026-06-30T02:05:00Z",
-      "status": 200
+      "channel": "wayback",
+      "at": "2026-06-30T02:05:57Z",
+      "url": "https://leopreciadov-bit.github.io/seller-tools/guides/best-free-etsy-seo-tools.html",
+      "status": "error",
+      "detail": "The read operation timed out"
     },
     {
-      "channel": "rentry_master",
-      "at": "2026-06-30T02:05:07Z",
-      "url": "https://rentry.co/rgv6zf24"
+      "channel": "github_wiki",
+      "at": "2026-06-30T02:05:58Z",
+      "status": "error",
+      "detail": "wiki clone failed"
     },
     {
-      "channel": "rentry",
-      "at": "2026-06-30T02:05:07Z",
-      "url": "https://rentry.co/kp5264yk"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-06-30T02:05:08Z",
-      "url": "https://rentry.co/3x8np65h"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-06-30T02:05:09Z",
-      "url": "https://rentry.co/sftgvtbp"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-06-30T02:05:09Z",
-      "url": "https://rentry.co/2rme2hir"
-    },
-    {
-      "channel": "dpaste",
-      "at": "2026-06-30T02:05:10Z",
+      "channel": "bluesky",
+      "at": "2026-06-30T02:05:58Z",
       "status": 400,
-      "detail": "Your IP address 73.170.219.236 has been blocked for violating the dpaste.com Ter"
+      "detail": "{\"error\":\"InvalidPhoneVerification\",\"message\":\"Verification is now required on this server. Please m"
     },
     {
-      "channel": "controlc",
-      "at": "2026-06-30T02:05:10Z",
-      "status": 400,
-      "detail": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewp"
+      "channel": "hashnode",
+      "at": "2026-06-30T02:05:59Z",
+      "status": 404,
+      "detail": "{\"errors\":[{\"message\":\"Stellate service \\\"api.hashnode.com\\\" not found\"}]}"
     },
     {
-      "channel": "gist_social",
-      "at": "2026-06-30T02:05:11Z",
-      "url": "https://gist.github.com/leopreciadov-bit/bee3b616ada7cc77a56832402e4b3b1f"
-    },
-    {
-      "channel": "gist",
-      "at": "2026-06-30T02:05:12Z",
-      "url": "https://gist.github.com/leopreciadov-bit/a44e457753b3456d2a6402ff0b3b2d37"
-    },
-    {
-      "channel": "gist",
-      "at": "2026-06-30T02:05:13Z",
-      "url": "https://gist.github.com/leopreciadov-bit/4c42b2cb18fc5570ebf45f72077546f2"
-    },
-    {
-      "channel": "gist",
-      "at": "2026-06-30T02:05:14Z",
-      "url": "https://gist.github.com/leopreciadov-bit/116ac011cfd8975fec5ff816a27df7fc"
-    },
-    {
-      "channel": "github_discussion",
-      "at": "2026-06-30T02:05:15Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1915"
-    },
-    {
-      "channel": "github_discussion",
-      "at": "2026-06-30T02:05:15Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1916"
-    },
-    {
-      "channel": "github_discussion",
-      "at": "2026-06-30T02:05:16Z",
-      "url": "https://github.com/leopreciadov-bit/seller-tools/discussions/1917"
-    },
-    {
-      "channel": "github_issue_comment",
-      "at": "2026-06-30T02:05:17Z",
-      "status": "ok",
-      "detail": ""
+      "channel": "slashdot",
+      "at": "2026-06-30T02:05:59Z",
+      "status": 200,
+      "detail": "form requires login"
     }
   ]
 }
