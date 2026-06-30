@@ -84395,3 +84395,97 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] rentry: https://rentry.co/dgustk72
 [ads] dpaste: 400
 [ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/48512187a9b63d1298ba70be73eaac07
+[ads] gist: https://gist.github.com/leopreciadov-bit/00b02ef89f33a5ea5ed8fcfc7c51a4fd
+[ads] gist: https://gist.github.com/leopreciadov-bit/bcc06b25ac7d893b7a381eadbf0f9173
+[ads] gist: https://gist.github.com/leopreciadov-bit/6bf7444aef8f724d9b3946eac2cd5e41
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 17:50:45 → promote_autopilot.py
+[hunt] 2026-06-30 17:50:45 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 17:50:48 → reddit_publish.py
+[hunt] 2026-06-30 17:50:48 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/7d9ff17836e6d4cd8aa90a12ecffca73
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/78c3dd60293c7fc1ce6fcdb672fc44be
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/ce91b155c6e08dad9efcc6765e589f97
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/c4abfc7e4486675197cc560d0bf37f0b
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 17:50:56 → gumroad_launch.py
+[hunt] 2026-06-30 17:50:56 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 17:50:57 → check_sales.py
+[hunt] 2026-06-30 17:50:57 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 17:51:31 → support_mail.py
+[hunt] 2026-06-30 17:51:31 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 17:51:37 zero buyer sales — double promotion
+[hunt] 2026-06-30 17:51:37 zero buyer sales — double promotion
+[hunt] 2026-06-30 17:51:37 → advertise_other.py
+[hunt] 2026-06-30 17:51:37 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/37y3mzoq
+[ads] rentry: https://rentry.co/99eebaeh
+[ads] rentry: https://rentry.co/8padvhim
+[ads] rentry: https://rentry.co/4dss4ecf
+[ads] rentry: https://rentry.co/uysxtq6x
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/da1311e872999535bea2aa4a57e979f7
+[ads] gist: https://gist.github.com/leopreciadov-bit/96f7aac9cde54301595a6b509993a2ab
+[ads] gist: https://gist.github.com/leopreciadov-bit/d2f0599073a2f585263f07ee8e11f21d
