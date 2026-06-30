@@ -41221,3 +41221,29 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 02:41:41 → check_sales.py
 [hunt] 2026-06-30 02:41:41 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     3  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+
+YOUR SWEEPS:     4  ($138.14 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $13.50 USDC  2026-06-27 13:44 UTC  2zbcjMr7HHSSgLKvaGUG…
+  - $25.00 USDC  2026-06-27 12:35 UTC  3Dk4zcJXQepKyaZ8qyJr…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 02:42:37 → wallet_report.py
+[hunt] 2026-06-30 02:42:37 → wallet_report.py
