@@ -69550,6 +69550,79 @@
       "channel": "startpage",
       "at": "2026-06-30T07:30:33Z",
       "status": 200
+    },
+    {
+      "channel": "comparison_page",
+      "at": "2026-06-30T07:33:42Z",
+      "status": "all_published"
+    },
+    {
+      "channel": "pingomatic_rss",
+      "at": "2026-06-30T07:33:54Z",
+      "status": 0
+    },
+    {
+      "channel": "feedburner_ping",
+      "at": "2026-06-30T07:34:04Z",
+      "status": 0
+    },
+    {
+      "channel": "rentry_deals",
+      "at": "2026-06-30T07:34:14Z",
+      "status": 0,
+      "detail": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "channel": "paste_rs",
+      "at": "2026-06-30T07:34:26Z",
+      "status": 0,
+      "url": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "channel": "bpaste",
+      "at": "2026-06-30T07:34:36Z",
+      "status": 0,
+      "url": "<urlopen error [Errno -3] Temporary failure in name resolution>"
+    },
+    {
+      "channel": "0x0_st",
+      "at": "2026-06-30T07:34:46Z",
+      "status": 0,
+      "url": ""
+    },
+    {
+      "channel": "paste_ee",
+      "at": "2026-06-30T07:35:03Z",
+      "status": 401,
+      "url": ""
+    },
+    {
+      "channel": "github_repo",
+      "at": "2026-06-30T07:35:06Z",
+      "status": "ok",
+      "detail": ""
+    },
+    {
+      "channel": "github_release",
+      "at": "2026-06-30T07:35:07Z",
+      "status": "ok",
+      "url": "https://github.com/leopreciadov-bit/seller-tools/releases/tag/promo-20260630-0035"
+    },
+    {
+      "channel": "indiehackers",
+      "at": "2026-06-30T07:35:08Z",
+      "status": 200,
+      "note": "needs manual product page"
+    },
+    {
+      "channel": "curlie_search",
+      "at": "2026-06-30T07:35:08Z",
+      "status": 200
+    },
+    {
+      "channel": "startpage",
+      "at": "2026-06-30T07:35:09Z",
+      "status": 200
     }
   ]
 }
