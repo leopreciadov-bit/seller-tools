@@ -46036,3 +46036,65 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-30 04:31:59 → check_sales.py
 [hunt] 2026-06-30 04:31:59 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 04:32:31 → support_mail.py
+[hunt] 2026-06-30 04:32:31 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 04:32:36 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:32:36 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:32:36 → advertise_other.py
+[hunt] 2026-06-30 04:32:36 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/zog925pp
+[ads] rentry: https://rentry.co/g8wa6dgt
+[ads] rentry: https://rentry.co/kgcu6ent
+[ads] rentry: https://rentry.co/u5ki9wwn
+[ads] rentry: https://rentry.co/5z79n5r3
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/21d3e102d3cfdf869d23761307d8e2db
+[ads] gist: https://gist.github.com/leopreciadov-bit/9b3f50b77b067cbf390429dc8d0e99bc
+[ads] gist: https://gist.github.com/leopreciadov-bit/e62d1a998f8299accd4c4e2a42dcc077
+[ads] gist: https://gist.github.com/leopreciadov-bit/283c39d0db95e6de548fcdcd3df3483e
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 04:33:47 → sales_innovate.py
+[hunt] 2026-06-30 04:33:47 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 04:33:49 → sales_channels.py
+[hunt] 2026-06-30 04:33:49 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
