@@ -34479,3 +34479,53 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] wayback: 200
 [ads] wayback: 200
 [ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 00:07:31 → promote_autopilot.py
+[hunt] 2026-06-30 00:07:31 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 00:07:33 → reddit_publish.py
+[hunt] 2026-06-30 00:07:33 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/bb4ef895d30be9caedf305ad69b96a3c
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/c13047b42ebf514b310e1c6a305b23f2
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/79378c16e2a46aa4019386fcb19a2f38
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/18e04aa4a1f562bab612afb4357986f9
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 00:07:41 → gumroad_launch.py
+[hunt] 2026-06-30 00:07:41 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 00:07:41 → check_sales.py
+[hunt] 2026-06-30 00:07:41 → check_sales.py
