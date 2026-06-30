@@ -53339,3 +53339,99 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] dpaste: 400
 [ads] controlc: 400
 [ads] gist_social: https://gist.github.com/leopreciadov-bit/3310c8b6d42f98930a8610e2a4bc2e9a
+[ads] gist: https://gist.github.com/leopreciadov-bit/810c1bf1b13912eaf808d71046f967c6
+[ads] gist: https://gist.github.com/leopreciadov-bit/6620b86cc982f414145569f049a65c7d
+[ads] gist: https://gist.github.com/leopreciadov-bit/0342b0c9d34117247ddf3fd0645dc119
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 07:01:49 → promote_autopilot.py
+[hunt] 2026-06-30 07:01:49 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 07:01:51 → reddit_publish.py
+[hunt] 2026-06-30 07:01:51 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/c8958e88b09abbe3551d16ecd9710958
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/793c52769f0b473364eba4fd71229107
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/7d40caf5cad1756564bff024712c30e7
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/bb06ea5e018113d65e4d2e08039e6711
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 07:01:59 → gumroad_launch.py
+[hunt] 2026-06-30 07:01:59 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 07:01:59 → check_sales.py
+[hunt] 2026-06-30 07:01:59 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 07:02:29 → support_mail.py
+[hunt] 2026-06-30 07:02:29 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 07:02:31 zero buyer sales — double promotion
+[hunt] 2026-06-30 07:02:31 zero buyer sales — double promotion
+[hunt] 2026-06-30 07:02:31 → advertise_other.py
+[hunt] 2026-06-30 07:02:31 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/v8vftmra
+[ads] rentry: https://rentry.co/ddwdonbq
+[ads] rentry: https://rentry.co/gss2gias
+[ads] rentry: https://rentry.co/dgpse8wh
+[ads] rentry: https://rentry.co/pwg6ggb8
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/7b3166b067643d580bd282015eb9f770
+[ads] gist: https://gist.github.com/leopreciadov-bit/5e7563d8e1dee33f784b4da68b51d9f9
+[ads] gist: https://gist.github.com/leopreciadov-bit/5be18f63427bcfa16c45da7c682d44b0
+[ads] gist: https://gist.github.com/leopreciadov-bit/fe156a3e2fd03049a60fba80898b396e
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
