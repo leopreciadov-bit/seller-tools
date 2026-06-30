@@ -77954,3 +77954,17 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    7a6aac2..e008314  main -> main
 [hunt] 2026-06-30 15:28:23 cycle 333 done — buyer_sales=0
 [hunt] 2026-06-30 15:28:23 cycle 333 done — buyer_sales=0
+[hunt] 2026-06-30 15:29:28 → account_factory.py
+[hunt] 2026-06-30 15:29:28 → account_factory.py
+[hunt] 2026-06-30 15:29:28 → platform_retry.py
+[hunt] 2026-06-30 15:29:28 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 15:29:28 → sales_innovate.py
+[hunt] 2026-06-30 15:29:28 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/Etsy-sellers-fix-listings-that-dont-sell-06-30-6
