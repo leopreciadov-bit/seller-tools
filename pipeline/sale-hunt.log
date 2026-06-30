@@ -80806,3 +80806,112 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-63
 [ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-61
 [ads] telegraph: https://telegra.ph/Listing-description-template-06-30-61
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-58
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-56
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-56
+[ads] rentry_master: https://rentry.co/a6mg6mt4
+[ads] rentry: https://rentry.co/4gukaoo4
+[ads] rentry: https://rentry.co/5kbvry6i
+[ads] rentry: https://rentry.co/g62oyukr
+[ads] rentry: https://rentry.co/wrbeyt3i
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/3a17b83666f088d95884ad51d13d32a9
+[ads] gist: https://gist.github.com/leopreciadov-bit/0e99e4e7d402e57116c9d100fd64d1f1
+[ads] gist: https://gist.github.com/leopreciadov-bit/40fe9343d915f7afb64d02c71bf0a59d
+[ads] gist: https://gist.github.com/leopreciadov-bit/6862a82403f31424d7844f38e4115c5a
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 16:32:01 → promote_autopilot.py
+[hunt] 2026-06-30 16:32:01 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 16:32:03 → reddit_publish.py
+[hunt] 2026-06-30 16:32:03 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Telegraph r/Etsy: https://telegra.ph/I-built-two-free-tools-for-Etsy-sellers-listing-generator--13-tag-SEO-helper-rEtsy-06-30-36
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/759f8e850a3e9bed206c28f12325ab9a
+Telegraph r/shopify: https://telegra.ph/Free-Shopify-product-listing-generator-titles-bullets-SEO-descriptions-rshopify-06-30-34
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/85794fbddbe6aa090d8c3aee0ec20d15
+Telegraph r/SideProject: https://telegra.ph/Side-project-free-EtsyShopify-listing-tools-browser-only-no-backend-rSideProject-06-30-33
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/8d34d22b5c1e868b089417dcd29c94ad
+Telegraph r/InternetIsBeautiful: https://telegra.ph/Website-Two-free-tools-that-write-your-Etsy-listings-and-13-SEO-tags-for-you-rInternetIsBeautiful-06-30-33
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/6733d437b1c388dcd35e6a53e826887b
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 16:32:11 → gumroad_launch.py
+[hunt] 2026-06-30 16:32:11 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 16:32:11 → check_sales.py
+[hunt] 2026-06-30 16:32:11 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 16:32:45 → support_mail.py
+[hunt] 2026-06-30 16:32:45 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 16:32:48 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:32:48 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:32:48 → advertise_other.py
+[hunt] 2026-06-30 16:32:48 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-66
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-66
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-66
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-65
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-63
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-63
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-60
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-58
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-58
+[ads] rentry_master: https://rentry.co/4vuy3bn4
+[ads] rentry: https://rentry.co/ww22nuyz
