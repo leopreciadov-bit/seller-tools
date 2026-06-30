@@ -39557,3 +39557,90 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] wayback: 200
 [ads] wayback: 200
 [ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 02:00:42 → promote_autopilot.py
+[hunt] 2026-06-30 02:00:42 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 02:00:43 → reddit_publish.py
+[hunt] 2026-06-30 02:00:43 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/aa2409760eece85596700f17cc686e69
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/18c4c94a1f23a0d9f2d5fe9e1fbd6ede
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/44c8dd311bb17b37c1e9bd02d4a8bc9d
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/d28427098f5ea68a1ef698671a072c0d
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 02:00:51 → gumroad_launch.py
+[hunt] 2026-06-30 02:00:51 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 02:00:51 → check_sales.py
+[hunt] 2026-06-30 02:00:51 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 02:01:22 → support_mail.py
+[hunt] 2026-06-30 02:01:22 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 02:01:24 zero buyer sales — double promotion
+[hunt] 2026-06-30 02:01:24 zero buyer sales — double promotion
+[hunt] 2026-06-30 02:01:24 → advertise_other.py
+[hunt] 2026-06-30 02:01:24 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/7exatn69
+[ads] rentry: https://rentry.co/c5ueun58
+[ads] rentry: https://rentry.co/wvemmara
+[ads] rentry: https://rentry.co/p8i5px8i
+[ads] rentry: https://rentry.co/xq2gvrig
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/155710caf92065465a7de2861e1c0906
+[ads] gist: https://gist.github.com/leopreciadov-bit/55226ccf71caba2b2f27fbfd75f20ca5
+[ads] gist: https://gist.github.com/leopreciadov-bit/b3e02aabf3a747d33cc810a43aa730da
+[ads] gist: https://gist.github.com/leopreciadov-bit/f7d77f7f281a8da62ead182930ffb613
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1910
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1912
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1914
+[ads] github_issue_comment: ok
