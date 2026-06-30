@@ -40064,3 +40064,72 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 02:16:24 → check_sales.py
 [hunt] 2026-06-30 02:16:24 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     6  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  3UzCAzUmPaJMnWLDnYce…
+  · in $0.00 out $0.00  2026-06-28 00:10 UTC  4epjMHHZzpSTKwzMPLMc…
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+
+YOUR SWEEPS:     5  ($131.24 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $10.00 USDC  2026-06-28 01:01 UTC  5AisKQx7EdiRnpSxwciG…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 02:17:19 → wallet_report.py
+[hunt] 2026-06-30 02:17:19 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 02:17:40 zero buyer sales — double promotion
+[hunt] 2026-06-30 02:17:40 zero buyer sales — double promotion
+[hunt] 2026-06-30 02:17:40 → advertise_other.py
+[hunt] 2026-06-30 02:17:40 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/b44wcpxq
+[ads] rentry: https://rentry.co/nytbqf4s
+[ads] rentry: https://rentry.co/ed2ink7y
+[ads] rentry: https://rentry.co/436979sy
+[ads] rentry: https://rentry.co/5xgbdhpg
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/dcb0d0a6f3bc6c88a33ea7155372f212
+[ads] gist: https://gist.github.com/leopreciadov-bit/fda1c4978862e5c0efa47e4f14958b66
+[ads] gist: https://gist.github.com/leopreciadov-bit/e3b1cb3a0858c45ba2a343aa38b83b61
+[ads] gist: https://gist.github.com/leopreciadov-bit/74dcc7857f8ece2a4a44a56dca899902
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1936
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1937
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1938
+[ads] github_issue_comment: ok
+[ads] wayback: 200
