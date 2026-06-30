@@ -21,7 +21,7 @@
       "detail": "kofi_autopilot.py"
     },
     "card": {
-      "last_attempt": "2026-06-29T10:31:31.820004+00:00",
+      "last_attempt": "2026-06-30T10:31:36.756910+00:00",
       "ok": false,
       "detail": "card_autopilot.py"
     },
@@ -31,5 +31,5 @@
       "detail": "bypass_yolo.py"
     }
   },
-  "updated_at": "2026-06-30T10:25:35.304066+00:00"
+  "updated_at": "2026-06-30T10:31:36.757064+00:00"
 }
