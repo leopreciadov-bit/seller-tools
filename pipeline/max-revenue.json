@@ -8343,9 +8343,17 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-30T18:16:02Z",
-  "cycle": 1043,
+  "updated_at": "2026-06-30T18:17:25Z",
+  "cycle": 1044,
   "buyer_sales": 0
 }
