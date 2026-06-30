@@ -89552,3 +89552,43 @@ Revenue (confirmed): $0.00
 [hunt] 2026-06-30 19:43:45 → sales_innovate.py
 [hunt] 2026-06-30 19:43:45 → sales_innovate.py
 [innovate] === Sales innovate ===
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 19:44:07 → sales_channels.py
+[hunt] 2026-06-30 19:44:07 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 19:44:07 → seo_content_factory.py
+[hunt] 2026-06-30 19:44:07 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 19:44:07 → promote_autopilot.py
+[hunt] 2026-06-30 19:44:07 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 19:44:12 → resubmit_indexnow.py
+[hunt] 2026-06-30 19:44:12 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
