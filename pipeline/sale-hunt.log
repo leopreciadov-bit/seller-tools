@@ -34286,3 +34286,62 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-29 23:58:52 → check_sales.py
 [hunt] 2026-06-29 23:58:52 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($99.64 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-29 23:59:47 → wallet_report.py
+[hunt] 2026-06-29 23:59:47 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 00:00:04 zero buyer sales — double promotion
+[hunt] 2026-06-30 00:00:04 zero buyer sales — double promotion
+[hunt] 2026-06-30 00:00:04 → advertise_other.py
+[hunt] 2026-06-30 00:00:04 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/yp9faz8o
+[ads] rentry: https://rentry.co/ivz5ko9a
+[ads] rentry: https://rentry.co/7772p3pa
+[ads] rentry: https://rentry.co/aomzyner
+[ads] rentry: https://rentry.co/2b684c4b
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/a8072ef9dc738af45ff190bfde1de242
+[ads] gist: https://gist.github.com/leopreciadov-bit/c564afaf3435b77e7520a01520953f2d
+[ads] gist: https://gist.github.com/leopreciadov-bit/f616d770254934115f3b967723962e6c
+[ads] gist: https://gist.github.com/leopreciadov-bit/116b0076f1ac9a8c08a91e819e479f14
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1672
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1673
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1674
+[ads] github_issue_comment: ok
