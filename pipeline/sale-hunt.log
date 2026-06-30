@@ -74343,3 +74343,72 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [promote] Done — see pipeline/promote-state.json
 [hunt] 2026-06-30 14:14:32 → reddit_publish.py
 [hunt] 2026-06-30 14:14:32 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/1b75be7d931c35c59078d71382d6ac59
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/18643cbd3595233f547b4c0500849b85
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/553fdb42bf05e36194f24e8dfb186a2e
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/1829a9591837ba8af2fa2e187dc65f97
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 14:14:42 → gumroad_launch.py
+[hunt] 2026-06-30 14:14:42 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 14:14:42 → check_sales.py
+[hunt] 2026-06-30 14:14:42 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 14:15:10 → support_mail.py
+[hunt] 2026-06-30 14:15:10 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 14:15:15 zero buyer sales — double promotion
+[hunt] 2026-06-30 14:15:15 zero buyer sales — double promotion
+[hunt] 2026-06-30 14:15:15 → advertise_other.py
+[hunt] 2026-06-30 14:15:15 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/ooewk4yd
+[ads] rentry: https://rentry.co/9bg6fn3u
+[ads] rentry: https://rentry.co/n6xtcicf
+[ads] rentry: https://rentry.co/tcxa6dqi
+[ads] rentry: https://rentry.co/s83ybu6g
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/38d0939c130e82e0439d3ca3b37639ee
+[ads] gist: https://gist.github.com/leopreciadov-bit/d01a5e807e6e0dc1eda963a3daa65ae0
+[ads] gist: https://gist.github.com/leopreciadov-bit/87af6d571a4d8c96d25c50d3a3b00b69
+[ads] gist: https://gist.github.com/leopreciadov-bit/fdeb489a0be14d496a60a8d2f73c2f34
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
