@@ -71286,3 +71286,61 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 13:11:06 → check_sales.py
 [hunt] 2026-06-30 13:11:06 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     1  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($99.64 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 13:11:56 → wallet_report.py
+[hunt] 2026-06-30 13:11:56 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 13:12:15 zero buyer sales — double promotion
+[hunt] 2026-06-30 13:12:15 zero buyer sales — double promotion
+[hunt] 2026-06-30 13:12:15 → advertise_other.py
+[hunt] 2026-06-30 13:12:15 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/u9evufsd
+[ads] rentry: https://rentry.co/3tpx73qw
+[ads] rentry: https://rentry.co/i5dkdi5x
+[ads] rentry: https://rentry.co/obdko4wc
+[ads] rentry: https://rentry.co/ookrebbx
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/9c20d322557b097d96f140181ee349e7
+[ads] gist: https://gist.github.com/leopreciadov-bit/1c292eeaeb59d13f073e24d5a0aaf34d
+[ads] gist: https://gist.github.com/leopreciadov-bit/adab5550b0dd262154e9e4aadc409518
+[ads] gist: https://gist.github.com/leopreciadov-bit/b0eecedffe03595c3fcafe29c5d5607c
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
