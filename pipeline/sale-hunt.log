@@ -59211,3 +59211,73 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    00ebe52..70a1637  main -> main
 [hunt] 2026-06-30 09:10:03 cycle 253 done — buyer_sales=0
 [hunt] 2026-06-30 09:10:03 cycle 253 done — buyer_sales=0
+[hunt] 2026-06-30 09:11:08 → account_factory.py
+[hunt] 2026-06-30 09:11:08 → account_factory.py
+[hunt] 2026-06-30 09:11:08 → platform_retry.py
+[hunt] 2026-06-30 09:11:08 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 09:11:08 → sales_innovate.py
+[hunt] 2026-06-30 09:11:08 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 09:11:10 → seo_content_factory.py
+[hunt] 2026-06-30 09:11:10 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 09:11:10 → sales_channels.py
+[hunt] 2026-06-30 09:11:10 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: error
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 09:11:15 → build_sitemap.py
+[hunt] 2026-06-30 09:11:15 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 09:11:15 → advertise_other.py
+[hunt] 2026-06-30 09:11:15 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/wnfxrg9b
+[ads] rentry: https://rentry.co/xheasm9t
+[ads] rentry: https://rentry.co/t8id9wdz
+[ads] rentry: https://rentry.co/p5gaac45
+[ads] rentry: https://rentry.co/ocss8odc
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/0dc452aa370842087ffa025d3250f161
+[ads] gist: https://gist.github.com/leopreciadov-bit/c8b4da0c31b2c90c54f36cf2cd28eb6b
+[ads] gist: https://gist.github.com/leopreciadov-bit/9aa176165e873709563767458533a493
+[ads] gist: https://gist.github.com/leopreciadov-bit/9d7d5861d15a30b4b72277261acf03bd
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
