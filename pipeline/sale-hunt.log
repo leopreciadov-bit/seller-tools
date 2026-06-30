@@ -66813,3 +66813,92 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] yandex: 200
 [ads] seznam: 200
 [ads] naver: 200
+[ads] rentry_master: https://rentry.co/g64x4x6p
+[ads] rentry: https://rentry.co/oashao79
+[ads] rentry: https://rentry.co/e4eun8mx
+[ads] rentry: https://rentry.co/u4shi77r
+[ads] rentry: https://rentry.co/2d8d3vkd
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/71303f3198d8435cf977e4d241dce44b
+[ads] gist: https://gist.github.com/leopreciadov-bit/7450ed99837ca8654bbabba20b97b64e
+[ads] gist: https://gist.github.com/leopreciadov-bit/37f20f410f53c1dcdba9b7e61b3a1efa
+[ads] gist: https://gist.github.com/leopreciadov-bit/e28cfbb67010172870dbd4b76d2ef851
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 11:41:29 → promote_autopilot.py
+[hunt] 2026-06-30 11:41:29 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 11:41:31 → reddit_publish.py
+[hunt] 2026-06-30 11:41:31 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/c79a5fb144e46e1ab60ced1e6dff86f8
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/5994feffb87a77a0db601a185036f591
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/e1beedce8ae7b3764f7c2a45cdb5dfef
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/c7ac136bd6ebf10f8a99304057c1a868
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 11:41:43 → gumroad_launch.py
+[hunt] 2026-06-30 11:41:43 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 11:41:43 → check_sales.py
+[hunt] 2026-06-30 11:41:43 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 11:42:15 → support_mail.py
+[hunt] 2026-06-30 11:42:15 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 11:42:18 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:42:18 zero buyer sales — double promotion
+[hunt] 2026-06-30 11:42:18 → advertise_other.py
+[hunt] 2026-06-30 11:42:18 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200

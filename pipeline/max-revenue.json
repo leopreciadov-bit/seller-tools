@@ -5895,9 +5895,17 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-30T11:39:39Z",
-  "cycle": 737,
+  "updated_at": "2026-06-30T11:41:14Z",
+  "cycle": 738,
   "buyer_sales": 0
 }
