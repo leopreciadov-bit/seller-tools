@@ -64622,3 +64622,106 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    d0d7238..6f3061b  main -> main
 [hunt] 2026-06-30 10:57:49 cycle 276 done — buyer_sales=0
 [hunt] 2026-06-30 10:57:49 cycle 276 done — buyer_sales=0
+[hunt] 2026-06-30 10:58:51 → account_factory.py
+[hunt] 2026-06-30 10:58:51 → account_factory.py
+[hunt] 2026-06-30 10:58:51 → platform_retry.py
+[hunt] 2026-06-30 10:58:51 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 10:58:51 → sales_innovate.py
+[hunt] 2026-06-30 10:58:51 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 10:58:53 → seo_content_factory.py
+[hunt] 2026-06-30 10:58:53 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 10:58:53 → sales_channels.py
+[hunt] 2026-06-30 10:58:53 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 500
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 10:59:02 → build_sitemap.py
+[hunt] 2026-06-30 10:59:02 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 10:59:02 → advertise_other.py
+[hunt] 2026-06-30 10:59:02 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/mdzzzut7
+[ads] rentry: https://rentry.co/kuknvfp6
+[ads] rentry: https://rentry.co/brh4uh35
+[ads] rentry: https://rentry.co/whv5skia
+[ads] rentry: https://rentry.co/w5td3zxx
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/b14b0a280cecc847122c85d53a58a74c
+[ads] gist: https://gist.github.com/leopreciadov-bit/6b586253a888ac19731df22cd3292088
+[ads] gist: https://gist.github.com/leopreciadov-bit/e4dde8b23ae16d571b41ff158ba2a686
+[ads] gist: https://gist.github.com/leopreciadov-bit/5f0bcdc29a080f6bdff09ef54bd41a70
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 10:59:22 → promote_autopilot.py
+[hunt] 2026-06-30 10:59:22 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 10:59:24 → reddit_publish.py
+[hunt] 2026-06-30 10:59:24 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/6c6d56b0853ff6039cc7b58acd87c85d
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/30a28f9e097916df2ac72af4eb68d50e
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/7e8b1191b599a089fa6a663775ad3659
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/d02baea0b6a8e362d4690e5f0d509eba
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
