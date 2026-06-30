@@ -57667,3 +57667,7 @@ No new SEO pages (all published)
 [hunt] 2026-06-30 08:38:46 → sales_channels.py
 [channels] === Sales channels ===
 [channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
