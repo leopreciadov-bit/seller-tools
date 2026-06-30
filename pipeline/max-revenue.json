@@ -4071,9 +4071,17 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-30T06:34:53Z",
-  "cycle": 508,
+  "updated_at": "2026-06-30T06:36:01Z",
+  "cycle": 509,
   "buyer_sales": 0
 }
