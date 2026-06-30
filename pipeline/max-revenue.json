@@ -5223,9 +5223,17 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-30T09:50:38Z",
-  "cycle": 653,
+  "updated_at": "2026-06-30T09:52:07Z",
+  "cycle": 654,
   "buyer_sales": 0
 }
