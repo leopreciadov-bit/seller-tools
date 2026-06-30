@@ -81123,3 +81123,66 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-30 16:37:33 → check_sales.py
 [hunt] 2026-06-30 16:37:33 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 16:38:05 → support_mail.py
+[hunt] 2026-06-30 16:38:05 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 16:38:07 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:38:07 zero buyer sales — double promotion
+[hunt] 2026-06-30 16:38:07 → advertise_other.py
+[hunt] 2026-06-30 16:38:07 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-69
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-69
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-69
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-68
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-66
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-66
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-63
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-61
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-61
+[ads] rentry_master: https://rentry.co/wx2mbwyh
+[ads] rentry: https://rentry.co/3mvvreae
+[ads] rentry: https://rentry.co/tieihp5i
+[ads] rentry: https://rentry.co/ffyhwviw
+[ads] rentry: https://rentry.co/arcgs5r3
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/8598743c1bd8cb53863e5fdcf56321e5
+[ads] gist: https://gist.github.com/leopreciadov-bit/4185fc8655aca7779a505419cecae6fb
+[ads] gist: https://gist.github.com/leopreciadov-bit/979f01878935de54e3fd34478958b64b
+[ads] gist: https://gist.github.com/leopreciadov-bit/269a8d89c1db95ec80f52d8aa459b598
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 16:38:33 → sales_innovate.py
+[hunt] 2026-06-30 16:38:33 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/Etsy-sellers-fix-listings-that-dont-sell-06-30-7
