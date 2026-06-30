@@ -84893,3 +84893,48 @@ No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
 Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
 [hunt] 2026-06-30 18:00:51 → check_sales.py
 [hunt] 2026-06-30 18:00:51 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 18:01:29 → support_mail.py
+[hunt] 2026-06-30 18:01:29 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 18:01:33 zero buyer sales — double promotion
+[hunt] 2026-06-30 18:01:33 zero buyer sales — double promotion
+[hunt] 2026-06-30 18:01:33 → advertise_other.py
+[hunt] 2026-06-30 18:01:33 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/opz84fmc
+[ads] rentry: https://rentry.co/4rrrfe2a
+[ads] rentry: https://rentry.co/wmiepfgf
+[ads] rentry: https://rentry.co/8dxc96m7
+[ads] rentry: https://rentry.co/9z57hrtv
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/49e64bbf513d0932bb37ed745206b096
+[ads] gist: https://gist.github.com/leopreciadov-bit/e3f64c09b89f1f17f2fc4894f62df815
+[ads] gist: https://gist.github.com/leopreciadov-bit/33e22e399cf7542530b12dd58bb1f76d
+[ads] gist: https://gist.github.com/leopreciadov-bit/9df9669d3178cd5563425fdac08262c1
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
