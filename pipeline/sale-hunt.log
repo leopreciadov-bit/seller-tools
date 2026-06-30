@@ -69734,3 +69734,66 @@ Revenue (confirmed): $0.00
 [ads] rentry: https://rentry.co/tg32h4gf
 [ads] rentry: https://rentry.co/feyw6uhz
 [ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/ef177ef06697b339e3f08710086c899d
+[ads] gist: https://gist.github.com/leopreciadov-bit/44cfe6e9f46110b790a12b3085477b9d
+[ads] gist: https://gist.github.com/leopreciadov-bit/75686ceca8f0294833ac55ecb678833a
+[ads] gist: https://gist.github.com/leopreciadov-bit/b1c9d7c3224921563d47e3f75c8e420e
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 12:40:42 → sales_innovate.py
+[hunt] 2026-06-30 12:40:42 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 12:40:45 → sales_channels.py
+[hunt] 2026-06-30 12:40:45 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: error
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 12:40:51 → seo_content_factory.py
+[hunt] 2026-06-30 12:40:51 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 12:40:51 → promote_autopilot.py
+[hunt] 2026-06-30 12:40:51 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 12:40:53 → resubmit_indexnow.py
+[hunt] 2026-06-30 12:40:53 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
