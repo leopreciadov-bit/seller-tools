@@ -73555,3 +73555,70 @@ IndexNow 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
 Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+The following paths are ignored by one of your .gitignore files:
+.venv
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+To https://github.com/leopreciadov-bit/seller-tools.git
+   60a55b9..9adc91d  main -> main
+[hunt] 2026-06-30 13:57:23 cycle 314 done — buyer_sales=0
+[hunt] 2026-06-30 13:57:23 cycle 314 done — buyer_sales=0
+[hunt] 2026-06-30 13:58:27 → account_factory.py
+[hunt] 2026-06-30 13:58:27 → account_factory.py
+[hunt] 2026-06-30 13:58:27 → platform_retry.py
+[hunt] 2026-06-30 13:58:27 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 13:58:27 → sales_innovate.py
+[hunt] 2026-06-30 13:58:27 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 13:58:30 → seo_content_factory.py
+[hunt] 2026-06-30 13:58:30 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 13:58:30 → sales_channels.py
+[hunt] 2026-06-30 13:58:30 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 503
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 13:58:36 → build_sitemap.py
+[hunt] 2026-06-30 13:58:36 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 13:58:36 → advertise_other.py
+[hunt] 2026-06-30 13:58:36 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/qrwsakek
+[ads] rentry: https://rentry.co/9w2rr4i9
+[ads] rentry: https://rentry.co/mbvayrw7
+[ads] rentry: https://rentry.co/cucwezy7
+[ads] rentry: https://rentry.co/m37ufno9
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/060da45afc394edefedd4a1414deb635
