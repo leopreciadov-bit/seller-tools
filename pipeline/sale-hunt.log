@@ -37673,3 +37673,59 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] github_wiki: error
 [ads] bluesky: 400
 [ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 01:20:28 → promote_autopilot.py
+[hunt] 2026-06-30 01:20:28 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 01:20:31 → reddit_publish.py
+[hunt] 2026-06-30 01:20:31 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/6440a8298fa73f2889e27f6ce127b786
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/f0f05a11da5de4e0ae37b4a2793f4f51
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/48e46d0d075f211abeab5c4ceff846b4
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/3cc7b6207d966ecb8dc9419e417065c6
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 01:20:40 → gumroad_launch.py
+[hunt] 2026-06-30 01:20:40 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 01:20:40 → check_sales.py
+[hunt] 2026-06-30 01:20:40 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 01:21:12 → support_mail.py
+[hunt] 2026-06-30 01:21:12 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 01:21:15 → check_sales.py
+[hunt] 2026-06-30 01:21:15 → check_sales.py
