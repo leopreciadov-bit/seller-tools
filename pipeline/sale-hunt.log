@@ -80678,3 +80678,65 @@ YOUR SWEEPS:     0  ($0.00 sent out)
 [ads] dpaste: 400
 [ads] controlc: 400
 [ads] gist_social: https://gist.github.com/leopreciadov-bit/e3af5808af413a4eec31b355b571e03f
+[ads] gist: https://gist.github.com/leopreciadov-bit/bcb74da7c6b08bababc2a27aa4926c10
+[ads] gist: https://gist.github.com/leopreciadov-bit/ef6e7374734167ef41f18c01145a03f0
+[ads] gist: https://gist.github.com/leopreciadov-bit/af61e73ccda2d42af1fea76810c268ef
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 16:29:04 → sales_innovate.py
+[hunt] 2026-06-30 16:29:04 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/I-built-free-Etsy-listing-tools-no-signup-06-30-9
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 16:29:26 → sales_channels.py
+[hunt] 2026-06-30 16:29:26 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 16:29:26 → seo_content_factory.py
+[hunt] 2026-06-30 16:29:26 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 16:29:26 → promote_autopilot.py
+[hunt] 2026-06-30 16:29:26 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 16:29:28 → resubmit_indexnow.py
+[hunt] 2026-06-30 16:29:28 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
