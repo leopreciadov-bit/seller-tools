@@ -89288,3 +89288,14 @@ Revenue (confirmed): $0.00
   (self-transfer $78.51 — excluded)
 [hunt] 2026-06-30 19:37:19 → support_mail.py
 [hunt] 2026-06-30 19:37:19 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 19:37:22 zero buyer sales — double promotion
+[hunt] 2026-06-30 19:37:22 zero buyer sales — double promotion
+[hunt] 2026-06-30 19:37:22 → advertise_other.py
+[hunt] 2026-06-30 19:37:22 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
