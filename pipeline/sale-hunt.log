@@ -87095,3 +87095,73 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    05637303..55867b7a  main -> main
 [hunt] 2026-06-30 18:47:43 cycle 372 done — buyer_sales=0
 [hunt] 2026-06-30 18:47:43 cycle 372 done — buyer_sales=0
+[hunt] 2026-06-30 18:48:48 → account_factory.py
+[hunt] 2026-06-30 18:48:48 → account_factory.py
+[hunt] 2026-06-30 18:48:48 → platform_retry.py
+[hunt] 2026-06-30 18:48:48 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 18:48:48 → sales_innovate.py
+[hunt] 2026-06-30 18:48:48 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: error
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 18:49:10 → seo_content_factory.py
+[hunt] 2026-06-30 18:49:10 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 18:49:10 → sales_channels.py
+[hunt] 2026-06-30 18:49:10 → sales_channels.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+[hunt] 2026-06-30 18:49:10 → build_sitemap.py
+[hunt] 2026-06-30 18:49:10 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 18:49:10 → advertise_other.py
+[hunt] 2026-06-30 18:49:10 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/mwpwsbg9
+[ads] rentry: https://rentry.co/u7fweezp
+[ads] rentry: https://rentry.co/apzybyov
+[ads] rentry: https://rentry.co/qog9n7pw
+[ads] rentry: https://rentry.co/binhvn6v
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/4f859184c7fb94d7306020940aa86b3b
+[ads] gist: https://gist.github.com/leopreciadov-bit/432ede136404d65dece429f59fb7b4b5
+[ads] gist: https://gist.github.com/leopreciadov-bit/01783129b4301ee3f829a8adcf6220b5
+[ads] gist: https://gist.github.com/leopreciadov-bit/84de069d0209623b50ba91c0e162391f
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
