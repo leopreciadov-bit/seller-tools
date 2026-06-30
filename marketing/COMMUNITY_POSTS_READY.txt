@@ -1,18 +1,20 @@
-# Listing generator for Etsy + Shopify (free, 5/day)
+# Free Etsy tag generator — 13 tags, 20 char limit enforced
 
-Sharing a free listing tool I've been using for my shop.
+I built a free browser tool for Etsy sellers — no signup.
 
-Generates SEO title, description, tags, and bullets from product basics. Works for Etsy and Shopify mode.
+Paste your product + keywords → get exactly 13 SEO tags (Etsy's 20-char limit enforced).
 
-https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+Try it: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
 
-Free tier is 5/day. Pro is $19 one-time (not monthly). Also has a 13-tag Etsy tool: https://leopreciadov-bit.github.io/seller-tools/etsy-tag-finder/
+Pro is $14 lifetime if you need unlimited + CSV export. There's also a listing generator for titles/descriptions: https://leopreciadov-bit.github.io/seller-tools/listing-lab/
+
+Happy to hear feedback.
 
 ## Post to these groups:
 
-- Facebook: Shopify Entrepreneurs
-- Facebook: Dropshipping
-- Facebook: Etsy Sellers
+- Facebook: Etsy Sellers United
+- Facebook: Etsy Entrepreneurs
+- Facebook: Handmade Business
 - Forum: https://community.etsy.com/
 - Forum: https://www.etsy.com/seller-handbook
 
