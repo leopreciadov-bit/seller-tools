@@ -1,15 +1,49 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-06-30T04:27:58.626002+00:00",
+  "updated_at": "2026-06-30T04:53:37.268948+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
     "your_trades_count": 0,
-    "your_sweeps_count": 0,
-    "your_sweeps_usd": 0
+    "your_sweeps_count": 3,
+    "your_sweeps_usd": 104.87
   },
   "buyer_sales": [],
   "your_trades": [],
-  "your_sweeps": [],
-  "your_inbound": []
+  "your_sweeps": [
+    {
+      "time": "2026-06-28 05:31 UTC",
+      "tx": "21Z7rBmhL1vp2jXjhEaZZbWYkTTh8TKYC55X14xm5wZcV5ES5p28GYZgvi2spKD59fjrwGSJmsQ43a6ptgdrrv5z",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 79.77,
+      "note": "You sent out (sweep)"
+    },
+    {
+      "time": "2026-06-28 01:03 UTC",
+      "tx": "3Eb5UA6LcrfLuEwC4AAQZXNFfZUwurPJjgX4H2WVgvnr8xv5VKFU49VHL1GgC3P3FH5X2LV3sHaCZyyTg3a758e5",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 11.6,
+      "note": "You sent out (sweep)"
+    },
+    {
+      "time": "2026-06-27 13:44 UTC",
+      "tx": "2zbcjMr7HHSSgLKvaGUGKcr3tXVxR9d172ChSQDLRAo5shjBUhu37q8GZoE3d7TN33xdUvRVbLEE6y5MwjmvzuaE",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 13.5,
+      "note": "You sent out (sweep)"
+    }
+  ],
+  "your_inbound": [
+    {
+      "time": "2026-06-27 12:35 UTC",
+      "tx": "fPFREMiqXBq3jJmBTgQEuc8J1MLtK5AgApAP31bZJ5XGLPAPUPCFUTig7ZmCpGKyFjzU8HJ8jTDNPZK6TwUH5Ga",
+      "asset": "USDC",
+      "in": 14.08,
+      "out": 0.0,
+      "note": "You moved in \u2014 not a buyer"
+    }
+  ]
 }
