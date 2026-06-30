@@ -200,11 +200,18 @@ def rentry_paste(state: dict) -> None:
 
 
 def github_discussions(state: dict) -> None:
+    today = time.strftime("%Y-%m-%d", time.gmtime())
+    last = state.get("last_github_discussion_day")
+    if last == today:
+        record(state, "github_discussion", status="skipped_daily_limit")
+        return
+
     topics = [
         ("Free Etsy listing generator (no signup)", f"{SITE}/guides/etsy-listing-generator-free.html", "Titles, 13 tags, descriptions — free daily quota."),
         ("Best free Etsy SEO tools 2026", f"{SITE}/guides/best-free-etsy-seo-tools.html", "Roundup of free tools for Etsy sellers."),
         ("Etsy Tag Finder — 13 SEO tags", f"{SITE}/etsy-tag-finder/", "Enforces 13 tags × 20 characters."),
     ]
+    topics = [topics[state.get("github_discussion_idx", 0) % len(topics)]]
     mutation = """
     mutation($repoId: ID!, $catId: ID!, $title: String!, $body: String!) {
       createDiscussion(input: {repositoryId: $repoId, categoryId: $catId, title: $title, body: $body}) {
@@ -231,6 +238,8 @@ def github_discussions(state: dict) -> None:
             try:
                 url = json.loads(r.stdout)["data"]["createDiscussion"]["discussion"]["url"]
                 record(state, "github_discussion", url=url)
+                state["last_github_discussion_day"] = today
+                state["github_discussion_idx"] = state.get("github_discussion_idx", 0) + 1
             except (json.JSONDecodeError, KeyError, TypeError):
                 record(state, "github_discussion", status="ok")
         else:

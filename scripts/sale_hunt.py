@@ -72,6 +72,8 @@ def cycle(st: dict) -> None:
 
     run("max_revenue.py")
     run("support_mail.py")
+    if st["cycles"] % 10 == 0:
+        run("check_sales.py", "--quick", "--no-payhip")
     if st["cycles"] % 5 == 0:
         run("payhip_fulfill.py")
         run("wallet_report.py")

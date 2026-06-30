@@ -117,11 +117,30 @@ BUYER_INTENT_TOPICS = [
     ("shopify-product-title-seo", "Shopify Product Title SEO Generator", "listing-lab", "listinglab-pro"),
 ]
 
+# Niche long-tail (batch 3)
+NICHE_TOPICS = [
+    ("etsy-seo-for-beginners", "Etsy SEO for Beginners — Free Tools", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("t-shirt-etsy-tags-generator", "T-Shirt Etsy Tags Generator", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("candle-etsy-listing-generator", "Candle Etsy Listing Generator", "listing-lab", "listinglab-pro"),
+    ("sticker-etsy-tags-tool", "Sticker Etsy Tags Tool Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("etsy-seo-audit-free", "Etsy SEO Audit Free Tool", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("shopify-aliexpress-listing-tool", "Shopify AliExpress Listing Tool", "listing-lab", "listinglab-pro"),
+    ("etsy-bestseller-tags-tool", "Etsy Bestseller Tags Research Tool", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("macrame-etsy-listing-generator", "Macrame Etsy Listing Generator", "listing-lab", "listinglab-pro"),
+    ("soap-etsy-tags-generator", "Soap Etsy Tags Generator", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("resin-art-etsy-seo-tool", "Resin Art Etsy SEO Tool", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("etsy-wedding-invitation-listing", "Etsy Wedding Invitation Listing Tool", "listing-lab", "listinglab-pro"),
+    ("etsy-pet-tags-generator", "Etsy Pet Tags Generator Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+    ("etsy-art-print-listing-tool", "Etsy Art Print Listing Tool", "listing-lab", "listinglab-pro"),
+    ("shopify-store-seo-listings", "Shopify Store SEO Listings Generator", "listing-lab", "listinglab-pro"),
+    ("etsy-competitor-keyword-tool", "Etsy Competitor Keyword Tool Free", "etsy-tag-finder", "etsy-tag-finder-pro"),
+]
+
 
 def expand_keywords(data: dict) -> None:
     published = set(data.get("published", []))
     existing = {k["slug"] for k in data.get("keywords", [])}
-    for slug, title, tool, product in COMPARISON_TOPICS + EXTRA_TOPICS + BUYER_INTENT_TOPICS:
+    for slug, title, tool, product in COMPARISON_TOPICS + EXTRA_TOPICS + BUYER_INTENT_TOPICS + NICHE_TOPICS:
         if slug in existing:
             continue
         data.setdefault("keywords", []).append({

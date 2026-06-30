@@ -2,7 +2,8 @@
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 HUNT="*/2 * * * * flock -n $ROOT/pipeline/.sale-hunt.lock -c 'cd $ROOT && python3 scripts/sale_hunt.py --daemon --interval 60 >> pipeline/sale-hunt.log 2>&1'"
 BLAST="* * * * * flock -n $ROOT/pipeline/.blast-loop.lock -c 'cd $ROOT && python3 scripts/blast_loop.py --daemon --interval 45 >> pipeline/blast-loop.log 2>&1'"
-(crontab -l 2>/dev/null | grep -v "sale_hunt.py" | grep -v "blast_loop.py" | grep -v "zero_human.py"; echo "$HUNT"; echo "$BLAST") | crontab -
+WATCH="*/5 * * * * bash $ROOT/scripts/watchdog.sh >> $ROOT/pipeline/watchdog.log 2>&1"
+(crontab -l 2>/dev/null | grep -v "sale_hunt.py" | grep -v "blast_loop.py" | grep -v "zero_human.py" | grep -v "watchdog.sh"; echo "$HUNT"; echo "$BLAST"; echo "$WATCH") | crontab -
 echo "pipeline/.blast-loop.lock" >> "$ROOT/.gitignore" 2>/dev/null || true
 echo "pipeline/blast-loop.log" >> "$ROOT/.gitignore" 2>/dev/null || true
 pgrep -f "$ROOT/scripts/sale_hunt.py" | xargs -r kill 2>/dev/null
