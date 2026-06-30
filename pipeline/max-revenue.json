@@ -2407,8 +2407,16 @@
     {
       "bing": "https://api.indexnow.org/indexnow",
       "status": 200
+    },
+    {
+      "bing": "https://www.bing.com/indexnow",
+      "status": 200
+    },
+    {
+      "bing": "https://api.indexnow.org/indexnow",
+      "status": 200
     }
   ],
-  "updated_at": "2026-06-30T02:15:59Z",
-  "cycle": 300
+  "updated_at": "2026-06-30T02:17:05Z",
+  "cycle": 301
 }
