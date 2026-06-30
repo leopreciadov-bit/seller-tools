@@ -11227,6 +11227,50 @@
     {
       "channel": "Yandex IndexNow",
       "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-30T00:23:08Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-30T00:23:08Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-30T00:23:14Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-30T00:23:14Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
     }
   ]
 }
