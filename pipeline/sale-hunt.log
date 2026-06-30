@@ -35889,3 +35889,37 @@ Revenue (confirmed): $0.00
   (self-transfer $78.51 — excluded)
 [hunt] 2026-06-30 00:41:07 → support_mail.py
 [hunt] 2026-06-30 00:41:07 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 00:41:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 00:41:10 zero buyer sales — double promotion
+[hunt] 2026-06-30 00:41:10 → advertise_other.py
+[hunt] 2026-06-30 00:41:10 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/fpzkx82d
+[ads] rentry: https://rentry.co/fzhh9tw2
+[ads] rentry: https://rentry.co/bzuynixn
+[ads] rentry: https://rentry.co/wsddd5ry
+[ads] rentry: https://rentry.co/8s8ghyyv
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] github_discussion: error
+[ads] github_discussion: error
+[ads] github_discussion: error
+[ads] github_issue_comment: error
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
