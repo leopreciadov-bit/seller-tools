@@ -36754,3 +36754,49 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] yandex: 200
 [ads] seznam: 200
 [ads] naver: 200
+[ads] rentry_master: https://rentry.co/cr6b36ra
+[ads] rentry: https://rentry.co/9vkidcuk
+[ads] rentry: https://rentry.co/iyfucn24
+[ads] rentry: https://rentry.co/qddzndyy
+[ads] rentry: https://rentry.co/vf7mkrw8
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/41c6945c105a9ab1ce1a888733a44d97
+[ads] gist: https://gist.github.com/leopreciadov-bit/43e3575bddd7e71f6bd3f11746f04c40
+[ads] gist: https://gist.github.com/leopreciadov-bit/5c6f4c2eb1db37a7011a3aa6d7b8cd47
+[ads] gist: https://gist.github.com/leopreciadov-bit/b7d8a210871b464ae6100e2ab485cc75
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1783
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1784
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1785
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 01:01:34 → promote_autopilot.py
+[hunt] 2026-06-30 01:01:34 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 01:01:36 → reddit_publish.py
+[hunt] 2026-06-30 01:01:36 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
