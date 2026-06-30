@@ -48101,3 +48101,108 @@ Revenue (confirmed): $0.00
 --- Your trades vs buyer sales ---
 [hunt] 2026-06-30 05:18:03 → wallet_report.py
 [hunt] 2026-06-30 05:18:03 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     11  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  2RJvrUuBuNXu7CrVzr3L…
+  · in $0.00 out $0.00  2026-06-28 00:40 UTC  3UzCAzUmPaJMnWLDnYce…
+  · in $0.00 out $0.00  2026-06-28 00:10 UTC  4epjMHHZzpSTKwzMPLMc…
+  · in $0.00 out $0.00  2026-06-27 13:54 UTC  2NJgmXg4ppmCxAEUn6ro…
+  · in $0.00 out $0.00  2026-06-27 13:40 UTC  Zu1xwTjCY6z75Pi7dWFY…
+  · in $0.00 out $0.00  2026-06-27 12:30 UTC  gVEAp4XbVMfXDG1Vzq2r…
+  · in $0.00 out $0.00  2026-06-27 12:20 UTC  48ngvY14Lk1w53PxM93M…
+  … and 3 more
+
+YOUR SWEEPS:     5  ($104.67 sent out)
+  - $35.58 USDC  2026-06-27 13:47 UTC  5YENZDfegccVYpzkjb6X…
+  - $13.50 USDC  2026-06-27 13:44 UTC  2zbcjMr7HHSSgLKvaGUG…
+  - $25.00 USDC  2026-06-27 12:35 UTC  3Dk4zcJXQepKyaZ8qyJr…
+  - $20.71 USDC  2026-06-27 12:04 UTC  2GwQX2yJhnnShm9fNg8S…
+  - $9.88 USDC  2026-06-27 11:55 UTC  3XbS3QeyVf7ozxYyKZLp…
+
+[hunt] 2026-06-30 05:18:35 zero buyer sales — double promotion
+[hunt] 2026-06-30 05:18:35 zero buyer sales — double promotion
+[hunt] 2026-06-30 05:18:35 → advertise_other.py
+[hunt] 2026-06-30 05:18:35 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/5i5keuo2
+[ads] rentry: https://rentry.co/9vc4vgzv
+[ads] rentry: https://rentry.co/ffz85enx
+[ads] rentry: https://rentry.co/yc85rmva
+[ads] rentry: https://rentry.co/v9a32o6f
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/cf84925644182bc05080d45fb17c2d98
+[ads] gist: https://gist.github.com/leopreciadov-bit/7351f103175570fafe3627f870680853
+[ads] gist: https://gist.github.com/leopreciadov-bit/b1bc34733b863cd55ed8b33d510fe338
+[ads] gist: https://gist.github.com/leopreciadov-bit/653b05584fd78a301c8f085267e7f6fb
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 05:18:56 → sales_innovate.py
+[hunt] 2026-06-30 05:18:56 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 05:18:58 → sales_channels.py
+[hunt] 2026-06-30 05:18:58 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 05:19:07 → seo_content_factory.py
+[hunt] 2026-06-30 05:19:07 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 05:19:07 → promote_autopilot.py
+[hunt] 2026-06-30 05:19:07 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 05:19:09 → resubmit_indexnow.py
+[hunt] 2026-06-30 05:19:09 → resubmit_indexnow.py
+IndexNow 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
