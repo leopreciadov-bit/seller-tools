@@ -45515,3 +45515,93 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [ads] wayback: 200
 [ads] wayback: 200
 [ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 04:21:20 → promote_autopilot.py
+[hunt] 2026-06-30 04:21:20 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 04:21:22 → reddit_publish.py
+[hunt] 2026-06-30 04:21:22 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/323dfa7c28456e06bbd3120d1be3b5d6
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/6894b975f225bf9fc7a3ccab9dcd4d90
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/94866058f2185e54b3768dd6bb02031b
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/97be9ce6af70e80592400fda3bb6109c
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 04:21:29 → gumroad_launch.py
+[hunt] 2026-06-30 04:21:29 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 04:21:29 → check_sales.py
+[hunt] 2026-06-30 04:21:29 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 04:22:01 → support_mail.py
+[hunt] 2026-06-30 04:22:01 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 04:22:04 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:22:04 zero buyer sales — double promotion
+[hunt] 2026-06-30 04:22:04 → advertise_other.py
+[hunt] 2026-06-30 04:22:04 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/73x3nnoa
+[ads] rentry: https://rentry.co/3cfotyyo
+[ads] rentry: https://rentry.co/ermzct4i
+[ads] rentry: https://rentry.co/sz2zsizo
+[ads] rentry: https://rentry.co/9m5rgteq
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/eadf2836c76fe94747581496f10522c5
+[ads] gist: https://gist.github.com/leopreciadov-bit/ede04da4a6ab78a8171be73cedbd0440
+[ads] gist: https://gist.github.com/leopreciadov-bit/fd96c68d618d97f9d0c6510c6cee34e6
+[ads] gist: https://gist.github.com/leopreciadov-bit/3936087ca682c56d7f76aa404ecda431
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
