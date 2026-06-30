@@ -39991,3 +39991,63 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (91 URL
 [ads] controlc: 400
 [ads] gist_social: https://gist.github.com/leopreciadov-bit/a86f4734c1a4c165e818738113617deb
 [ads] gist: https://gist.github.com/leopreciadov-bit/88bcc6b120cef7a00ae7bdcbaef9583a
+[ads] gist: https://gist.github.com/leopreciadov-bit/adca34e7733b4ea2c566aca41b3f823f
+[ads] gist: https://gist.github.com/leopreciadov-bit/c6463e7ae33b021a17111395a37c102b
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1930
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1931
+[ads] github_discussion: https://github.com/leopreciadov-bit/seller-tools/discussions/1932
+[ads] github_issue_comment: ok
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] wayback: 200
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 02:15:39 → promote_autopilot.py
+[hunt] 2026-06-30 02:15:39 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 02:15:41 → reddit_publish.py
+[hunt] 2026-06-30 02:15:41 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/d8c6d88e58d52f8d6b607c3450abdf28
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/6f5fb0b91ef594a05fe69e4c99de9162
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/c98652189e171de1f0b757a23678a859
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/544eab5574c90405df8dadd8a07d46c6
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 02:15:51 → gumroad_launch.py
+[hunt] 2026-06-30 02:15:51 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 02:15:51 → check_sales.py
+[hunt] 2026-06-30 02:15:51 → check_sales.py
