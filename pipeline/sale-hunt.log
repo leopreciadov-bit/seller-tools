@@ -54632,3 +54632,92 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    1afeec8..acb812b  main -> main
 [hunt] 2026-06-30 07:27:43 cycle 233 done — buyer_sales=0
 [hunt] 2026-06-30 07:27:43 cycle 233 done — buyer_sales=0
+[hunt] 2026-06-30 07:28:47 → account_factory.py
+[hunt] 2026-06-30 07:28:47 → account_factory.py
+[hunt] 2026-06-30 07:28:47 → platform_retry.py
+[hunt] 2026-06-30 07:28:47 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 07:28:47 → sales_innovate.py
+[hunt] 2026-06-30 07:28:47 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 07:28:49 → seo_content_factory.py
+[hunt] 2026-06-30 07:28:49 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 07:28:49 → sales_channels.py
+[hunt] 2026-06-30 07:28:49 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 07:28:56 → build_sitemap.py
+[hunt] 2026-06-30 07:28:56 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 07:28:57 → advertise_other.py
+[hunt] 2026-06-30 07:28:57 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/igu5dwrn
+[ads] rentry: https://rentry.co/vquvtntq
+[ads] rentry: https://rentry.co/tepmannu
+[ads] rentry: https://rentry.co/9zygv4tp
+[ads] rentry: https://rentry.co/gc77nnnr
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/f51111fb57eb30ee68bdec502cec01a9
+[ads] gist: https://gist.github.com/leopreciadov-bit/77c6faac5459374bdcadb96b97022d8c
+[ads] gist: https://gist.github.com/leopreciadov-bit/79335e727f1c13ac6dbdbc9b061040b2
+[ads] gist: https://gist.github.com/leopreciadov-bit/3003205df1c7f4350eff0fd4d842ef38
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 07:29:21 → promote_autopilot.py
+[hunt] 2026-06-30 07:29:21 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 07:29:23 → reddit_publish.py
+[hunt] 2026-06-30 07:29:23 → reddit_publish.py
