@@ -74473,3 +74473,151 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    6ef7281..7498376  main -> main
 [hunt] 2026-06-30 14:16:00 cycle 318 done — buyer_sales=0
 [hunt] 2026-06-30 14:16:00 cycle 318 done — buyer_sales=0
+[hunt] 2026-06-30 14:17:03 → account_factory.py
+[hunt] 2026-06-30 14:17:03 → account_factory.py
+[hunt] 2026-06-30 14:17:03 → platform_retry.py
+[hunt] 2026-06-30 14:17:03 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 14:17:04 → sales_innovate.py
+[hunt] 2026-06-30 14:17:04 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 14:17:06 → seo_content_factory.py
+[hunt] 2026-06-30 14:17:06 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 14:17:06 → sales_channels.py
+[hunt] 2026-06-30 14:17:06 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 14:17:20 → build_sitemap.py
+[hunt] 2026-06-30 14:17:20 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 14:17:20 → advertise_other.py
+[hunt] 2026-06-30 14:17:20 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/t56rdsqp
+[ads] rentry: https://rentry.co/3wd2sszh
+[ads] rentry: https://rentry.co/kxmccf76
+[ads] rentry: https://rentry.co/yfxmst89
+[ads] rentry: https://rentry.co/4u25cuns
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/511451ad6000e02434da1243fd5e2ed6
+[ads] gist: https://gist.github.com/leopreciadov-bit/b150864e9fb2dcccc989cbf53dd47ddd
+[ads] gist: https://gist.github.com/leopreciadov-bit/551222fb7a75589b6ece452487cfbf95
+[ads] gist: https://gist.github.com/leopreciadov-bit/8bc917d6a2a50be394718eb402034eff
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 14:17:49 → promote_autopilot.py
+[hunt] 2026-06-30 14:17:49 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 14:17:51 → reddit_publish.py
+[hunt] 2026-06-30 14:17:51 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/7d400af0ef6cb8e1ecfc1856caa27f8f
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/18b5b41598dd6422d77bebabcf28ddf1
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/edff1aff866e7a162bd38c714d96a272
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/f6f9325406678b46a1f16bb8e126d6ad
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 14:18:00 → gumroad_launch.py
+[hunt] 2026-06-30 14:18:00 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 14:18:00 → check_sales.py
+[hunt] 2026-06-30 14:18:00 → check_sales.py
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+[hunt] 2026-06-30 14:18:31 → support_mail.py
+[hunt] 2026-06-30 14:18:31 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 30 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-06-30 14:18:34 zero buyer sales — double promotion
+[hunt] 2026-06-30 14:18:34 zero buyer sales — double promotion
+[hunt] 2026-06-30 14:18:34 → advertise_other.py
+[hunt] 2026-06-30 14:18:34 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/es9umkzm
+[ads] rentry: https://rentry.co/pnodrweh
+[ads] rentry: https://rentry.co/qa6r8ktv
+[ads] rentry: https://rentry.co/sm9fhvm5
+[ads] rentry: https://rentry.co/s7y96ifs
+[ads] dpaste: 400
+[ads] controlc: 400
