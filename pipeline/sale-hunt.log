@@ -83862,3 +83862,90 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [hunt] 2026-06-30 17:38:55 → advertise_other.py
 [ads] === Advertise other channels ===
 [ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-77
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-77
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-77
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-76
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-73
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-73
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-70
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-68
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-68
+[ads] rentry_master: https://rentry.co/aswmx2sx
+[ads] rentry: https://rentry.co/qqktyo3n
+[ads] rentry: https://rentry.co/hgimzkpv
+[ads] rentry: https://rentry.co/pwnceb4o
+[ads] rentry: https://rentry.co/bkegnzm3
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/8cac7c84c46997a4998dd0f54e3581f2
+[ads] gist: https://gist.github.com/leopreciadov-bit/cacca19b1ad829617da71c7daa95562a
+[ads] gist: https://gist.github.com/leopreciadov-bit/3bdbf5cfc0b99c859b27f7fe22f52796
+[ads] gist: https://gist.github.com/leopreciadov-bit/29d1b6565f5809d6e35e7090729a036a
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 17:39:51 → promote_autopilot.py
+[hunt] 2026-06-30 17:39:51 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 17:39:53 → reddit_publish.py
+[hunt] 2026-06-30 17:39:53 → reddit_publish.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+Telegraph r/Etsy: https://telegra.ph/I-built-two-free-tools-for-Etsy-sellers-listing-generator--13-tag-SEO-helper-rEtsy-06-30-43
+Gist r/Etsy: https://gist.github.com/leopreciadov-bit/13cbc4db7f6d7291f9cb0a2e12d8b5e4
+Telegraph r/shopify: https://telegra.ph/Free-Shopify-product-listing-generator-titles-bullets-SEO-descriptions-rshopify-06-30-41
+Gist r/shopify: https://gist.github.com/leopreciadov-bit/423efe769f5acb54238a607d048ee526
+Telegraph r/SideProject: https://telegra.ph/Side-project-free-EtsyShopify-listing-tools-browser-only-no-backend-rSideProject-06-30-40
+Gist r/SideProject: https://gist.github.com/leopreciadov-bit/31367643e5c6276eff2bcca6b63ed1a1
+Telegraph r/InternetIsBeautiful: https://telegra.ph/Website-Two-free-tools-that-write-your-Etsy-listings-and-13-SEO-tags-for-you-rInternetIsBeautiful-06-30-40
+Gist r/InternetIsBeautiful: https://gist.github.com/leopreciadov-bit/d7404962bea09bf8a09877e0deec2f87
+Reddit blocked (CAPTCHA). Content mirrored to Telegraph + Gists + search pings.
+[hunt] 2026-06-30 17:40:01 → gumroad_launch.py
+[hunt] 2026-06-30 17:40:01 → gumroad_launch.py
+✓ ListingLab Pro — Unlimited Listing Generator: 50 keys → listinglab-pro-keys.txt
+✓ Etsy Tag Finder Pro — 13 Perfect SEO Tags: 50 keys → etsy-tag-finder-pro-keys.txt
+✓ Seller Kit — ListingLab Pro + Etsy Tag Finder Pro: 50 keys → seller-kit-bundle-keys.txt
+
+Upload files ready in gumroad/upload/
+Wrote site/assets/gumroad.js
+
+No GUMROAD_ACCESS_TOKEN — manual create (see gumroad/COPY_PASTE_EVERYTHING.md)
+
+Next: Gumroad → New Product → Digital → Content → License keys → upload txt from gumroad/upload/
+[hunt] 2026-06-30 17:40:01 → check_sales.py
+[hunt] 2026-06-30 17:40:01 → check_sales.py
