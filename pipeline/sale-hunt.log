@@ -53968,3 +53968,101 @@ IndexNow 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
 Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+The following paths are ignored by one of your .gitignore files:
+.venv
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+To https://github.com/leopreciadov-bit/seller-tools.git
+   a734739..3c8db9f  main -> main
+[hunt] 2026-06-30 07:15:10 cycle 230 done — buyer_sales=0
+[hunt] 2026-06-30 07:15:10 cycle 230 done — buyer_sales=0
+[hunt] 2026-06-30 07:16:14 → account_factory.py
+[hunt] 2026-06-30 07:16:14 → account_factory.py
+[hunt] 2026-06-30 07:16:14 → platform_retry.py
+[hunt] 2026-06-30 07:16:14 → platform_retry.py
+[platform] skip yolo — backoff
+[platform] skip helio — backoff
+[platform] skip kofi — backoff
+[platform] skip card — backoff
+[platform] skip reddit — backoff
+[platform] skip gumroad — backoff
+[hunt] 2026-06-30 07:16:14 → sales_innovate.py
+[hunt] 2026-06-30 07:16:14 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] paste_ubuntu: https://paste.ubuntu.com/
+[innovate] paste_debian: https://paste.debian.net/
+[innovate] === Done ===
+[hunt] 2026-06-30 07:16:17 → seo_content_factory.py
+[hunt] 2026-06-30 07:16:17 → seo_content_factory.py
+No new SEO pages (all published)
+[hunt] 2026-06-30 07:16:17 → sales_channels.py
+[hunt] 2026-06-30 07:16:17 → sales_channels.py
+[channels] === Sales channels ===
+[channels] comparison_page: all_published
+[channels] pingomatic_rss: 200
+[channels] feedburner_ping: 404
+[channels] rentry_deals: 200
+[channels] paste_rs: 0
+[channels] bpaste: 200
+[channels] 0x0_st: 0
+[channels] paste_ee: 401
+[channels] github_repo: ok
+[channels] github_release: ok
+[channels] indiehackers: 200
+[channels] curlie_search: 200
+[channels] startpage: 200
+[channels] === Done ===
+[hunt] 2026-06-30 07:16:26 → build_sitemap.py
+[hunt] 2026-06-30 07:16:26 → build_sitemap.py
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[hunt] 2026-06-30 07:16:26 → advertise_other.py
+[hunt] 2026-06-30 07:16:26 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] rentry_master: https://rentry.co/88fo2n7c
+[ads] rentry: https://rentry.co/yatxdkdo
+[ads] rentry: https://rentry.co/9tqc3g2b
+[ads] rentry: https://rentry.co/whdtcmao
+[ads] rentry: https://rentry.co/arkfvst7
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/44a6543ddf03c5491432a9a0e2eac834
+[ads] gist: https://gist.github.com/leopreciadov-bit/263b70b82336eac91d4c8a16d442e67e
+[ads] gist: https://gist.github.com/leopreciadov-bit/bafcedcc8fe401ef267c67ffd0477a95
+[ads] gist: https://gist.github.com/leopreciadov-bit/87f2cd66b30982d2ae5fcdadf17897e3
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 07:16:52 → promote_autopilot.py
+[hunt] 2026-06-30 07:16:52 → promote_autopilot.py
+[promote] Promoting https://leopreciadov-bit.github.io/seller-tools
+[promote] Google sitemap: HTTP 404
+[promote] Bing sitemap: HTTP 410
+[promote] IndexNow: HTTP 200
+[promote] Bing IndexNow: HTTP 200
+[promote] Yandex IndexNow: HTTP 200
+[promote] Reddit already attempted — skip
+[promote] Dev.to already attempted — skip
+[promote] Done — see pipeline/promote-state.json
+[hunt] 2026-06-30 07:16:54 → reddit_publish.py
+[hunt] 2026-06-30 07:16:54 → reddit_publish.py
