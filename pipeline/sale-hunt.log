@@ -78341,3 +78341,90 @@ Revenue (confirmed): $0.00
 [support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
 [hunt] 2026-06-30 15:36:47 → check_sales.py
 [hunt] 2026-06-30 15:36:47 → check_sales.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     2  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+  · in $0.00 out $0.00  2026-06-28 01:04 UTC  4jHksmRaKRNrnQ3PGpbf…
+
+YOUR SWEEPS:     5  ($131.24 sent out)
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+  - $19.87 USDC  2026-06-28 01:05 UTC  3JZeYNMbHWJ1zsp2Mas8…
+  - $11.60 USDC  2026-06-28 01:03 UTC  3Eb5UA6LcrfLuEwC4AAQ…
+  - $10.00 USDC  2026-06-28 01:02 UTC  2VJH8PgZGUphEdaFk6Rk…
+  - $10.00 USDC  2026-06-28 01:01 UTC  5AisKQx7EdiRnpSxwciG…
+
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 97
+Failed txs: 3
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+  (self-transfer $78.51 — excluded)
+
+--- Your trades vs buyer sales ---
+[hunt] 2026-06-30 15:37:42 → wallet_report.py
+[hunt] 2026-06-30 15:37:42 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     0  (Drift/DeFi — not sales)
+
+YOUR SWEEPS:     0  ($0.00 sent out)
+
+[hunt] 2026-06-30 15:38:00 zero buyer sales — double promotion
+[hunt] 2026-06-30 15:38:00 zero buyer sales — double promotion
+[hunt] 2026-06-30 15:38:00 → advertise_other.py
+[hunt] 2026-06-30 15:38:00 → advertise_other.py
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 202
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-06-30-60
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-06-30-60
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-06-30-60
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-06-30-60
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-06-30-58
+[ads] telegraph: https://telegra.ph/Listing-description-template-06-30-58
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-06-30-55
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-06-30-53
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-06-30-53
+[ads] rentry_master: https://rentry.co/xu3ucr72
+[ads] rentry: https://rentry.co/rgcdx4z3
+[ads] rentry: https://rentry.co/6dhc3axu
+[ads] rentry: https://rentry.co/zdkq348g
+[ads] rentry: https://rentry.co/hnsubb9m
+[ads] dpaste: 400
+[ads] controlc: 400
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/35a29cde24d8cda3705d1eb61ee98b54
+[ads] gist: https://gist.github.com/leopreciadov-bit/b02c41cf7417a1f0f4d8fea369034c6a
+[ads] gist: https://gist.github.com/leopreciadov-bit/3be03f4c32e2c263a8d11017245cd79e
+[ads] gist: https://gist.github.com/leopreciadov-bit/e35de54afd19437f03944d2476856931
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] wayback: error
+[ads] github_wiki: error
+[ads] bluesky: 400
+[ads] hashnode: 404
+[ads] slashdot: 200
+[ads] === Done ===
+[hunt] 2026-06-30 15:38:26 → sales_innovate.py
+[hunt] 2026-06-30 15:38:26 → sales_innovate.py
+[innovate] === Sales innovate ===
+[innovate] telegraph_angle: https://telegra.ph/Stop-paying-monthly-for-Etsy-SEO-06-30-9

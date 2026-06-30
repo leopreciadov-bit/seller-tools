@@ -1,32 +1,15 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-06-30T15:12:30.672391+00:00",
+  "updated_at": "2026-06-30T15:38:00.456561+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
-    "your_trades_count": 2,
+    "your_trades_count": 0,
     "your_sweeps_count": 0,
     "your_sweeps_usd": 0
   },
   "buyer_sales": [],
-  "your_trades": [
-    {
-      "time": "2026-06-28 00:40 UTC",
-      "tx": "3UzCAzUmPaJMnWLDnYce7vY5ZneeYcHfRb8x7i215e7bTojCBoziZ8miHeiM7Q1JBRiVmnRMPQcJRDQNF4qrBLcE",
-      "asset": "\u2014",
-      "in": 0.0,
-      "out": 0.0,
-      "note": "Your Drift/DeFi \u2014 not a buyer"
-    },
-    {
-      "time": "2026-06-28 00:10 UTC",
-      "tx": "4epjMHHZzpSTKwzMPLMcKX3gAVJ5CQww48izrSDvuBpJLQzQTDzw3E2xGruuieMe2qhVi5gaeeobzf6GAPcu2FN9",
-      "asset": "\u2014",
-      "in": 0.0,
-      "out": 0.0,
-      "note": "Your Drift/DeFi \u2014 not a buyer"
-    }
-  ],
+  "your_trades": [],
   "your_sweeps": [],
   "your_inbound": []
 }
