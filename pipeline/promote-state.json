@@ -25307,6 +25307,72 @@
     {
       "channel": "Yandex IndexNow",
       "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-30T12:34:25Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-30T12:34:25Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-30T12:34:35Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-30T12:34:35Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-06-30T12:35:04Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-06-30T12:35:05Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 200
     }
   ]
 }
