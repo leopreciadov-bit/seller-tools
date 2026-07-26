@@ -34745,6 +34745,28 @@
     {
       "channel": "Yandex IndexNow",
       "status": 202
+    },
+    {
+      "channel": "Google sitemap",
+      "status": 404,
+      "at": "2026-07-26T20:17:23Z"
+    },
+    {
+      "channel": "Bing sitemap",
+      "status": 410,
+      "at": "2026-07-26T20:17:24Z"
+    },
+    {
+      "channel": "IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Bing IndexNow",
+      "status": 200
+    },
+    {
+      "channel": "Yandex IndexNow",
+      "status": 202
     }
   ]
 }
