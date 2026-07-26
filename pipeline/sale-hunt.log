@@ -93251,3 +93251,38 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [revenue] indexnow api.indexnow.org → 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+To https://github.com/leopreciadov-bit/seller-tools.git
+   44b733b5..a4558a6a  main -> main
+[revenue] === DONE ===
+[hunt] 2026-07-26 22:32:22 → support_mail.py
+[hunt] 2026-07-26 22:32:22 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+[support] Checked 0 messages — 0 new buyer ticket(s)
+[support] No buyer emails yet. Support inbox ready at seller0ohqeu@web-library.net
+[hunt] 2026-07-26 22:32:22 → payhip_fulfill.py
+[hunt] 2026-07-26 22:32:22 → payhip_fulfill.py
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/payhip_fulfill.py", line 64, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/payhip_fulfill.py", line 22, in main
+    from playwright.sync_api import sync_playwright
+ModuleNotFoundError: No module named 'playwright'
+[hunt] 2026-07-26 22:32:22 → wallet_report.py
+[hunt] 2026-07-26 22:32:22 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     3  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-07-20 06:53 UTC  5hYvXfUQnhKJmo2hGiYP…
+  · in $0.00 out $0.00  2026-07-20 06:36 UTC  5bi9wTwwXykqhXTrzwiA…
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($88.96 sent out)
+  - $9.19 USDC  2026-07-20 06:53 UTC  3sFJnQXcCzTGLR3w1VW6…
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
