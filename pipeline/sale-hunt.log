@@ -90033,3 +90033,86 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    97191fdd..8ec3ffb8  main -> main
 [hunt] 2026-07-25 08:28:38 cycle 385 done — buyer_sales=0
 [hunt] 2026-07-25 08:28:38 cycle 385 done — buyer_sales=0
+[hunt] 2026-07-26 20:14:00 START buyer_sales=0 interval=60s
+[hunt] 2026-07-26 20:14:00 START buyer_sales=0 interval=60s
+[hunt] 2026-07-26 20:14:00 → max_revenue.py
+[hunt] 2026-07-26 20:14:00 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1122 buyer_sales=0 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 0
+Revenue (confirmed): $0.00
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 202
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[revenue] advertise_other.py timed out (120s)
+[revenue] escalation (0 sales) → reddit_publish.py
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/urllib/request.py", line 1344, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+  File "/usr/lib/python3.12/http/client.py", line 1356, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1402, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1351, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.12/http/client.py", line 1111, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.12/http/client.py", line 1055, in send
+    self.connect()
+  File "/usr/lib/python3.12/http/client.py", line 1490, in connect
+    super().connect()
+  File "/usr/lib/python3.12/http/client.py", line 1021, in connect
+    self.sock = self._create_connection(
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 852, in create_connection
+    raise exceptions[0]
+  File "/usr/lib/python3.12/socket.py", line 837, in create_connection
+    sock.connect(sa)
+TimeoutError: timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/reddit_publish.py", line 96, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/reddit_publish.py", line 80, in main
+    url = telegraph(title, body, sub, token)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/reddit_publish.py", line 49, in telegraph
+    with urllib.request.urlopen(req, timeout=20) as r:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 515, in open
+    response = self._open(req, data)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 532, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1392, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 1347, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error timed out>
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
