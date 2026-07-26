@@ -94818,3 +94818,34 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    643f73af..76b34e09  main -> main
 [hunt] 2026-07-26 23:37:49 cycle 474 done — buyer_sales=1
 [hunt] 2026-07-26 23:37:49 cycle 474 done — buyer_sales=1
+[hunt] 2026-07-26 23:38:45 → max_revenue.py
+[hunt] 2026-07-26 23:38:45 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1275 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Successful txs (last 100): 8
+Failed txs: 0
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+  - $13.46 Etsy Tag Finder Pro (2026-07-20T06:21:36+00:00)
+  (self-transfer $78.51 — excluded)
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[revenue] advertise_other.py timed out (120s)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
