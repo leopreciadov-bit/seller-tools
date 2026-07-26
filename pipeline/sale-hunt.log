@@ -90683,3 +90683,30 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    129d637e..b4c039fc  main -> main
 [hunt] 2026-07-26 20:40:20 cycle 396 done — buyer_sales=1
 [hunt] 2026-07-26 20:40:20 cycle 396 done — buyer_sales=1
+[hunt] 2026-07-26 20:41:16 → max_revenue.py
+[hunt] 2026-07-26 20:41:16 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1141 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 299, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 272, in main
+    state = load_state()
+            ^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/sales_channels.py", line 58, in load_state
+    return json.loads(STATE.read_text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 340, in decode
+    raise JSONDecodeError("Extra data", s, end)
+json.decoder.JSONDecodeError: Extra data: line 98756 column 1 (char 2389007)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
