@@ -90,7 +90,6 @@ window.CRYPTO = {
       "LISTING-VPJ8-ZHJH"
     ],
     "etsy-tag-finder-pro": [
-      "TAGFINDER-KNP7-V81R",
       "TAGFINDER-FIK7-O4DA",
       "TAGFINDER-UIK5-X8QS",
       "TAGFINDER-KIYT-VL71",
@@ -124,5 +123,14 @@ window.CRYPTO = {
       "SELLERKIT-M3XM-D9IH"
     ]
   },
-  "recoveries": {}
+  "recoveries": {
+    "4CZskevkrmNsb4HM4JwX8Dmv2XRd7KgsG7XY6C41xXsvEDMzMscr9Le7zfK4ZgMezKtkXdsVArTHLcn2RB6rbcvK": {
+      "key": "TAGFINDER-KNP7-V81R",
+      "product": "etsy-tag-finder-pro",
+      "title": "Etsy Tag Finder Pro",
+      "amount": 13.46,
+      "time": "2026-07-20T06:21:36+00:00",
+      "status": "ready_to_claim"
+    }
+  }
 };

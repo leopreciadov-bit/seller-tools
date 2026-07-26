@@ -1,0 +1,20 @@
+{
+  "time": "2026-07-26T20:18:12.974946+00:00",
+  "count": 1,
+  "sales": [
+    {
+      "time": "2026-07-20T06:21:36+00:00",
+      "amount": 13.46,
+      "product": "Etsy Tag Finder Pro",
+      "slug": "etsy-tag-finder-pro",
+      "asset": "SOL",
+      "status": "recovery_ready",
+      "note": "Direct send to merchant wallet only",
+      "key": "TAGFINDER-KNP7-V81R",
+      "tx": "4CZskevkrmNsb4HM4JwX8Dmv2XRd7KgsG7XY6C41xXsvEDMzMscr9Le7zfK4ZgMezKtkXdsVArTHLcn2RB6rbcvK",
+      "recover_url": "https://leopreciadov-bit.github.io/seller-tools/recover/",
+      "payment_type": "card_or_crypto"
+    }
+  ],
+  "message": "BUYER SALE \u2014 direct payment to wallet"
+}
