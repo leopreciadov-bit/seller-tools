@@ -95929,3 +95929,20 @@ Traceback (most recent call last):
 ModuleNotFoundError: No module named 'playwright'
 [hunt] 2026-07-27 00:25:51 → wallet_report.py
 [hunt] 2026-07-27 00:25:51 → wallet_report.py
+
+=== Wallet report: BaZNTHB9…mYdPxH ===
+
+BUYER SALES:     0  ($0.00 direct sends)
+
+YOUR TRADES:     3  (Drift/DeFi — not sales)
+  · in $0.00 out $0.00  2026-07-20 06:53 UTC  5hYvXfUQnhKJmo2hGiYP…
+  · in $0.00 out $0.00  2026-07-20 06:36 UTC  5bi9wTwwXykqhXTrzwiA…
+  · in $0.00 out $0.00  2026-06-28 04:55 UTC  35AaucQavGnA9CpYQDwr…
+
+YOUR SWEEPS:     2  ($88.96 sent out)
+  - $9.19 USDC  2026-07-20 06:53 UTC  3sFJnQXcCzTGLR3w1VW6…
+  - $79.77 USDC  2026-06-28 05:31 UTC  21Z7rBmhL1vp2jXjhEaZ…
+
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
