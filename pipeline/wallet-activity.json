@@ -1,12 +1,12 @@
 {
   "wallet": "BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH",
-  "updated_at": "2026-08-09T12:31:30.805865+00:00",
+  "updated_at": "2026-08-09T12:41:06.601292+00:00",
   "summary": {
     "buyer_sales_count": 0,
     "buyer_sales_usd": 0,
-    "your_trades_count": 6,
-    "your_sweeps_count": 0,
-    "your_sweeps_usd": 0
+    "your_trades_count": 8,
+    "your_sweeps_count": 2,
+    "your_sweeps_usd": 88.96
   },
   "buyer_sales": [],
   "your_trades": [
@@ -57,8 +57,58 @@
       "in": 0.0,
       "out": 0.0,
       "note": "Your Drift/DeFi \u2014 not a buyer"
+    },
+    {
+      "time": "2026-07-20 06:53 UTC",
+      "tx": "5hYvXfUQnhKJmo2hGiYPihouFmKz9jRXwPR5TpYP7kpsu4aR62tR98nwv2CJpdk8hgHnrf96Bgz9sftYL24jgCYT",
+      "asset": "\u2014",
+      "in": 0.0,
+      "out": 0.0,
+      "note": "Your Drift/DeFi \u2014 not a buyer"
+    },
+    {
+      "time": "2026-07-20 06:36 UTC",
+      "tx": "5bi9wTwwXykqhXTrzwiA9YU5XJEbTj4piBijCCDUovt8M2SanEVaAWuhwvMqV8TxRtuAZPBpEQifr5MqgKXpJuQi",
+      "asset": "\u2014",
+      "in": 0.0,
+      "out": 0.0,
+      "note": "Your Drift/DeFi \u2014 not a buyer"
     }
   ],
-  "your_sweeps": [],
-  "your_inbound": []
+  "your_sweeps": [
+    {
+      "time": "2026-07-20 06:53 UTC",
+      "tx": "3sFJnQXcCzTGLR3w1VW6784xpQjCjX31uCNWGCFfmF6WVX7Gyii3qRnoPTo97RAmVQHG63McuhENFydtkjLfXXDb",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 9.19,
+      "note": "You sent out (sweep)"
+    },
+    {
+      "time": "2026-06-28 05:31 UTC",
+      "tx": "21Z7rBmhL1vp2jXjhEaZZbWYkTTh8TKYC55X14xm5wZcV5ES5p28GYZgvi2spKD59fjrwGSJmsQ43a6ptgdrrv5z",
+      "asset": "USDC",
+      "in": 0.0,
+      "out": 79.77,
+      "note": "You sent out (sweep)"
+    }
+  ],
+  "your_inbound": [
+    {
+      "time": "2026-07-20 06:53 UTC",
+      "tx": "bVnVEWqifrExfR9ViAUtZKPZteWUHUxbzFi57UNef7YCE9zB8bJdAVoX6qSkH4WbKvNu2rSnw1vosFwzkmpGbdN",
+      "asset": "USDC",
+      "in": 9.2,
+      "out": 0.0,
+      "note": "You moved in \u2014 not a buyer"
+    },
+    {
+      "time": "2026-06-28 05:02 UTC",
+      "tx": "3FsYbeULFcEaCFjfTVxL7kdrPmCCu9dqUjrR3ACw4Ho6c75GZLyzmV4e5ww3EUinSmCMdxdRnwQfi9khbNpwcFGx",
+      "asset": "USDC",
+      "in": 78.51,
+      "out": 0.0,
+      "note": "You moved in \u2014 not a buyer"
+    }
+  ]
 }
