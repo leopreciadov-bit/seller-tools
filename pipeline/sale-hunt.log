@@ -100472,3 +100472,24 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    8d594b25..ba5d9416  main -> main
 [hunt] 2026-08-09 12:28:13 cycle 579 done — buyer_sales=1
 [hunt] 2026-08-09 12:28:13 cycle 579 done — buyer_sales=1
+[hunt] 2026-08-09 12:29:08 → max_revenue.py
+[hunt] 2026-08-09 12:29:08 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1458 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: 200
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
+[ads] telegraph: error
