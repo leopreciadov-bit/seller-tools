@@ -104827,3 +104827,38 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    0eca0fda..835de203  main -> main
 [hunt] 2026-11-17 19:28:54 cycle 655 done — buyer_sales=1
 [hunt] 2026-11-17 19:28:54 cycle 655 done — buyer_sales=1
+[hunt] 2026-11-17 19:29:48 → max_revenue.py
+[hunt] 2026-11-17 19:29:48 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1593 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: error
+[ads] rentry_master: https://rentry.co/6dai6q8k
+[ads] rentry: https://rentry.co/8xr4x4pk
+[ads] rentry: https://rentry.co/7y9b2pon
+[ads] rentry: https://rentry.co/785f8kn6
+[ads] rentry: https://rentry.co/9rfyqswf
+[ads] dpaste: error
+[ads] controlc: 403
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/405bd4f0ba76452b36f2f03fc6a65603
+[ads] gist: https://gist.github.com/leopreciadov-bit/2125578ff12f7dc6311c75cb10aaea17
+[ads] gist: https://gist.github.com/leopreciadov-bit/be4a94133bfd4ad3cac28e06fedd6d95
+[ads] gist: https://gist.github.com/leopreciadov-bit/78d9acf79f7bcadab1e0dce93ca9565b
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] === Done ===
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
