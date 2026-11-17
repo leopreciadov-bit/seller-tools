@@ -105388,3 +105388,23 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    110cf91f..06734795  main -> main
 [hunt] 2026-11-17 19:44:34 cycle 664 done — buyer_sales=1
 [hunt] 2026-11-17 19:44:34 cycle 664 done — buyer_sales=1
+[hunt] 2026-11-17 19:45:28 → max_revenue.py
+[hunt] 2026-11-17 19:45:28 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1608 buyer_sales=1 ===
+[payhip] inbox error: HTTP Error 429: Too Many Requests
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: error
+[ads] dpaste: error
+[ads] controlc: 403
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/4d3aef0e3d56e223e6a8590558efc438
