@@ -105473,3 +105473,26 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    053574b0..3bf42b99  main -> main
 [hunt] 2026-11-17 19:47:47 cycle 665 done — buyer_sales=1
 [hunt] 2026-11-17 19:47:47 cycle 665 done — buyer_sales=1
+[hunt] 2026-11-17 19:48:41 → max_revenue.py
+[hunt] 2026-11-17 19:48:41 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1611 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: error
+[ads] dpaste: error
+[ads] controlc: 403
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/b2f4711fe517c4ca6a2e473d68cf4e2c
+[ads] gist: https://gist.github.com/leopreciadov-bit/48db4878a0c182e084d8017eb104339a
+[ads] gist: https://gist.github.com/leopreciadov-bit/47b876365640bacf57c1b289db625469
+[ads] gist: https://gist.github.com/leopreciadov-bit/538550d30fa8298408cd84f7651d31ab
+[ads] github_discussion: skipped_daily_limit
