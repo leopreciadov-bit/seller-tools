@@ -172904,155 +172904,130 @@
     },
     {
       "channel": "google_sitemap",
-      "at": "2026-11-17T20:00:05Z",
+      "at": "2026-11-17T20:00:24Z",
       "status": 404
     },
     {
       "channel": "bing_sitemap",
-      "at": "2026-11-17T20:00:06Z",
+      "at": "2026-11-17T20:00:24Z",
       "status": 410
     },
     {
       "channel": "pingomatic",
-      "at": "2026-11-17T20:00:06Z",
+      "at": "2026-11-17T20:00:24Z",
       "status": 200
     },
     {
       "channel": "indexnow",
-      "at": "2026-11-17T20:00:07Z",
+      "at": "2026-11-17T20:00:25Z",
       "status": 200
     },
     {
       "channel": "bing",
-      "at": "2026-11-17T20:00:07Z",
+      "at": "2026-11-17T20:00:25Z",
       "status": 200
     },
     {
       "channel": "yandex",
-      "at": "2026-11-17T20:00:08Z",
+      "at": "2026-11-17T20:00:26Z",
       "status": 200
     },
     {
       "channel": "seznam",
-      "at": "2026-11-17T20:00:09Z",
+      "at": "2026-11-17T20:00:27Z",
       "status": 200
     },
     {
       "channel": "naver",
-      "at": "2026-11-17T20:00:36Z",
+      "at": "2026-11-17T20:00:55Z",
       "status": "error",
       "detail": "<urlopen error timed out>"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:37Z",
-      "url": "https://telegra.ph/Etsy-Chrome-Extension-free-11-17-14"
+      "at": "2026-11-17T20:00:56Z",
+      "url": "https://telegra.ph/Etsy-Chrome-Extension-free-11-17-15"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:38Z",
-      "url": "https://telegra.ph/Pro-lifetime-deals-14-29-11-17-13"
+      "at": "2026-11-17T20:00:57Z",
+      "url": "https://telegra.ph/Pro-lifetime-deals-14-29-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:39Z",
-      "url": "https://telegra.ph/Etsy-13-tag-generator-free-11-17-13"
+      "at": "2026-11-17T20:00:57Z",
+      "url": "https://telegra.ph/Etsy-13-tag-generator-free-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:40Z",
-      "url": "https://telegra.ph/Shopify-listing-generator-11-17-13"
+      "at": "2026-11-17T20:00:58Z",
+      "url": "https://telegra.ph/Shopify-listing-generator-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:41Z",
-      "url": "https://telegra.ph/Etsy-tag-SEO-guide-11-17-13"
+      "at": "2026-11-17T20:00:59Z",
+      "url": "https://telegra.ph/Etsy-tag-SEO-guide-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:41Z",
-      "url": "https://telegra.ph/Listing-description-template-11-17-13"
+      "at": "2026-11-17T20:01:01Z",
+      "url": "https://telegra.ph/Listing-description-template-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:43Z",
-      "url": "https://telegra.ph/Shopify-product-SEO-guide-11-17-13"
+      "at": "2026-11-17T20:01:02Z",
+      "url": "https://telegra.ph/Shopify-product-SEO-guide-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:43Z",
-      "url": "https://telegra.ph/Free-Etsy-listing-generator-11-17-13"
+      "at": "2026-11-17T20:01:03Z",
+      "url": "https://telegra.ph/Free-Etsy-listing-generator-11-17-14"
     },
     {
       "channel": "telegraph",
-      "at": "2026-11-17T20:00:44Z",
-      "url": "https://telegra.ph/Best-free-Etsy-SEO-tools-11-17-13"
-    },
-    {
-      "channel": "rentry_master",
-      "at": "2026-11-17T20:00:45Z",
-      "url": "https://rentry.co/4caspq6a"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-11-17T20:00:46Z",
-      "url": "https://rentry.co/v2oinb2r"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-11-17T20:00:44Z",
-      "url": "https://rentry.co/vgvfzzte"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-11-17T20:00:44Z",
-      "url": "https://rentry.co/m77pocus"
-    },
-    {
-      "channel": "rentry",
-      "at": "2026-11-17T20:00:45Z",
-      "url": "https://rentry.co/d87bap2n"
+      "at": "2026-11-17T20:01:03Z",
+      "url": "https://telegra.ph/Best-free-Etsy-SEO-tools-11-17-14"
     },
     {
       "channel": "dpaste",
-      "at": "2026-11-17T20:00:46Z",
+      "at": "2026-11-17T20:01:05Z",
       "status": "error",
       "detail": "HTTPSConnectionPool(host='dpaste.com', port=443): Max retries exceeded with url:"
     },
     {
       "channel": "controlc",
-      "at": "2026-11-17T20:00:46Z",
+      "at": "2026-11-17T20:01:06Z",
       "status": 403,
       "detail": "Forbidden"
     },
     {
       "channel": "gist_social",
-      "at": "2026-11-17T20:00:49Z",
-      "url": "https://gist.github.com/leopreciadov-bit/3b2774ac7dcb2ee70135a3594faa1b81"
+      "at": "2026-11-17T20:01:08Z",
+      "url": "https://gist.github.com/leopreciadov-bit/6a1cf07c92b38a17ae0e718c7f565ed4"
     },
     {
       "channel": "gist",
-      "at": "2026-11-17T20:00:50Z",
-      "url": "https://gist.github.com/leopreciadov-bit/a6cc8bd518d889ff97b9e8d13f4b89a4"
+      "at": "2026-11-17T20:01:10Z",
+      "url": "https://gist.github.com/leopreciadov-bit/65417b537b14bb5fe54990013860567e"
     },
     {
       "channel": "gist",
-      "at": "2026-11-17T20:00:52Z",
-      "url": "https://gist.github.com/leopreciadov-bit/4d5b99779f6c894ace36f5bb721ddf1e"
+      "at": "2026-11-17T20:01:12Z",
+      "url": "https://gist.github.com/leopreciadov-bit/06c5dc25908b60c7d3a86b134f530fdf"
     },
     {
       "channel": "gist",
-      "at": "2026-11-17T20:00:54Z",
-      "url": "https://gist.github.com/leopreciadov-bit/2feb721c3cd547ceca8ddf5bcdc51891"
+      "at": "2026-11-17T20:01:14Z",
+      "url": "https://gist.github.com/leopreciadov-bit/df10fe61aaa900d0bf2585e45ca98fbf"
     },
     {
       "channel": "github_discussion",
-      "at": "2026-11-17T20:00:54Z",
+      "at": "2026-11-17T20:01:14Z",
       "status": "skipped_daily_limit"
     },
     {
       "channel": "github_issue_comment",
-      "at": "2026-11-17T20:00:55Z",
+      "at": "2026-11-17T20:01:15Z",
       "status": "ok",
       "detail": ""
     }
