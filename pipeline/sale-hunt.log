@@ -104344,3 +104344,47 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    42bd9bbf..ed96a479  main -> main
 [hunt] 2026-11-17 19:14:23 cycle 647 done — buyer_sales=1
 [hunt] 2026-11-17 19:14:23 cycle 647 done — buyer_sales=1
+[hunt] 2026-11-17 19:15:19 → max_revenue.py
+[hunt] 2026-11-17 19:15:19 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1578 buyer_sales=1 ===
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: error
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-11-17-11
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-11-17-11
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-11-17-11
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-11-17-11
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-11-17-11
+[ads] telegraph: https://telegra.ph/Listing-description-template-11-17-11
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-11-17-11
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-11-17-11
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-11-17-11
+[ads] rentry_master: https://rentry.co/hegfzsyz
+[ads] rentry: https://rentry.co/6ogqm9qd
+[ads] rentry: https://rentry.co/hhokcyhw
+[ads] rentry: https://rentry.co/42gt2hzt
+[ads] rentry: https://rentry.co/bg85se7a
+[ads] dpaste: error
+[ads] controlc: 403
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/9112cb1561be524e796d6f7efa9fb9b6
+[ads] gist: https://gist.github.com/leopreciadov-bit/03e188f5e686a2bfb13d0d451bd57458
+[ads] gist: https://gist.github.com/leopreciadov-bit/286cff7c0b042cdf2f2b48d9ba5fd4d4
+[ads] gist: https://gist.github.com/leopreciadov-bit/4e8571338b5411bcde0ce20cd85901d3
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] === Done ===
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
