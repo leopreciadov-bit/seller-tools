@@ -104862,3 +104862,45 @@ Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 UR
 [revenue] indexnow api.indexnow.org → 200
 Built site/assets/crypto.js
 Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+To https://github.com/leopreciadov-bit/seller-tools.git
+   7a710b96..78346648  main -> main
+[revenue] === DONE ===
+[hunt] 2026-11-17 19:30:44 → support_mail.py
+[hunt] 2026-11-17 19:30:44 → support_mail.py
+[support] Inbox: seller0ohqeu@web-library.net
+Traceback (most recent call last):
+  File "/root/agent-programs/passive-income-agent-program/scripts/support_mail.py", line 153, in <module>
+    main()
+  File "/root/agent-programs/passive-income-agent-program/scripts/support_mail.py", line 90, in main
+    messages = list_messages(inbox)
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/tempmail.py", line 211, in list_messages
+    return _list_mailtm(inbox)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/tempmail.py", line 119, in _list_mailtm
+    data = _req("GET", f"{MAILTM}/messages", headers={"Authorization": f"Bearer {inbox.token}"})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/agent-programs/passive-income-agent-program/scripts/tempmail.py", line 41, in _req
+    with urllib.request.urlopen(req) as resp:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 215, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 521, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 630, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 559, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 492, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/usr/lib/python3.12/urllib/request.py", line 639, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 429: Too Many Requests
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
