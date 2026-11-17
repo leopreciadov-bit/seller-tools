@@ -104130,3 +104130,48 @@ To https://github.com/leopreciadov-bit/seller-tools.git
    a8ca6da5..ed56ef20  main -> main
 [hunt] 2026-11-17 19:08:02 cycle 644 done — buyer_sales=1
 [hunt] 2026-11-17 19:08:02 cycle 644 done — buyer_sales=1
+[hunt] 2026-11-17 19:09:00 → max_revenue.py
+[hunt] 2026-11-17 19:09:00 → max_revenue.py
+[revenue] === MAX REVENUE CYCLE #1572 buyer_sales=1 ===
+[payhip] inbox error: HTTP Error 429: Too Many Requests
+Wallet: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH
+Confirmed sales: 1
+Revenue (confirmed): $13.46
+No new SEO pages (all published)
+[ads] === Advertise other channels ===
+[ads] google_sitemap: 404
+[ads] bing_sitemap: 410
+[ads] pingomatic: 200
+[ads] indexnow: 200
+[ads] bing: 200
+[ads] yandex: 200
+[ads] seznam: 200
+[ads] naver: error
+[ads] telegraph: https://telegra.ph/Etsy-Chrome-Extension-free-11-17-7
+[ads] telegraph: https://telegra.ph/Pro-lifetime-deals-14-29-11-17-7
+[ads] telegraph: https://telegra.ph/Etsy-13-tag-generator-free-11-17-7
+[ads] telegraph: https://telegra.ph/Shopify-listing-generator-11-17-7
+[ads] telegraph: https://telegra.ph/Etsy-tag-SEO-guide-11-17-7
+[ads] telegraph: https://telegra.ph/Listing-description-template-11-17-7
+[ads] telegraph: https://telegra.ph/Shopify-product-SEO-guide-11-17-7
+[ads] telegraph: https://telegra.ph/Free-Etsy-listing-generator-11-17-7
+[ads] telegraph: https://telegra.ph/Best-free-Etsy-SEO-tools-11-17-7
+[ads] rentry_master: https://rentry.co/pdsbutiw
+[ads] rentry: https://rentry.co/ykkvpwyy
+[ads] rentry: https://rentry.co/b3pgs5eg
+[ads] rentry: https://rentry.co/kbf8mgba
+[ads] rentry: https://rentry.co/99su5f24
+[ads] dpaste: error
+[ads] controlc: 403
+[ads] gist_social: https://gist.github.com/leopreciadov-bit/d185044c458b95eac567da2e09ce1e8c
+[ads] gist: https://gist.github.com/leopreciadov-bit/86580aa17af659bb4088e4571a59799d
+[ads] gist: https://gist.github.com/leopreciadov-bit/049d0545e893fc1d0ce99522bec76105
+[ads] gist: https://gist.github.com/leopreciadov-bit/3240f5d9f1804a0260d1731bc62400e8
+[ads] github_discussion: skipped_daily_limit
+[ads] github_issue_comment: ok
+[ads] === Done ===
+Wrote /root/agent-programs/passive-income-agent-program/site/sitemap.xml (106 URLs), /root/agent-programs/passive-income-agent-program/site/feed.xml, updated IndexNow
+[revenue] indexnow www.bing.com → 200
+[revenue] indexnow api.indexnow.org → 200
+Built site/assets/crypto.js
+Payout: BaZNTHB9DNBAq69WH2hv272LcYLJRiksBFfyKKmYdPxH (4 payment methods)
